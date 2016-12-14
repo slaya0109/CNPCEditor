@@ -1,0 +1,11 @@
+D:\Git\CNPCEditor\CNPCEditor\bin\Debug\CNPCEditor.exe.config
+D:\Git\CNPCEditor\CNPCEditor\obj\Debug\CNPCEditor.MainForm.resources
+D:\Git\CNPCEditor\CNPCEditor\obj\Debug\CNPCEditor.Resources.resources
+D:\Git\CNPCEditor\CNPCEditor\obj\Debug\CNPCEditor.TextEditForm.resources
+D:\Git\CNPCEditor\CNPCEditor\obj\Debug\CNPCEditor.vbproj.GenerateResource.Cache
+D:\Git\CNPCEditor\CNPCEditor\bin\Debug\CNPCEditor.exe
+D:\Git\CNPCEditor\CNPCEditor\bin\Debug\CNPCEditor.pdb
+D:\Git\CNPCEditor\CNPCEditor\bin\Debug\CNPCEditor.xml
+D:\Git\CNPCEditor\CNPCEditor\obj\Debug\CNPCEditor.exe
+D:\Git\CNPCEditor\CNPCEditor\obj\Debug\CNPCEditor.xml
+D:\Git\CNPCEditor\CNPCEditor\obj\Debug\CNPCEditor.pdb
