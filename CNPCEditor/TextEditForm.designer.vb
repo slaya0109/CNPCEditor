@@ -192,7 +192,7 @@ Partial Class TextEditForm
         Me.Skill1 = New System.Windows.Forms.TabPage()
         Me.btnDelSkill1 = New System.Windows.Forms.Button()
         Me.dgvSkill1 = New System.Windows.Forms.DataGridView()
-        Me.DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TextColumnSkill1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.btnAddSkill1 = New System.Windows.Forms.Button()
         Me.txtSkill1 = New System.Windows.Forms.TextBox()
         Me.lblDescriptionSkill1 = New System.Windows.Forms.Label()
@@ -289,8 +289,185 @@ Partial Class TextEditForm
         Me.lblDescriptionSkill12 = New System.Windows.Forms.Label()
         Me.lblHeaderSkill12 = New System.Windows.Forms.Label()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
+        Me.tabDesiccation = New System.Windows.Forms.TabControl()
+        Me.Desiccation1 = New System.Windows.Forms.TabPage()
+        Me.btnAddDesiccation1 = New System.Windows.Forms.Button()
+        Me.txtDesiccation1 = New System.Windows.Forms.TextBox()
+        Me.dgvDesiccation1 = New System.Windows.Forms.DataGridView()
+        Me.TextColumnDesiccation2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.lblDescriptionDesiccation1 = New System.Windows.Forms.Label()
+        Me.lblHeaderDesiccation1 = New System.Windows.Forms.Label()
+        Me.Desiccation2 = New System.Windows.Forms.TabPage()
+        Me.btnAddDesiccation2 = New System.Windows.Forms.Button()
+        Me.txtDesiccation2 = New System.Windows.Forms.TextBox()
+        Me.dgvDesiccation2 = New System.Windows.Forms.DataGridView()
+        Me.TextColumnDesiccation3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.lblDescriptionDesiccation2 = New System.Windows.Forms.Label()
+        Me.lblHeaderDesiccation2 = New System.Windows.Forms.Label()
+        Me.Desiccation3 = New System.Windows.Forms.TabPage()
+        Me.btnAddDesiccation3 = New System.Windows.Forms.Button()
+        Me.txtDesiccation3 = New System.Windows.Forms.TextBox()
+        Me.dgvDesiccation3 = New System.Windows.Forms.DataGridView()
+        Me.TextColumnDesiccation4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.lblDescriptionDesiccation3 = New System.Windows.Forms.Label()
+        Me.lblHeaderDesiccation3 = New System.Windows.Forms.Label()
+        Me.Desiccation4 = New System.Windows.Forms.TabPage()
+        Me.btnAddDesiccation4 = New System.Windows.Forms.Button()
+        Me.txtDesiccation4 = New System.Windows.Forms.TextBox()
+        Me.dgvDesiccation4 = New System.Windows.Forms.DataGridView()
+        Me.TextColumnDesiccation5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.lblDescriptionDesiccation4 = New System.Windows.Forms.Label()
+        Me.lblHeaderDesiccation4 = New System.Windows.Forms.Label()
+        Me.Desiccation5 = New System.Windows.Forms.TabPage()
+        Me.btnAddDesiccation5 = New System.Windows.Forms.Button()
+        Me.txtDesiccation5 = New System.Windows.Forms.TextBox()
+        Me.dgvDesiccation5 = New System.Windows.Forms.DataGridView()
+        Me.TextColumnDesiccation6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.lblDescriptionDesiccation5 = New System.Windows.Forms.Label()
+        Me.lblHeaderDesiccation5 = New System.Windows.Forms.Label()
+        Me.Desiccation6 = New System.Windows.Forms.TabPage()
+        Me.btnAddDesiccation6 = New System.Windows.Forms.Button()
+        Me.txtDesiccation6 = New System.Windows.Forms.TextBox()
+        Me.dgvDesiccation6 = New System.Windows.Forms.DataGridView()
+        Me.TextColumnDesiccation7 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.lblDescriptionDesiccation6 = New System.Windows.Forms.Label()
+        Me.lblHeaderDesiccation6 = New System.Windows.Forms.Label()
+        Me.Desiccation7 = New System.Windows.Forms.TabPage()
+        Me.btnAddDesiccation7 = New System.Windows.Forms.Button()
+        Me.txtDesiccation7 = New System.Windows.Forms.TextBox()
+        Me.dgvDesiccation7 = New System.Windows.Forms.DataGridView()
+        Me.TextColumnDesiccation8 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.lblDescriptionDesiccation7 = New System.Windows.Forms.Label()
+        Me.lblHeaderDesiccation7 = New System.Windows.Forms.Label()
+        Me.Desiccation8 = New System.Windows.Forms.TabPage()
+        Me.btnAddDesiccation8 = New System.Windows.Forms.Button()
+        Me.txtDesiccation8 = New System.Windows.Forms.TextBox()
+        Me.dgvDesiccation8 = New System.Windows.Forms.DataGridView()
+        Me.TextColumnDesiccation9 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.lblDescriptionDesiccation8 = New System.Windows.Forms.Label()
+        Me.lblHeaderDesiccation8 = New System.Windows.Forms.Label()
+        Me.Desiccation9 = New System.Windows.Forms.TabPage()
+        Me.btnAddDesiccation9 = New System.Windows.Forms.Button()
+        Me.txtDesiccation9 = New System.Windows.Forms.TextBox()
+        Me.dgvDesiccation9 = New System.Windows.Forms.DataGridView()
+        Me.TextColumnDesiccation10 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.lblDescriptionDesiccation9 = New System.Windows.Forms.Label()
+        Me.lblHeaderDesiccation9 = New System.Windows.Forms.Label()
+        Me.Desiccation10 = New System.Windows.Forms.TabPage()
+        Me.btnAddDesiccation10 = New System.Windows.Forms.Button()
+        Me.txtDesiccation10 = New System.Windows.Forms.TextBox()
+        Me.dgvDesiccation10 = New System.Windows.Forms.DataGridView()
+        Me.TextColumnDesiccation11 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.lblDescriptionDesiccation10 = New System.Windows.Forms.Label()
+        Me.lblHeaderDesiccation10 = New System.Windows.Forms.Label()
+        Me.Desiccation11 = New System.Windows.Forms.TabPage()
+        Me.btnAddDesiccation11 = New System.Windows.Forms.Button()
+        Me.txtDesiccation11 = New System.Windows.Forms.TextBox()
+        Me.dgvDesiccation11 = New System.Windows.Forms.DataGridView()
+        Me.TextColumnDesiccation12 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.lblDescriptionDesiccation11 = New System.Windows.Forms.Label()
+        Me.lblHeaderDesiccation11 = New System.Windows.Forms.Label()
+        Me.Desiccation12 = New System.Windows.Forms.TabPage()
+        Me.btnAddDesiccation12 = New System.Windows.Forms.Button()
+        Me.txtDesiccation12 = New System.Windows.Forms.TextBox()
+        Me.dgvDesiccation12 = New System.Windows.Forms.DataGridView()
+        Me.TextColumnDesiccation13 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.lblDescriptionDesiccation12 = New System.Windows.Forms.Label()
+        Me.lblHeaderDesiccation12 = New System.Windows.Forms.Label()
+        Me.Desiccation13 = New System.Windows.Forms.TabPage()
+        Me.btnAddDesiccation13 = New System.Windows.Forms.Button()
+        Me.txtDesiccation13 = New System.Windows.Forms.TextBox()
+        Me.dgvDesiccation13 = New System.Windows.Forms.DataGridView()
+        Me.TextColumnDesiccation14 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.lblDescriptionDesiccation13 = New System.Windows.Forms.Label()
+        Me.lblHeaderDesiccation13 = New System.Windows.Forms.Label()
+        Me.Desiccation14 = New System.Windows.Forms.TabPage()
+        Me.btnAddDesiccation14 = New System.Windows.Forms.Button()
+        Me.txtDesiccation14 = New System.Windows.Forms.TextBox()
+        Me.dgvDesiccation14 = New System.Windows.Forms.DataGridView()
+        Me.TextColumnDesiccation15 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.lblDescriptionDesiccation14 = New System.Windows.Forms.Label()
+        Me.lblHeaderDesiccation14 = New System.Windows.Forms.Label()
+        Me.Desiccation15 = New System.Windows.Forms.TabPage()
+        Me.btnAddDesiccation15 = New System.Windows.Forms.Button()
+        Me.txtDesiccation15 = New System.Windows.Forms.TextBox()
+        Me.dgvDesiccation15 = New System.Windows.Forms.DataGridView()
+        Me.TextColumnDesiccation16 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.lblDescriptionDesiccation15 = New System.Windows.Forms.Label()
+        Me.lblHeaderDesiccation15 = New System.Windows.Forms.Label()
+        Me.Desiccation16 = New System.Windows.Forms.TabPage()
+        Me.btnAddDesiccation16 = New System.Windows.Forms.Button()
+        Me.txtDesiccation16 = New System.Windows.Forms.TextBox()
+        Me.dgvDesiccation16 = New System.Windows.Forms.DataGridView()
+        Me.TextColumnDesiccation17 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.lblDescriptionDesiccation16 = New System.Windows.Forms.Label()
+        Me.lblHeaderDesiccation16 = New System.Windows.Forms.Label()
+        Me.Desiccation17 = New System.Windows.Forms.TabPage()
+        Me.btnAddDesiccation17 = New System.Windows.Forms.Button()
+        Me.txtDesiccation17 = New System.Windows.Forms.TextBox()
+        Me.dgvDesiccation17 = New System.Windows.Forms.DataGridView()
+        Me.TextColumnDesiccation18 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.lblDescriptionDesiccation17 = New System.Windows.Forms.Label()
+        Me.lblHeaderDesiccation17 = New System.Windows.Forms.Label()
+        Me.Desiccation18 = New System.Windows.Forms.TabPage()
+        Me.btnAddDesiccation18 = New System.Windows.Forms.Button()
+        Me.txtDesiccation18 = New System.Windows.Forms.TextBox()
+        Me.dgvDesiccation18 = New System.Windows.Forms.DataGridView()
+        Me.TextColumnDesiccation19 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.lblDescriptionDesiccation18 = New System.Windows.Forms.Label()
+        Me.lblHeaderDesiccation18 = New System.Windows.Forms.Label()
+        Me.Desiccation19 = New System.Windows.Forms.TabPage()
+        Me.btnAddDesiccation19 = New System.Windows.Forms.Button()
+        Me.txtDesiccation19 = New System.Windows.Forms.TextBox()
+        Me.dgvDesiccation19 = New System.Windows.Forms.DataGridView()
+        Me.TextColumnDesiccation20 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.lblDescriptionDesiccation19 = New System.Windows.Forms.Label()
+        Me.lblHeaderDesiccation19 = New System.Windows.Forms.Label()
+        Me.Desiccation20 = New System.Windows.Forms.TabPage()
+        Me.btnAddDesiccation20 = New System.Windows.Forms.Button()
+        Me.txtDesiccation20 = New System.Windows.Forms.TextBox()
+        Me.dgvDesiccation20 = New System.Windows.Forms.DataGridView()
+        Me.TextColumnDesiccation21 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.lblDescriptionDesiccation20 = New System.Windows.Forms.Label()
+        Me.lblHeaderDesiccation20 = New System.Windows.Forms.Label()
+        Me.Desiccation21 = New System.Windows.Forms.TabPage()
+        Me.btnAddDesiccation21 = New System.Windows.Forms.Button()
+        Me.txtDesiccation21 = New System.Windows.Forms.TextBox()
+        Me.dgvDesiccation21 = New System.Windows.Forms.DataGridView()
+        Me.TextColumnDesiccation22 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.lblDescriptionDesiccation21 = New System.Windows.Forms.Label()
+        Me.lblHeaderDesiccation21 = New System.Windows.Forms.Label()
+        Me.Desiccation22 = New System.Windows.Forms.TabPage()
+        Me.btnAddDesiccation22 = New System.Windows.Forms.Button()
+        Me.txtDesiccation22 = New System.Windows.Forms.TextBox()
+        Me.dgvDesiccation22 = New System.Windows.Forms.DataGridView()
+        Me.TextColumnDesiccation23 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.lblDescriptionDesiccation22 = New System.Windows.Forms.Label()
+        Me.lblHeaderDesiccation22 = New System.Windows.Forms.Label()
         Me.TabPage4 = New System.Windows.Forms.TabPage()
         Me.btnClose = New System.Windows.Forms.Button()
+        Me.btnDelDesiccation1 = New System.Windows.Forms.Button()
+        Me.btnDelDesiccation2 = New System.Windows.Forms.Button()
+        Me.btnDelDesiccation3 = New System.Windows.Forms.Button()
+        Me.btnDelDesiccation4 = New System.Windows.Forms.Button()
+        Me.btnDelDesiccation5 = New System.Windows.Forms.Button()
+        Me.btnDelDesiccation6 = New System.Windows.Forms.Button()
+        Me.btnDelDesiccation7 = New System.Windows.Forms.Button()
+        Me.btnDelDesiccation8 = New System.Windows.Forms.Button()
+        Me.btnDelDesiccation9 = New System.Windows.Forms.Button()
+        Me.btnDelDesiccation10 = New System.Windows.Forms.Button()
+        Me.btnDelDesiccation11 = New System.Windows.Forms.Button()
+        Me.btnDelDesiccation12 = New System.Windows.Forms.Button()
+        Me.btnDelDesiccation13 = New System.Windows.Forms.Button()
+        Me.btnDelDesiccation14 = New System.Windows.Forms.Button()
+        Me.btnDelDesiccation15 = New System.Windows.Forms.Button()
+        Me.btnDelDesiccation16 = New System.Windows.Forms.Button()
+        Me.btnDelDesiccation17 = New System.Windows.Forms.Button()
+        Me.btnDelDesiccation18 = New System.Windows.Forms.Button()
+        Me.btnDelDesiccation19 = New System.Windows.Forms.Button()
+        Me.btnDelDesiccation20 = New System.Windows.Forms.Button()
+        Me.btnDelDesiccation21 = New System.Windows.Forms.Button()
+        Me.btnDelDesiccation22 = New System.Windows.Forms.Button()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.tabCalm.SuspendLayout()
@@ -360,6 +537,52 @@ Partial Class TextEditForm
         CType(Me.dgvSkill11, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Skill12.SuspendLayout()
         CType(Me.dgvSkill12, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabPage3.SuspendLayout()
+        Me.tabDesiccation.SuspendLayout()
+        Me.Desiccation1.SuspendLayout()
+        CType(Me.dgvDesiccation1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Desiccation2.SuspendLayout()
+        CType(Me.dgvDesiccation2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Desiccation3.SuspendLayout()
+        CType(Me.dgvDesiccation3, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Desiccation4.SuspendLayout()
+        CType(Me.dgvDesiccation4, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Desiccation5.SuspendLayout()
+        CType(Me.dgvDesiccation5, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Desiccation6.SuspendLayout()
+        CType(Me.dgvDesiccation6, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Desiccation7.SuspendLayout()
+        CType(Me.dgvDesiccation7, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Desiccation8.SuspendLayout()
+        CType(Me.dgvDesiccation8, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Desiccation9.SuspendLayout()
+        CType(Me.dgvDesiccation9, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Desiccation10.SuspendLayout()
+        CType(Me.dgvDesiccation10, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Desiccation11.SuspendLayout()
+        CType(Me.dgvDesiccation11, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Desiccation12.SuspendLayout()
+        CType(Me.dgvDesiccation12, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Desiccation13.SuspendLayout()
+        CType(Me.dgvDesiccation13, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Desiccation14.SuspendLayout()
+        CType(Me.dgvDesiccation14, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Desiccation15.SuspendLayout()
+        CType(Me.dgvDesiccation15, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Desiccation16.SuspendLayout()
+        CType(Me.dgvDesiccation16, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Desiccation17.SuspendLayout()
+        CType(Me.dgvDesiccation17, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Desiccation18.SuspendLayout()
+        CType(Me.dgvDesiccation18, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Desiccation19.SuspendLayout()
+        CType(Me.dgvDesiccation19, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Desiccation20.SuspendLayout()
+        CType(Me.dgvDesiccation20, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Desiccation21.SuspendLayout()
+        CType(Me.dgvDesiccation21, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Desiccation22.SuspendLayout()
+        CType(Me.dgvDesiccation22, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'TabControl1
@@ -2113,7 +2336,7 @@ Partial Class TextEditForm
         Me.dgvSkill1.AllowUserToResizeColumns = False
         Me.dgvSkill1.AllowUserToResizeRows = False
         Me.dgvSkill1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvSkill1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn1})
+        Me.dgvSkill1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnSkill1})
         Me.dgvSkill1.Location = New System.Drawing.Point(8, 55)
         Me.dgvSkill1.Name = "dgvSkill1"
         Me.dgvSkill1.ReadOnly = True
@@ -2122,12 +2345,12 @@ Partial Class TextEditForm
         Me.dgvSkill1.Size = New System.Drawing.Size(740, 322)
         Me.dgvSkill1.TabIndex = 10
         '
-        'DataGridViewTextBoxColumn1
+        'TextColumnSkill1
         '
-        Me.DataGridViewTextBoxColumn1.HeaderText = "テキスト"
-        Me.DataGridViewTextBoxColumn1.Name = "DataGridViewTextBoxColumn1"
-        Me.DataGridViewTextBoxColumn1.ReadOnly = True
-        Me.DataGridViewTextBoxColumn1.Width = 737
+        Me.TextColumnSkill1.HeaderText = "テキスト"
+        Me.TextColumnSkill1.Name = "TextColumnSkill1"
+        Me.TextColumnSkill1.ReadOnly = True
+        Me.TextColumnSkill1.Width = 737
         '
         'btnAddSkill1
         '
@@ -3080,6 +3303,7 @@ Partial Class TextEditForm
         '
         'TabPage3
         '
+        Me.TabPage3.Controls.Add(Me.tabDesiccation)
         Me.TabPage3.Location = New System.Drawing.Point(4, 22)
         Me.TabPage3.Name = "TabPage3"
         Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
@@ -3087,6 +3311,1622 @@ Partial Class TextEditForm
         Me.TabPage3.TabIndex = 3
         Me.TabPage3.Text = "干渉(i)・冒険者関連"
         Me.TabPage3.UseVisualStyleBackColor = True
+        '
+        'tabDesiccation
+        '
+        Me.tabDesiccation.Controls.Add(Me.Desiccation1)
+        Me.tabDesiccation.Controls.Add(Me.Desiccation2)
+        Me.tabDesiccation.Controls.Add(Me.Desiccation3)
+        Me.tabDesiccation.Controls.Add(Me.Desiccation4)
+        Me.tabDesiccation.Controls.Add(Me.Desiccation5)
+        Me.tabDesiccation.Controls.Add(Me.Desiccation6)
+        Me.tabDesiccation.Controls.Add(Me.Desiccation7)
+        Me.tabDesiccation.Controls.Add(Me.Desiccation8)
+        Me.tabDesiccation.Controls.Add(Me.Desiccation9)
+        Me.tabDesiccation.Controls.Add(Me.Desiccation10)
+        Me.tabDesiccation.Controls.Add(Me.Desiccation11)
+        Me.tabDesiccation.Controls.Add(Me.Desiccation12)
+        Me.tabDesiccation.Controls.Add(Me.Desiccation13)
+        Me.tabDesiccation.Controls.Add(Me.Desiccation14)
+        Me.tabDesiccation.Controls.Add(Me.Desiccation15)
+        Me.tabDesiccation.Controls.Add(Me.Desiccation16)
+        Me.tabDesiccation.Controls.Add(Me.Desiccation17)
+        Me.tabDesiccation.Controls.Add(Me.Desiccation18)
+        Me.tabDesiccation.Controls.Add(Me.Desiccation19)
+        Me.tabDesiccation.Controls.Add(Me.Desiccation20)
+        Me.tabDesiccation.Controls.Add(Me.Desiccation21)
+        Me.tabDesiccation.Controls.Add(Me.Desiccation22)
+        Me.tabDesiccation.Location = New System.Drawing.Point(6, 6)
+        Me.tabDesiccation.Name = "tabDesiccation"
+        Me.tabDesiccation.SelectedIndex = 0
+        Me.tabDesiccation.Size = New System.Drawing.Size(762, 409)
+        Me.tabDesiccation.TabIndex = 0
+        '
+        'Desiccation1
+        '
+        Me.Desiccation1.Controls.Add(Me.btnDelDesiccation1)
+        Me.Desiccation1.Controls.Add(Me.btnAddDesiccation1)
+        Me.Desiccation1.Controls.Add(Me.txtDesiccation1)
+        Me.Desiccation1.Controls.Add(Me.dgvDesiccation1)
+        Me.Desiccation1.Controls.Add(Me.lblDescriptionDesiccation1)
+        Me.Desiccation1.Controls.Add(Me.lblHeaderDesiccation1)
+        Me.Desiccation1.Location = New System.Drawing.Point(4, 22)
+        Me.Desiccation1.Name = "Desiccation1"
+        Me.Desiccation1.Padding = New System.Windows.Forms.Padding(3)
+        Me.Desiccation1.Size = New System.Drawing.Size(754, 383)
+        Me.Desiccation1.TabIndex = 0
+        Me.Desiccation1.Text = "話しかけた時"
+        Me.Desiccation1.UseVisualStyleBackColor = True
+        '
+        'btnAddDesiccation1
+        '
+        Me.btnAddDesiccation1.Location = New System.Drawing.Point(564, 28)
+        Me.btnAddDesiccation1.Name = "btnAddDesiccation1"
+        Me.btnAddDesiccation1.Size = New System.Drawing.Size(75, 23)
+        Me.btnAddDesiccation1.TabIndex = 7
+        Me.btnAddDesiccation1.Text = "追加"
+        Me.btnAddDesiccation1.UseVisualStyleBackColor = True
+        '
+        'txtDesiccation1
+        '
+        Me.txtDesiccation1.Location = New System.Drawing.Point(8, 30)
+        Me.txtDesiccation1.Name = "txtDesiccation1"
+        Me.txtDesiccation1.Size = New System.Drawing.Size(550, 19)
+        Me.txtDesiccation1.TabIndex = 6
+        '
+        'dgvDesiccation1
+        '
+        Me.dgvDesiccation1.AllowUserToAddRows = False
+        Me.dgvDesiccation1.AllowUserToDeleteRows = False
+        Me.dgvDesiccation1.AllowUserToResizeColumns = False
+        Me.dgvDesiccation1.AllowUserToResizeRows = False
+        Me.dgvDesiccation1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvDesiccation1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnDesiccation2})
+        Me.dgvDesiccation1.Location = New System.Drawing.Point(8, 55)
+        Me.dgvDesiccation1.Name = "dgvDesiccation1"
+        Me.dgvDesiccation1.ReadOnly = True
+        Me.dgvDesiccation1.RowHeadersVisible = False
+        Me.dgvDesiccation1.RowTemplate.Height = 21
+        Me.dgvDesiccation1.Size = New System.Drawing.Size(740, 322)
+        Me.dgvDesiccation1.TabIndex = 5
+        '
+        'TextColumnDesiccation2
+        '
+        Me.TextColumnDesiccation2.HeaderText = "テキスト"
+        Me.TextColumnDesiccation2.Name = "TextColumnDesiccation2"
+        Me.TextColumnDesiccation2.ReadOnly = True
+        Me.TextColumnDesiccation2.Width = 737
+        '
+        'lblDescriptionDesiccation1
+        '
+        Me.lblDescriptionDesiccation1.AutoSize = True
+        Me.lblDescriptionDesiccation1.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionDesiccation1.Name = "lblDescriptionDesiccation1"
+        Me.lblDescriptionDesiccation1.Size = New System.Drawing.Size(398, 12)
+        Me.lblDescriptionDesiccation1.TabIndex = 2
+        Me.lblDescriptionDesiccation1.Text = "・話しかけたとき　自分,{npc}; 相手,{snpc}{player}あなた（以下注釈がない限り同様）"
+        '
+        'lblHeaderDesiccation1
+        '
+        Me.lblHeaderDesiccation1.AutoSize = True
+        Me.lblHeaderDesiccation1.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderDesiccation1.Name = "lblHeaderDesiccation1"
+        Me.lblHeaderDesiccation1.Size = New System.Drawing.Size(73, 12)
+        Me.lblHeaderDesiccation1.TabIndex = 1
+        Me.lblHeaderDesiccation1.Text = "%txtDialog,JP"
+        '
+        'Desiccation2
+        '
+        Me.Desiccation2.Controls.Add(Me.btnDelDesiccation2)
+        Me.Desiccation2.Controls.Add(Me.btnAddDesiccation2)
+        Me.Desiccation2.Controls.Add(Me.txtDesiccation2)
+        Me.Desiccation2.Controls.Add(Me.dgvDesiccation2)
+        Me.Desiccation2.Controls.Add(Me.lblDescriptionDesiccation2)
+        Me.Desiccation2.Controls.Add(Me.lblHeaderDesiccation2)
+        Me.Desiccation2.Location = New System.Drawing.Point(4, 22)
+        Me.Desiccation2.Name = "Desiccation2"
+        Me.Desiccation2.Padding = New System.Windows.Forms.Padding(3)
+        Me.Desiccation2.Size = New System.Drawing.Size(754, 383)
+        Me.Desiccation2.TabIndex = 1
+        Me.Desiccation2.Text = "婚約申し込まれ"
+        Me.Desiccation2.UseVisualStyleBackColor = True
+        '
+        'btnAddDesiccation2
+        '
+        Me.btnAddDesiccation2.Location = New System.Drawing.Point(564, 28)
+        Me.btnAddDesiccation2.Name = "btnAddDesiccation2"
+        Me.btnAddDesiccation2.Size = New System.Drawing.Size(75, 23)
+        Me.btnAddDesiccation2.TabIndex = 8
+        Me.btnAddDesiccation2.Text = "追加"
+        Me.btnAddDesiccation2.UseVisualStyleBackColor = True
+        '
+        'txtDesiccation2
+        '
+        Me.txtDesiccation2.Location = New System.Drawing.Point(8, 30)
+        Me.txtDesiccation2.Name = "txtDesiccation2"
+        Me.txtDesiccation2.Size = New System.Drawing.Size(550, 19)
+        Me.txtDesiccation2.TabIndex = 7
+        '
+        'dgvDesiccation2
+        '
+        Me.dgvDesiccation2.AllowUserToAddRows = False
+        Me.dgvDesiccation2.AllowUserToDeleteRows = False
+        Me.dgvDesiccation2.AllowUserToResizeColumns = False
+        Me.dgvDesiccation2.AllowUserToResizeRows = False
+        Me.dgvDesiccation2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvDesiccation2.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnDesiccation3})
+        Me.dgvDesiccation2.Location = New System.Drawing.Point(8, 55)
+        Me.dgvDesiccation2.Name = "dgvDesiccation2"
+        Me.dgvDesiccation2.ReadOnly = True
+        Me.dgvDesiccation2.RowHeadersVisible = False
+        Me.dgvDesiccation2.RowTemplate.Height = 21
+        Me.dgvDesiccation2.Size = New System.Drawing.Size(740, 322)
+        Me.dgvDesiccation2.TabIndex = 5
+        '
+        'TextColumnDesiccation3
+        '
+        Me.TextColumnDesiccation3.HeaderText = "テキスト"
+        Me.TextColumnDesiccation3.Name = "TextColumnDesiccation3"
+        Me.TextColumnDesiccation3.ReadOnly = True
+        Me.TextColumnDesiccation3.Width = 737
+        '
+        'lblDescriptionDesiccation2
+        '
+        Me.lblDescriptionDesiccation2.AutoSize = True
+        Me.lblDescriptionDesiccation2.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionDesiccation2.Name = "lblDescriptionDesiccation2"
+        Me.lblDescriptionDesiccation2.Size = New System.Drawing.Size(123, 12)
+        Me.lblDescriptionDesiccation2.TabIndex = 3
+        Me.lblDescriptionDesiccation2.Text = "・婚約を申し込まれたとき"
+        '
+        'lblHeaderDesiccation2
+        '
+        Me.lblHeaderDesiccation2.AutoSize = True
+        Me.lblHeaderDesiccation2.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderDesiccation2.Name = "lblHeaderDesiccation2"
+        Me.lblHeaderDesiccation2.Size = New System.Drawing.Size(85, 12)
+        Me.lblHeaderDesiccation2.TabIndex = 1
+        Me.lblHeaderDesiccation2.Text = "%txtmarriage,JP"
+        '
+        'Desiccation3
+        '
+        Me.Desiccation3.Controls.Add(Me.btnDelDesiccation3)
+        Me.Desiccation3.Controls.Add(Me.btnAddDesiccation3)
+        Me.Desiccation3.Controls.Add(Me.txtDesiccation3)
+        Me.Desiccation3.Controls.Add(Me.dgvDesiccation3)
+        Me.Desiccation3.Controls.Add(Me.lblDescriptionDesiccation3)
+        Me.Desiccation3.Controls.Add(Me.lblHeaderDesiccation3)
+        Me.Desiccation3.Location = New System.Drawing.Point(4, 22)
+        Me.Desiccation3.Name = "Desiccation3"
+        Me.Desiccation3.Size = New System.Drawing.Size(754, 383)
+        Me.Desiccation3.TabIndex = 2
+        Me.Desiccation3.Text = "婚約断り"
+        Me.Desiccation3.UseVisualStyleBackColor = True
+        '
+        'btnAddDesiccation3
+        '
+        Me.btnAddDesiccation3.Location = New System.Drawing.Point(564, 28)
+        Me.btnAddDesiccation3.Name = "btnAddDesiccation3"
+        Me.btnAddDesiccation3.Size = New System.Drawing.Size(75, 23)
+        Me.btnAddDesiccation3.TabIndex = 8
+        Me.btnAddDesiccation3.Text = "追加"
+        Me.btnAddDesiccation3.UseVisualStyleBackColor = True
+        '
+        'txtDesiccation3
+        '
+        Me.txtDesiccation3.Location = New System.Drawing.Point(8, 30)
+        Me.txtDesiccation3.Name = "txtDesiccation3"
+        Me.txtDesiccation3.Size = New System.Drawing.Size(550, 19)
+        Me.txtDesiccation3.TabIndex = 7
+        '
+        'dgvDesiccation3
+        '
+        Me.dgvDesiccation3.AllowUserToAddRows = False
+        Me.dgvDesiccation3.AllowUserToDeleteRows = False
+        Me.dgvDesiccation3.AllowUserToResizeColumns = False
+        Me.dgvDesiccation3.AllowUserToResizeRows = False
+        Me.dgvDesiccation3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvDesiccation3.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnDesiccation4})
+        Me.dgvDesiccation3.Location = New System.Drawing.Point(8, 55)
+        Me.dgvDesiccation3.Name = "dgvDesiccation3"
+        Me.dgvDesiccation3.ReadOnly = True
+        Me.dgvDesiccation3.RowHeadersVisible = False
+        Me.dgvDesiccation3.RowTemplate.Height = 21
+        Me.dgvDesiccation3.Size = New System.Drawing.Size(740, 322)
+        Me.dgvDesiccation3.TabIndex = 5
+        '
+        'TextColumnDesiccation4
+        '
+        Me.TextColumnDesiccation4.HeaderText = "テキスト"
+        Me.TextColumnDesiccation4.Name = "TextColumnDesiccation4"
+        Me.TextColumnDesiccation4.ReadOnly = True
+        Me.TextColumnDesiccation4.Width = 737
+        '
+        'lblDescriptionDesiccation3
+        '
+        Me.lblDescriptionDesiccation3.AutoSize = True
+        Me.lblDescriptionDesiccation3.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionDesiccation3.Name = "lblDescriptionDesiccation3"
+        Me.lblDescriptionDesiccation3.Size = New System.Drawing.Size(82, 12)
+        Me.lblDescriptionDesiccation3.TabIndex = 3
+        Me.lblDescriptionDesiccation3.Text = "・婚約を断るとき"
+        '
+        'lblHeaderDesiccation3
+        '
+        Me.lblHeaderDesiccation3.AutoSize = True
+        Me.lblHeaderDesiccation3.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderDesiccation3.Name = "lblHeaderDesiccation3"
+        Me.lblHeaderDesiccation3.Size = New System.Drawing.Size(80, 12)
+        Me.lblHeaderDesiccation3.TabIndex = 1
+        Me.lblHeaderDesiccation3.Text = "%txtyanwari,JP"
+        '
+        'Desiccation4
+        '
+        Me.Desiccation4.Controls.Add(Me.btnDelDesiccation4)
+        Me.Desiccation4.Controls.Add(Me.btnAddDesiccation4)
+        Me.Desiccation4.Controls.Add(Me.txtDesiccation4)
+        Me.Desiccation4.Controls.Add(Me.dgvDesiccation4)
+        Me.Desiccation4.Controls.Add(Me.lblDescriptionDesiccation4)
+        Me.Desiccation4.Controls.Add(Me.lblHeaderDesiccation4)
+        Me.Desiccation4.Location = New System.Drawing.Point(4, 22)
+        Me.Desiccation4.Name = "Desiccation4"
+        Me.Desiccation4.Size = New System.Drawing.Size(754, 383)
+        Me.Desiccation4.TabIndex = 3
+        Me.Desiccation4.Text = "遺伝子を残す"
+        Me.Desiccation4.UseVisualStyleBackColor = True
+        '
+        'btnAddDesiccation4
+        '
+        Me.btnAddDesiccation4.Location = New System.Drawing.Point(564, 28)
+        Me.btnAddDesiccation4.Name = "btnAddDesiccation4"
+        Me.btnAddDesiccation4.Size = New System.Drawing.Size(75, 23)
+        Me.btnAddDesiccation4.TabIndex = 8
+        Me.btnAddDesiccation4.Text = "追加"
+        Me.btnAddDesiccation4.UseVisualStyleBackColor = True
+        '
+        'txtDesiccation4
+        '
+        Me.txtDesiccation4.Location = New System.Drawing.Point(8, 30)
+        Me.txtDesiccation4.Name = "txtDesiccation4"
+        Me.txtDesiccation4.Size = New System.Drawing.Size(550, 19)
+        Me.txtDesiccation4.TabIndex = 7
+        '
+        'dgvDesiccation4
+        '
+        Me.dgvDesiccation4.AllowUserToAddRows = False
+        Me.dgvDesiccation4.AllowUserToDeleteRows = False
+        Me.dgvDesiccation4.AllowUserToResizeColumns = False
+        Me.dgvDesiccation4.AllowUserToResizeRows = False
+        Me.dgvDesiccation4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvDesiccation4.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnDesiccation5})
+        Me.dgvDesiccation4.Location = New System.Drawing.Point(8, 55)
+        Me.dgvDesiccation4.Name = "dgvDesiccation4"
+        Me.dgvDesiccation4.ReadOnly = True
+        Me.dgvDesiccation4.RowHeadersVisible = False
+        Me.dgvDesiccation4.RowTemplate.Height = 21
+        Me.dgvDesiccation4.Size = New System.Drawing.Size(740, 322)
+        Me.dgvDesiccation4.TabIndex = 5
+        '
+        'TextColumnDesiccation5
+        '
+        Me.TextColumnDesiccation5.HeaderText = "テキスト"
+        Me.TextColumnDesiccation5.Name = "TextColumnDesiccation5"
+        Me.TextColumnDesiccation5.ReadOnly = True
+        Me.TextColumnDesiccation5.Width = 737
+        '
+        'lblDescriptionDesiccation4
+        '
+        Me.lblDescriptionDesiccation4.AutoSize = True
+        Me.lblDescriptionDesiccation4.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionDesiccation4.Name = "lblDescriptionDesiccation4"
+        Me.lblDescriptionDesiccation4.Size = New System.Drawing.Size(90, 12)
+        Me.lblDescriptionDesiccation4.TabIndex = 3
+        Me.lblDescriptionDesiccation4.Text = "・遺伝子を残す時"
+        '
+        'lblHeaderDesiccation4
+        '
+        Me.lblHeaderDesiccation4.AutoSize = True
+        Me.lblHeaderDesiccation4.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderDesiccation4.Name = "lblHeaderDesiccation4"
+        Me.lblHeaderDesiccation4.Size = New System.Drawing.Size(69, 12)
+        Me.lblHeaderDesiccation4.TabIndex = 1
+        Me.lblHeaderDesiccation4.Text = "%txtanata,JP"
+        '
+        'Desiccation5
+        '
+        Me.Desiccation5.Controls.Add(Me.btnDelDesiccation5)
+        Me.Desiccation5.Controls.Add(Me.btnAddDesiccation5)
+        Me.Desiccation5.Controls.Add(Me.txtDesiccation5)
+        Me.Desiccation5.Controls.Add(Me.dgvDesiccation5)
+        Me.Desiccation5.Controls.Add(Me.lblDescriptionDesiccation5)
+        Me.Desiccation5.Controls.Add(Me.lblHeaderDesiccation5)
+        Me.Desiccation5.Location = New System.Drawing.Point(4, 22)
+        Me.Desiccation5.Name = "Desiccation5"
+        Me.Desiccation5.Size = New System.Drawing.Size(754, 383)
+        Me.Desiccation5.TabIndex = 4
+        Me.Desiccation5.Text = "遺伝子を残す断り"
+        Me.Desiccation5.UseVisualStyleBackColor = True
+        '
+        'btnAddDesiccation5
+        '
+        Me.btnAddDesiccation5.Location = New System.Drawing.Point(564, 28)
+        Me.btnAddDesiccation5.Name = "btnAddDesiccation5"
+        Me.btnAddDesiccation5.Size = New System.Drawing.Size(75, 23)
+        Me.btnAddDesiccation5.TabIndex = 8
+        Me.btnAddDesiccation5.Text = "追加"
+        Me.btnAddDesiccation5.UseVisualStyleBackColor = True
+        '
+        'txtDesiccation5
+        '
+        Me.txtDesiccation5.Location = New System.Drawing.Point(8, 30)
+        Me.txtDesiccation5.Name = "txtDesiccation5"
+        Me.txtDesiccation5.Size = New System.Drawing.Size(550, 19)
+        Me.txtDesiccation5.TabIndex = 7
+        '
+        'dgvDesiccation5
+        '
+        Me.dgvDesiccation5.AllowUserToAddRows = False
+        Me.dgvDesiccation5.AllowUserToDeleteRows = False
+        Me.dgvDesiccation5.AllowUserToResizeColumns = False
+        Me.dgvDesiccation5.AllowUserToResizeRows = False
+        Me.dgvDesiccation5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvDesiccation5.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnDesiccation6})
+        Me.dgvDesiccation5.Location = New System.Drawing.Point(8, 55)
+        Me.dgvDesiccation5.Name = "dgvDesiccation5"
+        Me.dgvDesiccation5.ReadOnly = True
+        Me.dgvDesiccation5.RowHeadersVisible = False
+        Me.dgvDesiccation5.RowTemplate.Height = 21
+        Me.dgvDesiccation5.Size = New System.Drawing.Size(740, 322)
+        Me.dgvDesiccation5.TabIndex = 5
+        '
+        'TextColumnDesiccation6
+        '
+        Me.TextColumnDesiccation6.HeaderText = "テキスト"
+        Me.TextColumnDesiccation6.Name = "TextColumnDesiccation6"
+        Me.TextColumnDesiccation6.ReadOnly = True
+        Me.TextColumnDesiccation6.Width = 737
+        '
+        'lblDescriptionDesiccation5
+        '
+        Me.lblDescriptionDesiccation5.AutoSize = True
+        Me.lblDescriptionDesiccation5.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionDesiccation5.Name = "lblDescriptionDesiccation5"
+        Me.lblDescriptionDesiccation5.Size = New System.Drawing.Size(130, 12)
+        Me.lblDescriptionDesiccation5.TabIndex = 3
+        Me.lblDescriptionDesiccation5.Text = "・遺伝子を残すのを断る時"
+        '
+        'lblHeaderDesiccation5
+        '
+        Me.lblHeaderDesiccation5.AutoSize = True
+        Me.lblHeaderDesiccation5.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderDesiccation5.Name = "lblHeaderDesiccation5"
+        Me.lblHeaderDesiccation5.Size = New System.Drawing.Size(68, 12)
+        Me.lblHeaderDesiccation5.TabIndex = 1
+        Me.lblHeaderDesiccation5.Text = "%txtiyayo,JP"
+        '
+        'Desiccation6
+        '
+        Me.Desiccation6.Controls.Add(Me.btnDelDesiccation6)
+        Me.Desiccation6.Controls.Add(Me.btnAddDesiccation6)
+        Me.Desiccation6.Controls.Add(Me.txtDesiccation6)
+        Me.Desiccation6.Controls.Add(Me.dgvDesiccation6)
+        Me.Desiccation6.Controls.Add(Me.lblDescriptionDesiccation6)
+        Me.Desiccation6.Controls.Add(Me.lblHeaderDesiccation6)
+        Me.Desiccation6.Location = New System.Drawing.Point(4, 22)
+        Me.Desiccation6.Name = "Desiccation6"
+        Me.Desiccation6.Size = New System.Drawing.Size(754, 383)
+        Me.Desiccation6.TabIndex = 5
+        Me.Desiccation6.Text = "子供を作る"
+        Me.Desiccation6.UseVisualStyleBackColor = True
+        '
+        'btnAddDesiccation6
+        '
+        Me.btnAddDesiccation6.Location = New System.Drawing.Point(564, 28)
+        Me.btnAddDesiccation6.Name = "btnAddDesiccation6"
+        Me.btnAddDesiccation6.Size = New System.Drawing.Size(75, 23)
+        Me.btnAddDesiccation6.TabIndex = 8
+        Me.btnAddDesiccation6.Text = "追加"
+        Me.btnAddDesiccation6.UseVisualStyleBackColor = True
+        '
+        'txtDesiccation6
+        '
+        Me.txtDesiccation6.Location = New System.Drawing.Point(8, 30)
+        Me.txtDesiccation6.Name = "txtDesiccation6"
+        Me.txtDesiccation6.Size = New System.Drawing.Size(550, 19)
+        Me.txtDesiccation6.TabIndex = 7
+        '
+        'dgvDesiccation6
+        '
+        Me.dgvDesiccation6.AllowUserToAddRows = False
+        Me.dgvDesiccation6.AllowUserToDeleteRows = False
+        Me.dgvDesiccation6.AllowUserToResizeColumns = False
+        Me.dgvDesiccation6.AllowUserToResizeRows = False
+        Me.dgvDesiccation6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvDesiccation6.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnDesiccation7})
+        Me.dgvDesiccation6.Location = New System.Drawing.Point(8, 55)
+        Me.dgvDesiccation6.Name = "dgvDesiccation6"
+        Me.dgvDesiccation6.ReadOnly = True
+        Me.dgvDesiccation6.RowHeadersVisible = False
+        Me.dgvDesiccation6.RowTemplate.Height = 21
+        Me.dgvDesiccation6.Size = New System.Drawing.Size(740, 322)
+        Me.dgvDesiccation6.TabIndex = 5
+        '
+        'TextColumnDesiccation7
+        '
+        Me.TextColumnDesiccation7.HeaderText = "テキスト"
+        Me.TextColumnDesiccation7.Name = "TextColumnDesiccation7"
+        Me.TextColumnDesiccation7.ReadOnly = True
+        Me.TextColumnDesiccation7.Width = 737
+        '
+        'lblDescriptionDesiccation6
+        '
+        Me.lblDescriptionDesiccation6.AutoSize = True
+        Me.lblDescriptionDesiccation6.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionDesiccation6.Name = "lblDescriptionDesiccation6"
+        Me.lblDescriptionDesiccation6.Size = New System.Drawing.Size(77, 12)
+        Me.lblDescriptionDesiccation6.TabIndex = 3
+        Me.lblDescriptionDesiccation6.Text = "・子供を作る時"
+        '
+        'lblHeaderDesiccation6
+        '
+        Me.lblHeaderDesiccation6.AutoSize = True
+        Me.lblHeaderDesiccation6.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderDesiccation6.Name = "lblHeaderDesiccation6"
+        Me.lblHeaderDesiccation6.Size = New System.Drawing.Size(84, 12)
+        Me.lblHeaderDesiccation6.TabIndex = 1
+        Me.lblHeaderDesiccation6.Text = "%txtkodukuri,JP"
+        '
+        'Desiccation7
+        '
+        Me.Desiccation7.Controls.Add(Me.btnDelDesiccation7)
+        Me.Desiccation7.Controls.Add(Me.btnAddDesiccation7)
+        Me.Desiccation7.Controls.Add(Me.txtDesiccation7)
+        Me.Desiccation7.Controls.Add(Me.dgvDesiccation7)
+        Me.Desiccation7.Controls.Add(Me.lblDescriptionDesiccation7)
+        Me.Desiccation7.Controls.Add(Me.lblHeaderDesiccation7)
+        Me.Desiccation7.Location = New System.Drawing.Point(4, 22)
+        Me.Desiccation7.Name = "Desiccation7"
+        Me.Desiccation7.Size = New System.Drawing.Size(754, 383)
+        Me.Desiccation7.TabIndex = 6
+        Me.Desiccation7.Text = "気持ちいい事受け"
+        Me.Desiccation7.UseVisualStyleBackColor = True
+        '
+        'btnAddDesiccation7
+        '
+        Me.btnAddDesiccation7.Location = New System.Drawing.Point(564, 28)
+        Me.btnAddDesiccation7.Name = "btnAddDesiccation7"
+        Me.btnAddDesiccation7.Size = New System.Drawing.Size(75, 23)
+        Me.btnAddDesiccation7.TabIndex = 8
+        Me.btnAddDesiccation7.Text = "追加"
+        Me.btnAddDesiccation7.UseVisualStyleBackColor = True
+        '
+        'txtDesiccation7
+        '
+        Me.txtDesiccation7.Location = New System.Drawing.Point(8, 30)
+        Me.txtDesiccation7.Name = "txtDesiccation7"
+        Me.txtDesiccation7.Size = New System.Drawing.Size(550, 19)
+        Me.txtDesiccation7.TabIndex = 7
+        '
+        'dgvDesiccation7
+        '
+        Me.dgvDesiccation7.AllowUserToAddRows = False
+        Me.dgvDesiccation7.AllowUserToDeleteRows = False
+        Me.dgvDesiccation7.AllowUserToResizeColumns = False
+        Me.dgvDesiccation7.AllowUserToResizeRows = False
+        Me.dgvDesiccation7.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvDesiccation7.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnDesiccation8})
+        Me.dgvDesiccation7.Location = New System.Drawing.Point(8, 55)
+        Me.dgvDesiccation7.Name = "dgvDesiccation7"
+        Me.dgvDesiccation7.ReadOnly = True
+        Me.dgvDesiccation7.RowHeadersVisible = False
+        Me.dgvDesiccation7.RowTemplate.Height = 21
+        Me.dgvDesiccation7.Size = New System.Drawing.Size(740, 322)
+        Me.dgvDesiccation7.TabIndex = 5
+        '
+        'TextColumnDesiccation8
+        '
+        Me.TextColumnDesiccation8.HeaderText = "テキスト"
+        Me.TextColumnDesiccation8.Name = "TextColumnDesiccation8"
+        Me.TextColumnDesiccation8.ReadOnly = True
+        Me.TextColumnDesiccation8.Width = 737
+        '
+        'lblDescriptionDesiccation7
+        '
+        Me.lblDescriptionDesiccation7.AutoSize = True
+        Me.lblDescriptionDesiccation7.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionDesiccation7.Name = "lblDescriptionDesiccation7"
+        Me.lblDescriptionDesiccation7.Size = New System.Drawing.Size(401, 12)
+        Me.lblDescriptionDesiccation7.TabIndex = 3
+        Me.lblDescriptionDesiccation7.Text = "・気持ちいいことを受けるとき（デフォだと「なかなかの身体つきだ、買った」みたいなやつ）"
+        '
+        'lblHeaderDesiccation7
+        '
+        Me.lblHeaderDesiccation7.AutoSize = True
+        Me.lblHeaderDesiccation7.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderDesiccation7.Name = "lblHeaderDesiccation7"
+        Me.lblHeaderDesiccation7.Size = New System.Drawing.Size(89, 12)
+        Me.lblHeaderDesiccation7.TabIndex = 1
+        Me.lblHeaderDesiccation7.Text = "%txtnakanaka,JP"
+        '
+        'Desiccation8
+        '
+        Me.Desiccation8.Controls.Add(Me.btnDelDesiccation8)
+        Me.Desiccation8.Controls.Add(Me.btnAddDesiccation8)
+        Me.Desiccation8.Controls.Add(Me.txtDesiccation8)
+        Me.Desiccation8.Controls.Add(Me.dgvDesiccation8)
+        Me.Desiccation8.Controls.Add(Me.lblDescriptionDesiccation8)
+        Me.Desiccation8.Controls.Add(Me.lblHeaderDesiccation8)
+        Me.Desiccation8.Location = New System.Drawing.Point(4, 22)
+        Me.Desiccation8.Name = "Desiccation8"
+        Me.Desiccation8.Size = New System.Drawing.Size(754, 383)
+        Me.Desiccation8.TabIndex = 7
+        Me.Desiccation8.Text = "気持ちいい事受け2"
+        Me.Desiccation8.UseVisualStyleBackColor = True
+        '
+        'btnAddDesiccation8
+        '
+        Me.btnAddDesiccation8.Location = New System.Drawing.Point(564, 28)
+        Me.btnAddDesiccation8.Name = "btnAddDesiccation8"
+        Me.btnAddDesiccation8.Size = New System.Drawing.Size(75, 23)
+        Me.btnAddDesiccation8.TabIndex = 8
+        Me.btnAddDesiccation8.Text = "追加"
+        Me.btnAddDesiccation8.UseVisualStyleBackColor = True
+        '
+        'txtDesiccation8
+        '
+        Me.txtDesiccation8.Location = New System.Drawing.Point(8, 30)
+        Me.txtDesiccation8.Name = "txtDesiccation8"
+        Me.txtDesiccation8.Size = New System.Drawing.Size(550, 19)
+        Me.txtDesiccation8.TabIndex = 7
+        '
+        'dgvDesiccation8
+        '
+        Me.dgvDesiccation8.AllowUserToAddRows = False
+        Me.dgvDesiccation8.AllowUserToDeleteRows = False
+        Me.dgvDesiccation8.AllowUserToResizeColumns = False
+        Me.dgvDesiccation8.AllowUserToResizeRows = False
+        Me.dgvDesiccation8.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvDesiccation8.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnDesiccation9})
+        Me.dgvDesiccation8.Location = New System.Drawing.Point(8, 55)
+        Me.dgvDesiccation8.Name = "dgvDesiccation8"
+        Me.dgvDesiccation8.ReadOnly = True
+        Me.dgvDesiccation8.RowHeadersVisible = False
+        Me.dgvDesiccation8.RowTemplate.Height = 21
+        Me.dgvDesiccation8.Size = New System.Drawing.Size(740, 322)
+        Me.dgvDesiccation8.TabIndex = 5
+        '
+        'TextColumnDesiccation9
+        '
+        Me.TextColumnDesiccation9.HeaderText = "テキスト"
+        Me.TextColumnDesiccation9.Name = "TextColumnDesiccation9"
+        Me.TextColumnDesiccation9.ReadOnly = True
+        Me.TextColumnDesiccation9.Width = 737
+        '
+        'lblDescriptionDesiccation8
+        '
+        Me.lblDescriptionDesiccation8.AutoSize = True
+        Me.lblDescriptionDesiccation8.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionDesiccation8.Name = "lblDescriptionDesiccation8"
+        Me.lblDescriptionDesiccation8.Size = New System.Drawing.Size(362, 12)
+        Me.lblDescriptionDesiccation8.TabIndex = 3
+        Me.lblDescriptionDesiccation8.Text = "・気持ちいいことを受けるとき2（デフォだと上の直後の「いくよ！」みたいなやつ）"
+        '
+        'lblHeaderDesiccation8
+        '
+        Me.lblHeaderDesiccation8.AutoSize = True
+        Me.lblHeaderDesiccation8.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderDesiccation8.Name = "lblHeaderDesiccation8"
+        Me.lblHeaderDesiccation8.Size = New System.Drawing.Size(68, 12)
+        Me.lblHeaderDesiccation8.TabIndex = 1
+        Me.lblHeaderDesiccation8.Text = "%txtikuyo,JP"
+        '
+        'Desiccation9
+        '
+        Me.Desiccation9.Controls.Add(Me.btnDelDesiccation9)
+        Me.Desiccation9.Controls.Add(Me.btnAddDesiccation9)
+        Me.Desiccation9.Controls.Add(Me.txtDesiccation9)
+        Me.Desiccation9.Controls.Add(Me.dgvDesiccation9)
+        Me.Desiccation9.Controls.Add(Me.lblDescriptionDesiccation9)
+        Me.Desiccation9.Controls.Add(Me.lblHeaderDesiccation9)
+        Me.Desiccation9.Location = New System.Drawing.Point(4, 22)
+        Me.Desiccation9.Name = "Desiccation9"
+        Me.Desiccation9.Size = New System.Drawing.Size(754, 383)
+        Me.Desiccation9.TabIndex = 8
+        Me.Desiccation9.Text = "気持ちいい事やめる"
+        Me.Desiccation9.UseVisualStyleBackColor = True
+        '
+        'btnAddDesiccation9
+        '
+        Me.btnAddDesiccation9.Location = New System.Drawing.Point(564, 28)
+        Me.btnAddDesiccation9.Name = "btnAddDesiccation9"
+        Me.btnAddDesiccation9.Size = New System.Drawing.Size(75, 23)
+        Me.btnAddDesiccation9.TabIndex = 8
+        Me.btnAddDesiccation9.Text = "追加"
+        Me.btnAddDesiccation9.UseVisualStyleBackColor = True
+        '
+        'txtDesiccation9
+        '
+        Me.txtDesiccation9.Location = New System.Drawing.Point(8, 30)
+        Me.txtDesiccation9.Name = "txtDesiccation9"
+        Me.txtDesiccation9.Size = New System.Drawing.Size(550, 19)
+        Me.txtDesiccation9.TabIndex = 7
+        '
+        'dgvDesiccation9
+        '
+        Me.dgvDesiccation9.AllowUserToAddRows = False
+        Me.dgvDesiccation9.AllowUserToDeleteRows = False
+        Me.dgvDesiccation9.AllowUserToResizeColumns = False
+        Me.dgvDesiccation9.AllowUserToResizeRows = False
+        Me.dgvDesiccation9.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvDesiccation9.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnDesiccation10})
+        Me.dgvDesiccation9.Location = New System.Drawing.Point(8, 55)
+        Me.dgvDesiccation9.Name = "dgvDesiccation9"
+        Me.dgvDesiccation9.ReadOnly = True
+        Me.dgvDesiccation9.RowHeadersVisible = False
+        Me.dgvDesiccation9.RowTemplate.Height = 21
+        Me.dgvDesiccation9.Size = New System.Drawing.Size(740, 322)
+        Me.dgvDesiccation9.TabIndex = 5
+        '
+        'TextColumnDesiccation10
+        '
+        Me.TextColumnDesiccation10.HeaderText = "テキスト"
+        Me.TextColumnDesiccation10.Name = "TextColumnDesiccation10"
+        Me.TextColumnDesiccation10.ReadOnly = True
+        Me.TextColumnDesiccation10.Width = 737
+        '
+        'lblDescriptionDesiccation9
+        '
+        Me.lblDescriptionDesiccation9.AutoSize = True
+        Me.lblDescriptionDesiccation9.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionDesiccation9.Name = "lblDescriptionDesiccation9"
+        Me.lblDescriptionDesiccation9.Size = New System.Drawing.Size(405, 12)
+        Me.lblDescriptionDesiccation9.TabIndex = 3
+        Me.lblDescriptionDesiccation9.Text = "・気持ちいいことをするで「やめる」を選んだとき（デフォだと「冷やかしか？」みたいなやつ）"
+        '
+        'lblHeaderDesiccation9
+        '
+        Me.lblHeaderDesiccation9.AutoSize = True
+        Me.lblHeaderDesiccation9.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderDesiccation9.Name = "lblHeaderDesiccation9"
+        Me.lblHeaderDesiccation9.Size = New System.Drawing.Size(87, 12)
+        Me.lblHeaderDesiccation9.TabIndex = 1
+        Me.lblHeaderDesiccation9.Text = "%txtkiyameru,JP"
+        '
+        'Desiccation10
+        '
+        Me.Desiccation10.Controls.Add(Me.btnDelDesiccation10)
+        Me.Desiccation10.Controls.Add(Me.btnAddDesiccation10)
+        Me.Desiccation10.Controls.Add(Me.txtDesiccation10)
+        Me.Desiccation10.Controls.Add(Me.dgvDesiccation10)
+        Me.Desiccation10.Controls.Add(Me.lblDescriptionDesiccation10)
+        Me.Desiccation10.Controls.Add(Me.lblHeaderDesiccation10)
+        Me.Desiccation10.Location = New System.Drawing.Point(4, 22)
+        Me.Desiccation10.Name = "Desiccation10"
+        Me.Desiccation10.Size = New System.Drawing.Size(754, 383)
+        Me.Desiccation10.TabIndex = 9
+        Me.Desiccation10.Text = "気持ちいい事最中"
+        Me.Desiccation10.UseVisualStyleBackColor = True
+        '
+        'btnAddDesiccation10
+        '
+        Me.btnAddDesiccation10.Location = New System.Drawing.Point(564, 28)
+        Me.btnAddDesiccation10.Name = "btnAddDesiccation10"
+        Me.btnAddDesiccation10.Size = New System.Drawing.Size(75, 23)
+        Me.btnAddDesiccation10.TabIndex = 8
+        Me.btnAddDesiccation10.Text = "追加"
+        Me.btnAddDesiccation10.UseVisualStyleBackColor = True
+        '
+        'txtDesiccation10
+        '
+        Me.txtDesiccation10.Location = New System.Drawing.Point(8, 30)
+        Me.txtDesiccation10.Name = "txtDesiccation10"
+        Me.txtDesiccation10.Size = New System.Drawing.Size(550, 19)
+        Me.txtDesiccation10.TabIndex = 7
+        '
+        'dgvDesiccation10
+        '
+        Me.dgvDesiccation10.AllowUserToAddRows = False
+        Me.dgvDesiccation10.AllowUserToDeleteRows = False
+        Me.dgvDesiccation10.AllowUserToResizeColumns = False
+        Me.dgvDesiccation10.AllowUserToResizeRows = False
+        Me.dgvDesiccation10.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvDesiccation10.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnDesiccation11})
+        Me.dgvDesiccation10.Location = New System.Drawing.Point(8, 55)
+        Me.dgvDesiccation10.Name = "dgvDesiccation10"
+        Me.dgvDesiccation10.ReadOnly = True
+        Me.dgvDesiccation10.RowHeadersVisible = False
+        Me.dgvDesiccation10.RowTemplate.Height = 21
+        Me.dgvDesiccation10.Size = New System.Drawing.Size(740, 322)
+        Me.dgvDesiccation10.TabIndex = 5
+        '
+        'TextColumnDesiccation11
+        '
+        Me.TextColumnDesiccation11.HeaderText = "テキスト"
+        Me.TextColumnDesiccation11.Name = "TextColumnDesiccation11"
+        Me.TextColumnDesiccation11.ReadOnly = True
+        Me.TextColumnDesiccation11.Width = 737
+        '
+        'lblDescriptionDesiccation10
+        '
+        Me.lblDescriptionDesiccation10.AutoSize = True
+        Me.lblDescriptionDesiccation10.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionDesiccation10.Name = "lblDescriptionDesiccation10"
+        Me.lblDescriptionDesiccation10.Size = New System.Drawing.Size(388, 12)
+        Me.lblDescriptionDesiccation10.TabIndex = 3
+        Me.lblDescriptionDesiccation10.Text = "・気持ちいいことをしている最中のとき。※ここまでと逆！　{snpc}自分; {npc}相手。"
+        '
+        'lblHeaderDesiccation10
+        '
+        Me.lblHeaderDesiccation10.AutoSize = True
+        Me.lblHeaderDesiccation10.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderDesiccation10.Name = "lblHeaderDesiccation10"
+        Me.lblHeaderDesiccation10.Size = New System.Drawing.Size(77, 12)
+        Me.lblHeaderDesiccation10.TabIndex = 1
+        Me.lblHeaderDesiccation10.Text = "%txtkuyasii,JP"
+        '
+        'Desiccation11
+        '
+        Me.Desiccation11.Controls.Add(Me.btnDelDesiccation11)
+        Me.Desiccation11.Controls.Add(Me.btnAddDesiccation11)
+        Me.Desiccation11.Controls.Add(Me.txtDesiccation11)
+        Me.Desiccation11.Controls.Add(Me.dgvDesiccation11)
+        Me.Desiccation11.Controls.Add(Me.lblDescriptionDesiccation11)
+        Me.Desiccation11.Controls.Add(Me.lblHeaderDesiccation11)
+        Me.Desiccation11.Location = New System.Drawing.Point(4, 22)
+        Me.Desiccation11.Name = "Desiccation11"
+        Me.Desiccation11.Size = New System.Drawing.Size(754, 383)
+        Me.Desiccation11.TabIndex = 10
+        Me.Desiccation11.Text = "気持ちいい事事後"
+        Me.Desiccation11.UseVisualStyleBackColor = True
+        '
+        'btnAddDesiccation11
+        '
+        Me.btnAddDesiccation11.Location = New System.Drawing.Point(564, 28)
+        Me.btnAddDesiccation11.Name = "btnAddDesiccation11"
+        Me.btnAddDesiccation11.Size = New System.Drawing.Size(75, 23)
+        Me.btnAddDesiccation11.TabIndex = 8
+        Me.btnAddDesiccation11.Text = "追加"
+        Me.btnAddDesiccation11.UseVisualStyleBackColor = True
+        '
+        'txtDesiccation11
+        '
+        Me.txtDesiccation11.Location = New System.Drawing.Point(8, 30)
+        Me.txtDesiccation11.Name = "txtDesiccation11"
+        Me.txtDesiccation11.Size = New System.Drawing.Size(550, 19)
+        Me.txtDesiccation11.TabIndex = 7
+        '
+        'dgvDesiccation11
+        '
+        Me.dgvDesiccation11.AllowUserToAddRows = False
+        Me.dgvDesiccation11.AllowUserToDeleteRows = False
+        Me.dgvDesiccation11.AllowUserToResizeColumns = False
+        Me.dgvDesiccation11.AllowUserToResizeRows = False
+        Me.dgvDesiccation11.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvDesiccation11.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnDesiccation12})
+        Me.dgvDesiccation11.Location = New System.Drawing.Point(8, 55)
+        Me.dgvDesiccation11.Name = "dgvDesiccation11"
+        Me.dgvDesiccation11.ReadOnly = True
+        Me.dgvDesiccation11.RowHeadersVisible = False
+        Me.dgvDesiccation11.RowTemplate.Height = 21
+        Me.dgvDesiccation11.Size = New System.Drawing.Size(740, 322)
+        Me.dgvDesiccation11.TabIndex = 5
+        '
+        'TextColumnDesiccation12
+        '
+        Me.TextColumnDesiccation12.HeaderText = "テキスト"
+        Me.TextColumnDesiccation12.Name = "TextColumnDesiccation12"
+        Me.TextColumnDesiccation12.ReadOnly = True
+        Me.TextColumnDesiccation12.Width = 737
+        '
+        'lblDescriptionDesiccation11
+        '
+        Me.lblDescriptionDesiccation11.AutoSize = True
+        Me.lblDescriptionDesiccation11.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionDesiccation11.Name = "lblDescriptionDesiccation11"
+        Me.lblDescriptionDesiccation11.Size = New System.Drawing.Size(364, 12)
+        Me.lblDescriptionDesiccation11.TabIndex = 3
+        Me.lblDescriptionDesiccation11.Text = "・気持ちいいことの事後。自分,{npc}; 相手,{snpc}　※最中と逆なので注意！"
+        '
+        'lblHeaderDesiccation11
+        '
+        Me.lblHeaderDesiccation11.AutoSize = True
+        Me.lblHeaderDesiccation11.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderDesiccation11.Name = "lblHeaderDesiccation11"
+        Me.lblHeaderDesiccation11.Size = New System.Drawing.Size(59, 12)
+        Me.lblHeaderDesiccation11.TabIndex = 1
+        Me.lblHeaderDesiccation11.Text = "%txtjigo,JP"
+        '
+        'Desiccation12
+        '
+        Me.Desiccation12.Controls.Add(Me.btnDelDesiccation12)
+        Me.Desiccation12.Controls.Add(Me.btnAddDesiccation12)
+        Me.Desiccation12.Controls.Add(Me.txtDesiccation12)
+        Me.Desiccation12.Controls.Add(Me.dgvDesiccation12)
+        Me.Desiccation12.Controls.Add(Me.lblDescriptionDesiccation12)
+        Me.Desiccation12.Controls.Add(Me.lblHeaderDesiccation12)
+        Me.Desiccation12.Location = New System.Drawing.Point(4, 22)
+        Me.Desiccation12.Name = "Desiccation12"
+        Me.Desiccation12.Size = New System.Drawing.Size(754, 383)
+        Me.Desiccation12.TabIndex = 11
+        Me.Desiccation12.Text = "気持ちいい事中断"
+        Me.Desiccation12.UseVisualStyleBackColor = True
+        '
+        'btnAddDesiccation12
+        '
+        Me.btnAddDesiccation12.Location = New System.Drawing.Point(564, 28)
+        Me.btnAddDesiccation12.Name = "btnAddDesiccation12"
+        Me.btnAddDesiccation12.Size = New System.Drawing.Size(75, 23)
+        Me.btnAddDesiccation12.TabIndex = 8
+        Me.btnAddDesiccation12.Text = "追加"
+        Me.btnAddDesiccation12.UseVisualStyleBackColor = True
+        '
+        'txtDesiccation12
+        '
+        Me.txtDesiccation12.Location = New System.Drawing.Point(8, 30)
+        Me.txtDesiccation12.Name = "txtDesiccation12"
+        Me.txtDesiccation12.Size = New System.Drawing.Size(550, 19)
+        Me.txtDesiccation12.TabIndex = 7
+        '
+        'dgvDesiccation12
+        '
+        Me.dgvDesiccation12.AllowUserToAddRows = False
+        Me.dgvDesiccation12.AllowUserToDeleteRows = False
+        Me.dgvDesiccation12.AllowUserToResizeColumns = False
+        Me.dgvDesiccation12.AllowUserToResizeRows = False
+        Me.dgvDesiccation12.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvDesiccation12.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnDesiccation13})
+        Me.dgvDesiccation12.Location = New System.Drawing.Point(8, 55)
+        Me.dgvDesiccation12.Name = "dgvDesiccation12"
+        Me.dgvDesiccation12.ReadOnly = True
+        Me.dgvDesiccation12.RowHeadersVisible = False
+        Me.dgvDesiccation12.RowTemplate.Height = 21
+        Me.dgvDesiccation12.Size = New System.Drawing.Size(740, 322)
+        Me.dgvDesiccation12.TabIndex = 5
+        '
+        'TextColumnDesiccation13
+        '
+        Me.TextColumnDesiccation13.HeaderText = "テキスト"
+        Me.TextColumnDesiccation13.Name = "TextColumnDesiccation13"
+        Me.TextColumnDesiccation13.ReadOnly = True
+        Me.TextColumnDesiccation13.Width = 737
+        '
+        'lblDescriptionDesiccation12
+        '
+        Me.lblDescriptionDesiccation12.AutoSize = True
+        Me.lblDescriptionDesiccation12.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionDesiccation12.Name = "lblDescriptionDesiccation12"
+        Me.lblDescriptionDesiccation12.Size = New System.Drawing.Size(400, 12)
+        Me.lblDescriptionDesiccation12.TabIndex = 3
+        Me.lblDescriptionDesiccation12.Text = "・気持ちいいことが中断されたとき。自分,{snpc}; 相手,{npc}　※事後と逆なんですよっ"
+        '
+        'lblHeaderDesiccation12
+        '
+        Me.lblHeaderDesiccation12.AutoSize = True
+        Me.lblHeaderDesiccation12.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderDesiccation12.Name = "lblHeaderDesiccation12"
+        Me.lblHeaderDesiccation12.Size = New System.Drawing.Size(87, 12)
+        Me.lblHeaderDesiccation12.TabIndex = 1
+        Me.lblHeaderDesiccation12.Text = "%txtkaradake,JP"
+        '
+        'Desiccation13
+        '
+        Me.Desiccation13.Controls.Add(Me.btnDelDesiccation13)
+        Me.Desiccation13.Controls.Add(Me.btnAddDesiccation13)
+        Me.Desiccation13.Controls.Add(Me.txtDesiccation13)
+        Me.Desiccation13.Controls.Add(Me.dgvDesiccation13)
+        Me.Desiccation13.Controls.Add(Me.lblDescriptionDesiccation13)
+        Me.Desiccation13.Controls.Add(Me.lblHeaderDesiccation13)
+        Me.Desiccation13.Location = New System.Drawing.Point(4, 22)
+        Me.Desiccation13.Name = "Desiccation13"
+        Me.Desiccation13.Size = New System.Drawing.Size(754, 383)
+        Me.Desiccation13.TabIndex = 12
+        Me.Desiccation13.Text = "冒険者話しかけ"
+        Me.Desiccation13.UseVisualStyleBackColor = True
+        '
+        'btnAddDesiccation13
+        '
+        Me.btnAddDesiccation13.Location = New System.Drawing.Point(564, 28)
+        Me.btnAddDesiccation13.Name = "btnAddDesiccation13"
+        Me.btnAddDesiccation13.Size = New System.Drawing.Size(75, 23)
+        Me.btnAddDesiccation13.TabIndex = 8
+        Me.btnAddDesiccation13.Text = "追加"
+        Me.btnAddDesiccation13.UseVisualStyleBackColor = True
+        '
+        'txtDesiccation13
+        '
+        Me.txtDesiccation13.Location = New System.Drawing.Point(8, 30)
+        Me.txtDesiccation13.Name = "txtDesiccation13"
+        Me.txtDesiccation13.Size = New System.Drawing.Size(550, 19)
+        Me.txtDesiccation13.TabIndex = 7
+        '
+        'dgvDesiccation13
+        '
+        Me.dgvDesiccation13.AllowUserToAddRows = False
+        Me.dgvDesiccation13.AllowUserToDeleteRows = False
+        Me.dgvDesiccation13.AllowUserToResizeColumns = False
+        Me.dgvDesiccation13.AllowUserToResizeRows = False
+        Me.dgvDesiccation13.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvDesiccation13.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnDesiccation14})
+        Me.dgvDesiccation13.Location = New System.Drawing.Point(8, 55)
+        Me.dgvDesiccation13.Name = "dgvDesiccation13"
+        Me.dgvDesiccation13.ReadOnly = True
+        Me.dgvDesiccation13.RowHeadersVisible = False
+        Me.dgvDesiccation13.RowTemplate.Height = 21
+        Me.dgvDesiccation13.Size = New System.Drawing.Size(740, 322)
+        Me.dgvDesiccation13.TabIndex = 5
+        '
+        'TextColumnDesiccation14
+        '
+        Me.TextColumnDesiccation14.HeaderText = "テキスト"
+        Me.TextColumnDesiccation14.Name = "TextColumnDesiccation14"
+        Me.TextColumnDesiccation14.ReadOnly = True
+        Me.TextColumnDesiccation14.Width = 737
+        '
+        'lblDescriptionDesiccation13
+        '
+        Me.lblDescriptionDesiccation13.AutoSize = True
+        Me.lblDescriptionDesiccation13.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionDesiccation13.Name = "lblDescriptionDesiccation13"
+        Me.lblDescriptionDesiccation13.Size = New System.Drawing.Size(479, 12)
+        Me.lblDescriptionDesiccation13.TabIndex = 3
+        Me.lblDescriptionDesiccation13.Text = "・冒険者にしたあと話しかけたとき。自分,{npc}; 相手,{snpc}{player}あなた（以下注釈がない限り同様）"
+        '
+        'lblHeaderDesiccation13
+        '
+        Me.lblHeaderDesiccation13.AutoSize = True
+        Me.lblHeaderDesiccation13.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderDesiccation13.Name = "lblHeaderDesiccation13"
+        Me.lblHeaderDesiccation13.Size = New System.Drawing.Size(65, 12)
+        Me.lblHeaderDesiccation13.TabIndex = 1
+        Me.lblHeaderDesiccation13.Text = "%txtpbou,JP"
+        '
+        'Desiccation14
+        '
+        Me.Desiccation14.Controls.Add(Me.btnDelDesiccation14)
+        Me.Desiccation14.Controls.Add(Me.btnAddDesiccation14)
+        Me.Desiccation14.Controls.Add(Me.txtDesiccation14)
+        Me.Desiccation14.Controls.Add(Me.dgvDesiccation14)
+        Me.Desiccation14.Controls.Add(Me.lblDescriptionDesiccation14)
+        Me.Desiccation14.Controls.Add(Me.lblHeaderDesiccation14)
+        Me.Desiccation14.Location = New System.Drawing.Point(4, 22)
+        Me.Desiccation14.Name = "Desiccation14"
+        Me.Desiccation14.Size = New System.Drawing.Size(754, 383)
+        Me.Desiccation14.TabIndex = 13
+        Me.Desiccation14.Text = "冒険者アイテム交換"
+        Me.Desiccation14.UseVisualStyleBackColor = True
+        '
+        'btnAddDesiccation14
+        '
+        Me.btnAddDesiccation14.Location = New System.Drawing.Point(564, 28)
+        Me.btnAddDesiccation14.Name = "btnAddDesiccation14"
+        Me.btnAddDesiccation14.Size = New System.Drawing.Size(75, 23)
+        Me.btnAddDesiccation14.TabIndex = 8
+        Me.btnAddDesiccation14.Text = "追加"
+        Me.btnAddDesiccation14.UseVisualStyleBackColor = True
+        '
+        'txtDesiccation14
+        '
+        Me.txtDesiccation14.Location = New System.Drawing.Point(8, 30)
+        Me.txtDesiccation14.Name = "txtDesiccation14"
+        Me.txtDesiccation14.Size = New System.Drawing.Size(550, 19)
+        Me.txtDesiccation14.TabIndex = 7
+        '
+        'dgvDesiccation14
+        '
+        Me.dgvDesiccation14.AllowUserToAddRows = False
+        Me.dgvDesiccation14.AllowUserToDeleteRows = False
+        Me.dgvDesiccation14.AllowUserToResizeColumns = False
+        Me.dgvDesiccation14.AllowUserToResizeRows = False
+        Me.dgvDesiccation14.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvDesiccation14.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnDesiccation15})
+        Me.dgvDesiccation14.Location = New System.Drawing.Point(8, 55)
+        Me.dgvDesiccation14.Name = "dgvDesiccation14"
+        Me.dgvDesiccation14.ReadOnly = True
+        Me.dgvDesiccation14.RowHeadersVisible = False
+        Me.dgvDesiccation14.RowTemplate.Height = 21
+        Me.dgvDesiccation14.Size = New System.Drawing.Size(740, 322)
+        Me.dgvDesiccation14.TabIndex = 5
+        '
+        'TextColumnDesiccation15
+        '
+        Me.TextColumnDesiccation15.HeaderText = "テキスト"
+        Me.TextColumnDesiccation15.Name = "TextColumnDesiccation15"
+        Me.TextColumnDesiccation15.ReadOnly = True
+        Me.TextColumnDesiccation15.Width = 737
+        '
+        'lblDescriptionDesiccation14
+        '
+        Me.lblDescriptionDesiccation14.AutoSize = True
+        Me.lblDescriptionDesiccation14.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionDesiccation14.Name = "lblDescriptionDesiccation14"
+        Me.lblDescriptionDesiccation14.Size = New System.Drawing.Size(197, 12)
+        Me.lblDescriptionDesiccation14.TabIndex = 3
+        Me.lblDescriptionDesiccation14.Text = "・冒険者にしたあとアイテム交換をしたとき"
+        '
+        'lblHeaderDesiccation14
+        '
+        Me.lblHeaderDesiccation14.AutoSize = True
+        Me.lblHeaderDesiccation14.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderDesiccation14.Name = "lblHeaderDesiccation14"
+        Me.lblHeaderDesiccation14.Size = New System.Drawing.Size(81, 12)
+        Me.lblHeaderDesiccation14.TabIndex = 1
+        Me.lblHeaderDesiccation14.Text = "%txtexthank,JP"
+        '
+        'Desiccation15
+        '
+        Me.Desiccation15.Controls.Add(Me.btnDelDesiccation15)
+        Me.Desiccation15.Controls.Add(Me.btnAddDesiccation15)
+        Me.Desiccation15.Controls.Add(Me.txtDesiccation15)
+        Me.Desiccation15.Controls.Add(Me.dgvDesiccation15)
+        Me.Desiccation15.Controls.Add(Me.lblDescriptionDesiccation15)
+        Me.Desiccation15.Controls.Add(Me.lblHeaderDesiccation15)
+        Me.Desiccation15.Location = New System.Drawing.Point(4, 22)
+        Me.Desiccation15.Name = "Desiccation15"
+        Me.Desiccation15.Size = New System.Drawing.Size(754, 383)
+        Me.Desiccation15.TabIndex = 14
+        Me.Desiccation15.Text = "冒険者アイテム交換やめ"
+        Me.Desiccation15.UseVisualStyleBackColor = True
+        '
+        'btnAddDesiccation15
+        '
+        Me.btnAddDesiccation15.Location = New System.Drawing.Point(564, 28)
+        Me.btnAddDesiccation15.Name = "btnAddDesiccation15"
+        Me.btnAddDesiccation15.Size = New System.Drawing.Size(75, 23)
+        Me.btnAddDesiccation15.TabIndex = 8
+        Me.btnAddDesiccation15.Text = "追加"
+        Me.btnAddDesiccation15.UseVisualStyleBackColor = True
+        '
+        'txtDesiccation15
+        '
+        Me.txtDesiccation15.Location = New System.Drawing.Point(8, 30)
+        Me.txtDesiccation15.Name = "txtDesiccation15"
+        Me.txtDesiccation15.Size = New System.Drawing.Size(550, 19)
+        Me.txtDesiccation15.TabIndex = 7
+        '
+        'dgvDesiccation15
+        '
+        Me.dgvDesiccation15.AllowUserToAddRows = False
+        Me.dgvDesiccation15.AllowUserToDeleteRows = False
+        Me.dgvDesiccation15.AllowUserToResizeColumns = False
+        Me.dgvDesiccation15.AllowUserToResizeRows = False
+        Me.dgvDesiccation15.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvDesiccation15.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnDesiccation16})
+        Me.dgvDesiccation15.Location = New System.Drawing.Point(8, 55)
+        Me.dgvDesiccation15.Name = "dgvDesiccation15"
+        Me.dgvDesiccation15.ReadOnly = True
+        Me.dgvDesiccation15.RowHeadersVisible = False
+        Me.dgvDesiccation15.RowTemplate.Height = 21
+        Me.dgvDesiccation15.Size = New System.Drawing.Size(740, 322)
+        Me.dgvDesiccation15.TabIndex = 5
+        '
+        'TextColumnDesiccation16
+        '
+        Me.TextColumnDesiccation16.HeaderText = "テキスト"
+        Me.TextColumnDesiccation16.Name = "TextColumnDesiccation16"
+        Me.TextColumnDesiccation16.ReadOnly = True
+        Me.TextColumnDesiccation16.Width = 737
+        '
+        'lblDescriptionDesiccation15
+        '
+        Me.lblDescriptionDesiccation15.AutoSize = True
+        Me.lblDescriptionDesiccation15.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionDesiccation15.Name = "lblDescriptionDesiccation15"
+        Me.lblDescriptionDesiccation15.Size = New System.Drawing.Size(445, 12)
+        Me.lblDescriptionDesiccation15.TabIndex = 3
+        Me.lblDescriptionDesiccation15.Text = "・冒険者にしたあとアイテム交換を持ちかけて、見合うアイテムを持っていないor交換をやめたとき"
+        '
+        'lblHeaderDesiccation15
+        '
+        Me.lblHeaderDesiccation15.AutoSize = True
+        Me.lblHeaderDesiccation15.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderDesiccation15.Name = "lblHeaderDesiccation15"
+        Me.lblHeaderDesiccation15.Size = New System.Drawing.Size(74, 12)
+        Me.lblHeaderDesiccation15.TabIndex = 1
+        Me.lblHeaderDesiccation15.Text = "%txtexhiya,JP"
+        '
+        'Desiccation16
+        '
+        Me.Desiccation16.Controls.Add(Me.btnDelDesiccation16)
+        Me.Desiccation16.Controls.Add(Me.btnAddDesiccation16)
+        Me.Desiccation16.Controls.Add(Me.txtDesiccation16)
+        Me.Desiccation16.Controls.Add(Me.dgvDesiccation16)
+        Me.Desiccation16.Controls.Add(Me.lblDescriptionDesiccation16)
+        Me.Desiccation16.Controls.Add(Me.lblHeaderDesiccation16)
+        Me.Desiccation16.Location = New System.Drawing.Point(4, 22)
+        Me.Desiccation16.Name = "Desiccation16"
+        Me.Desiccation16.Size = New System.Drawing.Size(754, 383)
+        Me.Desiccation16.TabIndex = 15
+        Me.Desiccation16.Text = "冒険者護衛依頼持ちかけ"
+        Me.Desiccation16.UseVisualStyleBackColor = True
+        '
+        'btnAddDesiccation16
+        '
+        Me.btnAddDesiccation16.Location = New System.Drawing.Point(564, 28)
+        Me.btnAddDesiccation16.Name = "btnAddDesiccation16"
+        Me.btnAddDesiccation16.Size = New System.Drawing.Size(75, 23)
+        Me.btnAddDesiccation16.TabIndex = 8
+        Me.btnAddDesiccation16.Text = "追加"
+        Me.btnAddDesiccation16.UseVisualStyleBackColor = True
+        '
+        'txtDesiccation16
+        '
+        Me.txtDesiccation16.Location = New System.Drawing.Point(8, 30)
+        Me.txtDesiccation16.Name = "txtDesiccation16"
+        Me.txtDesiccation16.Size = New System.Drawing.Size(550, 19)
+        Me.txtDesiccation16.TabIndex = 7
+        '
+        'dgvDesiccation16
+        '
+        Me.dgvDesiccation16.AllowUserToAddRows = False
+        Me.dgvDesiccation16.AllowUserToDeleteRows = False
+        Me.dgvDesiccation16.AllowUserToResizeColumns = False
+        Me.dgvDesiccation16.AllowUserToResizeRows = False
+        Me.dgvDesiccation16.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvDesiccation16.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnDesiccation17})
+        Me.dgvDesiccation16.Location = New System.Drawing.Point(8, 55)
+        Me.dgvDesiccation16.Name = "dgvDesiccation16"
+        Me.dgvDesiccation16.ReadOnly = True
+        Me.dgvDesiccation16.RowHeadersVisible = False
+        Me.dgvDesiccation16.RowTemplate.Height = 21
+        Me.dgvDesiccation16.Size = New System.Drawing.Size(740, 322)
+        Me.dgvDesiccation16.TabIndex = 5
+        '
+        'TextColumnDesiccation17
+        '
+        Me.TextColumnDesiccation17.HeaderText = "テキスト"
+        Me.TextColumnDesiccation17.Name = "TextColumnDesiccation17"
+        Me.TextColumnDesiccation17.ReadOnly = True
+        Me.TextColumnDesiccation17.Width = 737
+        '
+        'lblDescriptionDesiccation16
+        '
+        Me.lblDescriptionDesiccation16.AutoSize = True
+        Me.lblDescriptionDesiccation16.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionDesiccation16.Name = "lblDescriptionDesiccation16"
+        Me.lblDescriptionDesiccation16.Size = New System.Drawing.Size(226, 12)
+        Me.lblDescriptionDesiccation16.TabIndex = 3
+        Me.lblDescriptionDesiccation16.Text = "・冒険者にしたあと護衛の依頼を持ちかけたとき"
+        '
+        'lblHeaderDesiccation16
+        '
+        Me.lblHeaderDesiccation16.AutoSize = True
+        Me.lblHeaderDesiccation16.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderDesiccation16.Name = "lblHeaderDesiccation16"
+        Me.lblHeaderDesiccation16.Size = New System.Drawing.Size(62, 12)
+        Me.lblHeaderDesiccation16.TabIndex = 1
+        Me.lblHeaderDesiccation16.Text = "%txtgoei,JP"
+        '
+        'Desiccation17
+        '
+        Me.Desiccation17.Controls.Add(Me.btnDelDesiccation17)
+        Me.Desiccation17.Controls.Add(Me.btnAddDesiccation17)
+        Me.Desiccation17.Controls.Add(Me.txtDesiccation17)
+        Me.Desiccation17.Controls.Add(Me.dgvDesiccation17)
+        Me.Desiccation17.Controls.Add(Me.lblDescriptionDesiccation17)
+        Me.Desiccation17.Controls.Add(Me.lblHeaderDesiccation17)
+        Me.Desiccation17.Location = New System.Drawing.Point(4, 22)
+        Me.Desiccation17.Name = "Desiccation17"
+        Me.Desiccation17.Size = New System.Drawing.Size(754, 383)
+        Me.Desiccation17.TabIndex = 16
+        Me.Desiccation17.Text = "冒険者護衛依頼"
+        Me.Desiccation17.UseVisualStyleBackColor = True
+        '
+        'btnAddDesiccation17
+        '
+        Me.btnAddDesiccation17.Location = New System.Drawing.Point(564, 28)
+        Me.btnAddDesiccation17.Name = "btnAddDesiccation17"
+        Me.btnAddDesiccation17.Size = New System.Drawing.Size(75, 23)
+        Me.btnAddDesiccation17.TabIndex = 8
+        Me.btnAddDesiccation17.Text = "追加"
+        Me.btnAddDesiccation17.UseVisualStyleBackColor = True
+        '
+        'txtDesiccation17
+        '
+        Me.txtDesiccation17.Location = New System.Drawing.Point(8, 30)
+        Me.txtDesiccation17.Name = "txtDesiccation17"
+        Me.txtDesiccation17.Size = New System.Drawing.Size(550, 19)
+        Me.txtDesiccation17.TabIndex = 7
+        '
+        'dgvDesiccation17
+        '
+        Me.dgvDesiccation17.AllowUserToAddRows = False
+        Me.dgvDesiccation17.AllowUserToDeleteRows = False
+        Me.dgvDesiccation17.AllowUserToResizeColumns = False
+        Me.dgvDesiccation17.AllowUserToResizeRows = False
+        Me.dgvDesiccation17.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvDesiccation17.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnDesiccation18})
+        Me.dgvDesiccation17.Location = New System.Drawing.Point(8, 55)
+        Me.dgvDesiccation17.Name = "dgvDesiccation17"
+        Me.dgvDesiccation17.ReadOnly = True
+        Me.dgvDesiccation17.RowHeadersVisible = False
+        Me.dgvDesiccation17.RowTemplate.Height = 21
+        Me.dgvDesiccation17.Size = New System.Drawing.Size(740, 322)
+        Me.dgvDesiccation17.TabIndex = 5
+        '
+        'TextColumnDesiccation18
+        '
+        Me.TextColumnDesiccation18.HeaderText = "テキスト"
+        Me.TextColumnDesiccation18.Name = "TextColumnDesiccation18"
+        Me.TextColumnDesiccation18.ReadOnly = True
+        Me.TextColumnDesiccation18.Width = 737
+        '
+        'lblDescriptionDesiccation17
+        '
+        Me.lblDescriptionDesiccation17.AutoSize = True
+        Me.lblDescriptionDesiccation17.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionDesiccation17.Name = "lblDescriptionDesiccation17"
+        Me.lblDescriptionDesiccation17.Size = New System.Drawing.Size(184, 12)
+        Me.lblDescriptionDesiccation17.TabIndex = 3
+        Me.lblDescriptionDesiccation17.Text = "・冒険者にしたあと護衛を依頼したとき"
+        '
+        'lblHeaderDesiccation17
+        '
+        Me.lblHeaderDesiccation17.AutoSize = True
+        Me.lblHeaderDesiccation17.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderDesiccation17.Name = "lblHeaderDesiccation17"
+        Me.lblHeaderDesiccation17.Size = New System.Drawing.Size(69, 12)
+        Me.lblHeaderDesiccation17.TabIndex = 1
+        Me.lblHeaderDesiccation17.Text = "%txtyatou,JP"
+        '
+        'Desiccation18
+        '
+        Me.Desiccation18.Controls.Add(Me.btnDelDesiccation18)
+        Me.Desiccation18.Controls.Add(Me.btnAddDesiccation18)
+        Me.Desiccation18.Controls.Add(Me.txtDesiccation18)
+        Me.Desiccation18.Controls.Add(Me.dgvDesiccation18)
+        Me.Desiccation18.Controls.Add(Me.lblDescriptionDesiccation18)
+        Me.Desiccation18.Controls.Add(Me.lblHeaderDesiccation18)
+        Me.Desiccation18.Location = New System.Drawing.Point(4, 22)
+        Me.Desiccation18.Name = "Desiccation18"
+        Me.Desiccation18.Size = New System.Drawing.Size(754, 383)
+        Me.Desiccation18.TabIndex = 17
+        Me.Desiccation18.Text = "冒険者護衛依頼やめ"
+        Me.Desiccation18.UseVisualStyleBackColor = True
+        '
+        'btnAddDesiccation18
+        '
+        Me.btnAddDesiccation18.Location = New System.Drawing.Point(564, 28)
+        Me.btnAddDesiccation18.Name = "btnAddDesiccation18"
+        Me.btnAddDesiccation18.Size = New System.Drawing.Size(75, 23)
+        Me.btnAddDesiccation18.TabIndex = 8
+        Me.btnAddDesiccation18.Text = "追加"
+        Me.btnAddDesiccation18.UseVisualStyleBackColor = True
+        '
+        'txtDesiccation18
+        '
+        Me.txtDesiccation18.Location = New System.Drawing.Point(8, 30)
+        Me.txtDesiccation18.Name = "txtDesiccation18"
+        Me.txtDesiccation18.Size = New System.Drawing.Size(550, 19)
+        Me.txtDesiccation18.TabIndex = 7
+        '
+        'dgvDesiccation18
+        '
+        Me.dgvDesiccation18.AllowUserToAddRows = False
+        Me.dgvDesiccation18.AllowUserToDeleteRows = False
+        Me.dgvDesiccation18.AllowUserToResizeColumns = False
+        Me.dgvDesiccation18.AllowUserToResizeRows = False
+        Me.dgvDesiccation18.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvDesiccation18.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnDesiccation19})
+        Me.dgvDesiccation18.Location = New System.Drawing.Point(8, 55)
+        Me.dgvDesiccation18.Name = "dgvDesiccation18"
+        Me.dgvDesiccation18.ReadOnly = True
+        Me.dgvDesiccation18.RowHeadersVisible = False
+        Me.dgvDesiccation18.RowTemplate.Height = 21
+        Me.dgvDesiccation18.Size = New System.Drawing.Size(740, 322)
+        Me.dgvDesiccation18.TabIndex = 5
+        '
+        'TextColumnDesiccation19
+        '
+        Me.TextColumnDesiccation19.HeaderText = "テキスト"
+        Me.TextColumnDesiccation19.Name = "TextColumnDesiccation19"
+        Me.TextColumnDesiccation19.ReadOnly = True
+        Me.TextColumnDesiccation19.Width = 737
+        '
+        'lblDescriptionDesiccation18
+        '
+        Me.lblDescriptionDesiccation18.AutoSize = True
+        Me.lblDescriptionDesiccation18.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionDesiccation18.Name = "lblDescriptionDesiccation18"
+        Me.lblDescriptionDesiccation18.Size = New System.Drawing.Size(255, 12)
+        Me.lblDescriptionDesiccation18.TabIndex = 3
+        Me.lblDescriptionDesiccation18.Text = "・冒険者にしたあと護衛の依頼を持ちかけてやめたとき"
+        '
+        'lblHeaderDesiccation18
+        '
+        Me.lblHeaderDesiccation18.AutoSize = True
+        Me.lblHeaderDesiccation18.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderDesiccation18.Name = "lblHeaderDesiccation18"
+        Me.lblHeaderDesiccation18.Size = New System.Drawing.Size(71, 12)
+        Me.lblHeaderDesiccation18.TabIndex = 1
+        Me.lblHeaderDesiccation18.Text = "%txthihiya,JP"
+        '
+        'Desiccation19
+        '
+        Me.Desiccation19.Controls.Add(Me.btnDelDesiccation19)
+        Me.Desiccation19.Controls.Add(Me.btnAddDesiccation19)
+        Me.Desiccation19.Controls.Add(Me.txtDesiccation19)
+        Me.Desiccation19.Controls.Add(Me.dgvDesiccation19)
+        Me.Desiccation19.Controls.Add(Me.lblDescriptionDesiccation19)
+        Me.Desiccation19.Controls.Add(Me.lblHeaderDesiccation19)
+        Me.Desiccation19.Location = New System.Drawing.Point(4, 22)
+        Me.Desiccation19.Name = "Desiccation19"
+        Me.Desiccation19.Size = New System.Drawing.Size(754, 383)
+        Me.Desiccation19.TabIndex = 18
+        Me.Desiccation19.Text = "冒険者仲間承諾"
+        Me.Desiccation19.UseVisualStyleBackColor = True
+        '
+        'btnAddDesiccation19
+        '
+        Me.btnAddDesiccation19.Location = New System.Drawing.Point(564, 28)
+        Me.btnAddDesiccation19.Name = "btnAddDesiccation19"
+        Me.btnAddDesiccation19.Size = New System.Drawing.Size(75, 23)
+        Me.btnAddDesiccation19.TabIndex = 8
+        Me.btnAddDesiccation19.Text = "追加"
+        Me.btnAddDesiccation19.UseVisualStyleBackColor = True
+        '
+        'txtDesiccation19
+        '
+        Me.txtDesiccation19.Location = New System.Drawing.Point(8, 30)
+        Me.txtDesiccation19.Name = "txtDesiccation19"
+        Me.txtDesiccation19.Size = New System.Drawing.Size(550, 19)
+        Me.txtDesiccation19.TabIndex = 7
+        '
+        'dgvDesiccation19
+        '
+        Me.dgvDesiccation19.AllowUserToAddRows = False
+        Me.dgvDesiccation19.AllowUserToDeleteRows = False
+        Me.dgvDesiccation19.AllowUserToResizeColumns = False
+        Me.dgvDesiccation19.AllowUserToResizeRows = False
+        Me.dgvDesiccation19.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvDesiccation19.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnDesiccation20})
+        Me.dgvDesiccation19.Location = New System.Drawing.Point(8, 55)
+        Me.dgvDesiccation19.Name = "dgvDesiccation19"
+        Me.dgvDesiccation19.ReadOnly = True
+        Me.dgvDesiccation19.RowHeadersVisible = False
+        Me.dgvDesiccation19.RowTemplate.Height = 21
+        Me.dgvDesiccation19.Size = New System.Drawing.Size(740, 322)
+        Me.dgvDesiccation19.TabIndex = 5
+        '
+        'TextColumnDesiccation20
+        '
+        Me.TextColumnDesiccation20.HeaderText = "テキスト"
+        Me.TextColumnDesiccation20.Name = "TextColumnDesiccation20"
+        Me.TextColumnDesiccation20.ReadOnly = True
+        Me.TextColumnDesiccation20.Width = 737
+        '
+        'lblDescriptionDesiccation19
+        '
+        Me.lblDescriptionDesiccation19.AutoSize = True
+        Me.lblDescriptionDesiccation19.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionDesiccation19.Name = "lblDescriptionDesiccation19"
+        Me.lblDescriptionDesiccation19.Size = New System.Drawing.Size(223, 12)
+        Me.lblDescriptionDesiccation19.TabIndex = 3
+        Me.lblDescriptionDesiccation19.Text = "・冒険者にしたあと仲間に誘って承諾されたとき"
+        '
+        'lblHeaderDesiccation19
+        '
+        Me.lblHeaderDesiccation19.AutoSize = True
+        Me.lblHeaderDesiccation19.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderDesiccation19.Name = "lblHeaderDesiccation19"
+        Me.lblHeaderDesiccation19.Size = New System.Drawing.Size(74, 12)
+        Me.lblHeaderDesiccation19.TabIndex = 1
+        Me.lblHeaderDesiccation19.Text = "%txtumaku,JP"
+        '
+        'Desiccation20
+        '
+        Me.Desiccation20.Controls.Add(Me.btnDelDesiccation20)
+        Me.Desiccation20.Controls.Add(Me.btnAddDesiccation20)
+        Me.Desiccation20.Controls.Add(Me.txtDesiccation20)
+        Me.Desiccation20.Controls.Add(Me.dgvDesiccation20)
+        Me.Desiccation20.Controls.Add(Me.lblDescriptionDesiccation20)
+        Me.Desiccation20.Controls.Add(Me.lblHeaderDesiccation20)
+        Me.Desiccation20.Location = New System.Drawing.Point(4, 22)
+        Me.Desiccation20.Name = "Desiccation20"
+        Me.Desiccation20.Size = New System.Drawing.Size(754, 383)
+        Me.Desiccation20.TabIndex = 19
+        Me.Desiccation20.Text = "冒険者仲間断り(力の差)"
+        Me.Desiccation20.UseVisualStyleBackColor = True
+        '
+        'btnAddDesiccation20
+        '
+        Me.btnAddDesiccation20.Location = New System.Drawing.Point(564, 28)
+        Me.btnAddDesiccation20.Name = "btnAddDesiccation20"
+        Me.btnAddDesiccation20.Size = New System.Drawing.Size(75, 23)
+        Me.btnAddDesiccation20.TabIndex = 8
+        Me.btnAddDesiccation20.Text = "追加"
+        Me.btnAddDesiccation20.UseVisualStyleBackColor = True
+        '
+        'txtDesiccation20
+        '
+        Me.txtDesiccation20.Location = New System.Drawing.Point(8, 30)
+        Me.txtDesiccation20.Name = "txtDesiccation20"
+        Me.txtDesiccation20.Size = New System.Drawing.Size(550, 19)
+        Me.txtDesiccation20.TabIndex = 7
+        '
+        'dgvDesiccation20
+        '
+        Me.dgvDesiccation20.AllowUserToAddRows = False
+        Me.dgvDesiccation20.AllowUserToDeleteRows = False
+        Me.dgvDesiccation20.AllowUserToResizeColumns = False
+        Me.dgvDesiccation20.AllowUserToResizeRows = False
+        Me.dgvDesiccation20.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvDesiccation20.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnDesiccation21})
+        Me.dgvDesiccation20.Location = New System.Drawing.Point(8, 55)
+        Me.dgvDesiccation20.Name = "dgvDesiccation20"
+        Me.dgvDesiccation20.ReadOnly = True
+        Me.dgvDesiccation20.RowHeadersVisible = False
+        Me.dgvDesiccation20.RowTemplate.Height = 21
+        Me.dgvDesiccation20.Size = New System.Drawing.Size(740, 322)
+        Me.dgvDesiccation20.TabIndex = 5
+        '
+        'TextColumnDesiccation21
+        '
+        Me.TextColumnDesiccation21.HeaderText = "テキスト"
+        Me.TextColumnDesiccation21.Name = "TextColumnDesiccation21"
+        Me.TextColumnDesiccation21.ReadOnly = True
+        Me.TextColumnDesiccation21.Width = 737
+        '
+        'lblDescriptionDesiccation20
+        '
+        Me.lblDescriptionDesiccation20.AutoSize = True
+        Me.lblDescriptionDesiccation20.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionDesiccation20.Name = "lblDescriptionDesiccation20"
+        Me.lblDescriptionDesiccation20.Size = New System.Drawing.Size(356, 12)
+        Me.lblDescriptionDesiccation20.TabIndex = 3
+        Me.lblDescriptionDesiccation20.Text = "・冒険者にしたあと仲間に誘ってお断りされたとき（力の差がありすぎる場合）"
+        '
+        'lblHeaderDesiccation20
+        '
+        Me.lblHeaderDesiccation20.AutoSize = True
+        Me.lblHeaderDesiccation20.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderDesiccation20.Name = "lblHeaderDesiccation20"
+        Me.lblHeaderDesiccation20.Size = New System.Drawing.Size(70, 12)
+        Me.lblHeaderDesiccation20.TabIndex = 1
+        Me.lblHeaderDesiccation20.Text = "%txttikara,JP"
+        '
+        'Desiccation21
+        '
+        Me.Desiccation21.Controls.Add(Me.btnDelDesiccation21)
+        Me.Desiccation21.Controls.Add(Me.btnAddDesiccation21)
+        Me.Desiccation21.Controls.Add(Me.txtDesiccation21)
+        Me.Desiccation21.Controls.Add(Me.dgvDesiccation21)
+        Me.Desiccation21.Controls.Add(Me.lblDescriptionDesiccation21)
+        Me.Desiccation21.Controls.Add(Me.lblHeaderDesiccation21)
+        Me.Desiccation21.Location = New System.Drawing.Point(4, 22)
+        Me.Desiccation21.Name = "Desiccation21"
+        Me.Desiccation21.Size = New System.Drawing.Size(754, 383)
+        Me.Desiccation21.TabIndex = 20
+        Me.Desiccation21.Text = "冒険者仲間断り(空き無し)"
+        Me.Desiccation21.UseVisualStyleBackColor = True
+        '
+        'btnAddDesiccation21
+        '
+        Me.btnAddDesiccation21.Location = New System.Drawing.Point(564, 28)
+        Me.btnAddDesiccation21.Name = "btnAddDesiccation21"
+        Me.btnAddDesiccation21.Size = New System.Drawing.Size(75, 23)
+        Me.btnAddDesiccation21.TabIndex = 8
+        Me.btnAddDesiccation21.Text = "追加"
+        Me.btnAddDesiccation21.UseVisualStyleBackColor = True
+        '
+        'txtDesiccation21
+        '
+        Me.txtDesiccation21.Location = New System.Drawing.Point(8, 30)
+        Me.txtDesiccation21.Name = "txtDesiccation21"
+        Me.txtDesiccation21.Size = New System.Drawing.Size(550, 19)
+        Me.txtDesiccation21.TabIndex = 7
+        '
+        'dgvDesiccation21
+        '
+        Me.dgvDesiccation21.AllowUserToAddRows = False
+        Me.dgvDesiccation21.AllowUserToDeleteRows = False
+        Me.dgvDesiccation21.AllowUserToResizeColumns = False
+        Me.dgvDesiccation21.AllowUserToResizeRows = False
+        Me.dgvDesiccation21.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvDesiccation21.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnDesiccation22})
+        Me.dgvDesiccation21.Location = New System.Drawing.Point(8, 55)
+        Me.dgvDesiccation21.Name = "dgvDesiccation21"
+        Me.dgvDesiccation21.ReadOnly = True
+        Me.dgvDesiccation21.RowHeadersVisible = False
+        Me.dgvDesiccation21.RowTemplate.Height = 21
+        Me.dgvDesiccation21.Size = New System.Drawing.Size(740, 322)
+        Me.dgvDesiccation21.TabIndex = 5
+        '
+        'TextColumnDesiccation22
+        '
+        Me.TextColumnDesiccation22.HeaderText = "テキスト"
+        Me.TextColumnDesiccation22.Name = "TextColumnDesiccation22"
+        Me.TextColumnDesiccation22.ReadOnly = True
+        Me.TextColumnDesiccation22.Width = 737
+        '
+        'lblDescriptionDesiccation21
+        '
+        Me.lblDescriptionDesiccation21.AutoSize = True
+        Me.lblDescriptionDesiccation21.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionDesiccation21.Name = "lblDescriptionDesiccation21"
+        Me.lblDescriptionDesiccation21.Size = New System.Drawing.Size(373, 12)
+        Me.lblDescriptionDesiccation21.TabIndex = 3
+        Me.lblDescriptionDesiccation21.Text = "・冒険者にしたあと仲間に誘ってお断りされたとき（ペット枠が空いていない場合）"
+        '
+        'lblHeaderDesiccation21
+        '
+        Me.lblHeaderDesiccation21.AutoSize = True
+        Me.lblHeaderDesiccation21.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderDesiccation21.Name = "lblHeaderDesiccation21"
+        Me.lblHeaderDesiccation21.Size = New System.Drawing.Size(67, 12)
+        Me.lblHeaderDesiccation21.TabIndex = 1
+        Me.lblHeaderDesiccation21.Text = "%txt0free,JP"
+        '
+        'Desiccation22
+        '
+        Me.Desiccation22.Controls.Add(Me.btnDelDesiccation22)
+        Me.Desiccation22.Controls.Add(Me.btnAddDesiccation22)
+        Me.Desiccation22.Controls.Add(Me.txtDesiccation22)
+        Me.Desiccation22.Controls.Add(Me.dgvDesiccation22)
+        Me.Desiccation22.Controls.Add(Me.lblDescriptionDesiccation22)
+        Me.Desiccation22.Controls.Add(Me.lblHeaderDesiccation22)
+        Me.Desiccation22.Location = New System.Drawing.Point(4, 22)
+        Me.Desiccation22.Name = "Desiccation22"
+        Me.Desiccation22.Size = New System.Drawing.Size(754, 383)
+        Me.Desiccation22.TabIndex = 21
+        Me.Desiccation22.Text = "冒険者仲間断り(友好度不足)"
+        Me.Desiccation22.UseVisualStyleBackColor = True
+        '
+        'btnAddDesiccation22
+        '
+        Me.btnAddDesiccation22.Location = New System.Drawing.Point(564, 28)
+        Me.btnAddDesiccation22.Name = "btnAddDesiccation22"
+        Me.btnAddDesiccation22.Size = New System.Drawing.Size(75, 23)
+        Me.btnAddDesiccation22.TabIndex = 8
+        Me.btnAddDesiccation22.Text = "追加"
+        Me.btnAddDesiccation22.UseVisualStyleBackColor = True
+        '
+        'txtDesiccation22
+        '
+        Me.txtDesiccation22.Location = New System.Drawing.Point(8, 30)
+        Me.txtDesiccation22.Name = "txtDesiccation22"
+        Me.txtDesiccation22.Size = New System.Drawing.Size(550, 19)
+        Me.txtDesiccation22.TabIndex = 7
+        '
+        'dgvDesiccation22
+        '
+        Me.dgvDesiccation22.AllowUserToAddRows = False
+        Me.dgvDesiccation22.AllowUserToDeleteRows = False
+        Me.dgvDesiccation22.AllowUserToResizeColumns = False
+        Me.dgvDesiccation22.AllowUserToResizeRows = False
+        Me.dgvDesiccation22.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvDesiccation22.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnDesiccation23})
+        Me.dgvDesiccation22.Location = New System.Drawing.Point(8, 55)
+        Me.dgvDesiccation22.Name = "dgvDesiccation22"
+        Me.dgvDesiccation22.ReadOnly = True
+        Me.dgvDesiccation22.RowHeadersVisible = False
+        Me.dgvDesiccation22.RowTemplate.Height = 21
+        Me.dgvDesiccation22.Size = New System.Drawing.Size(740, 322)
+        Me.dgvDesiccation22.TabIndex = 5
+        '
+        'TextColumnDesiccation23
+        '
+        Me.TextColumnDesiccation23.HeaderText = "テキスト"
+        Me.TextColumnDesiccation23.Name = "TextColumnDesiccation23"
+        Me.TextColumnDesiccation23.ReadOnly = True
+        Me.TextColumnDesiccation23.Width = 737
+        '
+        'lblDescriptionDesiccation22
+        '
+        Me.lblDescriptionDesiccation22.AutoSize = True
+        Me.lblDescriptionDesiccation22.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionDesiccation22.Name = "lblDescriptionDesiccation22"
+        Me.lblDescriptionDesiccation22.Size = New System.Drawing.Size(459, 12)
+        Me.lblDescriptionDesiccation22.TabIndex = 3
+        Me.lblDescriptionDesiccation22.Text = "・冒険者にしたあと仲間に誘ってお断りされたとき（友好度が足りないor雇用回数が足りない場合）"
+        '
+        'lblHeaderDesiccation22
+        '
+        Me.lblHeaderDesiccation22.AutoSize = True
+        Me.lblHeaderDesiccation22.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderDesiccation22.Name = "lblHeaderDesiccation22"
+        Me.lblHeaderDesiccation22.Size = New System.Drawing.Size(69, 12)
+        Me.lblHeaderDesiccation22.TabIndex = 1
+        Me.lblHeaderDesiccation22.Text = "%txtokoto,JP"
         '
         'TabPage4
         '
@@ -3106,6 +4946,204 @@ Partial Class TextEditForm
         Me.btnClose.TabIndex = 1
         Me.btnClose.Text = "閉じる"
         Me.btnClose.UseVisualStyleBackColor = True
+        '
+        'btnDelDesiccation1
+        '
+        Me.btnDelDesiccation1.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation1.Name = "btnDelDesiccation1"
+        Me.btnDelDesiccation1.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation1.TabIndex = 8
+        Me.btnDelDesiccation1.Text = "削除"
+        Me.btnDelDesiccation1.UseVisualStyleBackColor = True
+        '
+        'btnDelDesiccation2
+        '
+        Me.btnDelDesiccation2.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation2.Name = "btnDelDesiccation2"
+        Me.btnDelDesiccation2.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation2.TabIndex = 9
+        Me.btnDelDesiccation2.Text = "削除"
+        Me.btnDelDesiccation2.UseVisualStyleBackColor = True
+        '
+        'btnDelDesiccation3
+        '
+        Me.btnDelDesiccation3.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation3.Name = "btnDelDesiccation3"
+        Me.btnDelDesiccation3.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation3.TabIndex = 9
+        Me.btnDelDesiccation3.Text = "削除"
+        Me.btnDelDesiccation3.UseVisualStyleBackColor = True
+        '
+        'btnDelDesiccation4
+        '
+        Me.btnDelDesiccation4.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation4.Name = "btnDelDesiccation4"
+        Me.btnDelDesiccation4.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation4.TabIndex = 9
+        Me.btnDelDesiccation4.Text = "削除"
+        Me.btnDelDesiccation4.UseVisualStyleBackColor = True
+        '
+        'btnDelDesiccation5
+        '
+        Me.btnDelDesiccation5.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation5.Name = "btnDelDesiccation5"
+        Me.btnDelDesiccation5.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation5.TabIndex = 9
+        Me.btnDelDesiccation5.Text = "削除"
+        Me.btnDelDesiccation5.UseVisualStyleBackColor = True
+        '
+        'btnDelDesiccation6
+        '
+        Me.btnDelDesiccation6.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation6.Name = "btnDelDesiccation6"
+        Me.btnDelDesiccation6.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation6.TabIndex = 9
+        Me.btnDelDesiccation6.Text = "削除"
+        Me.btnDelDesiccation6.UseVisualStyleBackColor = True
+        '
+        'btnDelDesiccation7
+        '
+        Me.btnDelDesiccation7.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation7.Name = "btnDelDesiccation7"
+        Me.btnDelDesiccation7.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation7.TabIndex = 9
+        Me.btnDelDesiccation7.Text = "削除"
+        Me.btnDelDesiccation7.UseVisualStyleBackColor = True
+        '
+        'btnDelDesiccation8
+        '
+        Me.btnDelDesiccation8.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation8.Name = "btnDelDesiccation8"
+        Me.btnDelDesiccation8.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation8.TabIndex = 9
+        Me.btnDelDesiccation8.Text = "削除"
+        Me.btnDelDesiccation8.UseVisualStyleBackColor = True
+        '
+        'btnDelDesiccation9
+        '
+        Me.btnDelDesiccation9.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation9.Name = "btnDelDesiccation9"
+        Me.btnDelDesiccation9.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation9.TabIndex = 9
+        Me.btnDelDesiccation9.Text = "削除"
+        Me.btnDelDesiccation9.UseVisualStyleBackColor = True
+        '
+        'btnDelDesiccation10
+        '
+        Me.btnDelDesiccation10.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation10.Name = "btnDelDesiccation10"
+        Me.btnDelDesiccation10.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation10.TabIndex = 9
+        Me.btnDelDesiccation10.Text = "削除"
+        Me.btnDelDesiccation10.UseVisualStyleBackColor = True
+        '
+        'btnDelDesiccation11
+        '
+        Me.btnDelDesiccation11.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation11.Name = "btnDelDesiccation11"
+        Me.btnDelDesiccation11.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation11.TabIndex = 9
+        Me.btnDelDesiccation11.Text = "削除"
+        Me.btnDelDesiccation11.UseVisualStyleBackColor = True
+        '
+        'btnDelDesiccation12
+        '
+        Me.btnDelDesiccation12.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation12.Name = "btnDelDesiccation12"
+        Me.btnDelDesiccation12.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation12.TabIndex = 9
+        Me.btnDelDesiccation12.Text = "削除"
+        Me.btnDelDesiccation12.UseVisualStyleBackColor = True
+        '
+        'btnDelDesiccation13
+        '
+        Me.btnDelDesiccation13.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation13.Name = "btnDelDesiccation13"
+        Me.btnDelDesiccation13.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation13.TabIndex = 9
+        Me.btnDelDesiccation13.Text = "削除"
+        Me.btnDelDesiccation13.UseVisualStyleBackColor = True
+        '
+        'btnDelDesiccation14
+        '
+        Me.btnDelDesiccation14.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation14.Name = "btnDelDesiccation14"
+        Me.btnDelDesiccation14.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation14.TabIndex = 9
+        Me.btnDelDesiccation14.Text = "削除"
+        Me.btnDelDesiccation14.UseVisualStyleBackColor = True
+        '
+        'btnDelDesiccation15
+        '
+        Me.btnDelDesiccation15.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation15.Name = "btnDelDesiccation15"
+        Me.btnDelDesiccation15.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation15.TabIndex = 9
+        Me.btnDelDesiccation15.Text = "削除"
+        Me.btnDelDesiccation15.UseVisualStyleBackColor = True
+        '
+        'btnDelDesiccation16
+        '
+        Me.btnDelDesiccation16.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation16.Name = "btnDelDesiccation16"
+        Me.btnDelDesiccation16.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation16.TabIndex = 9
+        Me.btnDelDesiccation16.Text = "削除"
+        Me.btnDelDesiccation16.UseVisualStyleBackColor = True
+        '
+        'btnDelDesiccation17
+        '
+        Me.btnDelDesiccation17.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation17.Name = "btnDelDesiccation17"
+        Me.btnDelDesiccation17.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation17.TabIndex = 9
+        Me.btnDelDesiccation17.Text = "削除"
+        Me.btnDelDesiccation17.UseVisualStyleBackColor = True
+        '
+        'btnDelDesiccation18
+        '
+        Me.btnDelDesiccation18.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation18.Name = "btnDelDesiccation18"
+        Me.btnDelDesiccation18.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation18.TabIndex = 9
+        Me.btnDelDesiccation18.Text = "削除"
+        Me.btnDelDesiccation18.UseVisualStyleBackColor = True
+        '
+        'btnDelDesiccation19
+        '
+        Me.btnDelDesiccation19.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation19.Name = "btnDelDesiccation19"
+        Me.btnDelDesiccation19.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation19.TabIndex = 9
+        Me.btnDelDesiccation19.Text = "削除"
+        Me.btnDelDesiccation19.UseVisualStyleBackColor = True
+        '
+        'btnDelDesiccation20
+        '
+        Me.btnDelDesiccation20.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation20.Name = "btnDelDesiccation20"
+        Me.btnDelDesiccation20.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation20.TabIndex = 9
+        Me.btnDelDesiccation20.Text = "削除"
+        Me.btnDelDesiccation20.UseVisualStyleBackColor = True
+        '
+        'btnDelDesiccation21
+        '
+        Me.btnDelDesiccation21.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation21.Name = "btnDelDesiccation21"
+        Me.btnDelDesiccation21.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation21.TabIndex = 9
+        Me.btnDelDesiccation21.Text = "削除"
+        Me.btnDelDesiccation21.UseVisualStyleBackColor = True
+        '
+        'btnDelDesiccation22
+        '
+        Me.btnDelDesiccation22.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation22.Name = "btnDelDesiccation22"
+        Me.btnDelDesiccation22.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation22.TabIndex = 9
+        Me.btnDelDesiccation22.Text = "削除"
+        Me.btnDelDesiccation22.UseVisualStyleBackColor = True
         '
         'TextEditForm
         '
@@ -3217,6 +5255,74 @@ Partial Class TextEditForm
         Me.Skill12.ResumeLayout(False)
         Me.Skill12.PerformLayout()
         CType(Me.dgvSkill12, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabPage3.ResumeLayout(False)
+        Me.tabDesiccation.ResumeLayout(False)
+        Me.Desiccation1.ResumeLayout(False)
+        Me.Desiccation1.PerformLayout()
+        CType(Me.dgvDesiccation1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Desiccation2.ResumeLayout(False)
+        Me.Desiccation2.PerformLayout()
+        CType(Me.dgvDesiccation2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Desiccation3.ResumeLayout(False)
+        Me.Desiccation3.PerformLayout()
+        CType(Me.dgvDesiccation3, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Desiccation4.ResumeLayout(False)
+        Me.Desiccation4.PerformLayout()
+        CType(Me.dgvDesiccation4, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Desiccation5.ResumeLayout(False)
+        Me.Desiccation5.PerformLayout()
+        CType(Me.dgvDesiccation5, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Desiccation6.ResumeLayout(False)
+        Me.Desiccation6.PerformLayout()
+        CType(Me.dgvDesiccation6, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Desiccation7.ResumeLayout(False)
+        Me.Desiccation7.PerformLayout()
+        CType(Me.dgvDesiccation7, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Desiccation8.ResumeLayout(False)
+        Me.Desiccation8.PerformLayout()
+        CType(Me.dgvDesiccation8, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Desiccation9.ResumeLayout(False)
+        Me.Desiccation9.PerformLayout()
+        CType(Me.dgvDesiccation9, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Desiccation10.ResumeLayout(False)
+        Me.Desiccation10.PerformLayout()
+        CType(Me.dgvDesiccation10, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Desiccation11.ResumeLayout(False)
+        Me.Desiccation11.PerformLayout()
+        CType(Me.dgvDesiccation11, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Desiccation12.ResumeLayout(False)
+        Me.Desiccation12.PerformLayout()
+        CType(Me.dgvDesiccation12, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Desiccation13.ResumeLayout(False)
+        Me.Desiccation13.PerformLayout()
+        CType(Me.dgvDesiccation13, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Desiccation14.ResumeLayout(False)
+        Me.Desiccation14.PerformLayout()
+        CType(Me.dgvDesiccation14, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Desiccation15.ResumeLayout(False)
+        Me.Desiccation15.PerformLayout()
+        CType(Me.dgvDesiccation15, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Desiccation16.ResumeLayout(False)
+        Me.Desiccation16.PerformLayout()
+        CType(Me.dgvDesiccation16, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Desiccation17.ResumeLayout(False)
+        Me.Desiccation17.PerformLayout()
+        CType(Me.dgvDesiccation17, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Desiccation18.ResumeLayout(False)
+        Me.Desiccation18.PerformLayout()
+        CType(Me.dgvDesiccation18, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Desiccation19.ResumeLayout(False)
+        Me.Desiccation19.PerformLayout()
+        CType(Me.dgvDesiccation19, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Desiccation20.ResumeLayout(False)
+        Me.Desiccation20.PerformLayout()
+        CType(Me.dgvDesiccation20, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Desiccation21.ResumeLayout(False)
+        Me.Desiccation21.PerformLayout()
+        CType(Me.dgvDesiccation21, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Desiccation22.ResumeLayout(False)
+        Me.Desiccation22.PerformLayout()
+        CType(Me.dgvDesiccation22, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -3497,10 +5603,189 @@ Partial Class TextEditForm
     Friend WithEvents lblHeaderSkill10 As System.Windows.Forms.Label
     Friend WithEvents lblHeaderSkill11 As System.Windows.Forms.Label
     Friend WithEvents lblHeaderSkill12 As System.Windows.Forms.Label
-    Friend WithEvents DataGridViewTextBoxColumn1 As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents cmbSkill8 As System.Windows.Forms.ComboBox
     Friend WithEvents TextSkillColumn8SpellID As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents TextColumnSkill8SpellName As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents TextColumnSkill8 As System.Windows.Forms.DataGridViewTextBoxColumn
+
+    Friend WithEvents tabDesiccation As System.Windows.Forms.TabControl
+    Friend WithEvents Desiccation1 As System.Windows.Forms.TabPage
+    Friend WithEvents Desiccation2 As System.Windows.Forms.TabPage
+    Friend WithEvents Desiccation3 As System.Windows.Forms.TabPage
+    Friend WithEvents Desiccation4 As System.Windows.Forms.TabPage
+    Friend WithEvents Desiccation5 As System.Windows.Forms.TabPage
+    Friend WithEvents Desiccation6 As System.Windows.Forms.TabPage
+    Friend WithEvents Desiccation7 As System.Windows.Forms.TabPage
+    Friend WithEvents Desiccation8 As System.Windows.Forms.TabPage
+    Friend WithEvents Desiccation9 As System.Windows.Forms.TabPage
+    Friend WithEvents Desiccation10 As System.Windows.Forms.TabPage
+    Friend WithEvents Desiccation11 As System.Windows.Forms.TabPage
+    Friend WithEvents Desiccation12 As System.Windows.Forms.TabPage
+    Friend WithEvents Desiccation13 As System.Windows.Forms.TabPage
+    Friend WithEvents Desiccation14 As System.Windows.Forms.TabPage
+    Friend WithEvents Desiccation15 As System.Windows.Forms.TabPage
+    Friend WithEvents Desiccation16 As System.Windows.Forms.TabPage
+    Friend WithEvents Desiccation17 As System.Windows.Forms.TabPage
+    Friend WithEvents Desiccation18 As System.Windows.Forms.TabPage
+    Friend WithEvents Desiccation19 As System.Windows.Forms.TabPage
+    Friend WithEvents Desiccation20 As System.Windows.Forms.TabPage
+    Friend WithEvents Desiccation21 As System.Windows.Forms.TabPage
+    Friend WithEvents Desiccation22 As System.Windows.Forms.TabPage
+    Friend WithEvents lblHeaderDesiccation1 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderDesiccation2 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderDesiccation3 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderDesiccation4 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderDesiccation5 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderDesiccation6 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderDesiccation7 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderDesiccation8 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderDesiccation9 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderDesiccation10 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderDesiccation11 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderDesiccation12 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderDesiccation13 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderDesiccation14 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderDesiccation15 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderDesiccation16 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderDesiccation17 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderDesiccation18 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderDesiccation19 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderDesiccation20 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderDesiccation21 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderDesiccation22 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionDesiccation1 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionDesiccation2 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionDesiccation3 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionDesiccation4 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionDesiccation5 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionDesiccation6 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionDesiccation7 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionDesiccation8 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionDesiccation9 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionDesiccation10 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionDesiccation11 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionDesiccation12 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionDesiccation13 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionDesiccation14 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionDesiccation15 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionDesiccation16 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionDesiccation17 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionDesiccation18 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionDesiccation19 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionDesiccation20 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionDesiccation21 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionDesiccation22 As System.Windows.Forms.Label
+
+
+    Friend WithEvents dgvDesiccation1 As System.Windows.Forms.DataGridView
+    Friend WithEvents TextColumnDesiccation2 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents dgvDesiccation2 As System.Windows.Forms.DataGridView
+    Friend WithEvents TextColumnDesiccation3 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents dgvDesiccation3 As System.Windows.Forms.DataGridView
+    Friend WithEvents TextColumnDesiccation4 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents dgvDesiccation4 As System.Windows.Forms.DataGridView
+    Friend WithEvents TextColumnDesiccation5 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents dgvDesiccation5 As System.Windows.Forms.DataGridView
+    Friend WithEvents TextColumnDesiccation6 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents dgvDesiccation6 As System.Windows.Forms.DataGridView
+    Friend WithEvents TextColumnDesiccation7 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents dgvDesiccation7 As System.Windows.Forms.DataGridView
+    Friend WithEvents TextColumnDesiccation8 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents dgvDesiccation8 As System.Windows.Forms.DataGridView
+    Friend WithEvents TextColumnDesiccation9 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents dgvDesiccation9 As System.Windows.Forms.DataGridView
+    Friend WithEvents TextColumnDesiccation10 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents dgvDesiccation10 As System.Windows.Forms.DataGridView
+    Friend WithEvents TextColumnDesiccation11 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents dgvDesiccation11 As System.Windows.Forms.DataGridView
+    Friend WithEvents TextColumnDesiccation12 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents dgvDesiccation12 As System.Windows.Forms.DataGridView
+    Friend WithEvents TextColumnDesiccation13 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents dgvDesiccation13 As System.Windows.Forms.DataGridView
+    Friend WithEvents TextColumnDesiccation14 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents dgvDesiccation14 As System.Windows.Forms.DataGridView
+    Friend WithEvents TextColumnDesiccation15 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents dgvDesiccation15 As System.Windows.Forms.DataGridView
+    Friend WithEvents TextColumnDesiccation16 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents dgvDesiccation16 As System.Windows.Forms.DataGridView
+    Friend WithEvents TextColumnDesiccation17 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents dgvDesiccation17 As System.Windows.Forms.DataGridView
+    Friend WithEvents TextColumnDesiccation18 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents dgvDesiccation18 As System.Windows.Forms.DataGridView
+    Friend WithEvents TextColumnDesiccation19 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents dgvDesiccation19 As System.Windows.Forms.DataGridView
+    Friend WithEvents TextColumnDesiccation20 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents dgvDesiccation20 As System.Windows.Forms.DataGridView
+    Friend WithEvents TextColumnDesiccation21 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents dgvDesiccation21 As System.Windows.Forms.DataGridView
+    Friend WithEvents TextColumnDesiccation22 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents dgvDesiccation22 As System.Windows.Forms.DataGridView
+    Friend WithEvents TextColumnDesiccation23 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents txtDesiccation1 As System.Windows.Forms.TextBox
+    Friend WithEvents txtDesiccation2 As System.Windows.Forms.TextBox
+    Friend WithEvents txtDesiccation3 As System.Windows.Forms.TextBox
+    Friend WithEvents txtDesiccation4 As System.Windows.Forms.TextBox
+    Friend WithEvents txtDesiccation5 As System.Windows.Forms.TextBox
+    Friend WithEvents txtDesiccation6 As System.Windows.Forms.TextBox
+    Friend WithEvents txtDesiccation7 As System.Windows.Forms.TextBox
+    Friend WithEvents txtDesiccation8 As System.Windows.Forms.TextBox
+    Friend WithEvents txtDesiccation9 As System.Windows.Forms.TextBox
+    Friend WithEvents txtDesiccation10 As System.Windows.Forms.TextBox
+    Friend WithEvents txtDesiccation11 As System.Windows.Forms.TextBox
+    Friend WithEvents txtDesiccation12 As System.Windows.Forms.TextBox
+    Friend WithEvents txtDesiccation13 As System.Windows.Forms.TextBox
+    Friend WithEvents txtDesiccation14 As System.Windows.Forms.TextBox
+    Friend WithEvents txtDesiccation15 As System.Windows.Forms.TextBox
+    Friend WithEvents txtDesiccation16 As System.Windows.Forms.TextBox
+    Friend WithEvents txtDesiccation17 As System.Windows.Forms.TextBox
+    Friend WithEvents txtDesiccation18 As System.Windows.Forms.TextBox
+    Friend WithEvents txtDesiccation19 As System.Windows.Forms.TextBox
+    Friend WithEvents txtDesiccation20 As System.Windows.Forms.TextBox
+    Friend WithEvents txtDesiccation21 As System.Windows.Forms.TextBox
+    Friend WithEvents txtDesiccation22 As System.Windows.Forms.TextBox
+    Friend WithEvents btnAddDesiccation1 As System.Windows.Forms.Button
+    Friend WithEvents btnAddDesiccation2 As System.Windows.Forms.Button
+    Friend WithEvents btnAddDesiccation3 As System.Windows.Forms.Button
+    Friend WithEvents btnAddDesiccation4 As System.Windows.Forms.Button
+    Friend WithEvents btnAddDesiccation5 As System.Windows.Forms.Button
+    Friend WithEvents btnAddDesiccation6 As System.Windows.Forms.Button
+    Friend WithEvents btnAddDesiccation7 As System.Windows.Forms.Button
+    Friend WithEvents btnAddDesiccation8 As System.Windows.Forms.Button
+    Friend WithEvents btnAddDesiccation9 As System.Windows.Forms.Button
+    Friend WithEvents btnAddDesiccation10 As System.Windows.Forms.Button
+    Friend WithEvents btnAddDesiccation11 As System.Windows.Forms.Button
+    Friend WithEvents btnAddDesiccation12 As System.Windows.Forms.Button
+    Friend WithEvents btnAddDesiccation13 As System.Windows.Forms.Button
+    Friend WithEvents btnAddDesiccation14 As System.Windows.Forms.Button
+    Friend WithEvents btnAddDesiccation15 As System.Windows.Forms.Button
+    Friend WithEvents btnAddDesiccation16 As System.Windows.Forms.Button
+    Friend WithEvents btnAddDesiccation17 As System.Windows.Forms.Button
+    Friend WithEvents btnAddDesiccation18 As System.Windows.Forms.Button
+    Friend WithEvents btnAddDesiccation19 As System.Windows.Forms.Button
+    Friend WithEvents btnAddDesiccation20 As System.Windows.Forms.Button
+    Friend WithEvents btnAddDesiccation21 As System.Windows.Forms.Button
+    Friend WithEvents btnAddDesiccation22 As System.Windows.Forms.Button
+    Friend WithEvents btnDelDesiccation1 As System.Windows.Forms.Button
+    Friend WithEvents btnDelDesiccation2 As System.Windows.Forms.Button
+    Friend WithEvents btnDelDesiccation3 As System.Windows.Forms.Button
+    Friend WithEvents btnDelDesiccation4 As System.Windows.Forms.Button
+    Friend WithEvents btnDelDesiccation5 As System.Windows.Forms.Button
+    Friend WithEvents btnDelDesiccation6 As System.Windows.Forms.Button
+    Friend WithEvents btnDelDesiccation7 As System.Windows.Forms.Button
+    Friend WithEvents btnDelDesiccation8 As System.Windows.Forms.Button
+    Friend WithEvents btnDelDesiccation9 As System.Windows.Forms.Button
+    Friend WithEvents btnDelDesiccation10 As System.Windows.Forms.Button
+    Friend WithEvents btnDelDesiccation11 As System.Windows.Forms.Button
+    Friend WithEvents btnDelDesiccation12 As System.Windows.Forms.Button
+    Friend WithEvents btnDelDesiccation13 As System.Windows.Forms.Button
+    Friend WithEvents btnDelDesiccation14 As System.Windows.Forms.Button
+    Friend WithEvents btnDelDesiccation15 As System.Windows.Forms.Button
+    Friend WithEvents btnDelDesiccation16 As System.Windows.Forms.Button
+    Friend WithEvents btnDelDesiccation17 As System.Windows.Forms.Button
+    Friend WithEvents btnDelDesiccation18 As System.Windows.Forms.Button
+    Friend WithEvents btnDelDesiccation19 As System.Windows.Forms.Button
+    Friend WithEvents btnDelDesiccation20 As System.Windows.Forms.Button
+    Friend WithEvents btnDelDesiccation21 As System.Windows.Forms.Button
+    Friend WithEvents btnDelDesiccation22 As System.Windows.Forms.Button
 
 End Class

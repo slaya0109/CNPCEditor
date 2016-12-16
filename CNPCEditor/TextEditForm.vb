@@ -1054,6 +1054,697 @@ Public Class TextEditForm
     End Sub
 #End Region
 
+#Region "干渉(i)・冒険者関連イベントメソッド"
+    Private Sub btnAddDesiccation1_Click(sender As Object, e As EventArgs) Handles btnAddDesiccation1.Click
+        Try
+            Me.dgvDesiccation1.Rows.Add()
+            Me.dgvDesiccation1.Rows(Me.dgvDesiccation1.RowCount - 1).Cells(0).Value = Me.txtDesiccation1.Text
+            Me.txtDesiccation1.Text = ""
+            Me.txtDesiccation1.Focus()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnAddDesiccation2_Click(sender As Object, e As EventArgs) Handles btnAddDesiccation2.Click
+        Try
+            Me.dgvDesiccation2.Rows.Add()
+            Me.dgvDesiccation2.Rows(Me.dgvDesiccation2.RowCount - 1).Cells(0).Value = Me.txtDesiccation2.Text
+            Me.txtDesiccation2.Text = ""
+            Me.txtDesiccation2.Focus()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnAddDesiccation3_Click(sender As Object, e As EventArgs) Handles btnAddDesiccation3.Click
+        Try
+            Me.dgvDesiccation3.Rows.Add()
+            Me.dgvDesiccation3.Rows(Me.dgvDesiccation3.RowCount - 1).Cells(0).Value = Me.txtDesiccation3.Text
+            Me.txtDesiccation3.Text = ""
+            Me.txtDesiccation3.Focus()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnAddDesiccation4_Click(sender As Object, e As EventArgs) Handles btnAddDesiccation4.Click
+        Try
+            Me.dgvDesiccation4.Rows.Add()
+            Me.dgvDesiccation4.Rows(Me.dgvDesiccation4.RowCount - 1).Cells(0).Value = Me.txtDesiccation4.Text
+            Me.txtDesiccation4.Text = ""
+            Me.txtDesiccation4.Focus()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnAddDesiccation5_Click(sender As Object, e As EventArgs) Handles btnAddDesiccation5.Click
+        Try
+            Me.dgvDesiccation5.Rows.Add()
+            Me.dgvDesiccation5.Rows(Me.dgvDesiccation5.RowCount - 1).Cells(0).Value = Me.txtDesiccation5.Text
+            Me.txtDesiccation5.Text = ""
+            Me.txtDesiccation5.Focus()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnAddDesiccation6_Click(sender As Object, e As EventArgs) Handles btnAddDesiccation6.Click
+        Try
+            Me.dgvDesiccation6.Rows.Add()
+            Me.dgvDesiccation6.Rows(Me.dgvDesiccation6.RowCount - 1).Cells(0).Value = Me.txtDesiccation6.Text
+            Me.txtDesiccation6.Text = ""
+            Me.txtDesiccation6.Focus()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnAddDesiccation7_Click(sender As Object, e As EventArgs) Handles btnAddDesiccation7.Click
+        Try
+            Me.dgvDesiccation7.Rows.Add()
+            Me.dgvDesiccation7.Rows(Me.dgvDesiccation7.RowCount - 1).Cells(0).Value = Me.txtDesiccation7.Text
+            Me.txtDesiccation7.Text = ""
+            Me.txtDesiccation7.Focus()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnAddDesiccation8_Click(sender As Object, e As EventArgs) Handles btnAddDesiccation8.Click
+        Try
+            Me.dgvDesiccation8.Rows.Add()
+            Me.dgvDesiccation8.Rows(Me.dgvDesiccation8.RowCount - 1).Cells(0).Value = Me.txtDesiccation8.Text
+            Me.txtDesiccation8.Text = ""
+            Me.txtDesiccation8.Focus()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnAddDesiccation9_Click(sender As Object, e As EventArgs) Handles btnAddDesiccation9.Click
+        Try
+            Me.dgvDesiccation9.Rows.Add()
+            Me.dgvDesiccation9.Rows(Me.dgvDesiccation9.RowCount - 1).Cells(0).Value = Me.txtDesiccation9.Text
+            Me.txtDesiccation9.Text = ""
+            Me.txtDesiccation9.Focus()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnAddDesiccation10_Click(sender As Object, e As EventArgs) Handles btnAddDesiccation10.Click
+        Try
+            Me.dgvDesiccation10.Rows.Add()
+            Me.dgvDesiccation10.Rows(Me.dgvDesiccation10.RowCount - 1).Cells(0).Value = Me.txtDesiccation10.Text
+            Me.txtDesiccation10.Text = ""
+            Me.txtDesiccation10.Focus()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnAddDesiccation11_Click(sender As Object, e As EventArgs) Handles btnAddDesiccation11.Click
+        Try
+            Me.dgvDesiccation11.Rows.Add()
+            Me.dgvDesiccation11.Rows(Me.dgvDesiccation11.RowCount - 1).Cells(0).Value = Me.txtDesiccation11.Text
+            Me.txtDesiccation11.Text = ""
+            Me.txtDesiccation11.Focus()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnAddDesiccation12_Click(sender As Object, e As EventArgs) Handles btnAddDesiccation12.Click
+        Try
+            Me.dgvDesiccation12.Rows.Add()
+            Me.dgvDesiccation12.Rows(Me.dgvDesiccation12.RowCount - 1).Cells(0).Value = Me.txtDesiccation12.Text
+            Me.txtDesiccation12.Text = ""
+            Me.txtDesiccation12.Focus()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnAddDesiccation13_Click(sender As Object, e As EventArgs) Handles btnAddDesiccation13.Click
+        Try
+            Me.dgvDesiccation13.Rows.Add()
+            Me.dgvDesiccation13.Rows(Me.dgvDesiccation13.RowCount - 1).Cells(0).Value = Me.txtDesiccation13.Text
+            Me.txtDesiccation13.Text = ""
+            Me.txtDesiccation13.Focus()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnAddDesiccation14_Click(sender As Object, e As EventArgs) Handles btnAddDesiccation14.Click
+        Try
+            Me.dgvDesiccation14.Rows.Add()
+            Me.dgvDesiccation14.Rows(Me.dgvDesiccation14.RowCount - 1).Cells(0).Value = Me.txtDesiccation14.Text
+            Me.txtDesiccation14.Text = ""
+            Me.txtDesiccation14.Focus()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnAddDesiccation15_Click(sender As Object, e As EventArgs) Handles btnAddDesiccation15.Click
+        Try
+            Me.dgvDesiccation15.Rows.Add()
+            Me.dgvDesiccation15.Rows(Me.dgvDesiccation15.RowCount - 1).Cells(0).Value = Me.txtDesiccation15.Text
+            Me.txtDesiccation15.Text = ""
+            Me.txtDesiccation15.Focus()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnAddDesiccation16_Click(sender As Object, e As EventArgs) Handles btnAddDesiccation16.Click
+        Try
+            Me.dgvDesiccation16.Rows.Add()
+            Me.dgvDesiccation16.Rows(Me.dgvDesiccation16.RowCount - 1).Cells(0).Value = Me.txtDesiccation16.Text
+            Me.txtDesiccation16.Text = ""
+            Me.txtDesiccation16.Focus()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnAddDesiccation17_Click(sender As Object, e As EventArgs) Handles btnAddDesiccation17.Click
+        Try
+            Me.dgvDesiccation17.Rows.Add()
+            Me.dgvDesiccation17.Rows(Me.dgvDesiccation17.RowCount - 1).Cells(0).Value = Me.txtDesiccation17.Text
+            Me.txtDesiccation17.Text = ""
+            Me.txtDesiccation17.Focus()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnAddDesiccation18_Click(sender As Object, e As EventArgs) Handles btnAddDesiccation18.Click
+        Try
+            Me.dgvDesiccation18.Rows.Add()
+            Me.dgvDesiccation18.Rows(Me.dgvDesiccation18.RowCount - 1).Cells(0).Value = Me.txtDesiccation18.Text
+            Me.txtDesiccation18.Text = ""
+            Me.txtDesiccation18.Focus()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnAddDesiccation19_Click(sender As Object, e As EventArgs) Handles btnAddDesiccation19.Click
+        Try
+            Me.dgvDesiccation19.Rows.Add()
+            Me.dgvDesiccation19.Rows(Me.dgvDesiccation19.RowCount - 1).Cells(0).Value = Me.txtDesiccation19.Text
+            Me.txtDesiccation19.Text = ""
+            Me.txtDesiccation19.Focus()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnAddDesiccation20_Click(sender As Object, e As EventArgs) Handles btnAddDesiccation20.Click
+        Try
+            Me.dgvDesiccation20.Rows.Add()
+            Me.dgvDesiccation20.Rows(Me.dgvDesiccation20.RowCount - 1).Cells(0).Value = Me.txtDesiccation20.Text
+            Me.txtDesiccation20.Text = ""
+            Me.txtDesiccation20.Focus()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnAddDesiccation21_Click(sender As Object, e As EventArgs) Handles btnAddDesiccation21.Click
+        Try
+            Me.dgvDesiccation21.Rows.Add()
+            Me.dgvDesiccation21.Rows(Me.dgvDesiccation21.RowCount - 1).Cells(0).Value = Me.txtDesiccation21.Text
+            Me.txtDesiccation21.Text = ""
+            Me.txtDesiccation21.Focus()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnAddDesiccation22_Click(sender As Object, e As EventArgs) Handles btnAddDesiccation22.Click
+        Try
+            Me.dgvDesiccation22.Rows.Add()
+            Me.dgvDesiccation22.Rows(Me.dgvDesiccation22.RowCount - 1).Cells(0).Value = Me.txtDesiccation22.Text
+            Me.txtDesiccation22.Text = ""
+            Me.txtDesiccation22.Focus()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+
+    Private Sub btnDelDesiccation1_Click(sender As Object, e As EventArgs) Handles btnDelDesiccation1.Click
+        Try
+            If Me.dgvDesiccation1.RowCount > 0 Then
+                Me.dgvDesiccation1.Rows.RemoveAt(Me.dgvDesiccation1.CurrentRow.Index)
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnDelDesiccation2_Click(sender As Object, e As EventArgs) Handles btnDelDesiccation2.Click
+        Try
+            If Me.dgvDesiccation2.RowCount > 0 Then
+                Me.dgvDesiccation2.Rows.RemoveAt(Me.dgvDesiccation2.CurrentRow.Index)
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnDelDesiccation3_Click(sender As Object, e As EventArgs) Handles btnDelDesiccation3.Click
+        Try
+            If Me.dgvDesiccation3.RowCount > 0 Then
+                Me.dgvDesiccation3.Rows.RemoveAt(Me.dgvDesiccation3.CurrentRow.Index)
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnDelDesiccation4_Click(sender As Object, e As EventArgs) Handles btnDelDesiccation4.Click
+        Try
+            If Me.dgvDesiccation4.RowCount > 0 Then
+                Me.dgvDesiccation4.Rows.RemoveAt(Me.dgvDesiccation4.CurrentRow.Index)
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnDelDesiccation5_Click(sender As Object, e As EventArgs) Handles btnDelDesiccation5.Click
+        Try
+            If Me.dgvDesiccation5.RowCount > 0 Then
+                Me.dgvDesiccation5.Rows.RemoveAt(Me.dgvDesiccation5.CurrentRow.Index)
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnDelDesiccation6_Click(sender As Object, e As EventArgs) Handles btnDelDesiccation6.Click
+        Try
+            If Me.dgvDesiccation6.RowCount > 0 Then
+                Me.dgvDesiccation6.Rows.RemoveAt(Me.dgvDesiccation6.CurrentRow.Index)
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnDelDesiccation7_Click(sender As Object, e As EventArgs) Handles btnDelDesiccation7.Click
+        Try
+            If Me.dgvDesiccation7.RowCount > 0 Then
+                Me.dgvDesiccation7.Rows.RemoveAt(Me.dgvDesiccation7.CurrentRow.Index)
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnDelDesiccation8_Click(sender As Object, e As EventArgs) Handles btnDelDesiccation8.Click
+        Try
+            If Me.dgvDesiccation8.RowCount > 0 Then
+                Me.dgvDesiccation8.Rows.RemoveAt(Me.dgvDesiccation8.CurrentRow.Index)
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnDelDesiccation9_Click(sender As Object, e As EventArgs) Handles btnDelDesiccation9.Click
+        Try
+            If Me.dgvDesiccation9.RowCount > 0 Then
+                Me.dgvDesiccation9.Rows.RemoveAt(Me.dgvDesiccation9.CurrentRow.Index)
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnDelDesiccation10_Click(sender As Object, e As EventArgs) Handles btnDelDesiccation10.Click
+        Try
+            If Me.dgvDesiccation10.RowCount > 0 Then
+                Me.dgvDesiccation10.Rows.RemoveAt(Me.dgvDesiccation10.CurrentRow.Index)
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnDelDesiccation11_Click(sender As Object, e As EventArgs) Handles btnDelDesiccation11.Click
+        Try
+            If Me.dgvDesiccation11.RowCount > 0 Then
+                Me.dgvDesiccation11.Rows.RemoveAt(Me.dgvDesiccation11.CurrentRow.Index)
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnDelDesiccation12_Click(sender As Object, e As EventArgs) Handles btnDelDesiccation12.Click
+        Try
+            If Me.dgvDesiccation12.RowCount > 0 Then
+                Me.dgvDesiccation12.Rows.RemoveAt(Me.dgvDesiccation12.CurrentRow.Index)
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnDelDesiccation13_Click(sender As Object, e As EventArgs) Handles btnDelDesiccation13.Click
+        Try
+            If Me.dgvDesiccation13.RowCount > 0 Then
+                Me.dgvDesiccation13.Rows.RemoveAt(Me.dgvDesiccation13.CurrentRow.Index)
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnDelDesiccation14_Click(sender As Object, e As EventArgs) Handles btnDelDesiccation14.Click
+        Try
+            If Me.dgvDesiccation14.RowCount > 0 Then
+                Me.dgvDesiccation14.Rows.RemoveAt(Me.dgvDesiccation14.CurrentRow.Index)
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnDelDesiccation15_Click(sender As Object, e As EventArgs) Handles btnDelDesiccation15.Click
+        Try
+            If Me.dgvDesiccation15.RowCount > 0 Then
+                Me.dgvDesiccation15.Rows.RemoveAt(Me.dgvDesiccation15.CurrentRow.Index)
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnDelDesiccation16_Click(sender As Object, e As EventArgs) Handles btnDelDesiccation16.Click
+        Try
+            If Me.dgvDesiccation16.RowCount > 0 Then
+                Me.dgvDesiccation16.Rows.RemoveAt(Me.dgvDesiccation16.CurrentRow.Index)
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnDelDesiccation17_Click(sender As Object, e As EventArgs) Handles btnDelDesiccation17.Click
+        Try
+            If Me.dgvDesiccation17.RowCount > 0 Then
+                Me.dgvDesiccation17.Rows.RemoveAt(Me.dgvDesiccation17.CurrentRow.Index)
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnDelDesiccation18_Click(sender As Object, e As EventArgs) Handles btnDelDesiccation18.Click
+        Try
+            If Me.dgvDesiccation18.RowCount > 0 Then
+                Me.dgvDesiccation18.Rows.RemoveAt(Me.dgvDesiccation18.CurrentRow.Index)
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnDelDesiccation19_Click(sender As Object, e As EventArgs) Handles btnDelDesiccation19.Click
+        Try
+            If Me.dgvDesiccation19.RowCount > 0 Then
+                Me.dgvDesiccation19.Rows.RemoveAt(Me.dgvDesiccation19.CurrentRow.Index)
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnDelDesiccation20_Click(sender As Object, e As EventArgs) Handles btnDelDesiccation20.Click
+        Try
+            If Me.dgvDesiccation20.RowCount > 0 Then
+                Me.dgvDesiccation20.Rows.RemoveAt(Me.dgvDesiccation20.CurrentRow.Index)
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnDelDesiccation21_Click(sender As Object, e As EventArgs) Handles btnDelDesiccation21.Click
+        Try
+            If Me.dgvDesiccation21.RowCount > 0 Then
+                Me.dgvDesiccation21.Rows.RemoveAt(Me.dgvDesiccation21.CurrentRow.Index)
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnDelDesiccation22_Click(sender As Object, e As EventArgs) Handles btnDelDesiccation22.Click
+        Try
+            If Me.dgvDesiccation22.RowCount > 0 Then
+                Me.dgvDesiccation22.Rows.RemoveAt(Me.dgvDesiccation22.CurrentRow.Index)
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+
+    Private Sub txtDesiccation1_KeyDown(sender As Object, e As KeyEventArgs) Handles txtDesiccation1.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Me.dgvDesiccation1.Rows.Add()
+                Me.dgvDesiccation1.Rows(Me.dgvDesiccation1.RowCount - 1).Cells(0).Value = Me.txtDesiccation1.Text
+                Me.txtDesiccation1.Text = ""
+                Me.txtDesiccation1.Focus()
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub txtDesiccation2_KeyDown(sender As Object, e As KeyEventArgs) Handles txtDesiccation2.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Me.dgvDesiccation2.Rows.Add()
+                Me.dgvDesiccation2.Rows(Me.dgvDesiccation2.RowCount - 1).Cells(0).Value = Me.txtDesiccation2.Text
+                Me.txtDesiccation2.Text = ""
+                Me.txtDesiccation2.Focus()
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub txtDesiccation3_KeyDown(sender As Object, e As KeyEventArgs) Handles txtDesiccation3.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Me.dgvDesiccation3.Rows.Add()
+                Me.dgvDesiccation3.Rows(Me.dgvDesiccation3.RowCount - 1).Cells(0).Value = Me.txtDesiccation3.Text
+                Me.txtDesiccation3.Text = ""
+                Me.txtDesiccation3.Focus()
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub txtDesiccation4_KeyDown(sender As Object, e As KeyEventArgs) Handles txtDesiccation4.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Me.dgvDesiccation4.Rows.Add()
+                Me.dgvDesiccation4.Rows(Me.dgvDesiccation4.RowCount - 1).Cells(0).Value = Me.txtDesiccation4.Text
+                Me.txtDesiccation4.Text = ""
+                Me.txtDesiccation4.Focus()
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub txtDesiccation5_KeyDown(sender As Object, e As KeyEventArgs) Handles txtDesiccation5.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Me.dgvDesiccation5.Rows.Add()
+                Me.dgvDesiccation5.Rows(Me.dgvDesiccation5.RowCount - 1).Cells(0).Value = Me.txtDesiccation5.Text
+                Me.txtDesiccation5.Text = ""
+                Me.txtDesiccation5.Focus()
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub txtDesiccation6_KeyDown(sender As Object, e As KeyEventArgs) Handles txtDesiccation6.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Me.dgvDesiccation6.Rows.Add()
+                Me.dgvDesiccation6.Rows(Me.dgvDesiccation6.RowCount - 1).Cells(0).Value = Me.txtDesiccation6.Text
+                Me.txtDesiccation6.Text = ""
+                Me.txtDesiccation6.Focus()
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub txtDesiccation7_KeyDown(sender As Object, e As KeyEventArgs) Handles txtDesiccation7.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Me.dgvDesiccation7.Rows.Add()
+                Me.dgvDesiccation7.Rows(Me.dgvDesiccation7.RowCount - 1).Cells(0).Value = Me.txtDesiccation7.Text
+                Me.txtDesiccation7.Text = ""
+                Me.txtDesiccation7.Focus()
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub txtDesiccation8_KeyDown(sender As Object, e As KeyEventArgs) Handles txtDesiccation8.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Me.dgvDesiccation8.Rows.Add()
+                Me.dgvDesiccation8.Rows(Me.dgvDesiccation8.RowCount - 1).Cells(0).Value = Me.txtDesiccation8.Text
+                Me.txtDesiccation8.Text = ""
+                Me.txtDesiccation8.Focus()
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub txtDesiccation9_KeyDown(sender As Object, e As KeyEventArgs) Handles txtDesiccation9.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Me.dgvDesiccation9.Rows.Add()
+                Me.dgvDesiccation9.Rows(Me.dgvDesiccation9.RowCount - 1).Cells(0).Value = Me.txtDesiccation9.Text
+                Me.txtDesiccation9.Text = ""
+                Me.txtDesiccation9.Focus()
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub txtDesiccation10_KeyDown(sender As Object, e As KeyEventArgs) Handles txtDesiccation10.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Me.dgvDesiccation10.Rows.Add()
+                Me.dgvDesiccation10.Rows(Me.dgvDesiccation10.RowCount - 1).Cells(0).Value = Me.txtDesiccation10.Text
+                Me.txtDesiccation10.Text = ""
+                Me.txtDesiccation10.Focus()
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub txtDesiccation11_KeyDown(sender As Object, e As KeyEventArgs) Handles txtDesiccation11.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Me.dgvDesiccation11.Rows.Add()
+                Me.dgvDesiccation11.Rows(Me.dgvDesiccation11.RowCount - 1).Cells(0).Value = Me.txtDesiccation11.Text
+                Me.txtDesiccation11.Text = ""
+                Me.txtDesiccation11.Focus()
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub txtDesiccation12_KeyDown(sender As Object, e As KeyEventArgs) Handles txtDesiccation12.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Me.dgvDesiccation12.Rows.Add()
+                Me.dgvDesiccation12.Rows(Me.dgvDesiccation12.RowCount - 1).Cells(0).Value = Me.txtDesiccation12.Text
+                Me.txtDesiccation12.Text = ""
+                Me.txtDesiccation12.Focus()
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub txtDesiccation13_KeyDown(sender As Object, e As KeyEventArgs) Handles txtDesiccation13.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Me.dgvDesiccation13.Rows.Add()
+                Me.dgvDesiccation13.Rows(Me.dgvDesiccation13.RowCount - 1).Cells(0).Value = Me.txtDesiccation13.Text
+                Me.txtDesiccation13.Text = ""
+                Me.txtDesiccation13.Focus()
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub txtDesiccation14_KeyDown(sender As Object, e As KeyEventArgs) Handles txtDesiccation14.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Me.dgvDesiccation14.Rows.Add()
+                Me.dgvDesiccation14.Rows(Me.dgvDesiccation14.RowCount - 1).Cells(0).Value = Me.txtDesiccation14.Text
+                Me.txtDesiccation14.Text = ""
+                Me.txtDesiccation14.Focus()
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub txtDesiccation15_KeyDown(sender As Object, e As KeyEventArgs) Handles txtDesiccation15.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Me.dgvDesiccation15.Rows.Add()
+                Me.dgvDesiccation15.Rows(Me.dgvDesiccation15.RowCount - 1).Cells(0).Value = Me.txtDesiccation15.Text
+                Me.txtDesiccation15.Text = ""
+                Me.txtDesiccation15.Focus()
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub txtDesiccation16_KeyDown(sender As Object, e As KeyEventArgs) Handles txtDesiccation16.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Me.dgvDesiccation16.Rows.Add()
+                Me.dgvDesiccation16.Rows(Me.dgvDesiccation16.RowCount - 1).Cells(0).Value = Me.txtDesiccation16.Text
+                Me.txtDesiccation16.Text = ""
+                Me.txtDesiccation16.Focus()
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub txtDesiccation17_KeyDown(sender As Object, e As KeyEventArgs) Handles txtDesiccation17.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Me.dgvDesiccation17.Rows.Add()
+                Me.dgvDesiccation17.Rows(Me.dgvDesiccation17.RowCount - 1).Cells(0).Value = Me.txtDesiccation17.Text
+                Me.txtDesiccation17.Text = ""
+                Me.txtDesiccation17.Focus()
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub txtDesiccation18_KeyDown(sender As Object, e As KeyEventArgs) Handles txtDesiccation18.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Me.dgvDesiccation18.Rows.Add()
+                Me.dgvDesiccation18.Rows(Me.dgvDesiccation18.RowCount - 1).Cells(0).Value = Me.txtDesiccation18.Text
+                Me.txtDesiccation18.Text = ""
+                Me.txtDesiccation18.Focus()
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub txtDesiccation19_KeyDown(sender As Object, e As KeyEventArgs) Handles txtDesiccation19.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Me.dgvDesiccation19.Rows.Add()
+                Me.dgvDesiccation19.Rows(Me.dgvDesiccation19.RowCount - 1).Cells(0).Value = Me.txtDesiccation19.Text
+                Me.txtDesiccation19.Text = ""
+                Me.txtDesiccation19.Focus()
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub txtDesiccation20_KeyDown(sender As Object, e As KeyEventArgs) Handles txtDesiccation20.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Me.dgvDesiccation20.Rows.Add()
+                Me.dgvDesiccation20.Rows(Me.dgvDesiccation20.RowCount - 1).Cells(0).Value = Me.txtDesiccation20.Text
+                Me.txtDesiccation20.Text = ""
+                Me.txtDesiccation20.Focus()
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub txtDesiccation21_KeyDown(sender As Object, e As KeyEventArgs) Handles txtDesiccation21.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Me.dgvDesiccation21.Rows.Add()
+                Me.dgvDesiccation21.Rows(Me.dgvDesiccation21.RowCount - 1).Cells(0).Value = Me.txtDesiccation21.Text
+                Me.txtDesiccation21.Text = ""
+                Me.txtDesiccation21.Focus()
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub txtDesiccation22_KeyDown(sender As Object, e As KeyEventArgs) Handles txtDesiccation22.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Me.dgvDesiccation22.Rows.Add()
+                Me.dgvDesiccation22.Rows(Me.dgvDesiccation22.RowCount - 1).Cells(0).Value = Me.txtDesiccation22.Text
+                Me.txtDesiccation22.Text = ""
+                Me.txtDesiccation22.Focus()
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+#End Region
+
+#Region "アイテム使用関連イベントメソッド"
+
+#End Region
+
 #Region "メソッド"
     ''' <summary>
     ''' テキストデータを全てまとめる
