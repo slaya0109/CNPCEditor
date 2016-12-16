@@ -9,3 +9,14 @@ D:\Git\CNPCEditor\CNPCEditor\bin\Debug\CNPCEditor.xml
 D:\Git\CNPCEditor\CNPCEditor\obj\Debug\CNPCEditor.exe
 D:\Git\CNPCEditor\CNPCEditor\obj\Debug\CNPCEditor.xml
 D:\Git\CNPCEditor\CNPCEditor\obj\Debug\CNPCEditor.pdb
+C:\Users\kazumasa.sato\Documents\Git\CNPCEditor\CNPCEditor\bin\Debug\CNPCEditor.exe.config
+C:\Users\kazumasa.sato\Documents\Git\CNPCEditor\CNPCEditor\obj\Debug\CNPCEditor.exe
+C:\Users\kazumasa.sato\Documents\Git\CNPCEditor\CNPCEditor\obj\Debug\CNPCEditor.xml
+C:\Users\kazumasa.sato\Documents\Git\CNPCEditor\CNPCEditor\obj\Debug\CNPCEditor.pdb
+C:\Users\kazumasa.sato\Documents\Git\CNPCEditor\CNPCEditor\obj\Debug\CNPCEditor.MainForm.resources
+C:\Users\kazumasa.sato\Documents\Git\CNPCEditor\CNPCEditor\obj\Debug\CNPCEditor.Resources.resources
+C:\Users\kazumasa.sato\Documents\Git\CNPCEditor\CNPCEditor\obj\Debug\CNPCEditor.TextEditForm.resources
+C:\Users\kazumasa.sato\Documents\Git\CNPCEditor\CNPCEditor\obj\Debug\CNPCEditor.vbproj.GenerateResource.Cache
+C:\Users\kazumasa.sato\Documents\Git\CNPCEditor\CNPCEditor\bin\Debug\CNPCEditor.exe
+C:\Users\kazumasa.sato\Documents\Git\CNPCEditor\CNPCEditor\bin\Debug\CNPCEditor.pdb
+C:\Users\kazumasa.sato\Documents\Git\CNPCEditor\CNPCEditor\bin\Debug\CNPCEditor.xml

@@ -58,6 +58,21 @@ Public Class MainForm
     End Sub
 
     ''' <summary>
+    ''' テキスト編集ボタンクリックイベント
+    ''' </summary>
+    ''' <param name="sender"></param>
+    ''' <param name="e"></param>
+    ''' <remarks></remarks>
+    Private Sub btnTextEdit_Click(sender As Object, e As EventArgs) Handles btnTextEdit.Click
+        Dim f As New TextEditForm(SendTextData)
+
+        f.ShowDialog()
+
+        f.Close()
+    End Sub
+
+
+    ''' <summary>
     ''' 素手格闘属性強度入力制御
     ''' </summary>
     ''' <param name="sender"></param>
@@ -2239,13 +2254,5 @@ Public Class MainForm
 #End Region
 
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Dim f As New TextEditForm(SendTextData)
 
-        f.ShowDialog()
-
-        f.Close()
-    End Sub
-
-   
 End Class

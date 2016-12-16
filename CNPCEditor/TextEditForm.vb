@@ -16,7 +16,7 @@ Public Class TextEditForm
     End Sub
 
     Private Sub TextEditForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        Me.SetCmbSkill8()
     End Sub
 
     Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btnClose.Click
@@ -676,7 +676,382 @@ Public Class TextEditForm
 #End Region
 
 #Region "スキル使用時イベントメソッド"
+    Private Sub btnAddSkill1_Click(sender As Object, e As EventArgs) Handles btnAddSkill1.Click
+        Try
+            Me.dgvSkill1.Rows.Add()
+            Me.dgvSkill1.Rows(Me.dgvSkill1.RowCount - 1).Cells(0).Value = Me.txtSkill1.Text
+            Me.txtSkill1.Text = ""
+            Me.txtSkill1.Focus()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnAddskill2_Click(sender As Object, e As EventArgs) Handles btnAddSkill2.Click
+        Try
+            Me.dgvSkill2.Rows.Add()
+            Me.dgvSkill2.Rows(Me.dgvSkill2.RowCount - 1).Cells(0).Value = Me.txtSkill2.Text
+            Me.txtSkill2.Text = ""
+            Me.txtSkill2.Focus()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnAddskill3_Click(sender As Object, e As EventArgs) Handles btnAddSkill3.Click
+        Try
+            Me.dgvSkill3.Rows.Add()
+            Me.dgvSkill3.Rows(Me.dgvSkill3.RowCount - 1).Cells(0).Value = Me.txtSkill3.Text
+            Me.txtSkill3.Text = ""
+            Me.txtSkill3.Focus()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnAddskill4_Click(sender As Object, e As EventArgs) Handles btnAddSkill4.Click
+        Try
+            Me.dgvSkill4.Rows.Add()
+            Me.dgvSkill4.Rows(Me.dgvSkill4.RowCount - 1).Cells(0).Value = Me.txtSkill4.Text
+            Me.txtSkill4.Text = ""
+            Me.txtSkill4.Focus()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnAddskill5_Click(sender As Object, e As EventArgs) Handles btnAddSkill5.Click
+        Try
+            Me.dgvSkill5.Rows.Add()
+            Me.dgvSkill5.Rows(Me.dgvSkill5.RowCount - 1).Cells(0).Value = Me.txtSkill5.Text
+            Me.txtSkill5.Text = ""
+            Me.txtSkill5.Focus()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnAddskill6_Click(sender As Object, e As EventArgs) Handles btnAddSkill6.Click
+        Try
+            Me.dgvSkill6.Rows.Add()
+            Me.dgvSkill6.Rows(Me.dgvSkill6.RowCount - 1).Cells(0).Value = Me.txtSkill6.Text
+            Me.txtSkill6.Text = ""
+            Me.txtSkill6.Focus()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnAddskill7_Click(sender As Object, e As EventArgs) Handles btnAddSkill7.Click
+        Try
+            Me.dgvSkill7.Rows.Add()
+            Me.dgvSkill7.Rows(Me.dgvSkill7.RowCount - 1).Cells(0).Value = Me.txtSkill7.Text
+            Me.txtSkill7.Text = ""
+            Me.txtSkill7.Focus()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnAddskill8_Click(sender As Object, e As EventArgs) Handles btnAddSkill8.Click
+        Try
+            Me.dgvSkill8.Rows.Add()
+            Me.dgvSkill8.Rows(Me.dgvSkill8.RowCount - 1).Cells(0).Value = Me.cmbSkill8.SelectedValue
+            Me.dgvSkill8.Rows(Me.dgvSkill8.RowCount - 1).Cells(1).Value = Me.cmbSkill8.Text
+            Me.dgvSkill8.Rows(Me.dgvSkill8.RowCount - 1).Cells(2).Value = Me.txtSkill8.Text
+            Me.txtSkill8.Text = ""
+            Me.txtSkill8.Focus()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnAddskill9_Click(sender As Object, e As EventArgs) Handles btnAddSkill9.Click
+        Try
+            Me.dgvSkill9.Rows.Add()
+            Me.dgvSkill9.Rows(Me.dgvSkill9.RowCount - 1).Cells(0).Value = Me.txtSkill9.Text
+            Me.txtSkill9.Text = ""
+            Me.txtSkill9.Focus()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnAddskill10_Click(sender As Object, e As EventArgs) Handles btnAddSkill10.Click
+        Try
+            Me.dgvSkill10.Rows.Add()
+            Me.dgvSkill10.Rows(Me.dgvSkill10.RowCount - 1).Cells(0).Value = Me.txtSkill10.Text
+            Me.txtSkill10.Text = ""
+            Me.txtSkill10.Focus()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnAddskill11_Click(sender As Object, e As EventArgs) Handles btnAddSkill11.Click
+        Try
+            Me.dgvSkill11.Rows.Add()
+            Me.dgvSkill11.Rows(Me.dgvSkill11.RowCount - 1).Cells(0).Value = Me.txtSkill11.Text
+            Me.txtSkill11.Text = ""
+            Me.txtSkill11.Focus()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnAddskill12_Click(sender As Object, e As EventArgs) Handles btnAddSkill12.Click
+        Try
+            Me.dgvSkill12.Rows.Add()
+            Me.dgvSkill12.Rows(Me.dgvSkill12.RowCount - 1).Cells(0).Value = Me.txtSkill12.Text
+            Me.txtSkill12.Text = ""
+            Me.txtSkill12.Focus()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
 
+    Private Sub btnDelSkill1_Click(sender As Object, e As EventArgs) Handles btnDelSkill1.Click
+        Try
+            If Me.dgvSkill1.RowCount > 0 Then
+                Me.dgvSkill1.Rows.RemoveAt(Me.dgvSkill1.CurrentRow.Index)
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnDelskill2_Click(sender As Object, e As EventArgs) Handles btnDelSkill2.Click
+        Try
+            If Me.dgvSkill2.RowCount > 0 Then
+                Me.dgvSkill2.Rows.RemoveAt(Me.dgvSkill2.CurrentRow.Index)
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnDelskill3_Click(sender As Object, e As EventArgs) Handles btnDelSkill3.Click
+        Try
+            If Me.dgvSkill3.RowCount > 0 Then
+                Me.dgvSkill3.Rows.RemoveAt(Me.dgvSkill3.CurrentRow.Index)
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnDelskill4_Click(sender As Object, e As EventArgs) Handles btnDelSkill4.Click
+        Try
+            If Me.dgvSkill4.RowCount > 0 Then
+                Me.dgvSkill4.Rows.RemoveAt(Me.dgvSkill4.CurrentRow.Index)
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnDelskill5_Click(sender As Object, e As EventArgs) Handles btnDelSkill5.Click
+        Try
+            If Me.dgvSkill5.RowCount > 0 Then
+                Me.dgvSkill5.Rows.RemoveAt(Me.dgvSkill5.CurrentRow.Index)
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnDelskill6_Click(sender As Object, e As EventArgs) Handles btnDelSkill6.Click
+        Try
+            If Me.dgvSkill6.RowCount > 0 Then
+                Me.dgvSkill6.Rows.RemoveAt(Me.dgvSkill6.CurrentRow.Index)
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnDelskill7_Click(sender As Object, e As EventArgs) Handles btnDelSkill7.Click
+        Try
+            If Me.dgvSkill7.RowCount > 0 Then
+                Me.dgvSkill7.Rows.RemoveAt(Me.dgvSkill7.CurrentRow.Index)
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnDelskill8_Click(sender As Object, e As EventArgs) Handles btnDelSkill8.Click
+        Try
+            If Me.dgvSkill8.RowCount > 0 Then
+                Me.dgvSkill8.Rows.RemoveAt(Me.dgvSkill8.CurrentRow.Index)
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnDelskill9_Click(sender As Object, e As EventArgs) Handles btnDelSkill9.Click
+        Try
+            If Me.dgvSkill9.RowCount > 0 Then
+                Me.dgvSkill9.Rows.RemoveAt(Me.dgvSkill9.CurrentRow.Index)
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnDelskill10_Click(sender As Object, e As EventArgs) Handles btnDelSkill10.Click
+        Try
+            If Me.dgvSkill10.RowCount > 0 Then
+                Me.dgvSkill10.Rows.RemoveAt(Me.dgvSkill10.CurrentRow.Index)
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnDelskill11_Click(sender As Object, e As EventArgs) Handles btnDelSkill11.Click
+        Try
+            If Me.dgvSkill11.RowCount > 0 Then
+                Me.dgvSkill11.Rows.RemoveAt(Me.dgvSkill11.CurrentRow.Index)
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub btnDelskill12_Click(sender As Object, e As EventArgs) Handles btnDelSkill12.Click
+        Try
+            If Me.dgvSkill12.RowCount > 0 Then
+                Me.dgvSkill12.Rows.RemoveAt(Me.dgvSkill12.CurrentRow.Index)
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+
+    Private Sub txtSkill1_KeyDown(sender As Object, e As KeyEventArgs) Handles txtSkill1.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Me.dgvSkill1.Rows.Add()
+                Me.dgvSkill1.Rows(Me.dgvSkill1.RowCount - 1).Cells(0).Value = Me.txtSkill1.Text
+                Me.txtSkill1.Text = ""
+                Me.txtSkill1.Focus()
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub txtskill2_KeyDown(sender As Object, e As KeyEventArgs) Handles txtSkill2.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Me.dgvSkill2.Rows.Add()
+                Me.dgvSkill2.Rows(Me.dgvSkill2.RowCount - 1).Cells(0).Value = Me.txtSkill2.Text
+                Me.txtSkill2.Text = ""
+                Me.txtSkill2.Focus()
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub txtskill3_KeyDown(sender As Object, e As KeyEventArgs) Handles txtSkill3.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Me.dgvSkill3.Rows.Add()
+                Me.dgvSkill3.Rows(Me.dgvSkill3.RowCount - 1).Cells(0).Value = Me.txtSkill3.Text
+                Me.txtSkill3.Text = ""
+                Me.txtSkill3.Focus()
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub txtskill4_KeyDown(sender As Object, e As KeyEventArgs) Handles txtSkill4.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Me.dgvSkill4.Rows.Add()
+                Me.dgvSkill4.Rows(Me.dgvSkill4.RowCount - 1).Cells(0).Value = Me.txtSkill4.Text
+                Me.txtSkill4.Text = ""
+                Me.txtSkill4.Focus()
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub txtskill5_KeyDown(sender As Object, e As KeyEventArgs) Handles txtSkill5.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Me.dgvSkill5.Rows.Add()
+                Me.dgvSkill5.Rows(Me.dgvSkill5.RowCount - 1).Cells(0).Value = Me.txtSkill5.Text
+                Me.txtSkill5.Text = ""
+                Me.txtSkill5.Focus()
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub txtskill6_KeyDown(sender As Object, e As KeyEventArgs) Handles txtSkill6.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Me.dgvSkill6.Rows.Add()
+                Me.dgvSkill6.Rows(Me.dgvSkill6.RowCount - 1).Cells(0).Value = Me.txtSkill6.Text
+                Me.txtSkill6.Text = ""
+                Me.txtSkill6.Focus()
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub txtskill7_KeyDown(sender As Object, e As KeyEventArgs) Handles txtSkill7.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Me.dgvSkill7.Rows.Add()
+                Me.dgvSkill7.Rows(Me.dgvSkill7.RowCount - 1).Cells(0).Value = Me.txtSkill7.Text
+                Me.txtSkill7.Text = ""
+                Me.txtSkill7.Focus()
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub txtskill8_KeyDown(sender As Object, e As KeyEventArgs) Handles txtSkill8.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Me.dgvSkill8.Rows.Add()
+                Me.dgvSkill8.Rows(Me.dgvSkill8.RowCount - 1).Cells(0).Value = Me.txtSkill8.Text
+                Me.txtSkill8.Text = ""
+                Me.txtSkill8.Focus()
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub txtskill9_KeyDown(sender As Object, e As KeyEventArgs) Handles txtSkill9.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Me.dgvSkill9.Rows.Add()
+                Me.dgvSkill9.Rows(Me.dgvSkill9.RowCount - 1).Cells(0).Value = Me.txtSkill9.Text
+                Me.txtSkill9.Text = ""
+                Me.txtSkill9.Focus()
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub txtskill10_KeyDown(sender As Object, e As KeyEventArgs) Handles txtSkill10.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Me.dgvSkill10.Rows.Add()
+                Me.dgvSkill10.Rows(Me.dgvSkill10.RowCount - 1).Cells(0).Value = Me.txtSkill10.Text
+                Me.txtSkill10.Text = ""
+                Me.txtSkill10.Focus()
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub txtskill11_KeyDown(sender As Object, e As KeyEventArgs) Handles txtSkill11.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Me.dgvSkill11.Rows.Add()
+                Me.dgvSkill11.Rows(Me.dgvSkill11.RowCount - 1).Cells(0).Value = Me.txtSkill11.Text
+                Me.txtSkill11.Text = ""
+                Me.txtSkill11.Focus()
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+    Private Sub txtskill12_KeyDown(sender As Object, e As KeyEventArgs) Handles txtSkill12.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Me.dgvSkill12.Rows.Add()
+                Me.dgvSkill12.Rows(Me.dgvSkill12.RowCount - 1).Cells(0).Value = Me.txtSkill12.Text
+                Me.txtSkill12.Text = ""
+                Me.txtSkill12.Focus()
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
 #End Region
 
 #Region "メソッド"
@@ -689,11 +1064,13 @@ Public Class TextEditForm
 
         TextData.Text_Calm = CreateTextCalmData()
 
+        TextData.Text_UseSkill = CreateTextSkillData()
+
         Return TextData
     End Function
 
     ''' <summary>
-    ''' 待機・戦闘状態関連のテキストデータをまとめる
+    ''' 待機・戦闘状態関連のテキストデータをクラスにまとめる
     ''' </summary>
     ''' <returns></returns>
     ''' <remarks></remarks>
@@ -824,7 +1201,381 @@ Public Class TextEditForm
 
         Return TextCalm
     End Function
+
+    ''' <summary>
+    ''' スキル使用関連のテキストデータをクラスにまとめる
+    ''' </summary>
+    ''' <returns></returns>
+    ''' <remarks></remarks>
+    Private Function CreateTextSkillData() As Text_UseSkill
+        Dim TextSkill As New Text_UseSkill
+
+        If Me.dgvSkill1.RowCount > 0 Then
+            For i As Integer = 0 To dgvSkill1.RowCount - 1
+                TextSkill.txtsing.Add(Me.dgvSkill1.Rows(i).Cells(0).Value.ToString()) '.Replace(""""c, """"""))
+            Next
+        End If
+
+        If Me.dgvSkill2.RowCount > 0 Then
+            For i As Integer = 0 To dgvSkill2.RowCount - 1
+                TextSkill.txtlayhand.Add(Me.dgvSkill2.Rows(i).Cells(0).Value.ToString()) '.Replace(""""c, """"""))
+            Next
+        End If
+
+        If Me.dgvSkill3.RowCount > 0 Then
+            For i As Integer = 0 To dgvSkill3.RowCount - 1
+                TextSkill.txtabuse.Add(Me.dgvSkill3.Rows(i).Cells(0).Value.ToString()) '.Replace(""""c, """"""))
+            Next
+        End If
+
+        If Me.dgvSkill4.RowCount > 0 Then
+            For i As Integer = 0 To dgvSkill4.RowCount - 1
+                TextSkill.txtbatou.Add(Me.dgvSkill4.Rows(i).Cells(0).Value.ToString()) '.Replace(""""c, """"""))
+            Next
+        End If
+
+        If Me.dgvSkill5.RowCount > 0 Then
+            For i As Integer = 0 To dgvSkill5.RowCount - 1
+                TextSkill.txtswarm.Add(Me.dgvSkill5.Rows(i).Cells(0).Value.ToString()) '.Replace(""""c, """"""))
+            Next
+        End If
+
+        If Me.dgvSkill6.RowCount > 0 Then
+            For i As Integer = 0 To dgvSkill6.RowCount - 1
+                TextSkill.txtkisei.Add(Me.dgvSkill6.Rows(i).Cells(0).Value.ToString()) '.Replace(""""c, """"""))
+            Next
+        End If
+
+        If Me.dgvSkill7.RowCount > 0 Then
+            For i As Integer = 0 To dgvSkill7.RowCount - 1
+                TextSkill.txtuzimushi.Add(Me.dgvSkill7.Rows(i).Cells(0).Value.ToString()) '.Replace(""""c, """"""))
+            Next
+        End If
+
+        If Me.dgvSkill8.RowCount > 0 Then
+            For i As Integer = 0 To dgvSkill8.RowCount - 1
+                TextSkill.txtcastmagicName.Add(Me.dgvSkill8.Rows(i).Cells(0).Value.ToString()) '.Replace(""""c, """"""))
+                TextSkill.txtcastmagic.Add(Me.dgvSkill8.Rows(i).Cells(2).Value.ToString()) '.Replace(""""c, """"""))
+            Next
+        End If
+
+        If Me.dgvSkill9.RowCount > 0 Then
+            For i As Integer = 0 To dgvSkill9.RowCount - 1
+                TextSkill.txtcaststyle.Add(Me.dgvSkill9.Rows(i).Cells(0).Value.ToString()) '.Replace(""""c, """"""))
+            Next
+        End If
+
+        If Me.dgvSkill10.RowCount > 0 Then
+            For i As Integer = 0 To dgvSkill10.RowCount - 1
+                TextSkill.txtcaststyle2.Add(Me.dgvSkill10.Rows(i).Cells(0).Value.ToString()) '.Replace(""""c, """"""))
+            Next
+        End If
+
+        If Me.dgvSkill11.RowCount > 0 Then
+            For i As Integer = 0 To dgvSkill11.RowCount - 1
+                TextSkill.txtactbefore647.Add(Me.dgvSkill11.Rows(i).Cells(0).Value.ToString()) '.Replace(""""c, """"""))
+            Next
+        End If
+
+        If Me.dgvSkill12.RowCount > 0 Then
+            For i As Integer = 0 To dgvSkill12.RowCount - 1
+                TextSkill.txtactafter647.Add(Me.dgvSkill12.Rows(i).Cells(0).Value.ToString()) '.Replace(""""c, """"""))
+            Next
+        End If
+
+
+        Return TextSkill
+    End Function
+
+    ''' <summary>
+    ''' 魔法一覧コンボボックスの内容をセットする
+    ''' </summary>
+    ''' <remarks></remarks>
+    Private Sub SetCmbSkill8()
+        'データテーブル生成
+        Dim data As New DataTable()
+        data.Columns.Add("ID", GetType(String))
+        data.Columns.Add("NAME", GetType(String))
+
+        '行データ生成
+        Dim dataRow As DataRow
+
+        '魔法----------------------------------------------------------------------
+        dataRow = data.NewRow()
+        dataRow("ID") = "400"
+        dataRow("NAME") = "軽傷治癒"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "401"
+        dataRow("NAME") = "致命傷治癒"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "402"
+        dataRow("NAME") = "エリスの癒し"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "403"
+        dataRow("NAME") = "ジュアの癒し"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "404"
+        dataRow("NAME") = "治癒の雨"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "405"
+        dataRow("NAME") = "癒しの手"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "406"
+        dataRow("NAME") = "清浄なる光"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "407"
+        dataRow("NAME") = "全浄化"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "408"
+        dataRow("NAME") = "テレポート"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "409"
+        dataRow("NAME") = "テレポートアザー"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "410"
+        dataRow("NAME") = "ショートテレポート"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "411"
+        dataRow("NAME") = "鑑定"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "412"
+        dataRow("NAME") = "解呪"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "413"
+        dataRow("NAME") = "神託"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "414"
+        dataRow("NAME") = "魔法の矢"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "415"
+        dataRow("NAME") = "地獄の吐息"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "416"
+        dataRow("NAME") = "麻痺の矢"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "417"
+        dataRow("NAME") = "混沌の瞳"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "418"
+        dataRow("NAME") = "暗黒の矢"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "419"
+        dataRow("NAME") = "アイスボルト"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "420"
+        dataRow("NAME") = "ファイアボルト"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "421"
+        dataRow("NAME") = "ライトニングボルト"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "422"
+        dataRow("NAME") = "暗黒の光線"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "423"
+        dataRow("NAME") = "幻影の光線"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "424"
+        dataRow("NAME") = "モンスター召喚"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "425"
+        dataRow("NAME") = "野生召喚"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "426"
+        dataRow("NAME") = "炎召喚"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "427"
+        dataRow("NAME") = "駒召喚"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "428"
+        dataRow("NAME") = "帰還"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "429"
+        dataRow("NAME") = "魔法の地図"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "430"
+        dataRow("NAME") = "物質感知"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "431"
+        dataRow("NAME") = "アイスボール"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "432"
+        dataRow("NAME") = "ファイアボール"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "433"
+        dataRow("NAME") = "混沌の渦"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "434"
+        dataRow("NAME") = "轟音の波動"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "435"
+        dataRow("NAME") = "支配"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "436"
+        dataRow("NAME") = "蜘蛛の巣"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "437"
+        dataRow("NAME") = "闇の霧"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "438"
+        dataRow("NAME") = "壁生成"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "439"
+        dataRow("NAME") = "肉体復活"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "440"
+        dataRow("NAME") = "精神復活"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "441"
+        dataRow("NAME") = "願い"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "442"
+        dataRow("NAME") = "聖なる盾"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "443"
+        dataRow("NAME") = "沈黙の霧"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "444"
+        dataRow("NAME") = "リジェネレーション"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "445"
+        dataRow("NAME") = "元素保護"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "446"
+        dataRow("NAME") = "加速"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "447"
+        dataRow("NAME") = "鈍足"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "448"
+        dataRow("NAME") = "英雄"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "449"
+        dataRow("NAME") = "脆弱の霧"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "450"
+        dataRow("NAME") = "元素の傷跡"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "451"
+        dataRow("NAME") = "ホーリーヴェイル"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "452"
+        dataRow("NAME") = "ナイトメア"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "453"
+        dataRow("NAME") = "知者の加護"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "454"
+        dataRow("NAME") = "自己の変容"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "455"
+        dataRow("NAME") = "酸の海"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "456"
+        dataRow("NAME") = "炎の壁"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "457"
+        dataRow("NAME") = "ドア生成"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "458"
+        dataRow("NAME") = "インコグニート"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "459"
+        dataRow("NAME") = "魔力の集積"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "460"
+        dataRow("NAME") = "魔力の嵐"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "461"
+        dataRow("NAME") = "復活"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "462"
+        dataRow("NAME") = "契約"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "463"
+        dataRow("NAME") = "四次元ポケット"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "464"
+        dataRow("NAME") = "魔術師の収穫"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "465"
+        dataRow("NAME") = "メテオ"
+        data.Rows.Add(dataRow)
+        dataRow = data.NewRow()
+        dataRow("ID") = "466"
+        dataRow("NAME") = "グラビティ"
+        data.Rows.Add(dataRow)
+
+        Me.cmbSkill8.DataSource = data
+        Me.cmbSkill8.DisplayMember = "NAME"
+        Me.cmbSkill8.ValueMember = "ID"
+
+    End Sub
 #End Region
 
-  
+
 End Class

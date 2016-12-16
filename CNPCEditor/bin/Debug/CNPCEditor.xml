@@ -6,19 +6,19 @@ CNPCEditor
 </name>
 </assembly>
 <members>
-<member name="P:CNPCEditor.TextClass.Text_Calm">
-	<summary>待機・戦闘状態のテキストまとめデータ</summary>
-</member><member name="P:CNPCEditor.TextClass.Text_Desiccation">
-	<summary>干渉(i)・冒険者関連のテキストまとめデータ</summary>
-</member><member name="P:CNPCEditor.TextClass.Text_UseSkill">
-	<summary>アイテム使用関連のテキストまとめデータ</summary>
-</member><member name="P:CNPCEditor.TextClass.Text_UseItem">
-	<summary>スキル使用関連のテキストまとめデータ</summary>
-</member><member name="T:CNPCEditor.TextClass">
+<member name="P:CNPCEditor.My.Resources.Resources.ResourceManager">
 	<summary>
- 各種TextClassをまとめるクラス
- </summary>
-	<remarks></remarks>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:CNPCEditor.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:CNPCEditor.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
 </member><member name="P:CNPCEditor.Text_UseItem.txtbiyaku">
 	<summary>媚薬入りの食べ物を食べた時</summary>
 </member><member name="P:CNPCEditor.Text_UseItem.txttiti">
@@ -88,55 +88,6 @@ CNPCEditor
  アイテムを使用する/された時のテキスト保持クラス
  </summary>
 	<remarks></remarks>
-</member><member name="P:CNPCEditor.Text_Desiccation.txtDialog">
-	<summary>話しかけた時</summary>
-</member><member name="P:CNPCEditor.Text_Desiccation.txtmarriage">
-	<summary>婚約を申し込まれた時</summary>
-</member><member name="P:CNPCEditor.Text_Desiccation.txtyanwari">
-	<summary>婚約を断る時</summary>
-</member><member name="P:CNPCEditor.Text_Desiccation.txtanata">
-	<summary>遺伝子を残す時</summary>
-</member><member name="P:CNPCEditor.Text_Desiccation.txtiyayo">
-	<summary>遺伝子を残すのを断る時</summary>
-</member><member name="P:CNPCEditor.Text_Desiccation.txtkodukuri">
-	<summary>子供を作る時</summary>
-</member><member name="P:CNPCEditor.Text_Desiccation.txtnakanaka">
-	<summary>気持ちいい事を受ける時。デフォルトだと「なかなかの身体つきだ、買った」</summary>
-</member><member name="P:CNPCEditor.Text_Desiccation.txtikuyo">
-	<summary>気持ちいい事を受ける時。デフォルトだと「いくよ！」</summary>
-</member><member name="P:CNPCEditor.Text_Desiccation.txtiyameru">
-	<summary>気持ちいい事をするで「やめる」を選んだ時。デフォルトだと「冷やかしか？」</summary>
-</member><member name="P:CNPCEditor.Text_Desiccation.txtkuyasii">
-	<summary>気持ちいい事をしている最中の時</summary>
-</member><member name="P:CNPCEditor.Text_Desiccation.txtjigo">
-	<summary>気持ちいい事の事後</summary>
-</member><member name="P:CNPCEditor.Text_Desiccation.txtkaradake">
-	<summary>気持ちいい事が中断された時</summary>
-</member><member name="P:CNPCEditor.Text_Desiccation.txtpbou">
-	<summary>冒険者にした後話しかけた時</summary>
-</member><member name="P:CNPCEditor.Text_Desiccation.txtexthank">
-	<summary>冒険者にした後アイテム交換をした時</summary>
-</member><member name="P:CNPCEditor.Text_Desiccation.txtexhiya">
-	<summary>冒険者にした後アイテム交換を持ちかけて、見合うアイテムを持っていないor交換をやめた時</summary>
-</member><member name="P:CNPCEditor.Text_Desiccation.txtgoei">
-	<summary>冒険者にした後護衛の依頼を持ちかけた時</summary>
-</member><member name="P:CNPCEditor.Text_Desiccation.txtyatou">
-	<summary>冒険者にした後護衛を依頼した時</summary>
-</member><member name="P:CNPCEditor.Text_Desiccation.txthihiya">
-	<summary>冒険者にした後護衛の依頼を持ちかけてやめた時</summary>
-</member><member name="P:CNPCEditor.Text_Desiccation.txtumaku">
-	<summary>冒険者にした後仲間に誘って承諾された時</summary>
-</member><member name="P:CNPCEditor.Text_Desiccation.txttikara">
-	<summary>冒険者にした後仲間に誘ってお断りされた時(力の差)</summary>
-</member><member name="P:CNPCEditor.Text_Desiccation.txt0free">
-	<summary>冒険者にした後仲間に誘ってお断りされた時(ペット枠0)</summary>
-</member><member name="P:CNPCEditor.Text_Desiccation.txtokoto">
-	<summary>冒険者にした後仲間に誘ってお断りされた時(友好度不足or雇用回数不足)</summary>
-</member><member name="T:CNPCEditor.Text_Desiccation">
-	<summary>
- 干渉(i)や冒険者関連のテキスト保持クラス
- </summary>
-	<remarks></remarks>
 </member><member name="P:CNPCEditor.Text_UseSkill.txtsing">
 	<summary>PCの演奏に合わせて歌っている時</summary>
 </member><member name="P:CNPCEditor.Text_UseSkill.txtlayhand">
@@ -153,6 +104,8 @@ CNPCEditor
 	<summary>狂気の眼差し「蛆虫が湧き出るのを見た」の部分</summary>
 </member><member name="P:CNPCEditor.Text_UseSkill.txtcastmagic">
 	<summary>特定の魔法を使用した時</summary>
+</member><member name="P:CNPCEditor.Text_UseSkill.txtcastmagicName">
+	<summary>特定の魔法のID</summary>
 </member><member name="P:CNPCEditor.Text_UseSkill.txtcaststyle">
 	<summary>魔法を使用した時「魔法を詠唱した」の部分</summary>
 </member><member name="P:CNPCEditor.Text_UseSkill.txtcaststyle2">
@@ -220,13 +173,37 @@ CNPCEditor
 	<remarks></remarks>
 </member><member name="M:CNPCEditor.TextEditForm.CreateTextCalmData">
 	<summary>
- 待機・戦闘状態関連のテキストデータをまとめる
+ 待機・戦闘状態関連のテキストデータをクラスにまとめる
  </summary>
 	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CNPCEditor.TextEditForm.CreateTextSkillData">
+	<summary>
+ スキル使用関連のテキストデータをクラスにまとめる
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CNPCEditor.TextEditForm.SetCmbSkill8">
+	<summary>
+ 魔法一覧コンボボックスの内容をセットする
+ </summary>
 	<remarks></remarks>
 </member><member name="T:CNPCEditor.TextEditForm">
 	<summary>
  テキスト編集画面フォームクラス
+ </summary>
+	<remarks></remarks>
+</member><member name="P:CNPCEditor.TextClass.Text_Calm">
+	<summary>待機・戦闘状態のテキストまとめデータ</summary>
+</member><member name="P:CNPCEditor.TextClass.Text_Desiccation">
+	<summary>干渉(i)・冒険者関連のテキストまとめデータ</summary>
+</member><member name="P:CNPCEditor.TextClass.Text_UseSkill">
+	<summary>アイテム使用関連のテキストまとめデータ</summary>
+</member><member name="P:CNPCEditor.TextClass.Text_UseItem">
+	<summary>スキル使用関連のテキストまとめデータ</summary>
+</member><member name="T:CNPCEditor.TextClass">
+	<summary>
+ 各種TextClassをまとめるクラス
  </summary>
 	<remarks></remarks>
 </member><member name="M:CNPCEditor.MainForm.Form1_Load(System.Object,System.EventArgs)">
@@ -239,6 +216,13 @@ CNPCEditor
 </member><member name="M:CNPCEditor.MainForm.btnClose_Click(System.Object,System.EventArgs)">
 	<summary>
  終了ボタンイベント
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:CNPCEditor.MainForm.btnTextEdit_Click(System.Object,System.EventArgs)">
+	<summary>
+ テキスト編集ボタンクリックイベント
  </summary>
 	<param name="sender"></param>
 	<param name="e"></param>
@@ -406,19 +390,55 @@ CNPCEditor
  </summary>
 	<returns></returns>
 	<remarks></remarks>
-</member><member name="P:CNPCEditor.My.Resources.Resources.ResourceManager">
+</member><member name="P:CNPCEditor.Text_Desiccation.txtDialog">
+	<summary>話しかけた時</summary>
+</member><member name="P:CNPCEditor.Text_Desiccation.txtmarriage">
+	<summary>婚約を申し込まれた時</summary>
+</member><member name="P:CNPCEditor.Text_Desiccation.txtyanwari">
+	<summary>婚約を断る時</summary>
+</member><member name="P:CNPCEditor.Text_Desiccation.txtanata">
+	<summary>遺伝子を残す時</summary>
+</member><member name="P:CNPCEditor.Text_Desiccation.txtiyayo">
+	<summary>遺伝子を残すのを断る時</summary>
+</member><member name="P:CNPCEditor.Text_Desiccation.txtkodukuri">
+	<summary>子供を作る時</summary>
+</member><member name="P:CNPCEditor.Text_Desiccation.txtnakanaka">
+	<summary>気持ちいい事を受ける時。デフォルトだと「なかなかの身体つきだ、買った」</summary>
+</member><member name="P:CNPCEditor.Text_Desiccation.txtikuyo">
+	<summary>気持ちいい事を受ける時。デフォルトだと「いくよ！」</summary>
+</member><member name="P:CNPCEditor.Text_Desiccation.txtiyameru">
+	<summary>気持ちいい事をするで「やめる」を選んだ時。デフォルトだと「冷やかしか？」</summary>
+</member><member name="P:CNPCEditor.Text_Desiccation.txtkuyasii">
+	<summary>気持ちいい事をしている最中の時</summary>
+</member><member name="P:CNPCEditor.Text_Desiccation.txtjigo">
+	<summary>気持ちいい事の事後</summary>
+</member><member name="P:CNPCEditor.Text_Desiccation.txtkaradake">
+	<summary>気持ちいい事が中断された時</summary>
+</member><member name="P:CNPCEditor.Text_Desiccation.txtpbou">
+	<summary>冒険者にした後話しかけた時</summary>
+</member><member name="P:CNPCEditor.Text_Desiccation.txtexthank">
+	<summary>冒険者にした後アイテム交換をした時</summary>
+</member><member name="P:CNPCEditor.Text_Desiccation.txtexhiya">
+	<summary>冒険者にした後アイテム交換を持ちかけて、見合うアイテムを持っていないor交換をやめた時</summary>
+</member><member name="P:CNPCEditor.Text_Desiccation.txtgoei">
+	<summary>冒険者にした後護衛の依頼を持ちかけた時</summary>
+</member><member name="P:CNPCEditor.Text_Desiccation.txtyatou">
+	<summary>冒険者にした後護衛を依頼した時</summary>
+</member><member name="P:CNPCEditor.Text_Desiccation.txthihiya">
+	<summary>冒険者にした後護衛の依頼を持ちかけてやめた時</summary>
+</member><member name="P:CNPCEditor.Text_Desiccation.txtumaku">
+	<summary>冒険者にした後仲間に誘って承諾された時</summary>
+</member><member name="P:CNPCEditor.Text_Desiccation.txttikara">
+	<summary>冒険者にした後仲間に誘ってお断りされた時(力の差)</summary>
+</member><member name="P:CNPCEditor.Text_Desiccation.txt0free">
+	<summary>冒険者にした後仲間に誘ってお断りされた時(ペット枠0)</summary>
+</member><member name="P:CNPCEditor.Text_Desiccation.txtokoto">
+	<summary>冒険者にした後仲間に誘ってお断りされた時(友好度不足or雇用回数不足)</summary>
+</member><member name="T:CNPCEditor.Text_Desiccation">
 	<summary>
-  Returns the cached ResourceManager instance used by this class.
-</summary>
-</member><member name="P:CNPCEditor.My.Resources.Resources.Culture">
-	<summary>
-  Overrides the current thread's CurrentUICulture property for all
-  resource lookups using this strongly typed resource class.
-</summary>
-</member><member name="T:CNPCEditor.My.Resources.Resources">
-	<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
-</summary>
+ 干渉(i)や冒険者関連のテキスト保持クラス
+ </summary>
+	<remarks></remarks>
 </member>
 </members>
 </doc>

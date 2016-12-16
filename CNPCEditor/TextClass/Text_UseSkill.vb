@@ -19,6 +19,8 @@ Public Class Text_UseSkill
     Public Property txtuzimushi As List(Of String)
     ''' <summary>特定の魔法を使用した時</summary>
     Public Property txtcastmagic As List(Of String)
+    ''' <summary>特定の魔法のID</summary>
+    Public Property txtcastmagicName As List(Of String)
     ''' <summary>魔法を使用した時「魔法を詠唱した」の部分</summary>
     Public Property txtcaststyle As List(Of String)
     ''' <summary>自己回復、自己強化系の魔法を使用</summary>

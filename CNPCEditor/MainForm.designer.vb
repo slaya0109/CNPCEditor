@@ -24,7 +24,10 @@ Partial Class MainForm
     Private Sub InitializeComponent()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.lblSpawnTypeComment = New System.Windows.Forms.Label()
+        Me.lblRarePercent = New System.Windows.Forms.Label()
+        Me.btnClose = New System.Windows.Forms.Button()
+        Me.btnTextEdit = New System.Windows.Forms.Button()
         Me.btnExcute = New System.Windows.Forms.Button()
         Me.cmbSpawnType = New System.Windows.Forms.ComboBox()
         Me.lblSpawnType = New System.Windows.Forms.Label()
@@ -66,6 +69,9 @@ Partial Class MainForm
         Me.txtAuthor = New System.Windows.Forms.TextBox()
         Me.lblAuthor = New System.Windows.Forms.Label()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.lblAiActSubPercent = New System.Windows.Forms.Label()
+        Me.lblAiDistUnit = New System.Windows.Forms.Label()
+        Me.lblAiMovePercent = New System.Windows.Forms.Label()
         Me.cmbAiActSub5 = New System.Windows.Forms.ComboBox()
         Me.lblAiActSub5 = New System.Windows.Forms.Label()
         Me.cmbAiActSub4 = New System.Windows.Forms.ComboBox()
@@ -97,6 +103,8 @@ Partial Class MainForm
         Me.cmbAiCalm = New System.Windows.Forms.ComboBox()
         Me.lblAiCalm = New System.Windows.Forms.Label()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
+        Me.lblRegistElemComment = New System.Windows.Forms.Label()
+        Me.lblMeleeElemPercent = New System.Windows.Forms.Label()
         Me.txtMeleeElemPower = New System.Windows.Forms.TextBox()
         Me.dgvBit = New System.Windows.Forms.DataGridView()
         Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -116,14 +124,6 @@ Partial Class MainForm
         Me.lblRegistElem = New System.Windows.Forms.Label()
         Me.cmbMeleeElem = New System.Windows.Forms.ComboBox()
         Me.lblMeleeElem = New System.Windows.Forms.Label()
-        Me.btnClose = New System.Windows.Forms.Button()
-        Me.lblRarePercent = New System.Windows.Forms.Label()
-        Me.lblSpawnTypeComment = New System.Windows.Forms.Label()
-        Me.lblAiMovePercent = New System.Windows.Forms.Label()
-        Me.lblAiDistUnit = New System.Windows.Forms.Label()
-        Me.lblAiActSubPercent = New System.Windows.Forms.Label()
-        Me.lblMeleeElemPercent = New System.Windows.Forms.Label()
-        Me.lblRegistElemComment = New System.Windows.Forms.Label()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
@@ -149,7 +149,7 @@ Partial Class MainForm
         Me.TabPage1.Controls.Add(Me.lblSpawnTypeComment)
         Me.TabPage1.Controls.Add(Me.lblRarePercent)
         Me.TabPage1.Controls.Add(Me.btnClose)
-        Me.TabPage1.Controls.Add(Me.Button1)
+        Me.TabPage1.Controls.Add(Me.btnTextEdit)
         Me.TabPage1.Controls.Add(Me.btnExcute)
         Me.TabPage1.Controls.Add(Me.cmbSpawnType)
         Me.TabPage1.Controls.Add(Me.lblSpawnType)
@@ -182,14 +182,41 @@ Partial Class MainForm
         Me.TabPage1.Text = "基本情報"
         Me.TabPage1.UseVisualStyleBackColor = True
         '
-        'Button1
+        'lblSpawnTypeComment
         '
-        Me.Button1.Location = New System.Drawing.Point(243, 265)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(106, 46)
-        Me.Button1.TabIndex = 29
-        Me.Button1.Text = "テキスト関連編集"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.lblSpawnTypeComment.AutoSize = True
+        Me.lblSpawnTypeComment.Location = New System.Drawing.Point(309, 161)
+        Me.lblSpawnTypeComment.Name = "lblSpawnTypeComment"
+        Me.lblSpawnTypeComment.Size = New System.Drawing.Size(165, 12)
+        Me.lblSpawnTypeComment.TabIndex = 32
+        Me.lblSpawnTypeComment.Text = "(※基本は通常か街にしてください)"
+        '
+        'lblRarePercent
+        '
+        Me.lblRarePercent.AutoSize = True
+        Me.lblRarePercent.Location = New System.Drawing.Point(369, 115)
+        Me.lblRarePercent.Name = "lblRarePercent"
+        Me.lblRarePercent.Size = New System.Drawing.Size(139, 12)
+        Me.lblRarePercent.TabIndex = 31
+        Me.lblRarePercent.Text = "% (0にしても出る時は出ます)"
+        '
+        'btnClose
+        '
+        Me.btnClose.Location = New System.Drawing.Point(469, 265)
+        Me.btnClose.Name = "btnClose"
+        Me.btnClose.Size = New System.Drawing.Size(106, 46)
+        Me.btnClose.TabIndex = 30
+        Me.btnClose.Text = "終了"
+        Me.btnClose.UseVisualStyleBackColor = True
+        '
+        'btnTextEdit
+        '
+        Me.btnTextEdit.Location = New System.Drawing.Point(243, 265)
+        Me.btnTextEdit.Name = "btnTextEdit"
+        Me.btnTextEdit.Size = New System.Drawing.Size(106, 46)
+        Me.btnTextEdit.TabIndex = 29
+        Me.btnTextEdit.Text = "テキスト関連編集"
+        Me.btnTextEdit.UseVisualStyleBackColor = True
         '
         'btnExcute
         '
@@ -620,6 +647,33 @@ Partial Class MainForm
         Me.TabPage2.Text = "基本行動系"
         Me.TabPage2.UseVisualStyleBackColor = True
         '
+        'lblAiActSubPercent
+        '
+        Me.lblAiActSubPercent.AutoSize = True
+        Me.lblAiActSubPercent.Location = New System.Drawing.Point(371, 9)
+        Me.lblAiActSubPercent.Name = "lblAiActSubPercent"
+        Me.lblAiActSubPercent.Size = New System.Drawing.Size(11, 12)
+        Me.lblAiActSubPercent.TabIndex = 62
+        Me.lblAiActSubPercent.Text = "%"
+        '
+        'lblAiDistUnit
+        '
+        Me.lblAiDistUnit.AutoSize = True
+        Me.lblAiDistUnit.Location = New System.Drawing.Point(130, 61)
+        Me.lblAiDistUnit.Name = "lblAiDistUnit"
+        Me.lblAiDistUnit.Size = New System.Drawing.Size(23, 12)
+        Me.lblAiDistUnit.TabIndex = 61
+        Me.lblAiDistUnit.Text = "マス"
+        '
+        'lblAiMovePercent
+        '
+        Me.lblAiMovePercent.AutoSize = True
+        Me.lblAiMovePercent.Location = New System.Drawing.Point(130, 35)
+        Me.lblAiMovePercent.Name = "lblAiMovePercent"
+        Me.lblAiMovePercent.Size = New System.Drawing.Size(11, 12)
+        Me.lblAiMovePercent.TabIndex = 60
+        Me.lblAiMovePercent.Text = "%"
+        '
         'cmbAiActSub5
         '
         Me.cmbAiActSub5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
@@ -916,6 +970,24 @@ Partial Class MainForm
         Me.TabPage3.Text = "属性関連"
         Me.TabPage3.UseVisualStyleBackColor = True
         '
+        'lblRegistElemComment
+        '
+        Me.lblRegistElemComment.AutoSize = True
+        Me.lblRegistElemComment.Location = New System.Drawing.Point(6, 249)
+        Me.lblRegistElemComment.Name = "lblRegistElemComment"
+        Me.lblRegistElemComment.Size = New System.Drawing.Size(97, 36)
+        Me.lblRegistElemComment.TabIndex = 80
+        Me.lblRegistElemComment.Text = "0は耐性無し" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "3で強い耐性" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "-3で致命的な弱点"
+        '
+        'lblMeleeElemPercent
+        '
+        Me.lblMeleeElemPercent.AutoSize = True
+        Me.lblMeleeElemPercent.Location = New System.Drawing.Point(226, 9)
+        Me.lblMeleeElemPercent.Name = "lblMeleeElemPercent"
+        Me.lblMeleeElemPercent.Size = New System.Drawing.Size(328, 12)
+        Me.lblMeleeElemPercent.TabIndex = 79
+        Me.lblMeleeElemPercent.Text = "200~99999を入力してください。(属性無しにしたい場合は無属性200)"
+        '
         'txtMeleeElemPower
         '
         Me.txtMeleeElemPower.ImeMode = System.Windows.Forms.ImeMode.Disable
@@ -1090,78 +1162,6 @@ Partial Class MainForm
         Me.lblMeleeElem.TabIndex = 63
         Me.lblMeleeElem.Text = "素手攻撃属性"
         '
-        'btnClose
-        '
-        Me.btnClose.Location = New System.Drawing.Point(469, 265)
-        Me.btnClose.Name = "btnClose"
-        Me.btnClose.Size = New System.Drawing.Size(106, 46)
-        Me.btnClose.TabIndex = 30
-        Me.btnClose.Text = "終了"
-        Me.btnClose.UseVisualStyleBackColor = True
-        '
-        'lblRarePercent
-        '
-        Me.lblRarePercent.AutoSize = True
-        Me.lblRarePercent.Location = New System.Drawing.Point(369, 115)
-        Me.lblRarePercent.Name = "lblRarePercent"
-        Me.lblRarePercent.Size = New System.Drawing.Size(139, 12)
-        Me.lblRarePercent.TabIndex = 31
-        Me.lblRarePercent.Text = "% (0にしても出る時は出ます)"
-        '
-        'lblSpawnTypeComment
-        '
-        Me.lblSpawnTypeComment.AutoSize = True
-        Me.lblSpawnTypeComment.Location = New System.Drawing.Point(309, 161)
-        Me.lblSpawnTypeComment.Name = "lblSpawnTypeComment"
-        Me.lblSpawnTypeComment.Size = New System.Drawing.Size(165, 12)
-        Me.lblSpawnTypeComment.TabIndex = 32
-        Me.lblSpawnTypeComment.Text = "(※基本は通常か街にしてください)"
-        '
-        'lblAiMovePercent
-        '
-        Me.lblAiMovePercent.AutoSize = True
-        Me.lblAiMovePercent.Location = New System.Drawing.Point(130, 35)
-        Me.lblAiMovePercent.Name = "lblAiMovePercent"
-        Me.lblAiMovePercent.Size = New System.Drawing.Size(11, 12)
-        Me.lblAiMovePercent.TabIndex = 60
-        Me.lblAiMovePercent.Text = "%"
-        '
-        'lblAiDistUnit
-        '
-        Me.lblAiDistUnit.AutoSize = True
-        Me.lblAiDistUnit.Location = New System.Drawing.Point(130, 61)
-        Me.lblAiDistUnit.Name = "lblAiDistUnit"
-        Me.lblAiDistUnit.Size = New System.Drawing.Size(23, 12)
-        Me.lblAiDistUnit.TabIndex = 61
-        Me.lblAiDistUnit.Text = "マス"
-        '
-        'lblAiActSubPercent
-        '
-        Me.lblAiActSubPercent.AutoSize = True
-        Me.lblAiActSubPercent.Location = New System.Drawing.Point(371, 9)
-        Me.lblAiActSubPercent.Name = "lblAiActSubPercent"
-        Me.lblAiActSubPercent.Size = New System.Drawing.Size(11, 12)
-        Me.lblAiActSubPercent.TabIndex = 62
-        Me.lblAiActSubPercent.Text = "%"
-        '
-        'lblMeleeElemPercent
-        '
-        Me.lblMeleeElemPercent.AutoSize = True
-        Me.lblMeleeElemPercent.Location = New System.Drawing.Point(226, 9)
-        Me.lblMeleeElemPercent.Name = "lblMeleeElemPercent"
-        Me.lblMeleeElemPercent.Size = New System.Drawing.Size(328, 12)
-        Me.lblMeleeElemPercent.TabIndex = 79
-        Me.lblMeleeElemPercent.Text = "200~99999を入力してください。(属性無しにしたい場合は無属性200)"
-        '
-        'lblRegistElemComment
-        '
-        Me.lblRegistElemComment.AutoSize = True
-        Me.lblRegistElemComment.Location = New System.Drawing.Point(6, 249)
-        Me.lblRegistElemComment.Name = "lblRegistElemComment"
-        Me.lblRegistElemComment.Size = New System.Drawing.Size(97, 36)
-        Me.lblRegistElemComment.TabIndex = 80
-        Me.lblRegistElemComment.Text = "0は耐性無し" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "3で強い耐性" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "-3で致命的な弱点"
-        '
         'MainForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
@@ -1277,7 +1277,7 @@ Partial Class MainForm
     Friend WithEvents Column4 As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn1 As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents btnExcute As System.Windows.Forms.Button
-    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents btnTextEdit As System.Windows.Forms.Button
     Friend WithEvents btnClose As System.Windows.Forms.Button
     Friend WithEvents lblRarePercent As System.Windows.Forms.Label
     Friend WithEvents lblSpawnTypeComment As System.Windows.Forms.Label

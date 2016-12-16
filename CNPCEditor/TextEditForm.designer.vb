@@ -24,11 +24,11 @@ Partial Class TextEditForm
     Private Sub InitializeComponent()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
-        Me.TabControl2 = New System.Windows.Forms.TabControl()
+        Me.tabCalm = New System.Windows.Forms.TabControl()
         Me.calm1 = New System.Windows.Forms.TabPage()
         Me.btnDelCalm1 = New System.Windows.Forms.Button()
         Me.dgvCalm1 = New System.Windows.Forms.DataGridView()
-        Me.TextCalm1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TextColumnCalm1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.btnAddCalm1 = New System.Windows.Forms.Button()
         Me.txtCalm1 = New System.Windows.Forms.TextBox()
         Me.lblDescriptionCalm1 = New System.Windows.Forms.Label()
@@ -36,7 +36,7 @@ Partial Class TextEditForm
         Me.calm2 = New System.Windows.Forms.TabPage()
         Me.btnDelCalm2 = New System.Windows.Forms.Button()
         Me.dgvCalm2 = New System.Windows.Forms.DataGridView()
-        Me.TextCalm2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TextColumnCalm2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.btnAddCalm2 = New System.Windows.Forms.Button()
         Me.txtCalm2 = New System.Windows.Forms.TextBox()
         Me.lblDescriptionCalm2 = New System.Windows.Forms.Label()
@@ -44,7 +44,7 @@ Partial Class TextEditForm
         Me.calm3 = New System.Windows.Forms.TabPage()
         Me.btnDelCalm3 = New System.Windows.Forms.Button()
         Me.dgvCalm3 = New System.Windows.Forms.DataGridView()
-        Me.TextCalm3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TextColumnCalm3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.btnAddCalm3 = New System.Windows.Forms.Button()
         Me.txtCalm3 = New System.Windows.Forms.TextBox()
         Me.lblDescriptionCalm3 = New System.Windows.Forms.Label()
@@ -52,7 +52,7 @@ Partial Class TextEditForm
         Me.calm4 = New System.Windows.Forms.TabPage()
         Me.btnDelCalm4 = New System.Windows.Forms.Button()
         Me.dgvCalm4 = New System.Windows.Forms.DataGridView()
-        Me.TextCalm4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TextColumnCalm4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.btnAddCalm4 = New System.Windows.Forms.Button()
         Me.txtCalm4 = New System.Windows.Forms.TextBox()
         Me.lblDescriptionCalm4 = New System.Windows.Forms.Label()
@@ -60,7 +60,7 @@ Partial Class TextEditForm
         Me.calm5 = New System.Windows.Forms.TabPage()
         Me.btnDelCalm5 = New System.Windows.Forms.Button()
         Me.dgvCalm5 = New System.Windows.Forms.DataGridView()
-        Me.TextCalm5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TextColumnCalm5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.btnAddCalm5 = New System.Windows.Forms.Button()
         Me.txtCalm5 = New System.Windows.Forms.TextBox()
         Me.lblDescriptionCalm5 = New System.Windows.Forms.Label()
@@ -68,7 +68,7 @@ Partial Class TextEditForm
         Me.calm6 = New System.Windows.Forms.TabPage()
         Me.btnDelCalm6 = New System.Windows.Forms.Button()
         Me.dgvCalm6 = New System.Windows.Forms.DataGridView()
-        Me.TextCalm6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TextColumnCalm6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.btnAddCalm6 = New System.Windows.Forms.Button()
         Me.txtCalm6 = New System.Windows.Forms.TextBox()
         Me.lblDescriptionCalm6 = New System.Windows.Forms.Label()
@@ -76,7 +76,7 @@ Partial Class TextEditForm
         Me.calm7 = New System.Windows.Forms.TabPage()
         Me.btnDelCalm7 = New System.Windows.Forms.Button()
         Me.dgvCalm7 = New System.Windows.Forms.DataGridView()
-        Me.TextCalm7 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TextColumnCalm7 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.btnAddCalm7 = New System.Windows.Forms.Button()
         Me.txtCalm7 = New System.Windows.Forms.TextBox()
         Me.lblDescriptionCalm7 = New System.Windows.Forms.Label()
@@ -84,7 +84,7 @@ Partial Class TextEditForm
         Me.calm8 = New System.Windows.Forms.TabPage()
         Me.btnDelCalm8 = New System.Windows.Forms.Button()
         Me.dgvCalm8 = New System.Windows.Forms.DataGridView()
-        Me.TextCalm8 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TextColumnCalm8 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.btnAddCalm8 = New System.Windows.Forms.Button()
         Me.txtCalm8 = New System.Windows.Forms.TextBox()
         Me.lblDescriptionCalm8 = New System.Windows.Forms.Label()
@@ -92,7 +92,7 @@ Partial Class TextEditForm
         Me.calm9 = New System.Windows.Forms.TabPage()
         Me.btnDelCalm9 = New System.Windows.Forms.Button()
         Me.dgvCalm9 = New System.Windows.Forms.DataGridView()
-        Me.TextCalm9 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TextColumnCalm9 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.btnAddCalm9 = New System.Windows.Forms.Button()
         Me.txtCalm9 = New System.Windows.Forms.TextBox()
         Me.lblDescriptionCalm9 = New System.Windows.Forms.Label()
@@ -100,7 +100,7 @@ Partial Class TextEditForm
         Me.calm10 = New System.Windows.Forms.TabPage()
         Me.btnDelCalm10 = New System.Windows.Forms.Button()
         Me.dgvCalm10 = New System.Windows.Forms.DataGridView()
-        Me.TextCalm10 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TextColumnCalm10 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.btnAddCalm10 = New System.Windows.Forms.Button()
         Me.txtCalm10 = New System.Windows.Forms.TextBox()
         Me.lblDescriptionCalm10 = New System.Windows.Forms.Label()
@@ -108,7 +108,7 @@ Partial Class TextEditForm
         Me.calm11 = New System.Windows.Forms.TabPage()
         Me.btnDelCalm11 = New System.Windows.Forms.Button()
         Me.dgvCalm11 = New System.Windows.Forms.DataGridView()
-        Me.TextCalm11 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TextColumnCalm11 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.btnAddCalm11 = New System.Windows.Forms.Button()
         Me.txtCalm11 = New System.Windows.Forms.TextBox()
         Me.lblDescriptionCalm11 = New System.Windows.Forms.Label()
@@ -116,7 +116,7 @@ Partial Class TextEditForm
         Me.calm12 = New System.Windows.Forms.TabPage()
         Me.btnDelCalm12 = New System.Windows.Forms.Button()
         Me.dgvCalm12 = New System.Windows.Forms.DataGridView()
-        Me.TextCalm12 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TextColumnCalm12 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.btnAddCalm12 = New System.Windows.Forms.Button()
         Me.txtCalm12 = New System.Windows.Forms.TextBox()
         Me.lblDescriptionCalm12 = New System.Windows.Forms.Label()
@@ -124,7 +124,7 @@ Partial Class TextEditForm
         Me.calm13 = New System.Windows.Forms.TabPage()
         Me.btnDelCalm13 = New System.Windows.Forms.Button()
         Me.dgvCalm13 = New System.Windows.Forms.DataGridView()
-        Me.TextCalm13 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TextColumnCalm13 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.btnAddCalm13 = New System.Windows.Forms.Button()
         Me.txtCalm13 = New System.Windows.Forms.TextBox()
         Me.lblDescriptionCalm13 = New System.Windows.Forms.Label()
@@ -132,7 +132,7 @@ Partial Class TextEditForm
         Me.calm14 = New System.Windows.Forms.TabPage()
         Me.btnDelCalm14 = New System.Windows.Forms.Button()
         Me.dgvCalm14 = New System.Windows.Forms.DataGridView()
-        Me.TextCalm14 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TextColumnCalm14 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.btnAddCalm14 = New System.Windows.Forms.Button()
         Me.txtCalm14 = New System.Windows.Forms.TextBox()
         Me.lblDescriptionCalm14 = New System.Windows.Forms.Label()
@@ -140,7 +140,7 @@ Partial Class TextEditForm
         Me.calm15 = New System.Windows.Forms.TabPage()
         Me.btnDelCalm15 = New System.Windows.Forms.Button()
         Me.dgvCalm15 = New System.Windows.Forms.DataGridView()
-        Me.TextCalm15 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TextColumnCalm15 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.btnAddCalm15 = New System.Windows.Forms.Button()
         Me.txtCalm15 = New System.Windows.Forms.TextBox()
         Me.lblDescriptionCalm15 = New System.Windows.Forms.Label()
@@ -148,7 +148,7 @@ Partial Class TextEditForm
         Me.calm16 = New System.Windows.Forms.TabPage()
         Me.btnDelCalm16 = New System.Windows.Forms.Button()
         Me.dgvCalm16 = New System.Windows.Forms.DataGridView()
-        Me.TextCalm16 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TextColumnCalm16 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.btnAddCalm16 = New System.Windows.Forms.Button()
         Me.txtCalm16 = New System.Windows.Forms.TextBox()
         Me.lblDescriptionCalm16 = New System.Windows.Forms.Label()
@@ -156,7 +156,7 @@ Partial Class TextEditForm
         Me.calm17 = New System.Windows.Forms.TabPage()
         Me.btnDelCalm17 = New System.Windows.Forms.Button()
         Me.dgvCalm17 = New System.Windows.Forms.DataGridView()
-        Me.TextCalm17 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TextColumnCalm17 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.btnAddCalm17 = New System.Windows.Forms.Button()
         Me.txtCalm17 = New System.Windows.Forms.TextBox()
         Me.lblDescriptionCalm17 = New System.Windows.Forms.Label()
@@ -165,8 +165,8 @@ Partial Class TextEditForm
         Me.txtCalm18CharName = New System.Windows.Forms.TextBox()
         Me.btnDelCalm18 = New System.Windows.Forms.Button()
         Me.dgvCalm18 = New System.Windows.Forms.DataGridView()
-        Me.TextCalm18CharName = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.TextCalm18 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TextColumnCalm18CharName = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TextColumnCalm18 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.btnAddCalm18 = New System.Windows.Forms.Button()
         Me.txtCalm18 = New System.Windows.Forms.TextBox()
         Me.lblDescriptionCalm18 = New System.Windows.Forms.Label()
@@ -174,7 +174,7 @@ Partial Class TextEditForm
         Me.calm19 = New System.Windows.Forms.TabPage()
         Me.btnDelCalm19 = New System.Windows.Forms.Button()
         Me.dgvCalm19 = New System.Windows.Forms.DataGridView()
-        Me.TextCalm19 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TextColumnCalm19 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.btnAddCalm19 = New System.Windows.Forms.Button()
         Me.txtCalm19 = New System.Windows.Forms.TextBox()
         Me.lblDescriptionCalm19 = New System.Windows.Forms.Label()
@@ -182,18 +182,118 @@ Partial Class TextEditForm
         Me.calm20 = New System.Windows.Forms.TabPage()
         Me.btnDelCalm20 = New System.Windows.Forms.Button()
         Me.dgvCalm20 = New System.Windows.Forms.DataGridView()
-        Me.TextCalm20 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TextColumnCalm20 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.btnAddCalm20 = New System.Windows.Forms.Button()
         Me.txtCalm20 = New System.Windows.Forms.TextBox()
         Me.lblDescriptionCalm20 = New System.Windows.Forms.Label()
         Me.lblHeaderCalm20 = New System.Windows.Forms.Label()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.tabSkill = New System.Windows.Forms.TabControl()
+        Me.Skill1 = New System.Windows.Forms.TabPage()
+        Me.btnDelSkill1 = New System.Windows.Forms.Button()
+        Me.dgvSkill1 = New System.Windows.Forms.DataGridView()
+        Me.DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.btnAddSkill1 = New System.Windows.Forms.Button()
+        Me.txtSkill1 = New System.Windows.Forms.TextBox()
+        Me.lblDescriptionSkill1 = New System.Windows.Forms.Label()
+        Me.lblHeaderSkill1 = New System.Windows.Forms.Label()
+        Me.Skill2 = New System.Windows.Forms.TabPage()
+        Me.btnDelSkill2 = New System.Windows.Forms.Button()
+        Me.dgvSkill2 = New System.Windows.Forms.DataGridView()
+        Me.TextColumnSkill2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.btnAddSkill2 = New System.Windows.Forms.Button()
+        Me.txtSkill2 = New System.Windows.Forms.TextBox()
+        Me.lblDescriptionSkill2 = New System.Windows.Forms.Label()
+        Me.lblHeaderSkill2 = New System.Windows.Forms.Label()
+        Me.Skill3 = New System.Windows.Forms.TabPage()
+        Me.btnDelSkill3 = New System.Windows.Forms.Button()
+        Me.dgvSkill3 = New System.Windows.Forms.DataGridView()
+        Me.TextColumnSkill3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.btnAddSkill3 = New System.Windows.Forms.Button()
+        Me.txtSkill3 = New System.Windows.Forms.TextBox()
+        Me.lblDescriptionSkill3 = New System.Windows.Forms.Label()
+        Me.lblHeaderSkill3 = New System.Windows.Forms.Label()
+        Me.Skill4 = New System.Windows.Forms.TabPage()
+        Me.btnDelSkill4 = New System.Windows.Forms.Button()
+        Me.dgvSkill4 = New System.Windows.Forms.DataGridView()
+        Me.TextColumnSkill4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.btnAddSkill4 = New System.Windows.Forms.Button()
+        Me.txtSkill4 = New System.Windows.Forms.TextBox()
+        Me.lblDescriptionSkill4 = New System.Windows.Forms.Label()
+        Me.lblHeaderSkill4 = New System.Windows.Forms.Label()
+        Me.Skill5 = New System.Windows.Forms.TabPage()
+        Me.btnDelSkill5 = New System.Windows.Forms.Button()
+        Me.dgvSkill5 = New System.Windows.Forms.DataGridView()
+        Me.TextColumnSkill5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.btnAddSkill5 = New System.Windows.Forms.Button()
+        Me.txtSkill5 = New System.Windows.Forms.TextBox()
+        Me.lblDescriptionSkill5 = New System.Windows.Forms.Label()
+        Me.lblHeaderSkill5 = New System.Windows.Forms.Label()
+        Me.Skill6 = New System.Windows.Forms.TabPage()
+        Me.btnDelSkill6 = New System.Windows.Forms.Button()
+        Me.dgvSkill6 = New System.Windows.Forms.DataGridView()
+        Me.TextColumnSkill6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.btnAddSkill6 = New System.Windows.Forms.Button()
+        Me.txtSkill6 = New System.Windows.Forms.TextBox()
+        Me.lblDescriptionSkill6 = New System.Windows.Forms.Label()
+        Me.lblHeaderSkill6 = New System.Windows.Forms.Label()
+        Me.Skill7 = New System.Windows.Forms.TabPage()
+        Me.btnDelSkill7 = New System.Windows.Forms.Button()
+        Me.dgvSkill7 = New System.Windows.Forms.DataGridView()
+        Me.TextColumnSkill7 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.btnAddSkill7 = New System.Windows.Forms.Button()
+        Me.txtSkill7 = New System.Windows.Forms.TextBox()
+        Me.lblDescriptionSkill7 = New System.Windows.Forms.Label()
+        Me.lblHeaderSkill7 = New System.Windows.Forms.Label()
+        Me.Skill8 = New System.Windows.Forms.TabPage()
+        Me.cmbSkill8 = New System.Windows.Forms.ComboBox()
+        Me.btnDelSkill8 = New System.Windows.Forms.Button()
+        Me.dgvSkill8 = New System.Windows.Forms.DataGridView()
+        Me.TextSkillColumn8SpellID = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TextColumnSkill8SpellName = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TextColumnSkill8 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.btnAddSkill8 = New System.Windows.Forms.Button()
+        Me.txtSkill8 = New System.Windows.Forms.TextBox()
+        Me.lblDescriptionSkill8 = New System.Windows.Forms.Label()
+        Me.lblHeaderSkill8 = New System.Windows.Forms.Label()
+        Me.Skill9 = New System.Windows.Forms.TabPage()
+        Me.btnDelSkill9 = New System.Windows.Forms.Button()
+        Me.dgvSkill9 = New System.Windows.Forms.DataGridView()
+        Me.TextColumnSkill9 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.btnAddSkill9 = New System.Windows.Forms.Button()
+        Me.txtSkill9 = New System.Windows.Forms.TextBox()
+        Me.lblDescriptionSkill9 = New System.Windows.Forms.Label()
+        Me.lblHeaderSkill9 = New System.Windows.Forms.Label()
+        Me.Skill10 = New System.Windows.Forms.TabPage()
+        Me.btnDelSkill10 = New System.Windows.Forms.Button()
+        Me.dgvSkill10 = New System.Windows.Forms.DataGridView()
+        Me.TextColumnSkill10 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.btnAddSkill10 = New System.Windows.Forms.Button()
+        Me.txtSkill10 = New System.Windows.Forms.TextBox()
+        Me.lblDescriptionSkill10 = New System.Windows.Forms.Label()
+        Me.lblHeaderSkill10 = New System.Windows.Forms.Label()
+        Me.Skill11 = New System.Windows.Forms.TabPage()
+        Me.btnDelSkill11 = New System.Windows.Forms.Button()
+        Me.dgvSkill11 = New System.Windows.Forms.DataGridView()
+        Me.TextColumnSkill11 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.btnAddSkill11 = New System.Windows.Forms.Button()
+        Me.txtSkill11 = New System.Windows.Forms.TextBox()
+        Me.lblDescriptionSkill11 = New System.Windows.Forms.Label()
+        Me.lblHeaderSkill11 = New System.Windows.Forms.Label()
+        Me.Skill12 = New System.Windows.Forms.TabPage()
+        Me.btnDelSkill12 = New System.Windows.Forms.Button()
+        Me.dgvSkill12 = New System.Windows.Forms.DataGridView()
+        Me.TextColumnSkill12 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.btnAddSkill12 = New System.Windows.Forms.Button()
+        Me.txtSkill12 = New System.Windows.Forms.TextBox()
+        Me.lblDescriptionSkill12 = New System.Windows.Forms.Label()
+        Me.lblHeaderSkill12 = New System.Windows.Forms.Label()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
         Me.TabPage4 = New System.Windows.Forms.TabPage()
         Me.btnClose = New System.Windows.Forms.Button()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
-        Me.TabControl2.SuspendLayout()
+        Me.tabCalm.SuspendLayout()
         Me.calm1.SuspendLayout()
         CType(Me.dgvCalm1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.calm2.SuspendLayout()
@@ -234,6 +334,32 @@ Partial Class TextEditForm
         CType(Me.dgvCalm19, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.calm20.SuspendLayout()
         CType(Me.dgvCalm20, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabPage2.SuspendLayout()
+        Me.tabSkill.SuspendLayout()
+        Me.Skill1.SuspendLayout()
+        CType(Me.dgvSkill1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Skill2.SuspendLayout()
+        CType(Me.dgvSkill2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Skill3.SuspendLayout()
+        CType(Me.dgvSkill3, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Skill4.SuspendLayout()
+        CType(Me.dgvSkill4, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Skill5.SuspendLayout()
+        CType(Me.dgvSkill5, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Skill6.SuspendLayout()
+        CType(Me.dgvSkill6, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Skill7.SuspendLayout()
+        CType(Me.dgvSkill7, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Skill8.SuspendLayout()
+        CType(Me.dgvSkill8, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Skill9.SuspendLayout()
+        CType(Me.dgvSkill9, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Skill10.SuspendLayout()
+        CType(Me.dgvSkill10, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Skill11.SuspendLayout()
+        CType(Me.dgvSkill11, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Skill12.SuspendLayout()
+        CType(Me.dgvSkill12, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'TabControl1
@@ -250,7 +376,7 @@ Partial Class TextEditForm
         '
         'TabPage1
         '
-        Me.TabPage1.Controls.Add(Me.TabControl2)
+        Me.TabPage1.Controls.Add(Me.tabCalm)
         Me.TabPage1.Location = New System.Drawing.Point(4, 22)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
@@ -259,34 +385,34 @@ Partial Class TextEditForm
         Me.TabPage1.Text = "待機・戦闘関連"
         Me.TabPage1.UseVisualStyleBackColor = True
         '
-        'TabControl2
+        'tabCalm
         '
-        Me.TabControl2.Controls.Add(Me.calm1)
-        Me.TabControl2.Controls.Add(Me.calm2)
-        Me.TabControl2.Controls.Add(Me.calm3)
-        Me.TabControl2.Controls.Add(Me.calm4)
-        Me.TabControl2.Controls.Add(Me.calm5)
-        Me.TabControl2.Controls.Add(Me.calm6)
-        Me.TabControl2.Controls.Add(Me.calm7)
-        Me.TabControl2.Controls.Add(Me.calm8)
-        Me.TabControl2.Controls.Add(Me.calm9)
-        Me.TabControl2.Controls.Add(Me.calm10)
-        Me.TabControl2.Controls.Add(Me.calm11)
-        Me.TabControl2.Controls.Add(Me.calm12)
-        Me.TabControl2.Controls.Add(Me.calm13)
-        Me.TabControl2.Controls.Add(Me.calm14)
-        Me.TabControl2.Controls.Add(Me.calm15)
-        Me.TabControl2.Controls.Add(Me.calm16)
-        Me.TabControl2.Controls.Add(Me.calm17)
-        Me.TabControl2.Controls.Add(Me.calm18)
-        Me.TabControl2.Controls.Add(Me.calm19)
-        Me.TabControl2.Controls.Add(Me.calm20)
-        Me.TabControl2.ItemSize = New System.Drawing.Size(20, 18)
-        Me.TabControl2.Location = New System.Drawing.Point(6, 6)
-        Me.TabControl2.Name = "TabControl2"
-        Me.TabControl2.SelectedIndex = 0
-        Me.TabControl2.Size = New System.Drawing.Size(762, 409)
-        Me.TabControl2.TabIndex = 0
+        Me.tabCalm.Controls.Add(Me.calm1)
+        Me.tabCalm.Controls.Add(Me.calm2)
+        Me.tabCalm.Controls.Add(Me.calm3)
+        Me.tabCalm.Controls.Add(Me.calm4)
+        Me.tabCalm.Controls.Add(Me.calm5)
+        Me.tabCalm.Controls.Add(Me.calm6)
+        Me.tabCalm.Controls.Add(Me.calm7)
+        Me.tabCalm.Controls.Add(Me.calm8)
+        Me.tabCalm.Controls.Add(Me.calm9)
+        Me.tabCalm.Controls.Add(Me.calm10)
+        Me.tabCalm.Controls.Add(Me.calm11)
+        Me.tabCalm.Controls.Add(Me.calm12)
+        Me.tabCalm.Controls.Add(Me.calm13)
+        Me.tabCalm.Controls.Add(Me.calm14)
+        Me.tabCalm.Controls.Add(Me.calm15)
+        Me.tabCalm.Controls.Add(Me.calm16)
+        Me.tabCalm.Controls.Add(Me.calm17)
+        Me.tabCalm.Controls.Add(Me.calm18)
+        Me.tabCalm.Controls.Add(Me.calm19)
+        Me.tabCalm.Controls.Add(Me.calm20)
+        Me.tabCalm.ItemSize = New System.Drawing.Size(20, 18)
+        Me.tabCalm.Location = New System.Drawing.Point(6, 6)
+        Me.tabCalm.Name = "tabCalm"
+        Me.tabCalm.SelectedIndex = 0
+        Me.tabCalm.Size = New System.Drawing.Size(762, 409)
+        Me.tabCalm.TabIndex = 0
         '
         'calm1
         '
@@ -320,7 +446,7 @@ Partial Class TextEditForm
         Me.dgvCalm1.AllowUserToResizeColumns = False
         Me.dgvCalm1.AllowUserToResizeRows = False
         Me.dgvCalm1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvCalm1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextCalm1})
+        Me.dgvCalm1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnCalm1})
         Me.dgvCalm1.Location = New System.Drawing.Point(8, 55)
         Me.dgvCalm1.Name = "dgvCalm1"
         Me.dgvCalm1.ReadOnly = True
@@ -329,12 +455,12 @@ Partial Class TextEditForm
         Me.dgvCalm1.Size = New System.Drawing.Size(740, 322)
         Me.dgvCalm1.TabIndex = 4
         '
-        'TextCalm1
+        'TextColumnCalm1
         '
-        Me.TextCalm1.HeaderText = "テキスト"
-        Me.TextCalm1.Name = "TextCalm1"
-        Me.TextCalm1.ReadOnly = True
-        Me.TextCalm1.Width = 737
+        Me.TextColumnCalm1.HeaderText = "テキスト"
+        Me.TextColumnCalm1.Name = "TextColumnCalm1"
+        Me.TextColumnCalm1.ReadOnly = True
+        Me.TextColumnCalm1.Width = 737
         '
         'btnAddCalm1
         '
@@ -402,7 +528,7 @@ Partial Class TextEditForm
         Me.dgvCalm2.AllowUserToResizeColumns = False
         Me.dgvCalm2.AllowUserToResizeRows = False
         Me.dgvCalm2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvCalm2.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextCalm2})
+        Me.dgvCalm2.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnCalm2})
         Me.dgvCalm2.Location = New System.Drawing.Point(8, 55)
         Me.dgvCalm2.Name = "dgvCalm2"
         Me.dgvCalm2.ReadOnly = True
@@ -411,12 +537,12 @@ Partial Class TextEditForm
         Me.dgvCalm2.Size = New System.Drawing.Size(740, 322)
         Me.dgvCalm2.TabIndex = 9
         '
-        'TextCalm2
+        'TextColumnCalm2
         '
-        Me.TextCalm2.HeaderText = "テキスト"
-        Me.TextCalm2.Name = "TextCalm2"
-        Me.TextCalm2.ReadOnly = True
-        Me.TextCalm2.Width = 737
+        Me.TextColumnCalm2.HeaderText = "テキスト"
+        Me.TextColumnCalm2.Name = "TextColumnCalm2"
+        Me.TextColumnCalm2.ReadOnly = True
+        Me.TextColumnCalm2.Width = 737
         '
         'btnAddCalm2
         '
@@ -483,7 +609,7 @@ Partial Class TextEditForm
         Me.dgvCalm3.AllowUserToResizeColumns = False
         Me.dgvCalm3.AllowUserToResizeRows = False
         Me.dgvCalm3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvCalm3.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextCalm3})
+        Me.dgvCalm3.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnCalm3})
         Me.dgvCalm3.Location = New System.Drawing.Point(8, 55)
         Me.dgvCalm3.Name = "dgvCalm3"
         Me.dgvCalm3.ReadOnly = True
@@ -492,12 +618,12 @@ Partial Class TextEditForm
         Me.dgvCalm3.Size = New System.Drawing.Size(740, 322)
         Me.dgvCalm3.TabIndex = 14
         '
-        'TextCalm3
+        'TextColumnCalm3
         '
-        Me.TextCalm3.HeaderText = "テキスト"
-        Me.TextCalm3.Name = "TextCalm3"
-        Me.TextCalm3.ReadOnly = True
-        Me.TextCalm3.Width = 737
+        Me.TextColumnCalm3.HeaderText = "テキスト"
+        Me.TextColumnCalm3.Name = "TextColumnCalm3"
+        Me.TextColumnCalm3.ReadOnly = True
+        Me.TextColumnCalm3.Width = 737
         '
         'btnAddCalm3
         '
@@ -564,7 +690,7 @@ Partial Class TextEditForm
         Me.dgvCalm4.AllowUserToResizeColumns = False
         Me.dgvCalm4.AllowUserToResizeRows = False
         Me.dgvCalm4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvCalm4.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextCalm4})
+        Me.dgvCalm4.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnCalm4})
         Me.dgvCalm4.Location = New System.Drawing.Point(8, 55)
         Me.dgvCalm4.Name = "dgvCalm4"
         Me.dgvCalm4.ReadOnly = True
@@ -573,12 +699,12 @@ Partial Class TextEditForm
         Me.dgvCalm4.Size = New System.Drawing.Size(740, 322)
         Me.dgvCalm4.TabIndex = 14
         '
-        'TextCalm4
+        'TextColumnCalm4
         '
-        Me.TextCalm4.HeaderText = "テキスト"
-        Me.TextCalm4.Name = "TextCalm4"
-        Me.TextCalm4.ReadOnly = True
-        Me.TextCalm4.Width = 737
+        Me.TextColumnCalm4.HeaderText = "テキスト"
+        Me.TextColumnCalm4.Name = "TextColumnCalm4"
+        Me.TextColumnCalm4.ReadOnly = True
+        Me.TextColumnCalm4.Width = 737
         '
         'btnAddCalm4
         '
@@ -645,7 +771,7 @@ Partial Class TextEditForm
         Me.dgvCalm5.AllowUserToResizeColumns = False
         Me.dgvCalm5.AllowUserToResizeRows = False
         Me.dgvCalm5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvCalm5.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextCalm5})
+        Me.dgvCalm5.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnCalm5})
         Me.dgvCalm5.Location = New System.Drawing.Point(8, 55)
         Me.dgvCalm5.Name = "dgvCalm5"
         Me.dgvCalm5.ReadOnly = True
@@ -654,12 +780,12 @@ Partial Class TextEditForm
         Me.dgvCalm5.Size = New System.Drawing.Size(740, 322)
         Me.dgvCalm5.TabIndex = 14
         '
-        'TextCalm5
+        'TextColumnCalm5
         '
-        Me.TextCalm5.HeaderText = "テキスト"
-        Me.TextCalm5.Name = "TextCalm5"
-        Me.TextCalm5.ReadOnly = True
-        Me.TextCalm5.Width = 737
+        Me.TextColumnCalm5.HeaderText = "テキスト"
+        Me.TextColumnCalm5.Name = "TextColumnCalm5"
+        Me.TextColumnCalm5.ReadOnly = True
+        Me.TextColumnCalm5.Width = 737
         '
         'btnAddCalm5
         '
@@ -726,7 +852,7 @@ Partial Class TextEditForm
         Me.dgvCalm6.AllowUserToResizeColumns = False
         Me.dgvCalm6.AllowUserToResizeRows = False
         Me.dgvCalm6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvCalm6.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextCalm6})
+        Me.dgvCalm6.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnCalm6})
         Me.dgvCalm6.Location = New System.Drawing.Point(8, 55)
         Me.dgvCalm6.Name = "dgvCalm6"
         Me.dgvCalm6.ReadOnly = True
@@ -735,12 +861,12 @@ Partial Class TextEditForm
         Me.dgvCalm6.Size = New System.Drawing.Size(740, 322)
         Me.dgvCalm6.TabIndex = 14
         '
-        'TextCalm6
+        'TextColumnCalm6
         '
-        Me.TextCalm6.HeaderText = "テキスト"
-        Me.TextCalm6.Name = "TextCalm6"
-        Me.TextCalm6.ReadOnly = True
-        Me.TextCalm6.Width = 737
+        Me.TextColumnCalm6.HeaderText = "テキスト"
+        Me.TextColumnCalm6.Name = "TextColumnCalm6"
+        Me.TextColumnCalm6.ReadOnly = True
+        Me.TextColumnCalm6.Width = 737
         '
         'btnAddCalm6
         '
@@ -807,7 +933,7 @@ Partial Class TextEditForm
         Me.dgvCalm7.AllowUserToResizeColumns = False
         Me.dgvCalm7.AllowUserToResizeRows = False
         Me.dgvCalm7.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvCalm7.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextCalm7})
+        Me.dgvCalm7.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnCalm7})
         Me.dgvCalm7.Location = New System.Drawing.Point(8, 55)
         Me.dgvCalm7.Name = "dgvCalm7"
         Me.dgvCalm7.ReadOnly = True
@@ -816,12 +942,12 @@ Partial Class TextEditForm
         Me.dgvCalm7.Size = New System.Drawing.Size(740, 322)
         Me.dgvCalm7.TabIndex = 14
         '
-        'TextCalm7
+        'TextColumnCalm7
         '
-        Me.TextCalm7.HeaderText = "テキスト"
-        Me.TextCalm7.Name = "TextCalm7"
-        Me.TextCalm7.ReadOnly = True
-        Me.TextCalm7.Width = 737
+        Me.TextColumnCalm7.HeaderText = "テキスト"
+        Me.TextColumnCalm7.Name = "TextColumnCalm7"
+        Me.TextColumnCalm7.ReadOnly = True
+        Me.TextColumnCalm7.Width = 737
         '
         'btnAddCalm7
         '
@@ -888,7 +1014,7 @@ Partial Class TextEditForm
         Me.dgvCalm8.AllowUserToResizeColumns = False
         Me.dgvCalm8.AllowUserToResizeRows = False
         Me.dgvCalm8.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvCalm8.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextCalm8})
+        Me.dgvCalm8.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnCalm8})
         Me.dgvCalm8.Location = New System.Drawing.Point(8, 55)
         Me.dgvCalm8.Name = "dgvCalm8"
         Me.dgvCalm8.ReadOnly = True
@@ -897,12 +1023,12 @@ Partial Class TextEditForm
         Me.dgvCalm8.Size = New System.Drawing.Size(740, 322)
         Me.dgvCalm8.TabIndex = 14
         '
-        'TextCalm8
+        'TextColumnCalm8
         '
-        Me.TextCalm8.HeaderText = "テキスト"
-        Me.TextCalm8.Name = "TextCalm8"
-        Me.TextCalm8.ReadOnly = True
-        Me.TextCalm8.Width = 737
+        Me.TextColumnCalm8.HeaderText = "テキスト"
+        Me.TextColumnCalm8.Name = "TextColumnCalm8"
+        Me.TextColumnCalm8.ReadOnly = True
+        Me.TextColumnCalm8.Width = 737
         '
         'btnAddCalm8
         '
@@ -969,7 +1095,7 @@ Partial Class TextEditForm
         Me.dgvCalm9.AllowUserToResizeColumns = False
         Me.dgvCalm9.AllowUserToResizeRows = False
         Me.dgvCalm9.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvCalm9.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextCalm9})
+        Me.dgvCalm9.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnCalm9})
         Me.dgvCalm9.Location = New System.Drawing.Point(8, 55)
         Me.dgvCalm9.Name = "dgvCalm9"
         Me.dgvCalm9.ReadOnly = True
@@ -978,12 +1104,12 @@ Partial Class TextEditForm
         Me.dgvCalm9.Size = New System.Drawing.Size(740, 322)
         Me.dgvCalm9.TabIndex = 14
         '
-        'TextCalm9
+        'TextColumnCalm9
         '
-        Me.TextCalm9.HeaderText = "テキスト"
-        Me.TextCalm9.Name = "TextCalm9"
-        Me.TextCalm9.ReadOnly = True
-        Me.TextCalm9.Width = 737
+        Me.TextColumnCalm9.HeaderText = "テキスト"
+        Me.TextColumnCalm9.Name = "TextColumnCalm9"
+        Me.TextColumnCalm9.ReadOnly = True
+        Me.TextColumnCalm9.Width = 737
         '
         'btnAddCalm9
         '
@@ -1050,7 +1176,7 @@ Partial Class TextEditForm
         Me.dgvCalm10.AllowUserToResizeColumns = False
         Me.dgvCalm10.AllowUserToResizeRows = False
         Me.dgvCalm10.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvCalm10.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextCalm10})
+        Me.dgvCalm10.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnCalm10})
         Me.dgvCalm10.Location = New System.Drawing.Point(8, 55)
         Me.dgvCalm10.Name = "dgvCalm10"
         Me.dgvCalm10.ReadOnly = True
@@ -1059,12 +1185,12 @@ Partial Class TextEditForm
         Me.dgvCalm10.Size = New System.Drawing.Size(740, 322)
         Me.dgvCalm10.TabIndex = 14
         '
-        'TextCalm10
+        'TextColumnCalm10
         '
-        Me.TextCalm10.HeaderText = "テキスト"
-        Me.TextCalm10.Name = "TextCalm10"
-        Me.TextCalm10.ReadOnly = True
-        Me.TextCalm10.Width = 737
+        Me.TextColumnCalm10.HeaderText = "テキスト"
+        Me.TextColumnCalm10.Name = "TextColumnCalm10"
+        Me.TextColumnCalm10.ReadOnly = True
+        Me.TextColumnCalm10.Width = 737
         '
         'btnAddCalm10
         '
@@ -1131,7 +1257,7 @@ Partial Class TextEditForm
         Me.dgvCalm11.AllowUserToResizeColumns = False
         Me.dgvCalm11.AllowUserToResizeRows = False
         Me.dgvCalm11.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvCalm11.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextCalm11})
+        Me.dgvCalm11.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnCalm11})
         Me.dgvCalm11.Location = New System.Drawing.Point(8, 55)
         Me.dgvCalm11.Name = "dgvCalm11"
         Me.dgvCalm11.ReadOnly = True
@@ -1140,12 +1266,12 @@ Partial Class TextEditForm
         Me.dgvCalm11.Size = New System.Drawing.Size(740, 322)
         Me.dgvCalm11.TabIndex = 14
         '
-        'TextCalm11
+        'TextColumnCalm11
         '
-        Me.TextCalm11.HeaderText = "テキスト"
-        Me.TextCalm11.Name = "TextCalm11"
-        Me.TextCalm11.ReadOnly = True
-        Me.TextCalm11.Width = 737
+        Me.TextColumnCalm11.HeaderText = "テキスト"
+        Me.TextColumnCalm11.Name = "TextColumnCalm11"
+        Me.TextColumnCalm11.ReadOnly = True
+        Me.TextColumnCalm11.Width = 737
         '
         'btnAddCalm11
         '
@@ -1212,7 +1338,7 @@ Partial Class TextEditForm
         Me.dgvCalm12.AllowUserToResizeColumns = False
         Me.dgvCalm12.AllowUserToResizeRows = False
         Me.dgvCalm12.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvCalm12.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextCalm12})
+        Me.dgvCalm12.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnCalm12})
         Me.dgvCalm12.Location = New System.Drawing.Point(8, 55)
         Me.dgvCalm12.Name = "dgvCalm12"
         Me.dgvCalm12.ReadOnly = True
@@ -1221,12 +1347,12 @@ Partial Class TextEditForm
         Me.dgvCalm12.Size = New System.Drawing.Size(740, 322)
         Me.dgvCalm12.TabIndex = 14
         '
-        'TextCalm12
+        'TextColumnCalm12
         '
-        Me.TextCalm12.HeaderText = "テキスト"
-        Me.TextCalm12.Name = "TextCalm12"
-        Me.TextCalm12.ReadOnly = True
-        Me.TextCalm12.Width = 737
+        Me.TextColumnCalm12.HeaderText = "テキスト"
+        Me.TextColumnCalm12.Name = "TextColumnCalm12"
+        Me.TextColumnCalm12.ReadOnly = True
+        Me.TextColumnCalm12.Width = 737
         '
         'btnAddCalm12
         '
@@ -1293,7 +1419,7 @@ Partial Class TextEditForm
         Me.dgvCalm13.AllowUserToResizeColumns = False
         Me.dgvCalm13.AllowUserToResizeRows = False
         Me.dgvCalm13.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvCalm13.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextCalm13})
+        Me.dgvCalm13.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnCalm13})
         Me.dgvCalm13.Location = New System.Drawing.Point(8, 55)
         Me.dgvCalm13.Name = "dgvCalm13"
         Me.dgvCalm13.ReadOnly = True
@@ -1302,12 +1428,12 @@ Partial Class TextEditForm
         Me.dgvCalm13.Size = New System.Drawing.Size(740, 322)
         Me.dgvCalm13.TabIndex = 14
         '
-        'TextCalm13
+        'TextColumnCalm13
         '
-        Me.TextCalm13.HeaderText = "テキスト"
-        Me.TextCalm13.Name = "TextCalm13"
-        Me.TextCalm13.ReadOnly = True
-        Me.TextCalm13.Width = 737
+        Me.TextColumnCalm13.HeaderText = "テキスト"
+        Me.TextColumnCalm13.Name = "TextColumnCalm13"
+        Me.TextColumnCalm13.ReadOnly = True
+        Me.TextColumnCalm13.Width = 737
         '
         'btnAddCalm13
         '
@@ -1374,7 +1500,7 @@ Partial Class TextEditForm
         Me.dgvCalm14.AllowUserToResizeColumns = False
         Me.dgvCalm14.AllowUserToResizeRows = False
         Me.dgvCalm14.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvCalm14.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextCalm14})
+        Me.dgvCalm14.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnCalm14})
         Me.dgvCalm14.Location = New System.Drawing.Point(8, 55)
         Me.dgvCalm14.Name = "dgvCalm14"
         Me.dgvCalm14.ReadOnly = True
@@ -1383,12 +1509,12 @@ Partial Class TextEditForm
         Me.dgvCalm14.Size = New System.Drawing.Size(740, 322)
         Me.dgvCalm14.TabIndex = 14
         '
-        'TextCalm14
+        'TextColumnCalm14
         '
-        Me.TextCalm14.HeaderText = "テキスト"
-        Me.TextCalm14.Name = "TextCalm14"
-        Me.TextCalm14.ReadOnly = True
-        Me.TextCalm14.Width = 737
+        Me.TextColumnCalm14.HeaderText = "テキスト"
+        Me.TextColumnCalm14.Name = "TextColumnCalm14"
+        Me.TextColumnCalm14.ReadOnly = True
+        Me.TextColumnCalm14.Width = 737
         '
         'btnAddCalm14
         '
@@ -1455,7 +1581,7 @@ Partial Class TextEditForm
         Me.dgvCalm15.AllowUserToResizeColumns = False
         Me.dgvCalm15.AllowUserToResizeRows = False
         Me.dgvCalm15.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvCalm15.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextCalm15})
+        Me.dgvCalm15.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnCalm15})
         Me.dgvCalm15.Location = New System.Drawing.Point(8, 55)
         Me.dgvCalm15.Name = "dgvCalm15"
         Me.dgvCalm15.ReadOnly = True
@@ -1464,12 +1590,12 @@ Partial Class TextEditForm
         Me.dgvCalm15.Size = New System.Drawing.Size(740, 322)
         Me.dgvCalm15.TabIndex = 14
         '
-        'TextCalm15
+        'TextColumnCalm15
         '
-        Me.TextCalm15.HeaderText = "テキスト"
-        Me.TextCalm15.Name = "TextCalm15"
-        Me.TextCalm15.ReadOnly = True
-        Me.TextCalm15.Width = 737
+        Me.TextColumnCalm15.HeaderText = "テキスト"
+        Me.TextColumnCalm15.Name = "TextColumnCalm15"
+        Me.TextColumnCalm15.ReadOnly = True
+        Me.TextColumnCalm15.Width = 737
         '
         'btnAddCalm15
         '
@@ -1536,7 +1662,7 @@ Partial Class TextEditForm
         Me.dgvCalm16.AllowUserToResizeColumns = False
         Me.dgvCalm16.AllowUserToResizeRows = False
         Me.dgvCalm16.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvCalm16.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextCalm16})
+        Me.dgvCalm16.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnCalm16})
         Me.dgvCalm16.Location = New System.Drawing.Point(8, 55)
         Me.dgvCalm16.Name = "dgvCalm16"
         Me.dgvCalm16.ReadOnly = True
@@ -1545,12 +1671,12 @@ Partial Class TextEditForm
         Me.dgvCalm16.Size = New System.Drawing.Size(740, 322)
         Me.dgvCalm16.TabIndex = 14
         '
-        'TextCalm16
+        'TextColumnCalm16
         '
-        Me.TextCalm16.HeaderText = "テキスト"
-        Me.TextCalm16.Name = "TextCalm16"
-        Me.TextCalm16.ReadOnly = True
-        Me.TextCalm16.Width = 737
+        Me.TextColumnCalm16.HeaderText = "テキスト"
+        Me.TextColumnCalm16.Name = "TextColumnCalm16"
+        Me.TextColumnCalm16.ReadOnly = True
+        Me.TextColumnCalm16.Width = 737
         '
         'btnAddCalm16
         '
@@ -1617,7 +1743,7 @@ Partial Class TextEditForm
         Me.dgvCalm17.AllowUserToResizeColumns = False
         Me.dgvCalm17.AllowUserToResizeRows = False
         Me.dgvCalm17.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvCalm17.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextCalm17})
+        Me.dgvCalm17.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnCalm17})
         Me.dgvCalm17.Location = New System.Drawing.Point(8, 55)
         Me.dgvCalm17.Name = "dgvCalm17"
         Me.dgvCalm17.ReadOnly = True
@@ -1626,12 +1752,12 @@ Partial Class TextEditForm
         Me.dgvCalm17.Size = New System.Drawing.Size(740, 322)
         Me.dgvCalm17.TabIndex = 14
         '
-        'TextCalm17
+        'TextColumnCalm17
         '
-        Me.TextCalm17.HeaderText = "テキスト"
-        Me.TextCalm17.Name = "TextCalm17"
-        Me.TextCalm17.ReadOnly = True
-        Me.TextCalm17.Width = 737
+        Me.TextColumnCalm17.HeaderText = "テキスト"
+        Me.TextColumnCalm17.Name = "TextColumnCalm17"
+        Me.TextColumnCalm17.ReadOnly = True
+        Me.TextColumnCalm17.Width = 737
         '
         'btnAddCalm17
         '
@@ -1706,7 +1832,7 @@ Partial Class TextEditForm
         Me.dgvCalm18.AllowUserToResizeColumns = False
         Me.dgvCalm18.AllowUserToResizeRows = False
         Me.dgvCalm18.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvCalm18.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextCalm18CharName, Me.TextCalm18})
+        Me.dgvCalm18.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnCalm18CharName, Me.TextColumnCalm18})
         Me.dgvCalm18.Location = New System.Drawing.Point(8, 55)
         Me.dgvCalm18.Name = "dgvCalm18"
         Me.dgvCalm18.ReadOnly = True
@@ -1715,18 +1841,18 @@ Partial Class TextEditForm
         Me.dgvCalm18.Size = New System.Drawing.Size(740, 322)
         Me.dgvCalm18.TabIndex = 14
         '
-        'TextCalm18CharName
+        'TextColumnCalm18CharName
         '
-        Me.TextCalm18CharName.HeaderText = "キャラ名"
-        Me.TextCalm18CharName.Name = "TextCalm18CharName"
-        Me.TextCalm18CharName.ReadOnly = True
+        Me.TextColumnCalm18CharName.HeaderText = "キャラ名"
+        Me.TextColumnCalm18CharName.Name = "TextColumnCalm18CharName"
+        Me.TextColumnCalm18CharName.ReadOnly = True
         '
-        'TextCalm18
+        'TextColumnCalm18
         '
-        Me.TextCalm18.HeaderText = "テキスト"
-        Me.TextCalm18.Name = "TextCalm18"
-        Me.TextCalm18.ReadOnly = True
-        Me.TextCalm18.Width = 637
+        Me.TextColumnCalm18.HeaderText = "テキスト"
+        Me.TextColumnCalm18.Name = "TextColumnCalm18"
+        Me.TextColumnCalm18.ReadOnly = True
+        Me.TextColumnCalm18.Width = 637
         '
         'btnAddCalm18
         '
@@ -1793,7 +1919,7 @@ Partial Class TextEditForm
         Me.dgvCalm19.AllowUserToResizeColumns = False
         Me.dgvCalm19.AllowUserToResizeRows = False
         Me.dgvCalm19.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvCalm19.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextCalm19})
+        Me.dgvCalm19.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnCalm19})
         Me.dgvCalm19.Location = New System.Drawing.Point(8, 55)
         Me.dgvCalm19.Name = "dgvCalm19"
         Me.dgvCalm19.ReadOnly = True
@@ -1802,12 +1928,12 @@ Partial Class TextEditForm
         Me.dgvCalm19.Size = New System.Drawing.Size(740, 322)
         Me.dgvCalm19.TabIndex = 14
         '
-        'TextCalm19
+        'TextColumnCalm19
         '
-        Me.TextCalm19.HeaderText = "テキスト"
-        Me.TextCalm19.Name = "TextCalm19"
-        Me.TextCalm19.ReadOnly = True
-        Me.TextCalm19.Width = 737
+        Me.TextColumnCalm19.HeaderText = "テキスト"
+        Me.TextColumnCalm19.Name = "TextColumnCalm19"
+        Me.TextColumnCalm19.ReadOnly = True
+        Me.TextColumnCalm19.Width = 737
         '
         'btnAddCalm19
         '
@@ -1874,7 +2000,7 @@ Partial Class TextEditForm
         Me.dgvCalm20.AllowUserToResizeColumns = False
         Me.dgvCalm20.AllowUserToResizeRows = False
         Me.dgvCalm20.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvCalm20.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextCalm20})
+        Me.dgvCalm20.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnCalm20})
         Me.dgvCalm20.Location = New System.Drawing.Point(8, 55)
         Me.dgvCalm20.Name = "dgvCalm20"
         Me.dgvCalm20.ReadOnly = True
@@ -1883,12 +2009,12 @@ Partial Class TextEditForm
         Me.dgvCalm20.Size = New System.Drawing.Size(740, 322)
         Me.dgvCalm20.TabIndex = 14
         '
-        'TextCalm20
+        'TextColumnCalm20
         '
-        Me.TextCalm20.HeaderText = "テキスト"
-        Me.TextCalm20.Name = "TextCalm20"
-        Me.TextCalm20.ReadOnly = True
-        Me.TextCalm20.Width = 737
+        Me.TextColumnCalm20.HeaderText = "テキスト"
+        Me.TextColumnCalm20.Name = "TextColumnCalm20"
+        Me.TextColumnCalm20.ReadOnly = True
+        Me.TextColumnCalm20.Width = 737
         '
         'btnAddCalm20
         '
@@ -1926,6 +2052,7 @@ Partial Class TextEditForm
         '
         'TabPage2
         '
+        Me.TabPage2.Controls.Add(Me.tabSkill)
         Me.TabPage2.Location = New System.Drawing.Point(4, 22)
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
@@ -1933,6 +2060,1023 @@ Partial Class TextEditForm
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "スキル使用時"
         Me.TabPage2.UseVisualStyleBackColor = True
+        '
+        'tabSkill
+        '
+        Me.tabSkill.Controls.Add(Me.Skill1)
+        Me.tabSkill.Controls.Add(Me.Skill2)
+        Me.tabSkill.Controls.Add(Me.Skill3)
+        Me.tabSkill.Controls.Add(Me.Skill4)
+        Me.tabSkill.Controls.Add(Me.Skill5)
+        Me.tabSkill.Controls.Add(Me.Skill6)
+        Me.tabSkill.Controls.Add(Me.Skill7)
+        Me.tabSkill.Controls.Add(Me.Skill8)
+        Me.tabSkill.Controls.Add(Me.Skill9)
+        Me.tabSkill.Controls.Add(Me.Skill10)
+        Me.tabSkill.Controls.Add(Me.Skill11)
+        Me.tabSkill.Controls.Add(Me.Skill12)
+        Me.tabSkill.Location = New System.Drawing.Point(6, 6)
+        Me.tabSkill.Name = "tabSkill"
+        Me.tabSkill.SelectedIndex = 0
+        Me.tabSkill.Size = New System.Drawing.Size(762, 409)
+        Me.tabSkill.TabIndex = 0
+        '
+        'Skill1
+        '
+        Me.Skill1.Controls.Add(Me.btnDelSkill1)
+        Me.Skill1.Controls.Add(Me.dgvSkill1)
+        Me.Skill1.Controls.Add(Me.btnAddSkill1)
+        Me.Skill1.Controls.Add(Me.txtSkill1)
+        Me.Skill1.Controls.Add(Me.lblDescriptionSkill1)
+        Me.Skill1.Controls.Add(Me.lblHeaderSkill1)
+        Me.Skill1.Location = New System.Drawing.Point(4, 22)
+        Me.Skill1.Name = "Skill1"
+        Me.Skill1.Padding = New System.Windows.Forms.Padding(3)
+        Me.Skill1.Size = New System.Drawing.Size(754, 383)
+        Me.Skill1.TabIndex = 0
+        Me.Skill1.Text = "合唱"
+        Me.Skill1.UseVisualStyleBackColor = True
+        '
+        'btnDelSkill1
+        '
+        Me.btnDelSkill1.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelSkill1.Name = "btnDelSkill1"
+        Me.btnDelSkill1.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelSkill1.TabIndex = 11
+        Me.btnDelSkill1.Text = "削除"
+        Me.btnDelSkill1.UseVisualStyleBackColor = True
+        '
+        'dgvSkill1
+        '
+        Me.dgvSkill1.AllowUserToAddRows = False
+        Me.dgvSkill1.AllowUserToDeleteRows = False
+        Me.dgvSkill1.AllowUserToResizeColumns = False
+        Me.dgvSkill1.AllowUserToResizeRows = False
+        Me.dgvSkill1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvSkill1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn1})
+        Me.dgvSkill1.Location = New System.Drawing.Point(8, 55)
+        Me.dgvSkill1.Name = "dgvSkill1"
+        Me.dgvSkill1.ReadOnly = True
+        Me.dgvSkill1.RowHeadersVisible = False
+        Me.dgvSkill1.RowTemplate.Height = 21
+        Me.dgvSkill1.Size = New System.Drawing.Size(740, 322)
+        Me.dgvSkill1.TabIndex = 10
+        '
+        'DataGridViewTextBoxColumn1
+        '
+        Me.DataGridViewTextBoxColumn1.HeaderText = "テキスト"
+        Me.DataGridViewTextBoxColumn1.Name = "DataGridViewTextBoxColumn1"
+        Me.DataGridViewTextBoxColumn1.ReadOnly = True
+        Me.DataGridViewTextBoxColumn1.Width = 737
+        '
+        'btnAddSkill1
+        '
+        Me.btnAddSkill1.Location = New System.Drawing.Point(564, 28)
+        Me.btnAddSkill1.Name = "btnAddSkill1"
+        Me.btnAddSkill1.Size = New System.Drawing.Size(75, 23)
+        Me.btnAddSkill1.TabIndex = 9
+        Me.btnAddSkill1.Text = "追加"
+        Me.btnAddSkill1.UseVisualStyleBackColor = True
+        '
+        'txtSkill1
+        '
+        Me.txtSkill1.Location = New System.Drawing.Point(8, 30)
+        Me.txtSkill1.Name = "txtSkill1"
+        Me.txtSkill1.Size = New System.Drawing.Size(550, 19)
+        Me.txtSkill1.TabIndex = 8
+        '
+        'lblDescriptionSkill1
+        '
+        Me.lblDescriptionSkill1.AutoSize = True
+        Me.lblDescriptionSkill1.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionSkill1.Name = "lblDescriptionSkill1"
+        Me.lblDescriptionSkill1.Size = New System.Drawing.Size(428, 12)
+        Me.lblDescriptionSkill1.TabIndex = 7
+        Me.lblDescriptionSkill1.Text = "・PCの演奏に合わせて歌っているとき（歌唱スキル）　スキルは全て　自分,{snpc}; 相手,{npc}"
+        '
+        'lblHeaderSkill1
+        '
+        Me.lblHeaderSkill1.AutoSize = True
+        Me.lblHeaderSkill1.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderSkill1.Name = "lblHeaderSkill1"
+        Me.lblHeaderSkill1.Size = New System.Drawing.Size(62, 12)
+        Me.lblHeaderSkill1.TabIndex = 6
+        Me.lblHeaderSkill1.Text = "%txtsing,JP"
+        '
+        'Skill2
+        '
+        Me.Skill2.Controls.Add(Me.btnDelSkill2)
+        Me.Skill2.Controls.Add(Me.dgvSkill2)
+        Me.Skill2.Controls.Add(Me.btnAddSkill2)
+        Me.Skill2.Controls.Add(Me.txtSkill2)
+        Me.Skill2.Controls.Add(Me.lblDescriptionSkill2)
+        Me.Skill2.Controls.Add(Me.lblHeaderSkill2)
+        Me.Skill2.Location = New System.Drawing.Point(4, 22)
+        Me.Skill2.Name = "Skill2"
+        Me.Skill2.Padding = New System.Windows.Forms.Padding(3)
+        Me.Skill2.Size = New System.Drawing.Size(754, 383)
+        Me.Skill2.TabIndex = 1
+        Me.Skill2.Text = "レイハンド"
+        Me.Skill2.UseVisualStyleBackColor = True
+        '
+        'btnDelSkill2
+        '
+        Me.btnDelSkill2.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelSkill2.Name = "btnDelSkill2"
+        Me.btnDelSkill2.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelSkill2.TabIndex = 11
+        Me.btnDelSkill2.Text = "削除"
+        Me.btnDelSkill2.UseVisualStyleBackColor = True
+        '
+        'dgvSkill2
+        '
+        Me.dgvSkill2.AllowUserToAddRows = False
+        Me.dgvSkill2.AllowUserToDeleteRows = False
+        Me.dgvSkill2.AllowUserToResizeColumns = False
+        Me.dgvSkill2.AllowUserToResizeRows = False
+        Me.dgvSkill2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvSkill2.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnSkill2})
+        Me.dgvSkill2.Location = New System.Drawing.Point(8, 55)
+        Me.dgvSkill2.Name = "dgvSkill2"
+        Me.dgvSkill2.ReadOnly = True
+        Me.dgvSkill2.RowHeadersVisible = False
+        Me.dgvSkill2.RowTemplate.Height = 21
+        Me.dgvSkill2.Size = New System.Drawing.Size(740, 322)
+        Me.dgvSkill2.TabIndex = 10
+        '
+        'TextColumnSkill2
+        '
+        Me.TextColumnSkill2.HeaderText = "テキスト"
+        Me.TextColumnSkill2.Name = "TextColumnSkill2"
+        Me.TextColumnSkill2.ReadOnly = True
+        Me.TextColumnSkill2.Width = 737
+        '
+        'btnAddSkill2
+        '
+        Me.btnAddSkill2.Location = New System.Drawing.Point(564, 28)
+        Me.btnAddSkill2.Name = "btnAddSkill2"
+        Me.btnAddSkill2.Size = New System.Drawing.Size(75, 23)
+        Me.btnAddSkill2.TabIndex = 9
+        Me.btnAddSkill2.Text = "追加"
+        Me.btnAddSkill2.UseVisualStyleBackColor = True
+        '
+        'txtSkill2
+        '
+        Me.txtSkill2.Location = New System.Drawing.Point(8, 30)
+        Me.txtSkill2.Name = "txtSkill2"
+        Me.txtSkill2.Size = New System.Drawing.Size(550, 19)
+        Me.txtSkill2.TabIndex = 8
+        '
+        'lblDescriptionSkill2
+        '
+        Me.lblDescriptionSkill2.AutoSize = True
+        Me.lblDescriptionSkill2.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionSkill2.Name = "lblDescriptionSkill2"
+        Me.lblDescriptionSkill2.Size = New System.Drawing.Size(102, 12)
+        Me.lblDescriptionSkill2.TabIndex = 7
+        Me.lblDescriptionSkill2.Text = "・レイハンドを使うとき"
+        '
+        'lblHeaderSkill2
+        '
+        Me.lblHeaderSkill2.AutoSize = True
+        Me.lblHeaderSkill2.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderSkill2.Name = "lblHeaderSkill2"
+        Me.lblHeaderSkill2.Size = New System.Drawing.Size(80, 12)
+        Me.lblHeaderSkill2.TabIndex = 6
+        Me.lblHeaderSkill2.Text = "%txtlayhand,JP"
+        '
+        'Skill3
+        '
+        Me.Skill3.Controls.Add(Me.btnDelSkill3)
+        Me.Skill3.Controls.Add(Me.dgvSkill3)
+        Me.Skill3.Controls.Add(Me.btnAddSkill3)
+        Me.Skill3.Controls.Add(Me.txtSkill3)
+        Me.Skill3.Controls.Add(Me.lblDescriptionSkill3)
+        Me.Skill3.Controls.Add(Me.lblHeaderSkill3)
+        Me.Skill3.Location = New System.Drawing.Point(4, 22)
+        Me.Skill3.Name = "Skill3"
+        Me.Skill3.Size = New System.Drawing.Size(754, 383)
+        Me.Skill3.TabIndex = 2
+        Me.Skill3.Text = "罵倒"
+        Me.Skill3.UseVisualStyleBackColor = True
+        '
+        'btnDelSkill3
+        '
+        Me.btnDelSkill3.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelSkill3.Name = "btnDelSkill3"
+        Me.btnDelSkill3.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelSkill3.TabIndex = 11
+        Me.btnDelSkill3.Text = "削除"
+        Me.btnDelSkill3.UseVisualStyleBackColor = True
+        '
+        'dgvSkill3
+        '
+        Me.dgvSkill3.AllowUserToAddRows = False
+        Me.dgvSkill3.AllowUserToDeleteRows = False
+        Me.dgvSkill3.AllowUserToResizeColumns = False
+        Me.dgvSkill3.AllowUserToResizeRows = False
+        Me.dgvSkill3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvSkill3.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnSkill3})
+        Me.dgvSkill3.Location = New System.Drawing.Point(8, 55)
+        Me.dgvSkill3.Name = "dgvSkill3"
+        Me.dgvSkill3.ReadOnly = True
+        Me.dgvSkill3.RowHeadersVisible = False
+        Me.dgvSkill3.RowTemplate.Height = 21
+        Me.dgvSkill3.Size = New System.Drawing.Size(740, 322)
+        Me.dgvSkill3.TabIndex = 10
+        '
+        'TextColumnSkill3
+        '
+        Me.TextColumnSkill3.HeaderText = "テキスト"
+        Me.TextColumnSkill3.Name = "TextColumnSkill3"
+        Me.TextColumnSkill3.ReadOnly = True
+        Me.TextColumnSkill3.Width = 737
+        '
+        'btnAddSkill3
+        '
+        Me.btnAddSkill3.Location = New System.Drawing.Point(564, 28)
+        Me.btnAddSkill3.Name = "btnAddSkill3"
+        Me.btnAddSkill3.Size = New System.Drawing.Size(75, 23)
+        Me.btnAddSkill3.TabIndex = 9
+        Me.btnAddSkill3.Text = "追加"
+        Me.btnAddSkill3.UseVisualStyleBackColor = True
+        '
+        'txtSkill3
+        '
+        Me.txtSkill3.Location = New System.Drawing.Point(8, 30)
+        Me.txtSkill3.Name = "txtSkill3"
+        Me.txtSkill3.Size = New System.Drawing.Size(550, 19)
+        Me.txtSkill3.TabIndex = 8
+        '
+        'lblDescriptionSkill3
+        '
+        Me.lblDescriptionSkill3.AutoSize = True
+        Me.lblDescriptionSkill3.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionSkill3.Name = "lblDescriptionSkill3"
+        Me.lblDescriptionSkill3.Size = New System.Drawing.Size(71, 12)
+        Me.lblDescriptionSkill3.TabIndex = 7
+        Me.lblDescriptionSkill3.Text = "・罵倒するとき"
+        '
+        'lblHeaderSkill3
+        '
+        Me.lblHeaderSkill3.AutoSize = True
+        Me.lblHeaderSkill3.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderSkill3.Name = "lblHeaderSkill3"
+        Me.lblHeaderSkill3.Size = New System.Drawing.Size(71, 12)
+        Me.lblHeaderSkill3.TabIndex = 6
+        Me.lblHeaderSkill3.Text = "%txtabuse,JP"
+        '
+        'Skill4
+        '
+        Me.Skill4.Controls.Add(Me.btnDelSkill4)
+        Me.Skill4.Controls.Add(Me.dgvSkill4)
+        Me.Skill4.Controls.Add(Me.btnAddSkill4)
+        Me.Skill4.Controls.Add(Me.txtSkill4)
+        Me.Skill4.Controls.Add(Me.lblDescriptionSkill4)
+        Me.Skill4.Controls.Add(Me.lblHeaderSkill4)
+        Me.Skill4.Location = New System.Drawing.Point(4, 22)
+        Me.Skill4.Name = "Skill4"
+        Me.Skill4.Size = New System.Drawing.Size(754, 383)
+        Me.Skill4.TabIndex = 3
+        Me.Skill4.Text = "罵倒ログ"
+        Me.Skill4.UseVisualStyleBackColor = True
+        '
+        'btnDelSkill4
+        '
+        Me.btnDelSkill4.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelSkill4.Name = "btnDelSkill4"
+        Me.btnDelSkill4.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelSkill4.TabIndex = 11
+        Me.btnDelSkill4.Text = "削除"
+        Me.btnDelSkill4.UseVisualStyleBackColor = True
+        '
+        'dgvSkill4
+        '
+        Me.dgvSkill4.AllowUserToAddRows = False
+        Me.dgvSkill4.AllowUserToDeleteRows = False
+        Me.dgvSkill4.AllowUserToResizeColumns = False
+        Me.dgvSkill4.AllowUserToResizeRows = False
+        Me.dgvSkill4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvSkill4.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnSkill4})
+        Me.dgvSkill4.Location = New System.Drawing.Point(8, 55)
+        Me.dgvSkill4.Name = "dgvSkill4"
+        Me.dgvSkill4.ReadOnly = True
+        Me.dgvSkill4.RowHeadersVisible = False
+        Me.dgvSkill4.RowTemplate.Height = 21
+        Me.dgvSkill4.Size = New System.Drawing.Size(740, 322)
+        Me.dgvSkill4.TabIndex = 10
+        '
+        'TextColumnSkill4
+        '
+        Me.TextColumnSkill4.HeaderText = "テキスト"
+        Me.TextColumnSkill4.Name = "TextColumnSkill4"
+        Me.TextColumnSkill4.ReadOnly = True
+        Me.TextColumnSkill4.Width = 737
+        '
+        'btnAddSkill4
+        '
+        Me.btnAddSkill4.Location = New System.Drawing.Point(564, 28)
+        Me.btnAddSkill4.Name = "btnAddSkill4"
+        Me.btnAddSkill4.Size = New System.Drawing.Size(75, 23)
+        Me.btnAddSkill4.TabIndex = 9
+        Me.btnAddSkill4.Text = "追加"
+        Me.btnAddSkill4.UseVisualStyleBackColor = True
+        '
+        'txtSkill4
+        '
+        Me.txtSkill4.Location = New System.Drawing.Point(8, 30)
+        Me.txtSkill4.Name = "txtSkill4"
+        Me.txtSkill4.Size = New System.Drawing.Size(550, 19)
+        Me.txtSkill4.TabIndex = 8
+        '
+        'lblDescriptionSkill4
+        '
+        Me.lblDescriptionSkill4.AutoSize = True
+        Me.lblDescriptionSkill4.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionSkill4.Name = "lblDescriptionSkill4"
+        Me.lblDescriptionSkill4.Size = New System.Drawing.Size(244, 12)
+        Me.lblDescriptionSkill4.TabIndex = 7
+        Me.lblDescriptionSkill4.Text = "・デフォルトだと「○○は××を罵倒した」となる部分"
+        '
+        'lblHeaderSkill4
+        '
+        Me.lblHeaderSkill4.AutoSize = True
+        Me.lblHeaderSkill4.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderSkill4.Name = "lblHeaderSkill4"
+        Me.lblHeaderSkill4.Size = New System.Drawing.Size(69, 12)
+        Me.lblHeaderSkill4.TabIndex = 6
+        Me.lblHeaderSkill4.Text = "%txtbatou,JP"
+        '
+        'Skill5
+        '
+        Me.Skill5.Controls.Add(Me.btnDelSkill5)
+        Me.Skill5.Controls.Add(Me.dgvSkill5)
+        Me.Skill5.Controls.Add(Me.btnAddSkill5)
+        Me.Skill5.Controls.Add(Me.txtSkill5)
+        Me.Skill5.Controls.Add(Me.lblDescriptionSkill5)
+        Me.Skill5.Controls.Add(Me.lblHeaderSkill5)
+        Me.Skill5.Location = New System.Drawing.Point(4, 22)
+        Me.Skill5.Name = "Skill5"
+        Me.Skill5.Size = New System.Drawing.Size(754, 383)
+        Me.Skill5.TabIndex = 4
+        Me.Skill5.Text = "スウォームログ"
+        Me.Skill5.UseVisualStyleBackColor = True
+        '
+        'btnDelSkill5
+        '
+        Me.btnDelSkill5.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelSkill5.Name = "btnDelSkill5"
+        Me.btnDelSkill5.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelSkill5.TabIndex = 11
+        Me.btnDelSkill5.Text = "削除"
+        Me.btnDelSkill5.UseVisualStyleBackColor = True
+        '
+        'dgvSkill5
+        '
+        Me.dgvSkill5.AllowUserToAddRows = False
+        Me.dgvSkill5.AllowUserToDeleteRows = False
+        Me.dgvSkill5.AllowUserToResizeColumns = False
+        Me.dgvSkill5.AllowUserToResizeRows = False
+        Me.dgvSkill5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvSkill5.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnSkill5})
+        Me.dgvSkill5.Location = New System.Drawing.Point(8, 55)
+        Me.dgvSkill5.Name = "dgvSkill5"
+        Me.dgvSkill5.ReadOnly = True
+        Me.dgvSkill5.RowHeadersVisible = False
+        Me.dgvSkill5.RowTemplate.Height = 21
+        Me.dgvSkill5.Size = New System.Drawing.Size(740, 322)
+        Me.dgvSkill5.TabIndex = 10
+        '
+        'TextColumnSkill5
+        '
+        Me.TextColumnSkill5.HeaderText = "テキスト"
+        Me.TextColumnSkill5.Name = "TextColumnSkill5"
+        Me.TextColumnSkill5.ReadOnly = True
+        Me.TextColumnSkill5.Width = 737
+        '
+        'btnAddSkill5
+        '
+        Me.btnAddSkill5.Location = New System.Drawing.Point(564, 28)
+        Me.btnAddSkill5.Name = "btnAddSkill5"
+        Me.btnAddSkill5.Size = New System.Drawing.Size(75, 23)
+        Me.btnAddSkill5.TabIndex = 9
+        Me.btnAddSkill5.Text = "追加"
+        Me.btnAddSkill5.UseVisualStyleBackColor = True
+        '
+        'txtSkill5
+        '
+        Me.txtSkill5.Location = New System.Drawing.Point(8, 30)
+        Me.txtSkill5.Name = "txtSkill5"
+        Me.txtSkill5.Size = New System.Drawing.Size(550, 19)
+        Me.txtSkill5.TabIndex = 8
+        '
+        'lblDescriptionSkill5
+        '
+        Me.lblDescriptionSkill5.AutoSize = True
+        Me.lblDescriptionSkill5.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionSkill5.Name = "lblDescriptionSkill5"
+        Me.lblDescriptionSkill5.Size = New System.Drawing.Size(291, 12)
+        Me.lblDescriptionSkill5.TabIndex = 7
+        Me.lblDescriptionSkill5.Text = "・スウォームを使用した時のメッセージ（「スウォーム！」の部分）"
+        '
+        'lblHeaderSkill5
+        '
+        Me.lblHeaderSkill5.AutoSize = True
+        Me.lblHeaderSkill5.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderSkill5.Name = "lblHeaderSkill5"
+        Me.lblHeaderSkill5.Size = New System.Drawing.Size(74, 12)
+        Me.lblHeaderSkill5.TabIndex = 6
+        Me.lblHeaderSkill5.Text = "%txtswarm,JP"
+        '
+        'Skill6
+        '
+        Me.Skill6.Controls.Add(Me.btnDelSkill6)
+        Me.Skill6.Controls.Add(Me.dgvSkill6)
+        Me.Skill6.Controls.Add(Me.btnAddSkill6)
+        Me.Skill6.Controls.Add(Me.txtSkill6)
+        Me.Skill6.Controls.Add(Me.lblDescriptionSkill6)
+        Me.Skill6.Controls.Add(Me.lblHeaderSkill6)
+        Me.Skill6.Location = New System.Drawing.Point(4, 22)
+        Me.Skill6.Name = "Skill6"
+        Me.Skill6.Size = New System.Drawing.Size(754, 383)
+        Me.Skill6.TabIndex = 5
+        Me.Skill6.Text = "寄生ログ"
+        Me.Skill6.UseVisualStyleBackColor = True
+        '
+        'btnDelSkill6
+        '
+        Me.btnDelSkill6.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelSkill6.Name = "btnDelSkill6"
+        Me.btnDelSkill6.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelSkill6.TabIndex = 11
+        Me.btnDelSkill6.Text = "削除"
+        Me.btnDelSkill6.UseVisualStyleBackColor = True
+        '
+        'dgvSkill6
+        '
+        Me.dgvSkill6.AllowUserToAddRows = False
+        Me.dgvSkill6.AllowUserToDeleteRows = False
+        Me.dgvSkill6.AllowUserToResizeColumns = False
+        Me.dgvSkill6.AllowUserToResizeRows = False
+        Me.dgvSkill6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvSkill6.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnSkill6})
+        Me.dgvSkill6.Location = New System.Drawing.Point(8, 55)
+        Me.dgvSkill6.Name = "dgvSkill6"
+        Me.dgvSkill6.ReadOnly = True
+        Me.dgvSkill6.RowHeadersVisible = False
+        Me.dgvSkill6.RowTemplate.Height = 21
+        Me.dgvSkill6.Size = New System.Drawing.Size(740, 322)
+        Me.dgvSkill6.TabIndex = 10
+        '
+        'TextColumnSkill6
+        '
+        Me.TextColumnSkill6.HeaderText = "テキスト"
+        Me.TextColumnSkill6.Name = "TextColumnSkill6"
+        Me.TextColumnSkill6.ReadOnly = True
+        Me.TextColumnSkill6.Width = 737
+        '
+        'btnAddSkill6
+        '
+        Me.btnAddSkill6.Location = New System.Drawing.Point(564, 28)
+        Me.btnAddSkill6.Name = "btnAddSkill6"
+        Me.btnAddSkill6.Size = New System.Drawing.Size(75, 23)
+        Me.btnAddSkill6.TabIndex = 9
+        Me.btnAddSkill6.Text = "追加"
+        Me.btnAddSkill6.UseVisualStyleBackColor = True
+        '
+        'txtSkill6
+        '
+        Me.txtSkill6.Location = New System.Drawing.Point(8, 30)
+        Me.txtSkill6.Name = "txtSkill6"
+        Me.txtSkill6.Size = New System.Drawing.Size(550, 19)
+        Me.txtSkill6.TabIndex = 8
+        '
+        'lblDescriptionSkill6
+        '
+        Me.lblDescriptionSkill6.AutoSize = True
+        Me.lblDescriptionSkill6.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionSkill6.Name = "lblDescriptionSkill6"
+        Me.lblDescriptionSkill6.Size = New System.Drawing.Size(289, 12)
+        Me.lblDescriptionSkill6.TabIndex = 7
+        Me.lblDescriptionSkill6.Text = "・相手に寄生した時のメッセージ（何かを送り込んだ、の部分）"
+        '
+        'lblHeaderSkill6
+        '
+        Me.lblHeaderSkill6.AutoSize = True
+        Me.lblHeaderSkill6.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderSkill6.Name = "lblHeaderSkill6"
+        Me.lblHeaderSkill6.Size = New System.Drawing.Size(65, 12)
+        Me.lblHeaderSkill6.TabIndex = 6
+        Me.lblHeaderSkill6.Text = "%txtkisei,JP"
+        '
+        'Skill7
+        '
+        Me.Skill7.Controls.Add(Me.btnDelSkill7)
+        Me.Skill7.Controls.Add(Me.dgvSkill7)
+        Me.Skill7.Controls.Add(Me.btnAddSkill7)
+        Me.Skill7.Controls.Add(Me.txtSkill7)
+        Me.Skill7.Controls.Add(Me.lblDescriptionSkill7)
+        Me.Skill7.Controls.Add(Me.lblHeaderSkill7)
+        Me.Skill7.Location = New System.Drawing.Point(4, 22)
+        Me.Skill7.Name = "Skill7"
+        Me.Skill7.Size = New System.Drawing.Size(754, 383)
+        Me.Skill7.TabIndex = 6
+        Me.Skill7.Text = "狂気の眼差し"
+        Me.Skill7.UseVisualStyleBackColor = True
+        '
+        'btnDelSkill7
+        '
+        Me.btnDelSkill7.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelSkill7.Name = "btnDelSkill7"
+        Me.btnDelSkill7.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelSkill7.TabIndex = 11
+        Me.btnDelSkill7.Text = "削除"
+        Me.btnDelSkill7.UseVisualStyleBackColor = True
+        '
+        'dgvSkill7
+        '
+        Me.dgvSkill7.AllowUserToAddRows = False
+        Me.dgvSkill7.AllowUserToDeleteRows = False
+        Me.dgvSkill7.AllowUserToResizeColumns = False
+        Me.dgvSkill7.AllowUserToResizeRows = False
+        Me.dgvSkill7.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvSkill7.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnSkill7})
+        Me.dgvSkill7.Location = New System.Drawing.Point(8, 55)
+        Me.dgvSkill7.Name = "dgvSkill7"
+        Me.dgvSkill7.ReadOnly = True
+        Me.dgvSkill7.RowHeadersVisible = False
+        Me.dgvSkill7.RowTemplate.Height = 21
+        Me.dgvSkill7.Size = New System.Drawing.Size(740, 322)
+        Me.dgvSkill7.TabIndex = 10
+        '
+        'TextColumnSkill7
+        '
+        Me.TextColumnSkill7.HeaderText = "テキスト"
+        Me.TextColumnSkill7.Name = "TextColumnSkill7"
+        Me.TextColumnSkill7.ReadOnly = True
+        Me.TextColumnSkill7.Width = 737
+        '
+        'btnAddSkill7
+        '
+        Me.btnAddSkill7.Location = New System.Drawing.Point(564, 28)
+        Me.btnAddSkill7.Name = "btnAddSkill7"
+        Me.btnAddSkill7.Size = New System.Drawing.Size(75, 23)
+        Me.btnAddSkill7.TabIndex = 9
+        Me.btnAddSkill7.Text = "追加"
+        Me.btnAddSkill7.UseVisualStyleBackColor = True
+        '
+        'txtSkill7
+        '
+        Me.txtSkill7.Location = New System.Drawing.Point(8, 30)
+        Me.txtSkill7.Name = "txtSkill7"
+        Me.txtSkill7.Size = New System.Drawing.Size(550, 19)
+        Me.txtSkill7.TabIndex = 8
+        '
+        'lblDescriptionSkill7
+        '
+        Me.lblDescriptionSkill7.AutoSize = True
+        Me.lblDescriptionSkill7.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionSkill7.Name = "lblDescriptionSkill7"
+        Me.lblDescriptionSkill7.Size = New System.Drawing.Size(252, 12)
+        Me.lblDescriptionSkill7.TabIndex = 7
+        Me.lblDescriptionSkill7.Text = "・狂気の眼差し（蛆虫が沸き出るのを見た、の部分） "
+        '
+        'lblHeaderSkill7
+        '
+        Me.lblHeaderSkill7.AutoSize = True
+        Me.lblHeaderSkill7.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderSkill7.Name = "lblHeaderSkill7"
+        Me.lblHeaderSkill7.Size = New System.Drawing.Size(85, 12)
+        Me.lblHeaderSkill7.TabIndex = 6
+        Me.lblHeaderSkill7.Text = "%txtuzimushi,JP"
+        '
+        'Skill8
+        '
+        Me.Skill8.Controls.Add(Me.cmbSkill8)
+        Me.Skill8.Controls.Add(Me.btnDelSkill8)
+        Me.Skill8.Controls.Add(Me.dgvSkill8)
+        Me.Skill8.Controls.Add(Me.btnAddSkill8)
+        Me.Skill8.Controls.Add(Me.txtSkill8)
+        Me.Skill8.Controls.Add(Me.lblDescriptionSkill8)
+        Me.Skill8.Controls.Add(Me.lblHeaderSkill8)
+        Me.Skill8.Location = New System.Drawing.Point(4, 22)
+        Me.Skill8.Name = "Skill8"
+        Me.Skill8.Size = New System.Drawing.Size(754, 383)
+        Me.Skill8.TabIndex = 7
+        Me.Skill8.Text = "特定魔法使用"
+        Me.Skill8.UseVisualStyleBackColor = True
+        '
+        'cmbSkill8
+        '
+        Me.cmbSkill8.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cmbSkill8.FormattingEnabled = True
+        Me.cmbSkill8.Location = New System.Drawing.Point(8, 30)
+        Me.cmbSkill8.Name = "cmbSkill8"
+        Me.cmbSkill8.Size = New System.Drawing.Size(121, 20)
+        Me.cmbSkill8.TabIndex = 12
+        '
+        'btnDelSkill8
+        '
+        Me.btnDelSkill8.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelSkill8.Name = "btnDelSkill8"
+        Me.btnDelSkill8.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelSkill8.TabIndex = 11
+        Me.btnDelSkill8.Text = "削除"
+        Me.btnDelSkill8.UseVisualStyleBackColor = True
+        '
+        'dgvSkill8
+        '
+        Me.dgvSkill8.AllowUserToAddRows = False
+        Me.dgvSkill8.AllowUserToDeleteRows = False
+        Me.dgvSkill8.AllowUserToResizeColumns = False
+        Me.dgvSkill8.AllowUserToResizeRows = False
+        Me.dgvSkill8.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvSkill8.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextSkillColumn8SpellID, Me.TextColumnSkill8SpellName, Me.TextColumnSkill8})
+        Me.dgvSkill8.Location = New System.Drawing.Point(8, 55)
+        Me.dgvSkill8.Name = "dgvSkill8"
+        Me.dgvSkill8.ReadOnly = True
+        Me.dgvSkill8.RowHeadersVisible = False
+        Me.dgvSkill8.RowTemplate.Height = 21
+        Me.dgvSkill8.Size = New System.Drawing.Size(740, 322)
+        Me.dgvSkill8.TabIndex = 10
+        '
+        'TextSkillColumn8SpellID
+        '
+        Me.TextSkillColumn8SpellID.HeaderText = "ID"
+        Me.TextSkillColumn8SpellID.Name = "TextSkillColumn8SpellID"
+        Me.TextSkillColumn8SpellID.ReadOnly = True
+        Me.TextSkillColumn8SpellID.Width = 40
+        '
+        'TextColumnSkill8SpellName
+        '
+        Me.TextColumnSkill8SpellName.HeaderText = "魔法名"
+        Me.TextColumnSkill8SpellName.Name = "TextColumnSkill8SpellName"
+        Me.TextColumnSkill8SpellName.ReadOnly = True
+        '
+        'TextColumnSkill8
+        '
+        Me.TextColumnSkill8.HeaderText = "テキスト"
+        Me.TextColumnSkill8.Name = "TextColumnSkill8"
+        Me.TextColumnSkill8.ReadOnly = True
+        Me.TextColumnSkill8.Width = 597
+        '
+        'btnAddSkill8
+        '
+        Me.btnAddSkill8.Location = New System.Drawing.Point(564, 28)
+        Me.btnAddSkill8.Name = "btnAddSkill8"
+        Me.btnAddSkill8.Size = New System.Drawing.Size(75, 23)
+        Me.btnAddSkill8.TabIndex = 9
+        Me.btnAddSkill8.Text = "追加"
+        Me.btnAddSkill8.UseVisualStyleBackColor = True
+        '
+        'txtSkill8
+        '
+        Me.txtSkill8.Location = New System.Drawing.Point(135, 30)
+        Me.txtSkill8.Name = "txtSkill8"
+        Me.txtSkill8.Size = New System.Drawing.Size(423, 19)
+        Me.txtSkill8.TabIndex = 8
+        '
+        'lblDescriptionSkill8
+        '
+        Me.lblDescriptionSkill8.AutoSize = True
+        Me.lblDescriptionSkill8.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionSkill8.Name = "lblDescriptionSkill8"
+        Me.lblDescriptionSkill8.Size = New System.Drawing.Size(341, 12)
+        Me.lblDescriptionSkill8.TabIndex = 7
+        Me.lblDescriptionSkill8.Text = "・魔法を使用（スキル番号は本家Wiki等参照。{spell}で魔法名を引用）"
+        '
+        'lblHeaderSkill8
+        '
+        Me.lblHeaderSkill8.AutoSize = True
+        Me.lblHeaderSkill8.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderSkill8.Name = "lblHeaderSkill8"
+        Me.lblHeaderSkill8.Size = New System.Drawing.Size(116, 12)
+        Me.lblHeaderSkill8.TabIndex = 6
+        Me.lblHeaderSkill8.Text = "%txtcastスキル番号,JP"
+        '
+        'Skill9
+        '
+        Me.Skill9.Controls.Add(Me.btnDelSkill9)
+        Me.Skill9.Controls.Add(Me.dgvSkill9)
+        Me.Skill9.Controls.Add(Me.btnAddSkill9)
+        Me.Skill9.Controls.Add(Me.txtSkill9)
+        Me.Skill9.Controls.Add(Me.lblDescriptionSkill9)
+        Me.Skill9.Controls.Add(Me.lblHeaderSkill9)
+        Me.Skill9.Location = New System.Drawing.Point(4, 22)
+        Me.Skill9.Name = "Skill9"
+        Me.Skill9.Size = New System.Drawing.Size(754, 383)
+        Me.Skill9.TabIndex = 8
+        Me.Skill9.Text = "魔法使用"
+        Me.Skill9.UseVisualStyleBackColor = True
+        '
+        'btnDelSkill9
+        '
+        Me.btnDelSkill9.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelSkill9.Name = "btnDelSkill9"
+        Me.btnDelSkill9.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelSkill9.TabIndex = 11
+        Me.btnDelSkill9.Text = "削除"
+        Me.btnDelSkill9.UseVisualStyleBackColor = True
+        '
+        'dgvSkill9
+        '
+        Me.dgvSkill9.AllowUserToAddRows = False
+        Me.dgvSkill9.AllowUserToDeleteRows = False
+        Me.dgvSkill9.AllowUserToResizeColumns = False
+        Me.dgvSkill9.AllowUserToResizeRows = False
+        Me.dgvSkill9.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvSkill9.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnSkill9})
+        Me.dgvSkill9.Location = New System.Drawing.Point(8, 55)
+        Me.dgvSkill9.Name = "dgvSkill9"
+        Me.dgvSkill9.ReadOnly = True
+        Me.dgvSkill9.RowHeadersVisible = False
+        Me.dgvSkill9.RowTemplate.Height = 21
+        Me.dgvSkill9.Size = New System.Drawing.Size(740, 322)
+        Me.dgvSkill9.TabIndex = 10
+        '
+        'TextColumnSkill9
+        '
+        Me.TextColumnSkill9.HeaderText = "テキスト"
+        Me.TextColumnSkill9.Name = "TextColumnSkill9"
+        Me.TextColumnSkill9.ReadOnly = True
+        Me.TextColumnSkill9.Width = 737
+        '
+        'btnAddSkill9
+        '
+        Me.btnAddSkill9.Location = New System.Drawing.Point(564, 28)
+        Me.btnAddSkill9.Name = "btnAddSkill9"
+        Me.btnAddSkill9.Size = New System.Drawing.Size(75, 23)
+        Me.btnAddSkill9.TabIndex = 9
+        Me.btnAddSkill9.Text = "追加"
+        Me.btnAddSkill9.UseVisualStyleBackColor = True
+        '
+        'txtSkill9
+        '
+        Me.txtSkill9.Location = New System.Drawing.Point(8, 30)
+        Me.txtSkill9.Name = "txtSkill9"
+        Me.txtSkill9.Size = New System.Drawing.Size(550, 19)
+        Me.txtSkill9.TabIndex = 8
+        '
+        'lblDescriptionSkill9
+        '
+        Me.lblDescriptionSkill9.AutoSize = True
+        Me.lblDescriptionSkill9.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionSkill9.Name = "lblDescriptionSkill9"
+        Me.lblDescriptionSkill9.Size = New System.Drawing.Size(314, 12)
+        Me.lblDescriptionSkill9.TabIndex = 7
+        Me.lblDescriptionSkill9.Text = "・魔法を使用（魔法を詠唱した、の部分。{spell}で魔法名を引用）"
+        '
+        'lblHeaderSkill9
+        '
+        Me.lblHeaderSkill9.AutoSize = True
+        Me.lblHeaderSkill9.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderSkill9.Name = "lblHeaderSkill9"
+        Me.lblHeaderSkill9.Size = New System.Drawing.Size(88, 12)
+        Me.lblHeaderSkill9.TabIndex = 6
+        Me.lblHeaderSkill9.Text = "%txtcaststyle,JP"
+        '
+        'Skill10
+        '
+        Me.Skill10.Controls.Add(Me.btnDelSkill10)
+        Me.Skill10.Controls.Add(Me.dgvSkill10)
+        Me.Skill10.Controls.Add(Me.btnAddSkill10)
+        Me.Skill10.Controls.Add(Me.txtSkill10)
+        Me.Skill10.Controls.Add(Me.lblDescriptionSkill10)
+        Me.Skill10.Controls.Add(Me.lblHeaderSkill10)
+        Me.Skill10.Location = New System.Drawing.Point(4, 22)
+        Me.Skill10.Name = "Skill10"
+        Me.Skill10.Size = New System.Drawing.Size(754, 383)
+        Me.Skill10.TabIndex = 9
+        Me.Skill10.Text = "バフ系魔法"
+        Me.Skill10.UseVisualStyleBackColor = True
+        '
+        'btnDelSkill10
+        '
+        Me.btnDelSkill10.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelSkill10.Name = "btnDelSkill10"
+        Me.btnDelSkill10.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelSkill10.TabIndex = 11
+        Me.btnDelSkill10.Text = "削除"
+        Me.btnDelSkill10.UseVisualStyleBackColor = True
+        '
+        'dgvSkill10
+        '
+        Me.dgvSkill10.AllowUserToAddRows = False
+        Me.dgvSkill10.AllowUserToDeleteRows = False
+        Me.dgvSkill10.AllowUserToResizeColumns = False
+        Me.dgvSkill10.AllowUserToResizeRows = False
+        Me.dgvSkill10.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvSkill10.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnSkill10})
+        Me.dgvSkill10.Location = New System.Drawing.Point(8, 55)
+        Me.dgvSkill10.Name = "dgvSkill10"
+        Me.dgvSkill10.ReadOnly = True
+        Me.dgvSkill10.RowHeadersVisible = False
+        Me.dgvSkill10.RowTemplate.Height = 21
+        Me.dgvSkill10.Size = New System.Drawing.Size(740, 322)
+        Me.dgvSkill10.TabIndex = 10
+        '
+        'TextColumnSkill10
+        '
+        Me.TextColumnSkill10.HeaderText = "テキスト"
+        Me.TextColumnSkill10.Name = "TextColumnSkill10"
+        Me.TextColumnSkill10.ReadOnly = True
+        Me.TextColumnSkill10.Width = 737
+        '
+        'btnAddSkill10
+        '
+        Me.btnAddSkill10.Location = New System.Drawing.Point(564, 28)
+        Me.btnAddSkill10.Name = "btnAddSkill10"
+        Me.btnAddSkill10.Size = New System.Drawing.Size(75, 23)
+        Me.btnAddSkill10.TabIndex = 9
+        Me.btnAddSkill10.Text = "追加"
+        Me.btnAddSkill10.UseVisualStyleBackColor = True
+        '
+        'txtSkill10
+        '
+        Me.txtSkill10.Location = New System.Drawing.Point(8, 30)
+        Me.txtSkill10.Name = "txtSkill10"
+        Me.txtSkill10.Size = New System.Drawing.Size(550, 19)
+        Me.txtSkill10.TabIndex = 8
+        '
+        'lblDescriptionSkill10
+        '
+        Me.lblDescriptionSkill10.AutoSize = True
+        Me.lblDescriptionSkill10.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionSkill10.Name = "lblDescriptionSkill10"
+        Me.lblDescriptionSkill10.Size = New System.Drawing.Size(440, 12)
+        Me.lblDescriptionSkill10.TabIndex = 7
+        Me.lblDescriptionSkill10.Text = "・自己回復、自己強化系の魔法を使用（魔法を詠唱した、の部分。{spell}で魔法名を引用）"
+        '
+        'lblHeaderSkill10
+        '
+        Me.lblHeaderSkill10.AutoSize = True
+        Me.lblHeaderSkill10.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderSkill10.Name = "lblHeaderSkill10"
+        Me.lblHeaderSkill10.Size = New System.Drawing.Size(94, 12)
+        Me.lblHeaderSkill10.TabIndex = 6
+        Me.lblHeaderSkill10.Text = "%txtcaststyle2,JP"
+        '
+        'Skill11
+        '
+        Me.Skill11.Controls.Add(Me.btnDelSkill11)
+        Me.Skill11.Controls.Add(Me.dgvSkill11)
+        Me.Skill11.Controls.Add(Me.btnAddSkill11)
+        Me.Skill11.Controls.Add(Me.txtSkill11)
+        Me.Skill11.Controls.Add(Me.lblDescriptionSkill11)
+        Me.Skill11.Controls.Add(Me.lblHeaderSkill11)
+        Me.Skill11.Location = New System.Drawing.Point(4, 22)
+        Me.Skill11.Name = "Skill11"
+        Me.Skill11.Size = New System.Drawing.Size(754, 383)
+        Me.Skill11.TabIndex = 10
+        Me.Skill11.Text = "ブースト使用前"
+        Me.Skill11.UseVisualStyleBackColor = True
+        '
+        'btnDelSkill11
+        '
+        Me.btnDelSkill11.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelSkill11.Name = "btnDelSkill11"
+        Me.btnDelSkill11.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelSkill11.TabIndex = 11
+        Me.btnDelSkill11.Text = "削除"
+        Me.btnDelSkill11.UseVisualStyleBackColor = True
+        '
+        'dgvSkill11
+        '
+        Me.dgvSkill11.AllowUserToAddRows = False
+        Me.dgvSkill11.AllowUserToDeleteRows = False
+        Me.dgvSkill11.AllowUserToResizeColumns = False
+        Me.dgvSkill11.AllowUserToResizeRows = False
+        Me.dgvSkill11.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvSkill11.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnSkill11})
+        Me.dgvSkill11.Location = New System.Drawing.Point(8, 55)
+        Me.dgvSkill11.Name = "dgvSkill11"
+        Me.dgvSkill11.ReadOnly = True
+        Me.dgvSkill11.RowHeadersVisible = False
+        Me.dgvSkill11.RowTemplate.Height = 21
+        Me.dgvSkill11.Size = New System.Drawing.Size(740, 322)
+        Me.dgvSkill11.TabIndex = 10
+        '
+        'TextColumnSkill11
+        '
+        Me.TextColumnSkill11.HeaderText = "テキスト"
+        Me.TextColumnSkill11.Name = "TextColumnSkill11"
+        Me.TextColumnSkill11.ReadOnly = True
+        Me.TextColumnSkill11.Width = 737
+        '
+        'btnAddSkill11
+        '
+        Me.btnAddSkill11.Location = New System.Drawing.Point(564, 28)
+        Me.btnAddSkill11.Name = "btnAddSkill11"
+        Me.btnAddSkill11.Size = New System.Drawing.Size(75, 23)
+        Me.btnAddSkill11.TabIndex = 9
+        Me.btnAddSkill11.Text = "追加"
+        Me.btnAddSkill11.UseVisualStyleBackColor = True
+        '
+        'txtSkill11
+        '
+        Me.txtSkill11.Location = New System.Drawing.Point(8, 30)
+        Me.txtSkill11.Name = "txtSkill11"
+        Me.txtSkill11.Size = New System.Drawing.Size(550, 19)
+        Me.txtSkill11.TabIndex = 8
+        '
+        'lblDescriptionSkill11
+        '
+        Me.lblDescriptionSkill11.AutoSize = True
+        Me.lblDescriptionSkill11.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionSkill11.Name = "lblDescriptionSkill11"
+        Me.lblDescriptionSkill11.Size = New System.Drawing.Size(83, 12)
+        Me.lblDescriptionSkill11.TabIndex = 7
+        Me.lblDescriptionSkill11.Text = "・ブースト使用前"
+        '
+        'lblHeaderSkill11
+        '
+        Me.lblHeaderSkill11.AutoSize = True
+        Me.lblHeaderSkill11.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderSkill11.Name = "lblHeaderSkill11"
+        Me.lblHeaderSkill11.Size = New System.Drawing.Size(107, 12)
+        Me.lblHeaderSkill11.TabIndex = 6
+        Me.lblHeaderSkill11.Text = "%txtactbefore647,JP"
+        '
+        'Skill12
+        '
+        Me.Skill12.Controls.Add(Me.btnDelSkill12)
+        Me.Skill12.Controls.Add(Me.dgvSkill12)
+        Me.Skill12.Controls.Add(Me.btnAddSkill12)
+        Me.Skill12.Controls.Add(Me.txtSkill12)
+        Me.Skill12.Controls.Add(Me.lblDescriptionSkill12)
+        Me.Skill12.Controls.Add(Me.lblHeaderSkill12)
+        Me.Skill12.Location = New System.Drawing.Point(4, 22)
+        Me.Skill12.Name = "Skill12"
+        Me.Skill12.Size = New System.Drawing.Size(754, 383)
+        Me.Skill12.TabIndex = 11
+        Me.Skill12.Text = "ブースト使用後"
+        Me.Skill12.UseVisualStyleBackColor = True
+        '
+        'btnDelSkill12
+        '
+        Me.btnDelSkill12.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelSkill12.Name = "btnDelSkill12"
+        Me.btnDelSkill12.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelSkill12.TabIndex = 11
+        Me.btnDelSkill12.Text = "削除"
+        Me.btnDelSkill12.UseVisualStyleBackColor = True
+        '
+        'dgvSkill12
+        '
+        Me.dgvSkill12.AllowUserToAddRows = False
+        Me.dgvSkill12.AllowUserToDeleteRows = False
+        Me.dgvSkill12.AllowUserToResizeColumns = False
+        Me.dgvSkill12.AllowUserToResizeRows = False
+        Me.dgvSkill12.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvSkill12.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.TextColumnSkill12})
+        Me.dgvSkill12.Location = New System.Drawing.Point(8, 55)
+        Me.dgvSkill12.Name = "dgvSkill12"
+        Me.dgvSkill12.ReadOnly = True
+        Me.dgvSkill12.RowHeadersVisible = False
+        Me.dgvSkill12.RowTemplate.Height = 21
+        Me.dgvSkill12.Size = New System.Drawing.Size(740, 322)
+        Me.dgvSkill12.TabIndex = 10
+        '
+        'TextColumnSkill12
+        '
+        Me.TextColumnSkill12.HeaderText = "テキスト"
+        Me.TextColumnSkill12.Name = "TextColumnSkill12"
+        Me.TextColumnSkill12.ReadOnly = True
+        Me.TextColumnSkill12.Width = 737
+        '
+        'btnAddSkill12
+        '
+        Me.btnAddSkill12.Location = New System.Drawing.Point(564, 28)
+        Me.btnAddSkill12.Name = "btnAddSkill12"
+        Me.btnAddSkill12.Size = New System.Drawing.Size(75, 23)
+        Me.btnAddSkill12.TabIndex = 9
+        Me.btnAddSkill12.Text = "追加"
+        Me.btnAddSkill12.UseVisualStyleBackColor = True
+        '
+        'txtSkill12
+        '
+        Me.txtSkill12.Location = New System.Drawing.Point(8, 30)
+        Me.txtSkill12.Name = "txtSkill12"
+        Me.txtSkill12.Size = New System.Drawing.Size(550, 19)
+        Me.txtSkill12.TabIndex = 8
+        '
+        'lblDescriptionSkill12
+        '
+        Me.lblDescriptionSkill12.AutoSize = True
+        Me.lblDescriptionSkill12.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionSkill12.Name = "lblDescriptionSkill12"
+        Me.lblDescriptionSkill12.Size = New System.Drawing.Size(83, 12)
+        Me.lblDescriptionSkill12.TabIndex = 7
+        Me.lblDescriptionSkill12.Text = "・ブースト使用後"
+        '
+        'lblHeaderSkill12
+        '
+        Me.lblHeaderSkill12.AutoSize = True
+        Me.lblHeaderSkill12.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderSkill12.Name = "lblHeaderSkill12"
+        Me.lblHeaderSkill12.Size = New System.Drawing.Size(99, 12)
+        Me.lblHeaderSkill12.TabIndex = 6
+        Me.lblHeaderSkill12.Text = "%txtactafter647,JP"
         '
         'TabPage3
         '
@@ -1974,7 +3118,7 @@ Partial Class TextEditForm
         Me.Text = "TextEditForm"
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
-        Me.TabControl2.ResumeLayout(False)
+        Me.tabCalm.ResumeLayout(False)
         Me.calm1.ResumeLayout(False)
         Me.calm1.PerformLayout()
         CType(Me.dgvCalm1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -2035,6 +3179,44 @@ Partial Class TextEditForm
         Me.calm20.ResumeLayout(False)
         Me.calm20.PerformLayout()
         CType(Me.dgvCalm20, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabPage2.ResumeLayout(False)
+        Me.tabSkill.ResumeLayout(False)
+        Me.Skill1.ResumeLayout(False)
+        Me.Skill1.PerformLayout()
+        CType(Me.dgvSkill1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Skill2.ResumeLayout(False)
+        Me.Skill2.PerformLayout()
+        CType(Me.dgvSkill2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Skill3.ResumeLayout(False)
+        Me.Skill3.PerformLayout()
+        CType(Me.dgvSkill3, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Skill4.ResumeLayout(False)
+        Me.Skill4.PerformLayout()
+        CType(Me.dgvSkill4, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Skill5.ResumeLayout(False)
+        Me.Skill5.PerformLayout()
+        CType(Me.dgvSkill5, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Skill6.ResumeLayout(False)
+        Me.Skill6.PerformLayout()
+        CType(Me.dgvSkill6, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Skill7.ResumeLayout(False)
+        Me.Skill7.PerformLayout()
+        CType(Me.dgvSkill7, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Skill8.ResumeLayout(False)
+        Me.Skill8.PerformLayout()
+        CType(Me.dgvSkill8, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Skill9.ResumeLayout(False)
+        Me.Skill9.PerformLayout()
+        CType(Me.dgvSkill9, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Skill10.ResumeLayout(False)
+        Me.Skill10.PerformLayout()
+        CType(Me.dgvSkill10, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Skill11.ResumeLayout(False)
+        Me.Skill11.PerformLayout()
+        CType(Me.dgvSkill11, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Skill12.ResumeLayout(False)
+        Me.Skill12.PerformLayout()
+        CType(Me.dgvSkill12, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -2043,7 +3225,7 @@ Partial Class TextEditForm
     Friend WithEvents TabPage2 As System.Windows.Forms.TabPage
     Friend WithEvents TabPage3 As System.Windows.Forms.TabPage
     Friend WithEvents TabPage4 As System.Windows.Forms.TabPage
-    Friend WithEvents TabControl2 As System.Windows.Forms.TabControl
+    Friend WithEvents tabCalm As System.Windows.Forms.TabControl
     Friend WithEvents calm1 As System.Windows.Forms.TabPage
     Friend WithEvents calm2 As System.Windows.Forms.TabPage
     Friend WithEvents calm3 As System.Windows.Forms.TabPage
@@ -2165,11 +3347,11 @@ Partial Class TextEditForm
     Friend WithEvents txtCalm20 As System.Windows.Forms.TextBox
     Friend WithEvents lblDescriptionCalm20 As System.Windows.Forms.Label
     Friend WithEvents lblHeaderCalm20 As System.Windows.Forms.Label
-    Friend WithEvents TextCalm1 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents TextCalm2 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents TextCalm3 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents TextCalm4 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents TextCalm5 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents TextColumnCalm1 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents TextColumnCalm2 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents TextColumnCalm3 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents TextColumnCalm4 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents TextColumnCalm5 As System.Windows.Forms.DataGridViewTextBoxColumn
 
     Friend WithEvents btnDelCalm1 As System.Windows.Forms.Button
     Friend WithEvents btnDelCalm2 As System.Windows.Forms.Button
@@ -2191,23 +3373,134 @@ Partial Class TextEditForm
     Friend WithEvents btnDelCalm18 As System.Windows.Forms.Button
     Friend WithEvents btnDelCalm19 As System.Windows.Forms.Button
     Friend WithEvents btnDelCalm20 As System.Windows.Forms.Button
-    Friend WithEvents TextCalm6 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents TextCalm7 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents TextCalm8 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents TextCalm9 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents TextCalm10 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents TextCalm11 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents TextCalm12 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents TextCalm13 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents TextCalm14 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents TextCalm15 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents TextCalm16 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents TextCalm17 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents TextCalm19 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents TextCalm20 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents TextColumnCalm6 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents TextColumnCalm7 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents TextColumnCalm8 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents TextColumnCalm9 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents TextColumnCalm10 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents TextColumnCalm11 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents TextColumnCalm12 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents TextColumnCalm13 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents TextColumnCalm14 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents TextColumnCalm15 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents TextColumnCalm16 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents TextColumnCalm17 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents TextColumnCalm19 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents TextColumnCalm20 As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents txtCalm18CharName As System.Windows.Forms.TextBox
-    Friend WithEvents TextCalm18CharName As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents TextCalm18 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents TextColumnCalm18CharName As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents TextColumnCalm18 As System.Windows.Forms.DataGridViewTextBoxColumn
 
+
+
+    Friend WithEvents tabSkill As System.Windows.Forms.TabControl
+
+    Friend WithEvents Skill1 As System.Windows.Forms.TabPage
+    Friend WithEvents Skill2 As System.Windows.Forms.TabPage
+    Friend WithEvents Skill3 As System.Windows.Forms.TabPage
+    Friend WithEvents Skill4 As System.Windows.Forms.TabPage
+    Friend WithEvents Skill5 As System.Windows.Forms.TabPage
+    Friend WithEvents Skill6 As System.Windows.Forms.TabPage
+    Friend WithEvents Skill7 As System.Windows.Forms.TabPage
+    Friend WithEvents Skill8 As System.Windows.Forms.TabPage
+    Friend WithEvents Skill9 As System.Windows.Forms.TabPage
+    Friend WithEvents Skill10 As System.Windows.Forms.TabPage
+    Friend WithEvents Skill11 As System.Windows.Forms.TabPage
+    Friend WithEvents Skill12 As System.Windows.Forms.TabPage
+
+    Friend WithEvents btnDelSkill1 As System.Windows.Forms.Button
+    Friend WithEvents btnDelSkill2 As System.Windows.Forms.Button
+    Friend WithEvents btnDelSkill3 As System.Windows.Forms.Button
+    Friend WithEvents btnDelSkill4 As System.Windows.Forms.Button
+    Friend WithEvents btnDelSkill5 As System.Windows.Forms.Button
+    Friend WithEvents btnDelSkill6 As System.Windows.Forms.Button
+    Friend WithEvents btnDelSkill7 As System.Windows.Forms.Button
+    Friend WithEvents btnDelSkill8 As System.Windows.Forms.Button
+    Friend WithEvents btnDelSkill9 As System.Windows.Forms.Button
+    Friend WithEvents btnDelSkill10 As System.Windows.Forms.Button
+    Friend WithEvents btnDelSkill11 As System.Windows.Forms.Button
+    Friend WithEvents btnDelSkill12 As System.Windows.Forms.Button
+
+    Friend WithEvents btnAddSkill1 As System.Windows.Forms.Button
+    Friend WithEvents btnAddSkill2 As System.Windows.Forms.Button
+    Friend WithEvents btnAddSkill3 As System.Windows.Forms.Button
+    Friend WithEvents btnAddSkill4 As System.Windows.Forms.Button
+    Friend WithEvents btnAddSkill5 As System.Windows.Forms.Button
+    Friend WithEvents btnAddSkill6 As System.Windows.Forms.Button
+    Friend WithEvents btnAddSkill7 As System.Windows.Forms.Button
+    Friend WithEvents btnAddSkill8 As System.Windows.Forms.Button
+    Friend WithEvents btnAddSkill9 As System.Windows.Forms.Button
+    Friend WithEvents btnAddSkill10 As System.Windows.Forms.Button
+    Friend WithEvents btnAddSkill11 As System.Windows.Forms.Button
+    Friend WithEvents btnAddSkill12 As System.Windows.Forms.Button
+
+    Friend WithEvents dgvSkill1 As System.Windows.Forms.DataGridView
+    Friend WithEvents dgvSkill2 As System.Windows.Forms.DataGridView
+    Friend WithEvents dgvSkill3 As System.Windows.Forms.DataGridView
+    Friend WithEvents dgvSkill4 As System.Windows.Forms.DataGridView
+    Friend WithEvents dgvSkill5 As System.Windows.Forms.DataGridView
+    Friend WithEvents dgvSkill6 As System.Windows.Forms.DataGridView
+    Friend WithEvents dgvSkill7 As System.Windows.Forms.DataGridView
+    Friend WithEvents dgvSkill8 As System.Windows.Forms.DataGridView
+    Friend WithEvents dgvSkill9 As System.Windows.Forms.DataGridView
+    Friend WithEvents dgvSkill10 As System.Windows.Forms.DataGridView
+    Friend WithEvents dgvSkill11 As System.Windows.Forms.DataGridView
+    Friend WithEvents dgvSkill12 As System.Windows.Forms.DataGridView
+
+    Friend WithEvents TextColumnSkill1 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents TextColumnSkill2 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents TextColumnSkill3 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents TextColumnSkill4 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents TextColumnSkill5 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents TextColumnSkill6 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents TextColumnSkill7 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents TextColumnSkill9 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents TextColumnSkill10 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents TextColumnSkill11 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents TextColumnSkill12 As System.Windows.Forms.DataGridViewTextBoxColumn
+
+    Friend WithEvents txtSkill1 As System.Windows.Forms.TextBox
+    Friend WithEvents txtSkill2 As System.Windows.Forms.TextBox
+    Friend WithEvents txtSkill3 As System.Windows.Forms.TextBox
+    Friend WithEvents txtSkill4 As System.Windows.Forms.TextBox
+    Friend WithEvents txtSkill5 As System.Windows.Forms.TextBox
+    Friend WithEvents txtSkill6 As System.Windows.Forms.TextBox
+    Friend WithEvents txtSkill7 As System.Windows.Forms.TextBox
+    Friend WithEvents txtSkill8 As System.Windows.Forms.TextBox
+    Friend WithEvents txtSkill9 As System.Windows.Forms.TextBox
+    Friend WithEvents txtSkill10 As System.Windows.Forms.TextBox
+    Friend WithEvents txtSkill11 As System.Windows.Forms.TextBox
+    Friend WithEvents txtSkill12 As System.Windows.Forms.TextBox
+
+    Friend WithEvents lblDescriptionSkill1 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionSkill2 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionSkill3 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionSkill4 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionSkill5 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionSkill6 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionSkill7 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionSkill8 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionSkill9 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionSkill10 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionSkill11 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionSkill12 As System.Windows.Forms.Label
+
+    Friend WithEvents lblHeaderSkill1 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderSkill2 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderSkill3 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderSkill4 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderSkill5 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderSkill6 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderSkill7 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderSkill8 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderSkill9 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderSkill10 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderSkill11 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderSkill12 As System.Windows.Forms.Label
+    Friend WithEvents DataGridViewTextBoxColumn1 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents cmbSkill8 As System.Windows.Forms.ComboBox
+    Friend WithEvents TextSkillColumn8SpellID As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents TextColumnSkill8SpellName As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents TextColumnSkill8 As System.Windows.Forms.DataGridViewTextBoxColumn
 
 End Class
