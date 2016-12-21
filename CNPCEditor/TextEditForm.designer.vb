@@ -291,6 +291,7 @@ Partial Class TextEditForm
         Me.TabPage3 = New System.Windows.Forms.TabPage()
         Me.tabDesiccation = New System.Windows.Forms.TabControl()
         Me.Desiccation1 = New System.Windows.Forms.TabPage()
+        Me.btnDelDesiccation1 = New System.Windows.Forms.Button()
         Me.btnAddDesiccation1 = New System.Windows.Forms.Button()
         Me.txtDesiccation1 = New System.Windows.Forms.TextBox()
         Me.dgvDesiccation1 = New System.Windows.Forms.DataGridView()
@@ -298,6 +299,7 @@ Partial Class TextEditForm
         Me.lblDescriptionDesiccation1 = New System.Windows.Forms.Label()
         Me.lblHeaderDesiccation1 = New System.Windows.Forms.Label()
         Me.Desiccation2 = New System.Windows.Forms.TabPage()
+        Me.btnDelDesiccation2 = New System.Windows.Forms.Button()
         Me.btnAddDesiccation2 = New System.Windows.Forms.Button()
         Me.txtDesiccation2 = New System.Windows.Forms.TextBox()
         Me.dgvDesiccation2 = New System.Windows.Forms.DataGridView()
@@ -305,6 +307,7 @@ Partial Class TextEditForm
         Me.lblDescriptionDesiccation2 = New System.Windows.Forms.Label()
         Me.lblHeaderDesiccation2 = New System.Windows.Forms.Label()
         Me.Desiccation3 = New System.Windows.Forms.TabPage()
+        Me.btnDelDesiccation3 = New System.Windows.Forms.Button()
         Me.btnAddDesiccation3 = New System.Windows.Forms.Button()
         Me.txtDesiccation3 = New System.Windows.Forms.TextBox()
         Me.dgvDesiccation3 = New System.Windows.Forms.DataGridView()
@@ -312,6 +315,7 @@ Partial Class TextEditForm
         Me.lblDescriptionDesiccation3 = New System.Windows.Forms.Label()
         Me.lblHeaderDesiccation3 = New System.Windows.Forms.Label()
         Me.Desiccation4 = New System.Windows.Forms.TabPage()
+        Me.btnDelDesiccation4 = New System.Windows.Forms.Button()
         Me.btnAddDesiccation4 = New System.Windows.Forms.Button()
         Me.txtDesiccation4 = New System.Windows.Forms.TextBox()
         Me.dgvDesiccation4 = New System.Windows.Forms.DataGridView()
@@ -319,6 +323,7 @@ Partial Class TextEditForm
         Me.lblDescriptionDesiccation4 = New System.Windows.Forms.Label()
         Me.lblHeaderDesiccation4 = New System.Windows.Forms.Label()
         Me.Desiccation5 = New System.Windows.Forms.TabPage()
+        Me.btnDelDesiccation5 = New System.Windows.Forms.Button()
         Me.btnAddDesiccation5 = New System.Windows.Forms.Button()
         Me.txtDesiccation5 = New System.Windows.Forms.TextBox()
         Me.dgvDesiccation5 = New System.Windows.Forms.DataGridView()
@@ -326,6 +331,7 @@ Partial Class TextEditForm
         Me.lblDescriptionDesiccation5 = New System.Windows.Forms.Label()
         Me.lblHeaderDesiccation5 = New System.Windows.Forms.Label()
         Me.Desiccation6 = New System.Windows.Forms.TabPage()
+        Me.btnDelDesiccation6 = New System.Windows.Forms.Button()
         Me.btnAddDesiccation6 = New System.Windows.Forms.Button()
         Me.txtDesiccation6 = New System.Windows.Forms.TextBox()
         Me.dgvDesiccation6 = New System.Windows.Forms.DataGridView()
@@ -333,6 +339,7 @@ Partial Class TextEditForm
         Me.lblDescriptionDesiccation6 = New System.Windows.Forms.Label()
         Me.lblHeaderDesiccation6 = New System.Windows.Forms.Label()
         Me.Desiccation7 = New System.Windows.Forms.TabPage()
+        Me.btnDelDesiccation7 = New System.Windows.Forms.Button()
         Me.btnAddDesiccation7 = New System.Windows.Forms.Button()
         Me.txtDesiccation7 = New System.Windows.Forms.TextBox()
         Me.dgvDesiccation7 = New System.Windows.Forms.DataGridView()
@@ -340,6 +347,7 @@ Partial Class TextEditForm
         Me.lblDescriptionDesiccation7 = New System.Windows.Forms.Label()
         Me.lblHeaderDesiccation7 = New System.Windows.Forms.Label()
         Me.Desiccation8 = New System.Windows.Forms.TabPage()
+        Me.btnDelDesiccation8 = New System.Windows.Forms.Button()
         Me.btnAddDesiccation8 = New System.Windows.Forms.Button()
         Me.txtDesiccation8 = New System.Windows.Forms.TextBox()
         Me.dgvDesiccation8 = New System.Windows.Forms.DataGridView()
@@ -347,6 +355,7 @@ Partial Class TextEditForm
         Me.lblDescriptionDesiccation8 = New System.Windows.Forms.Label()
         Me.lblHeaderDesiccation8 = New System.Windows.Forms.Label()
         Me.Desiccation9 = New System.Windows.Forms.TabPage()
+        Me.btnDelDesiccation9 = New System.Windows.Forms.Button()
         Me.btnAddDesiccation9 = New System.Windows.Forms.Button()
         Me.txtDesiccation9 = New System.Windows.Forms.TextBox()
         Me.dgvDesiccation9 = New System.Windows.Forms.DataGridView()
@@ -354,6 +363,7 @@ Partial Class TextEditForm
         Me.lblDescriptionDesiccation9 = New System.Windows.Forms.Label()
         Me.lblHeaderDesiccation9 = New System.Windows.Forms.Label()
         Me.Desiccation10 = New System.Windows.Forms.TabPage()
+        Me.btnDelDesiccation10 = New System.Windows.Forms.Button()
         Me.btnAddDesiccation10 = New System.Windows.Forms.Button()
         Me.txtDesiccation10 = New System.Windows.Forms.TextBox()
         Me.dgvDesiccation10 = New System.Windows.Forms.DataGridView()
@@ -361,6 +371,7 @@ Partial Class TextEditForm
         Me.lblDescriptionDesiccation10 = New System.Windows.Forms.Label()
         Me.lblHeaderDesiccation10 = New System.Windows.Forms.Label()
         Me.Desiccation11 = New System.Windows.Forms.TabPage()
+        Me.btnDelDesiccation11 = New System.Windows.Forms.Button()
         Me.btnAddDesiccation11 = New System.Windows.Forms.Button()
         Me.txtDesiccation11 = New System.Windows.Forms.TextBox()
         Me.dgvDesiccation11 = New System.Windows.Forms.DataGridView()
@@ -368,6 +379,7 @@ Partial Class TextEditForm
         Me.lblDescriptionDesiccation11 = New System.Windows.Forms.Label()
         Me.lblHeaderDesiccation11 = New System.Windows.Forms.Label()
         Me.Desiccation12 = New System.Windows.Forms.TabPage()
+        Me.btnDelDesiccation12 = New System.Windows.Forms.Button()
         Me.btnAddDesiccation12 = New System.Windows.Forms.Button()
         Me.txtDesiccation12 = New System.Windows.Forms.TextBox()
         Me.dgvDesiccation12 = New System.Windows.Forms.DataGridView()
@@ -375,6 +387,7 @@ Partial Class TextEditForm
         Me.lblDescriptionDesiccation12 = New System.Windows.Forms.Label()
         Me.lblHeaderDesiccation12 = New System.Windows.Forms.Label()
         Me.Desiccation13 = New System.Windows.Forms.TabPage()
+        Me.btnDelDesiccation13 = New System.Windows.Forms.Button()
         Me.btnAddDesiccation13 = New System.Windows.Forms.Button()
         Me.txtDesiccation13 = New System.Windows.Forms.TextBox()
         Me.dgvDesiccation13 = New System.Windows.Forms.DataGridView()
@@ -382,6 +395,7 @@ Partial Class TextEditForm
         Me.lblDescriptionDesiccation13 = New System.Windows.Forms.Label()
         Me.lblHeaderDesiccation13 = New System.Windows.Forms.Label()
         Me.Desiccation14 = New System.Windows.Forms.TabPage()
+        Me.btnDelDesiccation14 = New System.Windows.Forms.Button()
         Me.btnAddDesiccation14 = New System.Windows.Forms.Button()
         Me.txtDesiccation14 = New System.Windows.Forms.TextBox()
         Me.dgvDesiccation14 = New System.Windows.Forms.DataGridView()
@@ -389,6 +403,7 @@ Partial Class TextEditForm
         Me.lblDescriptionDesiccation14 = New System.Windows.Forms.Label()
         Me.lblHeaderDesiccation14 = New System.Windows.Forms.Label()
         Me.Desiccation15 = New System.Windows.Forms.TabPage()
+        Me.btnDelDesiccation15 = New System.Windows.Forms.Button()
         Me.btnAddDesiccation15 = New System.Windows.Forms.Button()
         Me.txtDesiccation15 = New System.Windows.Forms.TextBox()
         Me.dgvDesiccation15 = New System.Windows.Forms.DataGridView()
@@ -396,6 +411,7 @@ Partial Class TextEditForm
         Me.lblDescriptionDesiccation15 = New System.Windows.Forms.Label()
         Me.lblHeaderDesiccation15 = New System.Windows.Forms.Label()
         Me.Desiccation16 = New System.Windows.Forms.TabPage()
+        Me.btnDelDesiccation16 = New System.Windows.Forms.Button()
         Me.btnAddDesiccation16 = New System.Windows.Forms.Button()
         Me.txtDesiccation16 = New System.Windows.Forms.TextBox()
         Me.dgvDesiccation16 = New System.Windows.Forms.DataGridView()
@@ -403,6 +419,7 @@ Partial Class TextEditForm
         Me.lblDescriptionDesiccation16 = New System.Windows.Forms.Label()
         Me.lblHeaderDesiccation16 = New System.Windows.Forms.Label()
         Me.Desiccation17 = New System.Windows.Forms.TabPage()
+        Me.btnDelDesiccation17 = New System.Windows.Forms.Button()
         Me.btnAddDesiccation17 = New System.Windows.Forms.Button()
         Me.txtDesiccation17 = New System.Windows.Forms.TextBox()
         Me.dgvDesiccation17 = New System.Windows.Forms.DataGridView()
@@ -410,6 +427,7 @@ Partial Class TextEditForm
         Me.lblDescriptionDesiccation17 = New System.Windows.Forms.Label()
         Me.lblHeaderDesiccation17 = New System.Windows.Forms.Label()
         Me.Desiccation18 = New System.Windows.Forms.TabPage()
+        Me.btnDelDesiccation18 = New System.Windows.Forms.Button()
         Me.btnAddDesiccation18 = New System.Windows.Forms.Button()
         Me.txtDesiccation18 = New System.Windows.Forms.TextBox()
         Me.dgvDesiccation18 = New System.Windows.Forms.DataGridView()
@@ -417,6 +435,7 @@ Partial Class TextEditForm
         Me.lblDescriptionDesiccation18 = New System.Windows.Forms.Label()
         Me.lblHeaderDesiccation18 = New System.Windows.Forms.Label()
         Me.Desiccation19 = New System.Windows.Forms.TabPage()
+        Me.btnDelDesiccation19 = New System.Windows.Forms.Button()
         Me.btnAddDesiccation19 = New System.Windows.Forms.Button()
         Me.txtDesiccation19 = New System.Windows.Forms.TextBox()
         Me.dgvDesiccation19 = New System.Windows.Forms.DataGridView()
@@ -424,6 +443,7 @@ Partial Class TextEditForm
         Me.lblDescriptionDesiccation19 = New System.Windows.Forms.Label()
         Me.lblHeaderDesiccation19 = New System.Windows.Forms.Label()
         Me.Desiccation20 = New System.Windows.Forms.TabPage()
+        Me.btnDelDesiccation20 = New System.Windows.Forms.Button()
         Me.btnAddDesiccation20 = New System.Windows.Forms.Button()
         Me.txtDesiccation20 = New System.Windows.Forms.TextBox()
         Me.dgvDesiccation20 = New System.Windows.Forms.DataGridView()
@@ -431,6 +451,7 @@ Partial Class TextEditForm
         Me.lblDescriptionDesiccation20 = New System.Windows.Forms.Label()
         Me.lblHeaderDesiccation20 = New System.Windows.Forms.Label()
         Me.Desiccation21 = New System.Windows.Forms.TabPage()
+        Me.btnDelDesiccation21 = New System.Windows.Forms.Button()
         Me.btnAddDesiccation21 = New System.Windows.Forms.Button()
         Me.txtDesiccation21 = New System.Windows.Forms.TextBox()
         Me.dgvDesiccation21 = New System.Windows.Forms.DataGridView()
@@ -438,6 +459,7 @@ Partial Class TextEditForm
         Me.lblDescriptionDesiccation21 = New System.Windows.Forms.Label()
         Me.lblHeaderDesiccation21 = New System.Windows.Forms.Label()
         Me.Desiccation22 = New System.Windows.Forms.TabPage()
+        Me.btnDelDesiccation22 = New System.Windows.Forms.Button()
         Me.btnAddDesiccation22 = New System.Windows.Forms.Button()
         Me.txtDesiccation22 = New System.Windows.Forms.TextBox()
         Me.dgvDesiccation22 = New System.Windows.Forms.DataGridView()
@@ -445,29 +467,104 @@ Partial Class TextEditForm
         Me.lblDescriptionDesiccation22 = New System.Windows.Forms.Label()
         Me.lblHeaderDesiccation22 = New System.Windows.Forms.Label()
         Me.TabPage4 = New System.Windows.Forms.TabPage()
+        Me.TabControl2 = New System.Windows.Forms.TabControl()
+        Me.Item1 = New System.Windows.Forms.TabPage()
+        Me.lblHeaderItem1 = New System.Windows.Forms.Label()
+        Me.Item2 = New System.Windows.Forms.TabPage()
+        Me.lblHeaderItem2 = New System.Windows.Forms.Label()
+        Me.Item3 = New System.Windows.Forms.TabPage()
+        Me.lblHeaderItem3 = New System.Windows.Forms.Label()
+        Me.Item4 = New System.Windows.Forms.TabPage()
+        Me.lblHeaderItem4 = New System.Windows.Forms.Label()
+        Me.Item5 = New System.Windows.Forms.TabPage()
+        Me.lblHeaderItem5 = New System.Windows.Forms.Label()
+        Me.Itme6 = New System.Windows.Forms.TabPage()
+        Me.lblHeaderItem6 = New System.Windows.Forms.Label()
+        Me.Item7 = New System.Windows.Forms.TabPage()
+        Me.lblHeaderItem7 = New System.Windows.Forms.Label()
+        Me.Item8 = New System.Windows.Forms.TabPage()
+        Me.lblHeaderItem8 = New System.Windows.Forms.Label()
+        Me.Item9 = New System.Windows.Forms.TabPage()
+        Me.lblHeaderItem9 = New System.Windows.Forms.Label()
+        Me.Item10 = New System.Windows.Forms.TabPage()
+        Me.lblHeaderItem10 = New System.Windows.Forms.Label()
+        Me.Item11 = New System.Windows.Forms.TabPage()
+        Me.lblHeaderItem11 = New System.Windows.Forms.Label()
+        Me.Item12 = New System.Windows.Forms.TabPage()
+        Me.lblHeaderItem12 = New System.Windows.Forms.Label()
+        Me.Item13 = New System.Windows.Forms.TabPage()
+        Me.lblHeaderItem13 = New System.Windows.Forms.Label()
+        Me.Item14 = New System.Windows.Forms.TabPage()
+        Me.lblHeaderItem14 = New System.Windows.Forms.Label()
+        Me.Item15 = New System.Windows.Forms.TabPage()
+        Me.lblHeaderItem15 = New System.Windows.Forms.Label()
+        Me.Item16 = New System.Windows.Forms.TabPage()
+        Me.lblHeaderItem16 = New System.Windows.Forms.Label()
+        Me.Item17 = New System.Windows.Forms.TabPage()
+        Me.lblHeaderItem17 = New System.Windows.Forms.Label()
+        Me.Item18 = New System.Windows.Forms.TabPage()
+        Me.lblHeaderItem18 = New System.Windows.Forms.Label()
+        Me.Item19 = New System.Windows.Forms.TabPage()
+        Me.lblHeaderItem19 = New System.Windows.Forms.Label()
+        Me.Item20 = New System.Windows.Forms.TabPage()
+        Me.lblHeaderItem20 = New System.Windows.Forms.Label()
+        Me.Item21 = New System.Windows.Forms.TabPage()
+        Me.lblHeaderItem21 = New System.Windows.Forms.Label()
+        Me.Item22 = New System.Windows.Forms.TabPage()
+        Me.lblHeaderItem22 = New System.Windows.Forms.Label()
+        Me.Item23 = New System.Windows.Forms.TabPage()
+        Me.lblHeaderItem23 = New System.Windows.Forms.Label()
+        Me.Item24 = New System.Windows.Forms.TabPage()
+        Me.lblHeaderItem24 = New System.Windows.Forms.Label()
+        Me.Item25 = New System.Windows.Forms.TabPage()
+        Me.lblHeaderItem25 = New System.Windows.Forms.Label()
+        Me.Item26 = New System.Windows.Forms.TabPage()
+        Me.lblHeaderItem26 = New System.Windows.Forms.Label()
+        Me.Item27 = New System.Windows.Forms.TabPage()
+        Me.lblHeaderItem27 = New System.Windows.Forms.Label()
+        Me.Item28 = New System.Windows.Forms.TabPage()
+        Me.lblHeaderItem28 = New System.Windows.Forms.Label()
+        Me.Item29 = New System.Windows.Forms.TabPage()
+        Me.lblHeaderItem29 = New System.Windows.Forms.Label()
+        Me.Item30 = New System.Windows.Forms.TabPage()
+        Me.lblHeaderItem30 = New System.Windows.Forms.Label()
+        Me.Item31 = New System.Windows.Forms.TabPage()
+        Me.lblHeaderItem31 = New System.Windows.Forms.Label()
+        Me.Item32 = New System.Windows.Forms.TabPage()
+        Me.lblHeaderItem32 = New System.Windows.Forms.Label()
         Me.btnClose = New System.Windows.Forms.Button()
-        Me.btnDelDesiccation1 = New System.Windows.Forms.Button()
-        Me.btnDelDesiccation2 = New System.Windows.Forms.Button()
-        Me.btnDelDesiccation3 = New System.Windows.Forms.Button()
-        Me.btnDelDesiccation4 = New System.Windows.Forms.Button()
-        Me.btnDelDesiccation5 = New System.Windows.Forms.Button()
-        Me.btnDelDesiccation6 = New System.Windows.Forms.Button()
-        Me.btnDelDesiccation7 = New System.Windows.Forms.Button()
-        Me.btnDelDesiccation8 = New System.Windows.Forms.Button()
-        Me.btnDelDesiccation9 = New System.Windows.Forms.Button()
-        Me.btnDelDesiccation10 = New System.Windows.Forms.Button()
-        Me.btnDelDesiccation11 = New System.Windows.Forms.Button()
-        Me.btnDelDesiccation12 = New System.Windows.Forms.Button()
-        Me.btnDelDesiccation13 = New System.Windows.Forms.Button()
-        Me.btnDelDesiccation14 = New System.Windows.Forms.Button()
-        Me.btnDelDesiccation15 = New System.Windows.Forms.Button()
-        Me.btnDelDesiccation16 = New System.Windows.Forms.Button()
-        Me.btnDelDesiccation17 = New System.Windows.Forms.Button()
-        Me.btnDelDesiccation18 = New System.Windows.Forms.Button()
-        Me.btnDelDesiccation19 = New System.Windows.Forms.Button()
-        Me.btnDelDesiccation20 = New System.Windows.Forms.Button()
-        Me.btnDelDesiccation21 = New System.Windows.Forms.Button()
-        Me.btnDelDesiccation22 = New System.Windows.Forms.Button()
+        Me.lblDescriptionItem1 = New System.Windows.Forms.Label()
+        Me.lblDescriptionItem2 = New System.Windows.Forms.Label()
+        Me.lblDescriptionItem3 = New System.Windows.Forms.Label()
+        Me.lblDescriptionItem4 = New System.Windows.Forms.Label()
+        Me.lblDescriptionItem5 = New System.Windows.Forms.Label()
+        Me.lblDescriptionItem6 = New System.Windows.Forms.Label()
+        Me.lblDescriptionItem7 = New System.Windows.Forms.Label()
+        Me.lblDescriptionItem8 = New System.Windows.Forms.Label()
+        Me.lblDescriptionItem9 = New System.Windows.Forms.Label()
+        Me.lblDescriptionItem10 = New System.Windows.Forms.Label()
+        Me.lblDescriptionItem11 = New System.Windows.Forms.Label()
+        Me.lblDescriptionItem12 = New System.Windows.Forms.Label()
+        Me.lblDescriptionItem13 = New System.Windows.Forms.Label()
+        Me.lblDescriptionItem14 = New System.Windows.Forms.Label()
+        Me.lblDescriptionItem15 = New System.Windows.Forms.Label()
+        Me.lblDescriptionItem16 = New System.Windows.Forms.Label()
+        Me.lblDescriptionItem17 = New System.Windows.Forms.Label()
+        Me.lblDescriptionItem18 = New System.Windows.Forms.Label()
+        Me.lblDescriptionItem19 = New System.Windows.Forms.Label()
+        Me.lblDescriptionItem20 = New System.Windows.Forms.Label()
+        Me.lblDescriptionItem21 = New System.Windows.Forms.Label()
+        Me.lblDescriptionItem22 = New System.Windows.Forms.Label()
+        Me.lblDescriptionItem23 = New System.Windows.Forms.Label()
+        Me.lblDescriptionItem24 = New System.Windows.Forms.Label()
+        Me.lblDescriptionItem25 = New System.Windows.Forms.Label()
+        Me.lblDescriptionItem26 = New System.Windows.Forms.Label()
+        Me.lblDescriptionItem27 = New System.Windows.Forms.Label()
+        Me.lblDescriptionItem28 = New System.Windows.Forms.Label()
+        Me.lblDescriptionItem29 = New System.Windows.Forms.Label()
+        Me.lblDescriptionItem30 = New System.Windows.Forms.Label()
+        Me.lblDescriptionItem31 = New System.Windows.Forms.Label()
+        Me.lblDescriptionItem32 = New System.Windows.Forms.Label()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.tabCalm.SuspendLayout()
@@ -583,6 +680,40 @@ Partial Class TextEditForm
         CType(Me.dgvDesiccation21, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Desiccation22.SuspendLayout()
         CType(Me.dgvDesiccation22, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabPage4.SuspendLayout()
+        Me.TabControl2.SuspendLayout()
+        Me.Item1.SuspendLayout()
+        Me.Item2.SuspendLayout()
+        Me.Item3.SuspendLayout()
+        Me.Item4.SuspendLayout()
+        Me.Item5.SuspendLayout()
+        Me.Itme6.SuspendLayout()
+        Me.Item7.SuspendLayout()
+        Me.Item8.SuspendLayout()
+        Me.Item9.SuspendLayout()
+        Me.Item10.SuspendLayout()
+        Me.Item11.SuspendLayout()
+        Me.Item12.SuspendLayout()
+        Me.Item13.SuspendLayout()
+        Me.Item14.SuspendLayout()
+        Me.Item15.SuspendLayout()
+        Me.Item16.SuspendLayout()
+        Me.Item17.SuspendLayout()
+        Me.Item18.SuspendLayout()
+        Me.Item19.SuspendLayout()
+        Me.Item20.SuspendLayout()
+        Me.Item21.SuspendLayout()
+        Me.Item22.SuspendLayout()
+        Me.Item23.SuspendLayout()
+        Me.Item24.SuspendLayout()
+        Me.Item25.SuspendLayout()
+        Me.Item26.SuspendLayout()
+        Me.Item27.SuspendLayout()
+        Me.Item28.SuspendLayout()
+        Me.Item29.SuspendLayout()
+        Me.Item30.SuspendLayout()
+        Me.Item31.SuspendLayout()
+        Me.Item32.SuspendLayout()
         Me.SuspendLayout()
         '
         'TabControl1
@@ -3358,6 +3489,15 @@ Partial Class TextEditForm
         Me.Desiccation1.Text = "話しかけた時"
         Me.Desiccation1.UseVisualStyleBackColor = True
         '
+        'btnDelDesiccation1
+        '
+        Me.btnDelDesiccation1.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation1.Name = "btnDelDesiccation1"
+        Me.btnDelDesiccation1.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation1.TabIndex = 8
+        Me.btnDelDesiccation1.Text = "削除"
+        Me.btnDelDesiccation1.UseVisualStyleBackColor = True
+        '
         'btnAddDesiccation1
         '
         Me.btnAddDesiccation1.Location = New System.Drawing.Point(564, 28)
@@ -3431,6 +3571,15 @@ Partial Class TextEditForm
         Me.Desiccation2.Text = "婚約申し込まれ"
         Me.Desiccation2.UseVisualStyleBackColor = True
         '
+        'btnDelDesiccation2
+        '
+        Me.btnDelDesiccation2.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation2.Name = "btnDelDesiccation2"
+        Me.btnDelDesiccation2.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation2.TabIndex = 9
+        Me.btnDelDesiccation2.Text = "削除"
+        Me.btnDelDesiccation2.UseVisualStyleBackColor = True
+        '
         'btnAddDesiccation2
         '
         Me.btnAddDesiccation2.Location = New System.Drawing.Point(564, 28)
@@ -3502,6 +3651,15 @@ Partial Class TextEditForm
         Me.Desiccation3.TabIndex = 2
         Me.Desiccation3.Text = "婚約断り"
         Me.Desiccation3.UseVisualStyleBackColor = True
+        '
+        'btnDelDesiccation3
+        '
+        Me.btnDelDesiccation3.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation3.Name = "btnDelDesiccation3"
+        Me.btnDelDesiccation3.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation3.TabIndex = 9
+        Me.btnDelDesiccation3.Text = "削除"
+        Me.btnDelDesiccation3.UseVisualStyleBackColor = True
         '
         'btnAddDesiccation3
         '
@@ -3575,6 +3733,15 @@ Partial Class TextEditForm
         Me.Desiccation4.Text = "遺伝子を残す"
         Me.Desiccation4.UseVisualStyleBackColor = True
         '
+        'btnDelDesiccation4
+        '
+        Me.btnDelDesiccation4.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation4.Name = "btnDelDesiccation4"
+        Me.btnDelDesiccation4.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation4.TabIndex = 9
+        Me.btnDelDesiccation4.Text = "削除"
+        Me.btnDelDesiccation4.UseVisualStyleBackColor = True
+        '
         'btnAddDesiccation4
         '
         Me.btnAddDesiccation4.Location = New System.Drawing.Point(564, 28)
@@ -3646,6 +3813,15 @@ Partial Class TextEditForm
         Me.Desiccation5.TabIndex = 4
         Me.Desiccation5.Text = "遺伝子を残す断り"
         Me.Desiccation5.UseVisualStyleBackColor = True
+        '
+        'btnDelDesiccation5
+        '
+        Me.btnDelDesiccation5.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation5.Name = "btnDelDesiccation5"
+        Me.btnDelDesiccation5.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation5.TabIndex = 9
+        Me.btnDelDesiccation5.Text = "削除"
+        Me.btnDelDesiccation5.UseVisualStyleBackColor = True
         '
         'btnAddDesiccation5
         '
@@ -3719,6 +3895,15 @@ Partial Class TextEditForm
         Me.Desiccation6.Text = "子供を作る"
         Me.Desiccation6.UseVisualStyleBackColor = True
         '
+        'btnDelDesiccation6
+        '
+        Me.btnDelDesiccation6.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation6.Name = "btnDelDesiccation6"
+        Me.btnDelDesiccation6.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation6.TabIndex = 9
+        Me.btnDelDesiccation6.Text = "削除"
+        Me.btnDelDesiccation6.UseVisualStyleBackColor = True
+        '
         'btnAddDesiccation6
         '
         Me.btnAddDesiccation6.Location = New System.Drawing.Point(564, 28)
@@ -3790,6 +3975,15 @@ Partial Class TextEditForm
         Me.Desiccation7.TabIndex = 6
         Me.Desiccation7.Text = "気持ちいい事受け"
         Me.Desiccation7.UseVisualStyleBackColor = True
+        '
+        'btnDelDesiccation7
+        '
+        Me.btnDelDesiccation7.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation7.Name = "btnDelDesiccation7"
+        Me.btnDelDesiccation7.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation7.TabIndex = 9
+        Me.btnDelDesiccation7.Text = "削除"
+        Me.btnDelDesiccation7.UseVisualStyleBackColor = True
         '
         'btnAddDesiccation7
         '
@@ -3863,6 +4057,15 @@ Partial Class TextEditForm
         Me.Desiccation8.Text = "気持ちいい事受け2"
         Me.Desiccation8.UseVisualStyleBackColor = True
         '
+        'btnDelDesiccation8
+        '
+        Me.btnDelDesiccation8.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation8.Name = "btnDelDesiccation8"
+        Me.btnDelDesiccation8.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation8.TabIndex = 9
+        Me.btnDelDesiccation8.Text = "削除"
+        Me.btnDelDesiccation8.UseVisualStyleBackColor = True
+        '
         'btnAddDesiccation8
         '
         Me.btnAddDesiccation8.Location = New System.Drawing.Point(564, 28)
@@ -3934,6 +4137,15 @@ Partial Class TextEditForm
         Me.Desiccation9.TabIndex = 8
         Me.Desiccation9.Text = "気持ちいい事やめる"
         Me.Desiccation9.UseVisualStyleBackColor = True
+        '
+        'btnDelDesiccation9
+        '
+        Me.btnDelDesiccation9.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation9.Name = "btnDelDesiccation9"
+        Me.btnDelDesiccation9.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation9.TabIndex = 9
+        Me.btnDelDesiccation9.Text = "削除"
+        Me.btnDelDesiccation9.UseVisualStyleBackColor = True
         '
         'btnAddDesiccation9
         '
@@ -4007,6 +4219,15 @@ Partial Class TextEditForm
         Me.Desiccation10.Text = "気持ちいい事最中"
         Me.Desiccation10.UseVisualStyleBackColor = True
         '
+        'btnDelDesiccation10
+        '
+        Me.btnDelDesiccation10.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation10.Name = "btnDelDesiccation10"
+        Me.btnDelDesiccation10.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation10.TabIndex = 9
+        Me.btnDelDesiccation10.Text = "削除"
+        Me.btnDelDesiccation10.UseVisualStyleBackColor = True
+        '
         'btnAddDesiccation10
         '
         Me.btnAddDesiccation10.Location = New System.Drawing.Point(564, 28)
@@ -4078,6 +4299,15 @@ Partial Class TextEditForm
         Me.Desiccation11.TabIndex = 10
         Me.Desiccation11.Text = "気持ちいい事事後"
         Me.Desiccation11.UseVisualStyleBackColor = True
+        '
+        'btnDelDesiccation11
+        '
+        Me.btnDelDesiccation11.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation11.Name = "btnDelDesiccation11"
+        Me.btnDelDesiccation11.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation11.TabIndex = 9
+        Me.btnDelDesiccation11.Text = "削除"
+        Me.btnDelDesiccation11.UseVisualStyleBackColor = True
         '
         'btnAddDesiccation11
         '
@@ -4151,6 +4381,15 @@ Partial Class TextEditForm
         Me.Desiccation12.Text = "気持ちいい事中断"
         Me.Desiccation12.UseVisualStyleBackColor = True
         '
+        'btnDelDesiccation12
+        '
+        Me.btnDelDesiccation12.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation12.Name = "btnDelDesiccation12"
+        Me.btnDelDesiccation12.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation12.TabIndex = 9
+        Me.btnDelDesiccation12.Text = "削除"
+        Me.btnDelDesiccation12.UseVisualStyleBackColor = True
+        '
         'btnAddDesiccation12
         '
         Me.btnAddDesiccation12.Location = New System.Drawing.Point(564, 28)
@@ -4222,6 +4461,15 @@ Partial Class TextEditForm
         Me.Desiccation13.TabIndex = 12
         Me.Desiccation13.Text = "冒険者話しかけ"
         Me.Desiccation13.UseVisualStyleBackColor = True
+        '
+        'btnDelDesiccation13
+        '
+        Me.btnDelDesiccation13.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation13.Name = "btnDelDesiccation13"
+        Me.btnDelDesiccation13.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation13.TabIndex = 9
+        Me.btnDelDesiccation13.Text = "削除"
+        Me.btnDelDesiccation13.UseVisualStyleBackColor = True
         '
         'btnAddDesiccation13
         '
@@ -4295,6 +4543,15 @@ Partial Class TextEditForm
         Me.Desiccation14.Text = "冒険者アイテム交換"
         Me.Desiccation14.UseVisualStyleBackColor = True
         '
+        'btnDelDesiccation14
+        '
+        Me.btnDelDesiccation14.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation14.Name = "btnDelDesiccation14"
+        Me.btnDelDesiccation14.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation14.TabIndex = 9
+        Me.btnDelDesiccation14.Text = "削除"
+        Me.btnDelDesiccation14.UseVisualStyleBackColor = True
+        '
         'btnAddDesiccation14
         '
         Me.btnAddDesiccation14.Location = New System.Drawing.Point(564, 28)
@@ -4366,6 +4623,15 @@ Partial Class TextEditForm
         Me.Desiccation15.TabIndex = 14
         Me.Desiccation15.Text = "冒険者アイテム交換やめ"
         Me.Desiccation15.UseVisualStyleBackColor = True
+        '
+        'btnDelDesiccation15
+        '
+        Me.btnDelDesiccation15.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation15.Name = "btnDelDesiccation15"
+        Me.btnDelDesiccation15.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation15.TabIndex = 9
+        Me.btnDelDesiccation15.Text = "削除"
+        Me.btnDelDesiccation15.UseVisualStyleBackColor = True
         '
         'btnAddDesiccation15
         '
@@ -4439,6 +4705,15 @@ Partial Class TextEditForm
         Me.Desiccation16.Text = "冒険者護衛依頼持ちかけ"
         Me.Desiccation16.UseVisualStyleBackColor = True
         '
+        'btnDelDesiccation16
+        '
+        Me.btnDelDesiccation16.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation16.Name = "btnDelDesiccation16"
+        Me.btnDelDesiccation16.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation16.TabIndex = 9
+        Me.btnDelDesiccation16.Text = "削除"
+        Me.btnDelDesiccation16.UseVisualStyleBackColor = True
+        '
         'btnAddDesiccation16
         '
         Me.btnAddDesiccation16.Location = New System.Drawing.Point(564, 28)
@@ -4510,6 +4785,15 @@ Partial Class TextEditForm
         Me.Desiccation17.TabIndex = 16
         Me.Desiccation17.Text = "冒険者護衛依頼"
         Me.Desiccation17.UseVisualStyleBackColor = True
+        '
+        'btnDelDesiccation17
+        '
+        Me.btnDelDesiccation17.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation17.Name = "btnDelDesiccation17"
+        Me.btnDelDesiccation17.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation17.TabIndex = 9
+        Me.btnDelDesiccation17.Text = "削除"
+        Me.btnDelDesiccation17.UseVisualStyleBackColor = True
         '
         'btnAddDesiccation17
         '
@@ -4583,6 +4867,15 @@ Partial Class TextEditForm
         Me.Desiccation18.Text = "冒険者護衛依頼やめ"
         Me.Desiccation18.UseVisualStyleBackColor = True
         '
+        'btnDelDesiccation18
+        '
+        Me.btnDelDesiccation18.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation18.Name = "btnDelDesiccation18"
+        Me.btnDelDesiccation18.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation18.TabIndex = 9
+        Me.btnDelDesiccation18.Text = "削除"
+        Me.btnDelDesiccation18.UseVisualStyleBackColor = True
+        '
         'btnAddDesiccation18
         '
         Me.btnAddDesiccation18.Location = New System.Drawing.Point(564, 28)
@@ -4654,6 +4947,15 @@ Partial Class TextEditForm
         Me.Desiccation19.TabIndex = 18
         Me.Desiccation19.Text = "冒険者仲間承諾"
         Me.Desiccation19.UseVisualStyleBackColor = True
+        '
+        'btnDelDesiccation19
+        '
+        Me.btnDelDesiccation19.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation19.Name = "btnDelDesiccation19"
+        Me.btnDelDesiccation19.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation19.TabIndex = 9
+        Me.btnDelDesiccation19.Text = "削除"
+        Me.btnDelDesiccation19.UseVisualStyleBackColor = True
         '
         'btnAddDesiccation19
         '
@@ -4727,6 +5029,15 @@ Partial Class TextEditForm
         Me.Desiccation20.Text = "冒険者仲間断り(力の差)"
         Me.Desiccation20.UseVisualStyleBackColor = True
         '
+        'btnDelDesiccation20
+        '
+        Me.btnDelDesiccation20.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation20.Name = "btnDelDesiccation20"
+        Me.btnDelDesiccation20.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation20.TabIndex = 9
+        Me.btnDelDesiccation20.Text = "削除"
+        Me.btnDelDesiccation20.UseVisualStyleBackColor = True
+        '
         'btnAddDesiccation20
         '
         Me.btnAddDesiccation20.Location = New System.Drawing.Point(564, 28)
@@ -4798,6 +5109,15 @@ Partial Class TextEditForm
         Me.Desiccation21.TabIndex = 20
         Me.Desiccation21.Text = "冒険者仲間断り(空き無し)"
         Me.Desiccation21.UseVisualStyleBackColor = True
+        '
+        'btnDelDesiccation21
+        '
+        Me.btnDelDesiccation21.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation21.Name = "btnDelDesiccation21"
+        Me.btnDelDesiccation21.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation21.TabIndex = 9
+        Me.btnDelDesiccation21.Text = "削除"
+        Me.btnDelDesiccation21.UseVisualStyleBackColor = True
         '
         'btnAddDesiccation21
         '
@@ -4871,6 +5191,15 @@ Partial Class TextEditForm
         Me.Desiccation22.Text = "冒険者仲間断り(友好度不足)"
         Me.Desiccation22.UseVisualStyleBackColor = True
         '
+        'btnDelDesiccation22
+        '
+        Me.btnDelDesiccation22.Location = New System.Drawing.Point(645, 28)
+        Me.btnDelDesiccation22.Name = "btnDelDesiccation22"
+        Me.btnDelDesiccation22.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelDesiccation22.TabIndex = 9
+        Me.btnDelDesiccation22.Text = "削除"
+        Me.btnDelDesiccation22.UseVisualStyleBackColor = True
+        '
         'btnAddDesiccation22
         '
         Me.btnAddDesiccation22.Location = New System.Drawing.Point(564, 28)
@@ -4930,6 +5259,7 @@ Partial Class TextEditForm
         '
         'TabPage4
         '
+        Me.TabPage4.Controls.Add(Me.TabControl2)
         Me.TabPage4.Location = New System.Drawing.Point(4, 22)
         Me.TabPage4.Name = "TabPage4"
         Me.TabPage4.Padding = New System.Windows.Forms.Padding(3)
@@ -4937,6 +5267,688 @@ Partial Class TextEditForm
         Me.TabPage4.TabIndex = 4
         Me.TabPage4.Text = "アイテム関連"
         Me.TabPage4.UseVisualStyleBackColor = True
+        '
+        'TabControl2
+        '
+        Me.TabControl2.Controls.Add(Me.Item1)
+        Me.TabControl2.Controls.Add(Me.Item2)
+        Me.TabControl2.Controls.Add(Me.Item3)
+        Me.TabControl2.Controls.Add(Me.Item4)
+        Me.TabControl2.Controls.Add(Me.Item5)
+        Me.TabControl2.Controls.Add(Me.Itme6)
+        Me.TabControl2.Controls.Add(Me.Item7)
+        Me.TabControl2.Controls.Add(Me.Item8)
+        Me.TabControl2.Controls.Add(Me.Item9)
+        Me.TabControl2.Controls.Add(Me.Item10)
+        Me.TabControl2.Controls.Add(Me.Item11)
+        Me.TabControl2.Controls.Add(Me.Item12)
+        Me.TabControl2.Controls.Add(Me.Item13)
+        Me.TabControl2.Controls.Add(Me.Item14)
+        Me.TabControl2.Controls.Add(Me.Item15)
+        Me.TabControl2.Controls.Add(Me.Item16)
+        Me.TabControl2.Controls.Add(Me.Item17)
+        Me.TabControl2.Controls.Add(Me.Item18)
+        Me.TabControl2.Controls.Add(Me.Item19)
+        Me.TabControl2.Controls.Add(Me.Item20)
+        Me.TabControl2.Controls.Add(Me.Item21)
+        Me.TabControl2.Controls.Add(Me.Item22)
+        Me.TabControl2.Controls.Add(Me.Item23)
+        Me.TabControl2.Controls.Add(Me.Item24)
+        Me.TabControl2.Controls.Add(Me.Item25)
+        Me.TabControl2.Controls.Add(Me.Item26)
+        Me.TabControl2.Controls.Add(Me.Item27)
+        Me.TabControl2.Controls.Add(Me.Item28)
+        Me.TabControl2.Controls.Add(Me.Item29)
+        Me.TabControl2.Controls.Add(Me.Item30)
+        Me.TabControl2.Controls.Add(Me.Item31)
+        Me.TabControl2.Controls.Add(Me.Item32)
+        Me.TabControl2.Location = New System.Drawing.Point(6, 6)
+        Me.TabControl2.Name = "TabControl2"
+        Me.TabControl2.SelectedIndex = 0
+        Me.TabControl2.Size = New System.Drawing.Size(762, 409)
+        Me.TabControl2.TabIndex = 0
+        '
+        'Item1
+        '
+        Me.Item1.Controls.Add(Me.lblDescriptionItem1)
+        Me.Item1.Controls.Add(Me.lblHeaderItem1)
+        Me.Item1.Location = New System.Drawing.Point(4, 22)
+        Me.Item1.Name = "Item1"
+        Me.Item1.Padding = New System.Windows.Forms.Padding(3)
+        Me.Item1.Size = New System.Drawing.Size(754, 383)
+        Me.Item1.TabIndex = 0
+        Me.Item1.Text = "媚薬混入食べ"
+        Me.Item1.UseVisualStyleBackColor = True
+        '
+        'lblHeaderItem1
+        '
+        Me.lblHeaderItem1.AutoSize = True
+        Me.lblHeaderItem1.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderItem1.Name = "lblHeaderItem1"
+        Me.lblHeaderItem1.Size = New System.Drawing.Size(73, 12)
+        Me.lblHeaderItem1.TabIndex = 2
+        Me.lblHeaderItem1.Text = "%txtDialog,JP"
+        '
+        'Item2
+        '
+        Me.Item2.Controls.Add(Me.lblDescriptionItem2)
+        Me.Item2.Controls.Add(Me.lblHeaderItem2)
+        Me.Item2.Location = New System.Drawing.Point(4, 22)
+        Me.Item2.Name = "Item2"
+        Me.Item2.Padding = New System.Windows.Forms.Padding(3)
+        Me.Item2.Size = New System.Drawing.Size(754, 383)
+        Me.Item2.TabIndex = 1
+        Me.Item2.Text = "媚薬で産卵"
+        Me.Item2.UseVisualStyleBackColor = True
+        '
+        'lblHeaderItem2
+        '
+        Me.lblHeaderItem2.AutoSize = True
+        Me.lblHeaderItem2.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderItem2.Name = "lblHeaderItem2"
+        Me.lblHeaderItem2.Size = New System.Drawing.Size(73, 12)
+        Me.lblHeaderItem2.TabIndex = 2
+        Me.lblHeaderItem2.Text = "%txtDialog,JP"
+        '
+        'Item3
+        '
+        Me.Item3.Controls.Add(Me.lblDescriptionItem3)
+        Me.Item3.Controls.Add(Me.lblHeaderItem3)
+        Me.Item3.Location = New System.Drawing.Point(4, 22)
+        Me.Item3.Name = "Item3"
+        Me.Item3.Size = New System.Drawing.Size(754, 383)
+        Me.Item3.TabIndex = 2
+        Me.Item3.Text = "媚薬叩き割り"
+        Me.Item3.UseVisualStyleBackColor = True
+        '
+        'lblHeaderItem3
+        '
+        Me.lblHeaderItem3.AutoSize = True
+        Me.lblHeaderItem3.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderItem3.Name = "lblHeaderItem3"
+        Me.lblHeaderItem3.Size = New System.Drawing.Size(73, 12)
+        Me.lblHeaderItem3.TabIndex = 2
+        Me.lblHeaderItem3.Text = "%txtDialog,JP"
+        '
+        'Item4
+        '
+        Me.Item4.Controls.Add(Me.lblDescriptionItem4)
+        Me.Item4.Controls.Add(Me.lblHeaderItem4)
+        Me.Item4.Location = New System.Drawing.Point(4, 22)
+        Me.Item4.Name = "Item4"
+        Me.Item4.Size = New System.Drawing.Size(754, 383)
+        Me.Item4.TabIndex = 3
+        Me.Item4.Text = "聴診器当て"
+        Me.Item4.UseVisualStyleBackColor = True
+        '
+        'lblHeaderItem4
+        '
+        Me.lblHeaderItem4.AutoSize = True
+        Me.lblHeaderItem4.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderItem4.Name = "lblHeaderItem4"
+        Me.lblHeaderItem4.Size = New System.Drawing.Size(73, 12)
+        Me.lblHeaderItem4.TabIndex = 2
+        Me.lblHeaderItem4.Text = "%txtDialog,JP"
+        '
+        'Item5
+        '
+        Me.Item5.Controls.Add(Me.lblDescriptionItem5)
+        Me.Item5.Controls.Add(Me.lblHeaderItem5)
+        Me.Item5.Location = New System.Drawing.Point(4, 22)
+        Me.Item5.Name = "Item5"
+        Me.Item5.Size = New System.Drawing.Size(754, 383)
+        Me.Item5.TabIndex = 4
+        Me.Item5.Text = "聴診器外し"
+        Me.Item5.UseVisualStyleBackColor = True
+        '
+        'lblHeaderItem5
+        '
+        Me.lblHeaderItem5.AutoSize = True
+        Me.lblHeaderItem5.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderItem5.Name = "lblHeaderItem5"
+        Me.lblHeaderItem5.Size = New System.Drawing.Size(73, 12)
+        Me.lblHeaderItem5.TabIndex = 2
+        Me.lblHeaderItem5.Text = "%txtDialog,JP"
+        '
+        'Itme6
+        '
+        Me.Itme6.Controls.Add(Me.lblDescriptionItem6)
+        Me.Itme6.Controls.Add(Me.lblHeaderItem6)
+        Me.Itme6.Location = New System.Drawing.Point(4, 22)
+        Me.Itme6.Name = "Itme6"
+        Me.Itme6.Size = New System.Drawing.Size(754, 383)
+        Me.Itme6.TabIndex = 5
+        Me.Itme6.Text = "紐縛り"
+        Me.Itme6.UseVisualStyleBackColor = True
+        '
+        'lblHeaderItem6
+        '
+        Me.lblHeaderItem6.AutoSize = True
+        Me.lblHeaderItem6.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderItem6.Name = "lblHeaderItem6"
+        Me.lblHeaderItem6.Size = New System.Drawing.Size(73, 12)
+        Me.lblHeaderItem6.TabIndex = 2
+        Me.lblHeaderItem6.Text = "%txtDialog,JP"
+        '
+        'Item7
+        '
+        Me.Item7.Controls.Add(Me.lblDescriptionItem7)
+        Me.Item7.Controls.Add(Me.lblHeaderItem7)
+        Me.Item7.Location = New System.Drawing.Point(4, 22)
+        Me.Item7.Name = "Item7"
+        Me.Item7.Size = New System.Drawing.Size(754, 383)
+        Me.Item7.TabIndex = 6
+        Me.Item7.Text = "紐ほどき"
+        Me.Item7.UseVisualStyleBackColor = True
+        '
+        'lblHeaderItem7
+        '
+        Me.lblHeaderItem7.AutoSize = True
+        Me.lblHeaderItem7.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderItem7.Name = "lblHeaderItem7"
+        Me.lblHeaderItem7.Size = New System.Drawing.Size(73, 12)
+        Me.lblHeaderItem7.TabIndex = 2
+        Me.lblHeaderItem7.Text = "%txtDialog,JP"
+        '
+        'Item8
+        '
+        Me.Item8.Controls.Add(Me.lblDescriptionItem8)
+        Me.Item8.Controls.Add(Me.lblHeaderItem8)
+        Me.Item8.Location = New System.Drawing.Point(4, 22)
+        Me.Item8.Name = "Item8"
+        Me.Item8.Size = New System.Drawing.Size(754, 383)
+        Me.Item8.TabIndex = 7
+        Me.Item8.Text = "サンドバッグ吊られ"
+        Me.Item8.UseVisualStyleBackColor = True
+        '
+        'lblHeaderItem8
+        '
+        Me.lblHeaderItem8.AutoSize = True
+        Me.lblHeaderItem8.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderItem8.Name = "lblHeaderItem8"
+        Me.lblHeaderItem8.Size = New System.Drawing.Size(73, 12)
+        Me.lblHeaderItem8.TabIndex = 2
+        Me.lblHeaderItem8.Text = "%txtDialog,JP"
+        '
+        'Item9
+        '
+        Me.Item9.Controls.Add(Me.lblDescriptionItem9)
+        Me.Item9.Controls.Add(Me.lblHeaderItem9)
+        Me.Item9.Location = New System.Drawing.Point(4, 22)
+        Me.Item9.Name = "Item9"
+        Me.Item9.Size = New System.Drawing.Size(754, 383)
+        Me.Item9.TabIndex = 8
+        Me.Item9.Text = "サンドバッグ吊られ中"
+        Me.Item9.UseVisualStyleBackColor = True
+        '
+        'lblHeaderItem9
+        '
+        Me.lblHeaderItem9.AutoSize = True
+        Me.lblHeaderItem9.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderItem9.Name = "lblHeaderItem9"
+        Me.lblHeaderItem9.Size = New System.Drawing.Size(73, 12)
+        Me.lblHeaderItem9.TabIndex = 2
+        Me.lblHeaderItem9.Text = "%txtDialog,JP"
+        '
+        'Item10
+        '
+        Me.Item10.Controls.Add(Me.lblDescriptionItem10)
+        Me.Item10.Controls.Add(Me.lblHeaderItem10)
+        Me.Item10.Location = New System.Drawing.Point(4, 22)
+        Me.Item10.Name = "Item10"
+        Me.Item10.Size = New System.Drawing.Size(754, 383)
+        Me.Item10.TabIndex = 9
+        Me.Item10.Text = "サンドバッグ殴られ"
+        Me.Item10.UseVisualStyleBackColor = True
+        '
+        'lblHeaderItem10
+        '
+        Me.lblHeaderItem10.AutoSize = True
+        Me.lblHeaderItem10.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderItem10.Name = "lblHeaderItem10"
+        Me.lblHeaderItem10.Size = New System.Drawing.Size(73, 12)
+        Me.lblHeaderItem10.TabIndex = 2
+        Me.lblHeaderItem10.Text = "%txtDialog,JP"
+        '
+        'Item11
+        '
+        Me.Item11.Controls.Add(Me.lblDescriptionItem11)
+        Me.Item11.Controls.Add(Me.lblHeaderItem11)
+        Me.Item11.Location = New System.Drawing.Point(4, 22)
+        Me.Item11.Name = "Item11"
+        Me.Item11.Size = New System.Drawing.Size(754, 383)
+        Me.Item11.TabIndex = 10
+        Me.Item11.Text = "サンドバッグ降ろし"
+        Me.Item11.UseVisualStyleBackColor = True
+        '
+        'lblHeaderItem11
+        '
+        Me.lblHeaderItem11.AutoSize = True
+        Me.lblHeaderItem11.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderItem11.Name = "lblHeaderItem11"
+        Me.lblHeaderItem11.Size = New System.Drawing.Size(73, 12)
+        Me.lblHeaderItem11.TabIndex = 2
+        Me.lblHeaderItem11.Text = "%txtDialog,JP"
+        '
+        'Item12
+        '
+        Me.Item12.Controls.Add(Me.lblDescriptionItem12)
+        Me.Item12.Controls.Add(Me.lblHeaderItem12)
+        Me.Item12.Location = New System.Drawing.Point(4, 22)
+        Me.Item12.Name = "Item12"
+        Me.Item12.Size = New System.Drawing.Size(754, 383)
+        Me.Item12.TabIndex = 11
+        Me.Item12.Text = "お土産渡され"
+        Me.Item12.UseVisualStyleBackColor = True
+        '
+        'lblHeaderItem12
+        '
+        Me.lblHeaderItem12.AutoSize = True
+        Me.lblHeaderItem12.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderItem12.Name = "lblHeaderItem12"
+        Me.lblHeaderItem12.Size = New System.Drawing.Size(73, 12)
+        Me.lblHeaderItem12.TabIndex = 2
+        Me.lblHeaderItem12.Text = "%txtDialog,JP"
+        '
+        'Item13
+        '
+        Me.Item13.Controls.Add(Me.lblDescriptionItem13)
+        Me.Item13.Controls.Add(Me.lblHeaderItem13)
+        Me.Item13.Location = New System.Drawing.Point(4, 22)
+        Me.Item13.Name = "Item13"
+        Me.Item13.Size = New System.Drawing.Size(754, 383)
+        Me.Item13.TabIndex = 12
+        Me.Item13.Text = "結婚指輪渡され"
+        Me.Item13.UseVisualStyleBackColor = True
+        '
+        'lblHeaderItem13
+        '
+        Me.lblHeaderItem13.AutoSize = True
+        Me.lblHeaderItem13.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderItem13.Name = "lblHeaderItem13"
+        Me.lblHeaderItem13.Size = New System.Drawing.Size(73, 12)
+        Me.lblHeaderItem13.TabIndex = 2
+        Me.lblHeaderItem13.Text = "%txtDialog,JP"
+        '
+        'Item14
+        '
+        Me.Item14.Controls.Add(Me.lblDescriptionItem14)
+        Me.Item14.Controls.Add(Me.lblHeaderItem14)
+        Me.Item14.Location = New System.Drawing.Point(4, 22)
+        Me.Item14.Name = "Item14"
+        Me.Item14.Size = New System.Drawing.Size(754, 383)
+        Me.Item14.TabIndex = 13
+        Me.Item14.Text = "結婚指輪取り上げ"
+        Me.Item14.UseVisualStyleBackColor = True
+        '
+        'lblHeaderItem14
+        '
+        Me.lblHeaderItem14.AutoSize = True
+        Me.lblHeaderItem14.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderItem14.Name = "lblHeaderItem14"
+        Me.lblHeaderItem14.Size = New System.Drawing.Size(73, 12)
+        Me.lblHeaderItem14.TabIndex = 2
+        Me.lblHeaderItem14.Text = "%txtDialog,JP"
+        '
+        'Item15
+        '
+        Me.Item15.Controls.Add(Me.lblDescriptionItem15)
+        Me.Item15.Controls.Add(Me.lblHeaderItem15)
+        Me.Item15.Location = New System.Drawing.Point(4, 22)
+        Me.Item15.Name = "Item15"
+        Me.Item15.Size = New System.Drawing.Size(754, 383)
+        Me.Item15.TabIndex = 14
+        Me.Item15.Text = "腐り食物食べ"
+        Me.Item15.UseVisualStyleBackColor = True
+        '
+        'lblHeaderItem15
+        '
+        Me.lblHeaderItem15.AutoSize = True
+        Me.lblHeaderItem15.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderItem15.Name = "lblHeaderItem15"
+        Me.lblHeaderItem15.Size = New System.Drawing.Size(73, 12)
+        Me.lblHeaderItem15.TabIndex = 2
+        Me.lblHeaderItem15.Text = "%txtDialog,JP"
+        '
+        'Item16
+        '
+        Me.Item16.Controls.Add(Me.lblDescriptionItem16)
+        Me.Item16.Controls.Add(Me.lblHeaderItem16)
+        Me.Item16.Location = New System.Drawing.Point(4, 22)
+        Me.Item16.Name = "Item16"
+        Me.Item16.Size = New System.Drawing.Size(754, 383)
+        Me.Item16.TabIndex = 15
+        Me.Item16.Text = "生肉食べ"
+        Me.Item16.UseVisualStyleBackColor = True
+        '
+        'lblHeaderItem16
+        '
+        Me.lblHeaderItem16.AutoSize = True
+        Me.lblHeaderItem16.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderItem16.Name = "lblHeaderItem16"
+        Me.lblHeaderItem16.Size = New System.Drawing.Size(73, 12)
+        Me.lblHeaderItem16.TabIndex = 2
+        Me.lblHeaderItem16.Text = "%txtDialog,JP"
+        '
+        'Item17
+        '
+        Me.Item17.Controls.Add(Me.lblDescriptionItem17)
+        Me.Item17.Controls.Add(Me.lblHeaderItem17)
+        Me.Item17.Location = New System.Drawing.Point(4, 22)
+        Me.Item17.Name = "Item17"
+        Me.Item17.Size = New System.Drawing.Size(754, 383)
+        Me.Item17.TabIndex = 16
+        Me.Item17.Text = "生小麦粉食べ"
+        Me.Item17.UseVisualStyleBackColor = True
+        '
+        'lblHeaderItem17
+        '
+        Me.lblHeaderItem17.AutoSize = True
+        Me.lblHeaderItem17.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderItem17.Name = "lblHeaderItem17"
+        Me.lblHeaderItem17.Size = New System.Drawing.Size(73, 12)
+        Me.lblHeaderItem17.TabIndex = 2
+        Me.lblHeaderItem17.Text = "%txtDialog,JP"
+        '
+        'Item18
+        '
+        Me.Item18.Controls.Add(Me.lblDescriptionItem18)
+        Me.Item18.Controls.Add(Me.lblHeaderItem18)
+        Me.Item18.Location = New System.Drawing.Point(4, 22)
+        Me.Item18.Name = "Item18"
+        Me.Item18.Size = New System.Drawing.Size(754, 383)
+        Me.Item18.TabIndex = 17
+        Me.Item18.Text = "生麺食べ"
+        Me.Item18.UseVisualStyleBackColor = True
+        '
+        'lblHeaderItem18
+        '
+        Me.lblHeaderItem18.AutoSize = True
+        Me.lblHeaderItem18.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderItem18.Name = "lblHeaderItem18"
+        Me.lblHeaderItem18.Size = New System.Drawing.Size(73, 12)
+        Me.lblHeaderItem18.TabIndex = 2
+        Me.lblHeaderItem18.Text = "%txtDialog,JP"
+        '
+        'Item19
+        '
+        Me.Item19.Controls.Add(Me.lblDescriptionItem19)
+        Me.Item19.Controls.Add(Me.lblHeaderItem19)
+        Me.Item19.Location = New System.Drawing.Point(4, 22)
+        Me.Item19.Name = "Item19"
+        Me.Item19.Size = New System.Drawing.Size(754, 383)
+        Me.Item19.TabIndex = 18
+        Me.Item19.Text = "ミルク飲み"
+        Me.Item19.UseVisualStyleBackColor = True
+        '
+        'lblHeaderItem19
+        '
+        Me.lblHeaderItem19.AutoSize = True
+        Me.lblHeaderItem19.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderItem19.Name = "lblHeaderItem19"
+        Me.lblHeaderItem19.Size = New System.Drawing.Size(73, 12)
+        Me.lblHeaderItem19.TabIndex = 2
+        Me.lblHeaderItem19.Text = "%txtDialog,JP"
+        '
+        'Item20
+        '
+        Me.Item20.Controls.Add(Me.lblDescriptionItem20)
+        Me.Item20.Controls.Add(Me.lblHeaderItem20)
+        Me.Item20.Location = New System.Drawing.Point(4, 22)
+        Me.Item20.Name = "Item20"
+        Me.Item20.Size = New System.Drawing.Size(754, 383)
+        Me.Item20.TabIndex = 19
+        Me.Item20.Text = "呪いミルク飲み"
+        Me.Item20.UseVisualStyleBackColor = True
+        '
+        'lblHeaderItem20
+        '
+        Me.lblHeaderItem20.AutoSize = True
+        Me.lblHeaderItem20.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderItem20.Name = "lblHeaderItem20"
+        Me.lblHeaderItem20.Size = New System.Drawing.Size(73, 12)
+        Me.lblHeaderItem20.TabIndex = 2
+        Me.lblHeaderItem20.Text = "%txtDialog,JP"
+        '
+        'Item21
+        '
+        Me.Item21.Controls.Add(Me.lblDescriptionItem21)
+        Me.Item21.Controls.Add(Me.lblHeaderItem21)
+        Me.Item21.Location = New System.Drawing.Point(4, 22)
+        Me.Item21.Name = "Item21"
+        Me.Item21.Size = New System.Drawing.Size(754, 383)
+        Me.Item21.TabIndex = 20
+        Me.Item21.Text = "酒飲み"
+        Me.Item21.UseVisualStyleBackColor = True
+        '
+        'lblHeaderItem21
+        '
+        Me.lblHeaderItem21.AutoSize = True
+        Me.lblHeaderItem21.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderItem21.Name = "lblHeaderItem21"
+        Me.lblHeaderItem21.Size = New System.Drawing.Size(73, 12)
+        Me.lblHeaderItem21.TabIndex = 2
+        Me.lblHeaderItem21.Text = "%txtDialog,JP"
+        '
+        'Item22
+        '
+        Me.Item22.Controls.Add(Me.lblDescriptionItem22)
+        Me.Item22.Controls.Add(Me.lblHeaderItem22)
+        Me.Item22.Location = New System.Drawing.Point(4, 22)
+        Me.Item22.Name = "Item22"
+        Me.Item22.Size = New System.Drawing.Size(754, 383)
+        Me.Item22.TabIndex = 21
+        Me.Item22.Text = "呪い酒飲み"
+        Me.Item22.UseVisualStyleBackColor = True
+        '
+        'lblHeaderItem22
+        '
+        Me.lblHeaderItem22.AutoSize = True
+        Me.lblHeaderItem22.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderItem22.Name = "lblHeaderItem22"
+        Me.lblHeaderItem22.Size = New System.Drawing.Size(73, 12)
+        Me.lblHeaderItem22.TabIndex = 2
+        Me.lblHeaderItem22.Text = "%txtDialog,JP"
+        '
+        'Item23
+        '
+        Me.Item23.Controls.Add(Me.lblDescriptionItem23)
+        Me.Item23.Controls.Add(Me.lblHeaderItem23)
+        Me.Item23.Location = New System.Drawing.Point(4, 22)
+        Me.Item23.Name = "Item23"
+        Me.Item23.Size = New System.Drawing.Size(754, 383)
+        Me.Item23.TabIndex = 22
+        Me.Item23.Text = "酔い状態"
+        Me.Item23.UseVisualStyleBackColor = True
+        '
+        'lblHeaderItem23
+        '
+        Me.lblHeaderItem23.AutoSize = True
+        Me.lblHeaderItem23.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderItem23.Name = "lblHeaderItem23"
+        Me.lblHeaderItem23.Size = New System.Drawing.Size(73, 12)
+        Me.lblHeaderItem23.TabIndex = 2
+        Me.lblHeaderItem23.Text = "%txtDialog,JP"
+        '
+        'Item24
+        '
+        Me.Item24.Controls.Add(Me.lblDescriptionItem24)
+        Me.Item24.Controls.Add(Me.lblHeaderItem24)
+        Me.Item24.Location = New System.Drawing.Point(4, 22)
+        Me.Item24.Name = "Item24"
+        Me.Item24.Size = New System.Drawing.Size(754, 383)
+        Me.Item24.TabIndex = 23
+        Me.Item24.Text = "未調理食べ"
+        Me.Item24.UseVisualStyleBackColor = True
+        '
+        'lblHeaderItem24
+        '
+        Me.lblHeaderItem24.AutoSize = True
+        Me.lblHeaderItem24.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderItem24.Name = "lblHeaderItem24"
+        Me.lblHeaderItem24.Size = New System.Drawing.Size(73, 12)
+        Me.lblHeaderItem24.TabIndex = 2
+        Me.lblHeaderItem24.Text = "%txtDialog,JP"
+        '
+        'Item25
+        '
+        Me.Item25.Controls.Add(Me.lblDescriptionItem25)
+        Me.Item25.Controls.Add(Me.lblHeaderItem25)
+        Me.Item25.Location = New System.Drawing.Point(4, 22)
+        Me.Item25.Name = "Item25"
+        Me.Item25.Size = New System.Drawing.Size(754, 383)
+        Me.Item25.TabIndex = 24
+        Me.Item25.Text = "ランク1~2食べ"
+        Me.Item25.UseVisualStyleBackColor = True
+        '
+        'lblHeaderItem25
+        '
+        Me.lblHeaderItem25.AutoSize = True
+        Me.lblHeaderItem25.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderItem25.Name = "lblHeaderItem25"
+        Me.lblHeaderItem25.Size = New System.Drawing.Size(73, 12)
+        Me.lblHeaderItem25.TabIndex = 2
+        Me.lblHeaderItem25.Text = "%txtDialog,JP"
+        '
+        'Item26
+        '
+        Me.Item26.Controls.Add(Me.lblDescriptionItem26)
+        Me.Item26.Controls.Add(Me.lblHeaderItem26)
+        Me.Item26.Location = New System.Drawing.Point(4, 22)
+        Me.Item26.Name = "Item26"
+        Me.Item26.Size = New System.Drawing.Size(754, 383)
+        Me.Item26.TabIndex = 25
+        Me.Item26.Text = "ランク3~4食べ"
+        Me.Item26.UseVisualStyleBackColor = True
+        '
+        'lblHeaderItem26
+        '
+        Me.lblHeaderItem26.AutoSize = True
+        Me.lblHeaderItem26.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderItem26.Name = "lblHeaderItem26"
+        Me.lblHeaderItem26.Size = New System.Drawing.Size(73, 12)
+        Me.lblHeaderItem26.TabIndex = 2
+        Me.lblHeaderItem26.Text = "%txtDialog,JP"
+        '
+        'Item27
+        '
+        Me.Item27.Controls.Add(Me.lblDescriptionItem27)
+        Me.Item27.Controls.Add(Me.lblHeaderItem27)
+        Me.Item27.Location = New System.Drawing.Point(4, 22)
+        Me.Item27.Name = "Item27"
+        Me.Item27.Size = New System.Drawing.Size(754, 383)
+        Me.Item27.TabIndex = 26
+        Me.Item27.Text = "ランク5~6食べ"
+        Me.Item27.UseVisualStyleBackColor = True
+        '
+        'lblHeaderItem27
+        '
+        Me.lblHeaderItem27.AutoSize = True
+        Me.lblHeaderItem27.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderItem27.Name = "lblHeaderItem27"
+        Me.lblHeaderItem27.Size = New System.Drawing.Size(73, 12)
+        Me.lblHeaderItem27.TabIndex = 2
+        Me.lblHeaderItem27.Text = "%txtDialog,JP"
+        '
+        'Item28
+        '
+        Me.Item28.Controls.Add(Me.lblDescriptionItem28)
+        Me.Item28.Controls.Add(Me.lblHeaderItem28)
+        Me.Item28.Location = New System.Drawing.Point(4, 22)
+        Me.Item28.Name = "Item28"
+        Me.Item28.Size = New System.Drawing.Size(754, 383)
+        Me.Item28.TabIndex = 27
+        Me.Item28.Text = "ランク7~8食べ"
+        Me.Item28.UseVisualStyleBackColor = True
+        '
+        'lblHeaderItem28
+        '
+        Me.lblHeaderItem28.AutoSize = True
+        Me.lblHeaderItem28.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderItem28.Name = "lblHeaderItem28"
+        Me.lblHeaderItem28.Size = New System.Drawing.Size(73, 12)
+        Me.lblHeaderItem28.TabIndex = 2
+        Me.lblHeaderItem28.Text = "%txtDialog,JP"
+        '
+        'Item29
+        '
+        Me.Item29.Controls.Add(Me.lblDescriptionItem29)
+        Me.Item29.Controls.Add(Me.lblHeaderItem29)
+        Me.Item29.Location = New System.Drawing.Point(4, 22)
+        Me.Item29.Name = "Item29"
+        Me.Item29.Size = New System.Drawing.Size(754, 383)
+        Me.Item29.TabIndex = 28
+        Me.Item29.Text = "ランク9食べ"
+        Me.Item29.UseVisualStyleBackColor = True
+        '
+        'lblHeaderItem29
+        '
+        Me.lblHeaderItem29.AutoSize = True
+        Me.lblHeaderItem29.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderItem29.Name = "lblHeaderItem29"
+        Me.lblHeaderItem29.Size = New System.Drawing.Size(73, 12)
+        Me.lblHeaderItem29.TabIndex = 2
+        Me.lblHeaderItem29.Text = "%txtDialog,JP"
+        '
+        'Item30
+        '
+        Me.Item30.Controls.Add(Me.lblDescriptionItem30)
+        Me.Item30.Controls.Add(Me.lblHeaderItem30)
+        Me.Item30.Location = New System.Drawing.Point(4, 22)
+        Me.Item30.Name = "Item30"
+        Me.Item30.Size = New System.Drawing.Size(754, 383)
+        Me.Item30.TabIndex = 29
+        Me.Item30.Text = "自動食事失敗"
+        Me.Item30.UseVisualStyleBackColor = True
+        '
+        'lblHeaderItem30
+        '
+        Me.lblHeaderItem30.AutoSize = True
+        Me.lblHeaderItem30.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderItem30.Name = "lblHeaderItem30"
+        Me.lblHeaderItem30.Size = New System.Drawing.Size(73, 12)
+        Me.lblHeaderItem30.TabIndex = 2
+        Me.lblHeaderItem30.Text = "%txtDialog,JP"
+        '
+        'Item31
+        '
+        Me.Item31.Controls.Add(Me.lblDescriptionItem31)
+        Me.Item31.Controls.Add(Me.lblHeaderItem31)
+        Me.Item31.Location = New System.Drawing.Point(4, 22)
+        Me.Item31.Name = "Item31"
+        Me.Item31.Size = New System.Drawing.Size(754, 383)
+        Me.Item31.TabIndex = 30
+        Me.Item31.Text = "○○のエロ本読み"
+        Me.Item31.UseVisualStyleBackColor = True
+        '
+        'lblHeaderItem31
+        '
+        Me.lblHeaderItem31.AutoSize = True
+        Me.lblHeaderItem31.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderItem31.Name = "lblHeaderItem31"
+        Me.lblHeaderItem31.Size = New System.Drawing.Size(73, 12)
+        Me.lblHeaderItem31.TabIndex = 2
+        Me.lblHeaderItem31.Text = "%txtDialog,JP"
+        '
+        'Item32
+        '
+        Me.Item32.Controls.Add(Me.lblDescriptionItem32)
+        Me.Item32.Controls.Add(Me.lblHeaderItem32)
+        Me.Item32.Location = New System.Drawing.Point(4, 22)
+        Me.Item32.Name = "Item32"
+        Me.Item32.Size = New System.Drawing.Size(754, 383)
+        Me.Item32.TabIndex = 31
+        Me.Item32.Text = "エロ本読み"
+        Me.Item32.UseVisualStyleBackColor = True
+        '
+        'lblHeaderItem32
+        '
+        Me.lblHeaderItem32.AutoSize = True
+        Me.lblHeaderItem32.Location = New System.Drawing.Point(6, 3)
+        Me.lblHeaderItem32.Name = "lblHeaderItem32"
+        Me.lblHeaderItem32.Size = New System.Drawing.Size(73, 12)
+        Me.lblHeaderItem32.TabIndex = 2
+        Me.lblHeaderItem32.Text = "%txtDialog,JP"
         '
         'btnClose
         '
@@ -4947,203 +5959,293 @@ Partial Class TextEditForm
         Me.btnClose.Text = "閉じる"
         Me.btnClose.UseVisualStyleBackColor = True
         '
-        'btnDelDesiccation1
+        'lblDescriptionItem1
         '
-        Me.btnDelDesiccation1.Location = New System.Drawing.Point(645, 28)
-        Me.btnDelDesiccation1.Name = "btnDelDesiccation1"
-        Me.btnDelDesiccation1.Size = New System.Drawing.Size(75, 23)
-        Me.btnDelDesiccation1.TabIndex = 8
-        Me.btnDelDesiccation1.Text = "削除"
-        Me.btnDelDesiccation1.UseVisualStyleBackColor = True
+        Me.lblDescriptionItem1.AutoSize = True
+        Me.lblDescriptionItem1.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionItem1.Name = "lblDescriptionItem1"
+        Me.lblDescriptionItem1.Size = New System.Drawing.Size(73, 12)
+        Me.lblDescriptionItem1.TabIndex = 3
+        Me.lblDescriptionItem1.Text = "%txtDialog,JP"
         '
-        'btnDelDesiccation2
+        'lblDescriptionItem2
         '
-        Me.btnDelDesiccation2.Location = New System.Drawing.Point(645, 28)
-        Me.btnDelDesiccation2.Name = "btnDelDesiccation2"
-        Me.btnDelDesiccation2.Size = New System.Drawing.Size(75, 23)
-        Me.btnDelDesiccation2.TabIndex = 9
-        Me.btnDelDesiccation2.Text = "削除"
-        Me.btnDelDesiccation2.UseVisualStyleBackColor = True
+        Me.lblDescriptionItem2.AutoSize = True
+        Me.lblDescriptionItem2.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionItem2.Name = "lblDescriptionItem2"
+        Me.lblDescriptionItem2.Size = New System.Drawing.Size(73, 12)
+        Me.lblDescriptionItem2.TabIndex = 3
+        Me.lblDescriptionItem2.Text = "%txtDialog,JP"
         '
-        'btnDelDesiccation3
+        'lblDescriptionItem3
         '
-        Me.btnDelDesiccation3.Location = New System.Drawing.Point(645, 28)
-        Me.btnDelDesiccation3.Name = "btnDelDesiccation3"
-        Me.btnDelDesiccation3.Size = New System.Drawing.Size(75, 23)
-        Me.btnDelDesiccation3.TabIndex = 9
-        Me.btnDelDesiccation3.Text = "削除"
-        Me.btnDelDesiccation3.UseVisualStyleBackColor = True
+        Me.lblDescriptionItem3.AutoSize = True
+        Me.lblDescriptionItem3.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionItem3.Name = "lblDescriptionItem3"
+        Me.lblDescriptionItem3.Size = New System.Drawing.Size(73, 12)
+        Me.lblDescriptionItem3.TabIndex = 3
+        Me.lblDescriptionItem3.Text = "%txtDialog,JP"
         '
-        'btnDelDesiccation4
+        'lblDescriptionItem4
         '
-        Me.btnDelDesiccation4.Location = New System.Drawing.Point(645, 28)
-        Me.btnDelDesiccation4.Name = "btnDelDesiccation4"
-        Me.btnDelDesiccation4.Size = New System.Drawing.Size(75, 23)
-        Me.btnDelDesiccation4.TabIndex = 9
-        Me.btnDelDesiccation4.Text = "削除"
-        Me.btnDelDesiccation4.UseVisualStyleBackColor = True
+        Me.lblDescriptionItem4.AutoSize = True
+        Me.lblDescriptionItem4.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionItem4.Name = "lblDescriptionItem4"
+        Me.lblDescriptionItem4.Size = New System.Drawing.Size(73, 12)
+        Me.lblDescriptionItem4.TabIndex = 3
+        Me.lblDescriptionItem4.Text = "%txtDialog,JP"
         '
-        'btnDelDesiccation5
+        'lblDescriptionItem5
         '
-        Me.btnDelDesiccation5.Location = New System.Drawing.Point(645, 28)
-        Me.btnDelDesiccation5.Name = "btnDelDesiccation5"
-        Me.btnDelDesiccation5.Size = New System.Drawing.Size(75, 23)
-        Me.btnDelDesiccation5.TabIndex = 9
-        Me.btnDelDesiccation5.Text = "削除"
-        Me.btnDelDesiccation5.UseVisualStyleBackColor = True
+        Me.lblDescriptionItem5.AutoSize = True
+        Me.lblDescriptionItem5.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionItem5.Name = "lblDescriptionItem5"
+        Me.lblDescriptionItem5.Size = New System.Drawing.Size(73, 12)
+        Me.lblDescriptionItem5.TabIndex = 3
+        Me.lblDescriptionItem5.Text = "%txtDialog,JP"
         '
-        'btnDelDesiccation6
+        'lblDescriptionItem6
         '
-        Me.btnDelDesiccation6.Location = New System.Drawing.Point(645, 28)
-        Me.btnDelDesiccation6.Name = "btnDelDesiccation6"
-        Me.btnDelDesiccation6.Size = New System.Drawing.Size(75, 23)
-        Me.btnDelDesiccation6.TabIndex = 9
-        Me.btnDelDesiccation6.Text = "削除"
-        Me.btnDelDesiccation6.UseVisualStyleBackColor = True
+        Me.lblDescriptionItem6.AutoSize = True
+        Me.lblDescriptionItem6.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionItem6.Name = "lblDescriptionItem6"
+        Me.lblDescriptionItem6.Size = New System.Drawing.Size(73, 12)
+        Me.lblDescriptionItem6.TabIndex = 3
+        Me.lblDescriptionItem6.Text = "%txtDialog,JP"
         '
-        'btnDelDesiccation7
+        'lblDescriptionItem7
         '
-        Me.btnDelDesiccation7.Location = New System.Drawing.Point(645, 28)
-        Me.btnDelDesiccation7.Name = "btnDelDesiccation7"
-        Me.btnDelDesiccation7.Size = New System.Drawing.Size(75, 23)
-        Me.btnDelDesiccation7.TabIndex = 9
-        Me.btnDelDesiccation7.Text = "削除"
-        Me.btnDelDesiccation7.UseVisualStyleBackColor = True
+        Me.lblDescriptionItem7.AutoSize = True
+        Me.lblDescriptionItem7.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionItem7.Name = "lblDescriptionItem7"
+        Me.lblDescriptionItem7.Size = New System.Drawing.Size(73, 12)
+        Me.lblDescriptionItem7.TabIndex = 3
+        Me.lblDescriptionItem7.Text = "%txtDialog,JP"
         '
-        'btnDelDesiccation8
+        'lblDescriptionItem8
         '
-        Me.btnDelDesiccation8.Location = New System.Drawing.Point(645, 28)
-        Me.btnDelDesiccation8.Name = "btnDelDesiccation8"
-        Me.btnDelDesiccation8.Size = New System.Drawing.Size(75, 23)
-        Me.btnDelDesiccation8.TabIndex = 9
-        Me.btnDelDesiccation8.Text = "削除"
-        Me.btnDelDesiccation8.UseVisualStyleBackColor = True
+        Me.lblDescriptionItem8.AutoSize = True
+        Me.lblDescriptionItem8.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionItem8.Name = "lblDescriptionItem8"
+        Me.lblDescriptionItem8.Size = New System.Drawing.Size(73, 12)
+        Me.lblDescriptionItem8.TabIndex = 3
+        Me.lblDescriptionItem8.Text = "%txtDialog,JP"
         '
-        'btnDelDesiccation9
+        'lblDescriptionItem9
         '
-        Me.btnDelDesiccation9.Location = New System.Drawing.Point(645, 28)
-        Me.btnDelDesiccation9.Name = "btnDelDesiccation9"
-        Me.btnDelDesiccation9.Size = New System.Drawing.Size(75, 23)
-        Me.btnDelDesiccation9.TabIndex = 9
-        Me.btnDelDesiccation9.Text = "削除"
-        Me.btnDelDesiccation9.UseVisualStyleBackColor = True
+        Me.lblDescriptionItem9.AutoSize = True
+        Me.lblDescriptionItem9.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionItem9.Name = "lblDescriptionItem9"
+        Me.lblDescriptionItem9.Size = New System.Drawing.Size(73, 12)
+        Me.lblDescriptionItem9.TabIndex = 3
+        Me.lblDescriptionItem9.Text = "%txtDialog,JP"
         '
-        'btnDelDesiccation10
+        'lblDescriptionItem10
         '
-        Me.btnDelDesiccation10.Location = New System.Drawing.Point(645, 28)
-        Me.btnDelDesiccation10.Name = "btnDelDesiccation10"
-        Me.btnDelDesiccation10.Size = New System.Drawing.Size(75, 23)
-        Me.btnDelDesiccation10.TabIndex = 9
-        Me.btnDelDesiccation10.Text = "削除"
-        Me.btnDelDesiccation10.UseVisualStyleBackColor = True
+        Me.lblDescriptionItem10.AutoSize = True
+        Me.lblDescriptionItem10.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionItem10.Name = "lblDescriptionItem10"
+        Me.lblDescriptionItem10.Size = New System.Drawing.Size(73, 12)
+        Me.lblDescriptionItem10.TabIndex = 3
+        Me.lblDescriptionItem10.Text = "%txtDialog,JP"
         '
-        'btnDelDesiccation11
+        'lblDescriptionItem11
         '
-        Me.btnDelDesiccation11.Location = New System.Drawing.Point(645, 28)
-        Me.btnDelDesiccation11.Name = "btnDelDesiccation11"
-        Me.btnDelDesiccation11.Size = New System.Drawing.Size(75, 23)
-        Me.btnDelDesiccation11.TabIndex = 9
-        Me.btnDelDesiccation11.Text = "削除"
-        Me.btnDelDesiccation11.UseVisualStyleBackColor = True
+        Me.lblDescriptionItem11.AutoSize = True
+        Me.lblDescriptionItem11.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionItem11.Name = "lblDescriptionItem11"
+        Me.lblDescriptionItem11.Size = New System.Drawing.Size(73, 12)
+        Me.lblDescriptionItem11.TabIndex = 3
+        Me.lblDescriptionItem11.Text = "%txtDialog,JP"
         '
-        'btnDelDesiccation12
+        'lblDescriptionItem12
         '
-        Me.btnDelDesiccation12.Location = New System.Drawing.Point(645, 28)
-        Me.btnDelDesiccation12.Name = "btnDelDesiccation12"
-        Me.btnDelDesiccation12.Size = New System.Drawing.Size(75, 23)
-        Me.btnDelDesiccation12.TabIndex = 9
-        Me.btnDelDesiccation12.Text = "削除"
-        Me.btnDelDesiccation12.UseVisualStyleBackColor = True
+        Me.lblDescriptionItem12.AutoSize = True
+        Me.lblDescriptionItem12.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionItem12.Name = "lblDescriptionItem12"
+        Me.lblDescriptionItem12.Size = New System.Drawing.Size(73, 12)
+        Me.lblDescriptionItem12.TabIndex = 3
+        Me.lblDescriptionItem12.Text = "%txtDialog,JP"
         '
-        'btnDelDesiccation13
+        'lblDescriptionItem13
         '
-        Me.btnDelDesiccation13.Location = New System.Drawing.Point(645, 28)
-        Me.btnDelDesiccation13.Name = "btnDelDesiccation13"
-        Me.btnDelDesiccation13.Size = New System.Drawing.Size(75, 23)
-        Me.btnDelDesiccation13.TabIndex = 9
-        Me.btnDelDesiccation13.Text = "削除"
-        Me.btnDelDesiccation13.UseVisualStyleBackColor = True
+        Me.lblDescriptionItem13.AutoSize = True
+        Me.lblDescriptionItem13.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionItem13.Name = "lblDescriptionItem13"
+        Me.lblDescriptionItem13.Size = New System.Drawing.Size(73, 12)
+        Me.lblDescriptionItem13.TabIndex = 3
+        Me.lblDescriptionItem13.Text = "%txtDialog,JP"
         '
-        'btnDelDesiccation14
+        'lblDescriptionItem14
         '
-        Me.btnDelDesiccation14.Location = New System.Drawing.Point(645, 28)
-        Me.btnDelDesiccation14.Name = "btnDelDesiccation14"
-        Me.btnDelDesiccation14.Size = New System.Drawing.Size(75, 23)
-        Me.btnDelDesiccation14.TabIndex = 9
-        Me.btnDelDesiccation14.Text = "削除"
-        Me.btnDelDesiccation14.UseVisualStyleBackColor = True
+        Me.lblDescriptionItem14.AutoSize = True
+        Me.lblDescriptionItem14.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionItem14.Name = "lblDescriptionItem14"
+        Me.lblDescriptionItem14.Size = New System.Drawing.Size(73, 12)
+        Me.lblDescriptionItem14.TabIndex = 3
+        Me.lblDescriptionItem14.Text = "%txtDialog,JP"
         '
-        'btnDelDesiccation15
+        'lblDescriptionItem15
         '
-        Me.btnDelDesiccation15.Location = New System.Drawing.Point(645, 28)
-        Me.btnDelDesiccation15.Name = "btnDelDesiccation15"
-        Me.btnDelDesiccation15.Size = New System.Drawing.Size(75, 23)
-        Me.btnDelDesiccation15.TabIndex = 9
-        Me.btnDelDesiccation15.Text = "削除"
-        Me.btnDelDesiccation15.UseVisualStyleBackColor = True
+        Me.lblDescriptionItem15.AutoSize = True
+        Me.lblDescriptionItem15.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionItem15.Name = "lblDescriptionItem15"
+        Me.lblDescriptionItem15.Size = New System.Drawing.Size(73, 12)
+        Me.lblDescriptionItem15.TabIndex = 3
+        Me.lblDescriptionItem15.Text = "%txtDialog,JP"
         '
-        'btnDelDesiccation16
+        'lblDescriptionItem16
         '
-        Me.btnDelDesiccation16.Location = New System.Drawing.Point(645, 28)
-        Me.btnDelDesiccation16.Name = "btnDelDesiccation16"
-        Me.btnDelDesiccation16.Size = New System.Drawing.Size(75, 23)
-        Me.btnDelDesiccation16.TabIndex = 9
-        Me.btnDelDesiccation16.Text = "削除"
-        Me.btnDelDesiccation16.UseVisualStyleBackColor = True
+        Me.lblDescriptionItem16.AutoSize = True
+        Me.lblDescriptionItem16.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionItem16.Name = "lblDescriptionItem16"
+        Me.lblDescriptionItem16.Size = New System.Drawing.Size(73, 12)
+        Me.lblDescriptionItem16.TabIndex = 3
+        Me.lblDescriptionItem16.Text = "%txtDialog,JP"
         '
-        'btnDelDesiccation17
+        'lblDescriptionItem17
         '
-        Me.btnDelDesiccation17.Location = New System.Drawing.Point(645, 28)
-        Me.btnDelDesiccation17.Name = "btnDelDesiccation17"
-        Me.btnDelDesiccation17.Size = New System.Drawing.Size(75, 23)
-        Me.btnDelDesiccation17.TabIndex = 9
-        Me.btnDelDesiccation17.Text = "削除"
-        Me.btnDelDesiccation17.UseVisualStyleBackColor = True
+        Me.lblDescriptionItem17.AutoSize = True
+        Me.lblDescriptionItem17.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionItem17.Name = "lblDescriptionItem17"
+        Me.lblDescriptionItem17.Size = New System.Drawing.Size(73, 12)
+        Me.lblDescriptionItem17.TabIndex = 3
+        Me.lblDescriptionItem17.Text = "%txtDialog,JP"
         '
-        'btnDelDesiccation18
+        'lblDescriptionItem18
         '
-        Me.btnDelDesiccation18.Location = New System.Drawing.Point(645, 28)
-        Me.btnDelDesiccation18.Name = "btnDelDesiccation18"
-        Me.btnDelDesiccation18.Size = New System.Drawing.Size(75, 23)
-        Me.btnDelDesiccation18.TabIndex = 9
-        Me.btnDelDesiccation18.Text = "削除"
-        Me.btnDelDesiccation18.UseVisualStyleBackColor = True
+        Me.lblDescriptionItem18.AutoSize = True
+        Me.lblDescriptionItem18.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionItem18.Name = "lblDescriptionItem18"
+        Me.lblDescriptionItem18.Size = New System.Drawing.Size(73, 12)
+        Me.lblDescriptionItem18.TabIndex = 3
+        Me.lblDescriptionItem18.Text = "%txtDialog,JP"
         '
-        'btnDelDesiccation19
+        'lblDescriptionItem19
         '
-        Me.btnDelDesiccation19.Location = New System.Drawing.Point(645, 28)
-        Me.btnDelDesiccation19.Name = "btnDelDesiccation19"
-        Me.btnDelDesiccation19.Size = New System.Drawing.Size(75, 23)
-        Me.btnDelDesiccation19.TabIndex = 9
-        Me.btnDelDesiccation19.Text = "削除"
-        Me.btnDelDesiccation19.UseVisualStyleBackColor = True
+        Me.lblDescriptionItem19.AutoSize = True
+        Me.lblDescriptionItem19.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionItem19.Name = "lblDescriptionItem19"
+        Me.lblDescriptionItem19.Size = New System.Drawing.Size(73, 12)
+        Me.lblDescriptionItem19.TabIndex = 3
+        Me.lblDescriptionItem19.Text = "%txtDialog,JP"
         '
-        'btnDelDesiccation20
+        'lblDescriptionItem20
         '
-        Me.btnDelDesiccation20.Location = New System.Drawing.Point(645, 28)
-        Me.btnDelDesiccation20.Name = "btnDelDesiccation20"
-        Me.btnDelDesiccation20.Size = New System.Drawing.Size(75, 23)
-        Me.btnDelDesiccation20.TabIndex = 9
-        Me.btnDelDesiccation20.Text = "削除"
-        Me.btnDelDesiccation20.UseVisualStyleBackColor = True
+        Me.lblDescriptionItem20.AutoSize = True
+        Me.lblDescriptionItem20.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionItem20.Name = "lblDescriptionItem20"
+        Me.lblDescriptionItem20.Size = New System.Drawing.Size(73, 12)
+        Me.lblDescriptionItem20.TabIndex = 3
+        Me.lblDescriptionItem20.Text = "%txtDialog,JP"
         '
-        'btnDelDesiccation21
+        'lblDescriptionItem21
         '
-        Me.btnDelDesiccation21.Location = New System.Drawing.Point(645, 28)
-        Me.btnDelDesiccation21.Name = "btnDelDesiccation21"
-        Me.btnDelDesiccation21.Size = New System.Drawing.Size(75, 23)
-        Me.btnDelDesiccation21.TabIndex = 9
-        Me.btnDelDesiccation21.Text = "削除"
-        Me.btnDelDesiccation21.UseVisualStyleBackColor = True
+        Me.lblDescriptionItem21.AutoSize = True
+        Me.lblDescriptionItem21.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionItem21.Name = "lblDescriptionItem21"
+        Me.lblDescriptionItem21.Size = New System.Drawing.Size(73, 12)
+        Me.lblDescriptionItem21.TabIndex = 3
+        Me.lblDescriptionItem21.Text = "%txtDialog,JP"
         '
-        'btnDelDesiccation22
+        'lblDescriptionItem22
         '
-        Me.btnDelDesiccation22.Location = New System.Drawing.Point(645, 28)
-        Me.btnDelDesiccation22.Name = "btnDelDesiccation22"
-        Me.btnDelDesiccation22.Size = New System.Drawing.Size(75, 23)
-        Me.btnDelDesiccation22.TabIndex = 9
-        Me.btnDelDesiccation22.Text = "削除"
-        Me.btnDelDesiccation22.UseVisualStyleBackColor = True
+        Me.lblDescriptionItem22.AutoSize = True
+        Me.lblDescriptionItem22.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionItem22.Name = "lblDescriptionItem22"
+        Me.lblDescriptionItem22.Size = New System.Drawing.Size(73, 12)
+        Me.lblDescriptionItem22.TabIndex = 3
+        Me.lblDescriptionItem22.Text = "%txtDialog,JP"
+        '
+        'lblDescriptionItem23
+        '
+        Me.lblDescriptionItem23.AutoSize = True
+        Me.lblDescriptionItem23.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionItem23.Name = "lblDescriptionItem23"
+        Me.lblDescriptionItem23.Size = New System.Drawing.Size(73, 12)
+        Me.lblDescriptionItem23.TabIndex = 3
+        Me.lblDescriptionItem23.Text = "%txtDialog,JP"
+        '
+        'lblDescriptionItem24
+        '
+        Me.lblDescriptionItem24.AutoSize = True
+        Me.lblDescriptionItem24.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionItem24.Name = "lblDescriptionItem24"
+        Me.lblDescriptionItem24.Size = New System.Drawing.Size(73, 12)
+        Me.lblDescriptionItem24.TabIndex = 3
+        Me.lblDescriptionItem24.Text = "%txtDialog,JP"
+        '
+        'lblDescriptionItem25
+        '
+        Me.lblDescriptionItem25.AutoSize = True
+        Me.lblDescriptionItem25.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionItem25.Name = "lblDescriptionItem25"
+        Me.lblDescriptionItem25.Size = New System.Drawing.Size(73, 12)
+        Me.lblDescriptionItem25.TabIndex = 3
+        Me.lblDescriptionItem25.Text = "%txtDialog,JP"
+        '
+        'lblDescriptionItem26
+        '
+        Me.lblDescriptionItem26.AutoSize = True
+        Me.lblDescriptionItem26.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionItem26.Name = "lblDescriptionItem26"
+        Me.lblDescriptionItem26.Size = New System.Drawing.Size(73, 12)
+        Me.lblDescriptionItem26.TabIndex = 3
+        Me.lblDescriptionItem26.Text = "%txtDialog,JP"
+        '
+        'lblDescriptionItem27
+        '
+        Me.lblDescriptionItem27.AutoSize = True
+        Me.lblDescriptionItem27.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionItem27.Name = "lblDescriptionItem27"
+        Me.lblDescriptionItem27.Size = New System.Drawing.Size(73, 12)
+        Me.lblDescriptionItem27.TabIndex = 3
+        Me.lblDescriptionItem27.Text = "%txtDialog,JP"
+        '
+        'lblDescriptionItem28
+        '
+        Me.lblDescriptionItem28.AutoSize = True
+        Me.lblDescriptionItem28.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionItem28.Name = "lblDescriptionItem28"
+        Me.lblDescriptionItem28.Size = New System.Drawing.Size(73, 12)
+        Me.lblDescriptionItem28.TabIndex = 3
+        Me.lblDescriptionItem28.Text = "%txtDialog,JP"
+        '
+        'lblDescriptionItem29
+        '
+        Me.lblDescriptionItem29.AutoSize = True
+        Me.lblDescriptionItem29.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionItem29.Name = "lblDescriptionItem29"
+        Me.lblDescriptionItem29.Size = New System.Drawing.Size(73, 12)
+        Me.lblDescriptionItem29.TabIndex = 3
+        Me.lblDescriptionItem29.Text = "%txtDialog,JP"
+        '
+        'lblDescriptionItem30
+        '
+        Me.lblDescriptionItem30.AutoSize = True
+        Me.lblDescriptionItem30.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionItem30.Name = "lblDescriptionItem30"
+        Me.lblDescriptionItem30.Size = New System.Drawing.Size(73, 12)
+        Me.lblDescriptionItem30.TabIndex = 3
+        Me.lblDescriptionItem30.Text = "%txtDialog,JP"
+        '
+        'lblDescriptionItem31
+        '
+        Me.lblDescriptionItem31.AutoSize = True
+        Me.lblDescriptionItem31.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionItem31.Name = "lblDescriptionItem31"
+        Me.lblDescriptionItem31.Size = New System.Drawing.Size(73, 12)
+        Me.lblDescriptionItem31.TabIndex = 3
+        Me.lblDescriptionItem31.Text = "%txtDialog,JP"
+        '
+        'lblDescriptionItem32
+        '
+        Me.lblDescriptionItem32.AutoSize = True
+        Me.lblDescriptionItem32.Location = New System.Drawing.Point(6, 15)
+        Me.lblDescriptionItem32.Name = "lblDescriptionItem32"
+        Me.lblDescriptionItem32.Size = New System.Drawing.Size(73, 12)
+        Me.lblDescriptionItem32.TabIndex = 3
+        Me.lblDescriptionItem32.Text = "%txtDialog,JP"
         '
         'TextEditForm
         '
@@ -5323,6 +6425,72 @@ Partial Class TextEditForm
         Me.Desiccation22.ResumeLayout(False)
         Me.Desiccation22.PerformLayout()
         CType(Me.dgvDesiccation22, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabPage4.ResumeLayout(False)
+        Me.TabControl2.ResumeLayout(False)
+        Me.Item1.ResumeLayout(False)
+        Me.Item1.PerformLayout()
+        Me.Item2.ResumeLayout(False)
+        Me.Item2.PerformLayout()
+        Me.Item3.ResumeLayout(False)
+        Me.Item3.PerformLayout()
+        Me.Item4.ResumeLayout(False)
+        Me.Item4.PerformLayout()
+        Me.Item5.ResumeLayout(False)
+        Me.Item5.PerformLayout()
+        Me.Itme6.ResumeLayout(False)
+        Me.Itme6.PerformLayout()
+        Me.Item7.ResumeLayout(False)
+        Me.Item7.PerformLayout()
+        Me.Item8.ResumeLayout(False)
+        Me.Item8.PerformLayout()
+        Me.Item9.ResumeLayout(False)
+        Me.Item9.PerformLayout()
+        Me.Item10.ResumeLayout(False)
+        Me.Item10.PerformLayout()
+        Me.Item11.ResumeLayout(False)
+        Me.Item11.PerformLayout()
+        Me.Item12.ResumeLayout(False)
+        Me.Item12.PerformLayout()
+        Me.Item13.ResumeLayout(False)
+        Me.Item13.PerformLayout()
+        Me.Item14.ResumeLayout(False)
+        Me.Item14.PerformLayout()
+        Me.Item15.ResumeLayout(False)
+        Me.Item15.PerformLayout()
+        Me.Item16.ResumeLayout(False)
+        Me.Item16.PerformLayout()
+        Me.Item17.ResumeLayout(False)
+        Me.Item17.PerformLayout()
+        Me.Item18.ResumeLayout(False)
+        Me.Item18.PerformLayout()
+        Me.Item19.ResumeLayout(False)
+        Me.Item19.PerformLayout()
+        Me.Item20.ResumeLayout(False)
+        Me.Item20.PerformLayout()
+        Me.Item21.ResumeLayout(False)
+        Me.Item21.PerformLayout()
+        Me.Item22.ResumeLayout(False)
+        Me.Item22.PerformLayout()
+        Me.Item23.ResumeLayout(False)
+        Me.Item23.PerformLayout()
+        Me.Item24.ResumeLayout(False)
+        Me.Item24.PerformLayout()
+        Me.Item25.ResumeLayout(False)
+        Me.Item25.PerformLayout()
+        Me.Item26.ResumeLayout(False)
+        Me.Item26.PerformLayout()
+        Me.Item27.ResumeLayout(False)
+        Me.Item27.PerformLayout()
+        Me.Item28.ResumeLayout(False)
+        Me.Item28.PerformLayout()
+        Me.Item29.ResumeLayout(False)
+        Me.Item29.PerformLayout()
+        Me.Item30.ResumeLayout(False)
+        Me.Item30.PerformLayout()
+        Me.Item31.ResumeLayout(False)
+        Me.Item31.PerformLayout()
+        Me.Item32.ResumeLayout(False)
+        Me.Item32.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -5787,5 +6955,102 @@ Partial Class TextEditForm
     Friend WithEvents btnDelDesiccation20 As System.Windows.Forms.Button
     Friend WithEvents btnDelDesiccation21 As System.Windows.Forms.Button
     Friend WithEvents btnDelDesiccation22 As System.Windows.Forms.Button
+    Friend WithEvents TabControl2 As System.Windows.Forms.TabControl
+    Friend WithEvents Item1 As System.Windows.Forms.TabPage
+    Friend WithEvents Item2 As System.Windows.Forms.TabPage
+    Friend WithEvents Item3 As System.Windows.Forms.TabPage
+    Friend WithEvents Item4 As System.Windows.Forms.TabPage
+    Friend WithEvents Item5 As System.Windows.Forms.TabPage
+    Friend WithEvents Itme6 As System.Windows.Forms.TabPage
+    Friend WithEvents Item7 As System.Windows.Forms.TabPage
+    Friend WithEvents Item8 As System.Windows.Forms.TabPage
+    Friend WithEvents Item9 As System.Windows.Forms.TabPage
+    Friend WithEvents Item10 As System.Windows.Forms.TabPage
+    Friend WithEvents Item11 As System.Windows.Forms.TabPage
+    Friend WithEvents Item12 As System.Windows.Forms.TabPage
+    Friend WithEvents Item13 As System.Windows.Forms.TabPage
+    Friend WithEvents Item14 As System.Windows.Forms.TabPage
+    Friend WithEvents Item15 As System.Windows.Forms.TabPage
+    Friend WithEvents Item16 As System.Windows.Forms.TabPage
+    Friend WithEvents Item17 As System.Windows.Forms.TabPage
+    Friend WithEvents Item18 As System.Windows.Forms.TabPage
+    Friend WithEvents Item19 As System.Windows.Forms.TabPage
+    Friend WithEvents Item20 As System.Windows.Forms.TabPage
+    Friend WithEvents Item21 As System.Windows.Forms.TabPage
+    Friend WithEvents Item22 As System.Windows.Forms.TabPage
+    Friend WithEvents Item23 As System.Windows.Forms.TabPage
+    Friend WithEvents Item24 As System.Windows.Forms.TabPage
+    Friend WithEvents Item25 As System.Windows.Forms.TabPage
+    Friend WithEvents Item26 As System.Windows.Forms.TabPage
+    Friend WithEvents Item27 As System.Windows.Forms.TabPage
+    Friend WithEvents Item28 As System.Windows.Forms.TabPage
+    Friend WithEvents Item29 As System.Windows.Forms.TabPage
+    Friend WithEvents Item30 As System.Windows.Forms.TabPage
+    Friend WithEvents Item31 As System.Windows.Forms.TabPage
+    Friend WithEvents Item32 As System.Windows.Forms.TabPage
+    Friend WithEvents lblHeaderItem1 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderItem2 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderItem3 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderItem4 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderItem5 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderItem6 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderItem7 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderItem8 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderItem9 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderItem10 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderItem11 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderItem12 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderItem13 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderItem14 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderItem15 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderItem16 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderItem17 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderItem18 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderItem19 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderItem20 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderItem21 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderItem22 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderItem23 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderItem24 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderItem25 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderItem26 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderItem27 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderItem28 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderItem29 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderItem30 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderItem31 As System.Windows.Forms.Label
+    Friend WithEvents lblHeaderItem32 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionItem1 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionItem2 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionItem3 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionItem4 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionItem5 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionItem6 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionItem7 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionItem8 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionItem9 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionItem10 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionItem11 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionItem12 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionItem13 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionItem14 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionItem15 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionItem16 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionItem17 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionItem18 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionItem19 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionItem20 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionItem21 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionItem22 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionItem23 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionItem24 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionItem25 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionItem26 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionItem27 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionItem28 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionItem29 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionItem30 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionItem31 As System.Windows.Forms.Label
+    Friend WithEvents lblDescriptionItem32 As System.Windows.Forms.Label
 
 End Class
